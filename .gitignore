@@ -8,8 +8,9 @@
 __pycache__/
 *.py[cod]
 
-# npm locks:
+# npm:
 package-lock.json
+node_modules/
 
 # data directories
 #api/
