@@ -1,178 +1,109 @@
 #!/usr/bin/env python3
 #
-# Original code: Glen Thompson Sep 10 '17
-#       https://stackoverflow.com/users/3866246/glen-thompson
+# Original code: cgarcoae, Sep 21 '18
+#       https://medium.com/@cgarciae/making-an-infinite-number-of-requests-with-
+#               python-aiohttp-pypeln-3a552b97dc95
 #
-# Script adapted by David Dobre Nov 14 '18:
+# Script adapted by David Dobre Nov 20 '18:
 #       Added parquet loading, iteration over dataframes, and content saving
+#
+# NOTE: You my need to increase the ulimit (3000 worked for me):
+#
+#           $ ulimit -n 3000
+#
 ################################################################################
-from pathlib import Path
-import os
-import os.path
+
+import aiohttp
+from aiohttp import ClientSession, TCPConnector
+import asyncio
+import os, os.path
 import pandas as pd
-import concurrent.futures
-import requests
-import time
-
-################################################################################
-# Parameters and input
-
-out = []
-CONNECTIONS = 50
-TIMEOUT = 2
-
-#STORAGE_DIR = '/media/ddobre/UCOSP_DATA/'
-STORAGE_DIR = '/mnt/Data/UCOSP_DATA'
-
-PWD = os.path.dirname(os.path.realpath(__file__))
-OUTPUT_DIR  = os.path.join(STORAGE_DIR, "js_source_files/")
-
-LOG_GETS    = os.path.join(PWD, "gets.log")
-LOG_WRITES  = os.path.join(PWD, "writes.log")
-LOG_EXCEPTS = os.path.join(PWD, "excepts.log")
-
-log_gets_file = open(LOG_GETS, "a+")
-log_writes_file = open(LOG_WRITES, "a+")
-log_excepts_file = open(LOG_EXCEPTS, "a+")
-
-#### Small sample
-#URL_LIST = STORAGE_DIR + 'resources/url_master_list.csv'
-#input_data = pd.read_csv(URL_LIST);
-#input_data['script_url'] = input_data['url'] # just for laziness
-
-#### Larger dataset
-#URL_LIST = STORAGE_DIR + 'resources/sample_full_url_list_test/'
-URL_LIST = os.path.join(STORAGE_DIR, "resources/full_url_list_v2/")
+import ssl
+import sys
 
 from pathlib import Path
-PARQUET_DIR = Path(URL_LIST)
+from pypeln import asyncio_task as aio
+
+##### Specify Directories ######################################################
+# Max number of workers
+limit = 20
+
+ssl.match_hostname = lambda cert, hostname: True
+
+# Parent directories
+storage_dir = "/mnt/Data/UCOSP_DATA"
+pwd = os.path.dirname(os.path.realpath(__file__))
+
+# Input directory
+#url_list = os.path.join(storage_dir, "resources/sample_full_url_list_test/")
+url_list = os.path.join(storage_dir, "resources/full_url_list_v2/")
+
+# Output directory
+output_dir = os.path.join(storage_dir, "js_source_files/")
+
+
+##### Load in dataset ##########################################################
+parquet_dir = Path(url_list)
+
 input_data = pd.concat(
-    pd.read_parquet(parquet_file) for parquet_file in PARQUET_DIR.glob('*.parquet')
+    pd.read_parquet(parquet_file)
+        for parquet_file in parquet_dir.glob('*.parquet')
 )
 
-print("Expecting {} url connections".format(input_data.shape))
+# Sanity check
+print("Expecting {} url connections".format(input_data.shape[0]))
 
-################################################################################
-# Handle a URL
-'''Current attempt with exception handling'''
-def load_url(url, filename, timeout):
+input_data['filename'] = output_dir + input_data['filename']
+input_data = input_data.values
+
+
+##### Async fetch ##############################################################
+async def fetch(data, session):
+
+    url = data[0]
+    filename = data[1]
 
     try:
-        response = requests.get(url, timeout=timeout)
+        async with session.get(url, timeout=2) as response:
+            output = await response.read()
+            print("{}\t{}".format(response.status, url))
 
-#        print("{}\t{}".format(response.status_code, url))
+            if (response.status == 200 and output):
 
-        # This is probably very dangerous, having many workers writing to one file
-        # Does this implementation have built in synchronization?
-        log_gets_file.write("{}\t{}\n".format(response.status_code, url))
+                print("\tsuccess")
 
-        if response.status_code == 200:
-            content = response.text
-#            print("\t\t\t{}".format(len(content)))
-#            sys.stdout.write("[%s-%d]]\n" % (url, len(content)))
-#            sys.stdout.flush()
-            return response.status_code, content, filename
+                with open(filename, "wb") as source_file:
+                    source_file.write(output)
 
-    except requests.exceptions.RequestException as e:
-        return -1, e, filename
+                return output
 
-    # Don't forget to cast status code to int. Computers are the suck.
-    return int(response.status_code), "", filename
+            return response.status
 
+    except aiohttp.ClientError as e:
+        print(e)
+        return e
 
-'''
-def load_url(url, filename, timeout):
+    except asyncio.TimeoutError as e:
+        print(e)
+        return e
 
-    response = requests.get(url, timeout=timeout)
+    except ssl.CertificateError as e:
+        print(e)
+        return e
 
-    #print("{}\t{}".format(response.status_code, url))
-    log_gets_file.write("{}\t{}\n".format(response.status_code, url))
-
-    if response.status_code == 200:
-        content = response.text
-#        print("\t\t\t{}".format(len(content)))
-#        sys.stdout.write("[%s-%d]]\n" % (url, len(content)))
-#        sys.stdout.flush()
-        return response.status_code, content, filename
-
-    # Don't forget to cast status code to int. Computers are the suck.
-    return int(response.status_code), "", filename
-'''
-
-''' Some exception examples'''
-# except requests.exceptions.Timeout:
-#     # Maybe set up for a retry, or continue in a retry loop
-# except requests.exceptions.TooManyRedirects:
-#     # Tell the user their URL was bad and try a different one
-# except requests.exceptions.RequestException as e:
+    except ValueError as e:
+        print(e)
+        return e
 
 
-''' Old function'''
-'''
-def load_url(url, filename, timeout):
+##### Iterate over each list entry #############################################
+aio.each(
+    fetch,
+    input_data,
+    workers = limit,
+    on_start = lambda: ClientSession(connector=TCPConnector(limit=None)),
+    on_done = lambda _status, session: session.close(),
+    run = True,
+)
 
-    ans = requests.head(url, timeout=timeout)
-
-    if (ans.status_code == 200):
-        content = requests.get(url).text
-    else:
-        content = ""
-
-    return ans.status_code, content, filename
-'''
-
-################################################################################
-# Launch workers
-with concurrent.futures.ThreadPoolExecutor(max_workers=CONNECTIONS) as executor:
-    future_to_url = (
-        executor.submit(
-            load_url, row["script_url"], OUTPUT_DIR + row["filename"], TIMEOUT
-        )
-        for index, row in input_data.iterrows()
-    )
-
-    time1 = time.time()
-
-    for future in concurrent.futures.as_completed(future_to_url):
-        http_status, content, filename = future.result()
-
-        if http_status == 200 and content:
-#            print("\n\n")
-#            print(filename)
-#            print("\n\n")
-            log_writes_file.write("{}\t\t{}\n".format(len(content),filename))
-
-            with open(filename, "w") as source_file:
-                source_file.write(content)
-
-        elif http_status == -1:
-            log_excepts_file.write("{}:\t\t{}\n".format(filename,content))
-
-'''
-    for future in concurrent.futures.as_completed(future_to_url):
-        try:
-            data, content, filename = future.result()
-
-            if (data == 200 and content):
-                with open(filename, 'w') as source_file:
-                    source_file.write(content)
-
-        except Exception as exc:
-            data = str(type(exc))
-
-        finally:
-            out.append(data)
-
-            # Print out current count
-            print(str(len(out)),end="\r")
-
-    time2 = time.time()
-'''
-
-################################################################################
-# Summary
-print("-" * 80)
-print('Summary:\nIterated over:\t' + URL_LIST)
-print(f'Took:\t\t{time2-time1:.2f} s')
-print("-" * 80)
-print(pd.Series(out).value_counts())
+print("\n\nDONE")

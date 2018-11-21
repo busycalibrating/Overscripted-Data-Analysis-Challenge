@@ -8,8 +8,12 @@
 __pycache__/
 *.py[cod]
 
+# npm locks:
+package-lock.json
+
 # data directories
 #api/
+aiohttp_test
 
 # spark resources
 setup_spark.sh
