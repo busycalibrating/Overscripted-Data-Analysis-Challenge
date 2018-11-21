@@ -1,983 +1,1335 @@
 {
-    "height": [
+    "AbortController": [],
+    "signal": [],
+    "abort": [],
+    "AbortPaymentEvent": [],
+    "respondWith": [],
+    "aborted": [],
+    "onabort": [],
+    "AbsoluteOrientationSensor": [],
+    "onerror": [],
+    "Accelerometer": [],
+    "x": [],
+    "y": [],
+    "z": [],
+    "AmbientLightSensor": [],
+    "illuminance": [],
+    "AnalyserNode": [],
+    "fftSize": [],
+    "frequencyBinCount": [
         {
-            "depth": 166,
-            "width": 14,
-            "parent_depth": 166,
-            "parent_width": 13
-        },
-        {
-            "depth": 177,
-            "width": 16,
-            "parent_depth": 177,
-            "parent_width": 9
+            "depth": 124,
+            "width": 25,
+            "parent_depth": 124,
+            "parent_width": 24
         }
     ],
-    "mozOpaque": [],
-    "width": [
+    "minDecibels": [],
+    "maxDecibels": [],
+    "smoothingTimeConstant": [],
+    "getFloatFrequencyData": [
         {
-            "depth": 166,
+            "depth": 124,
             "width": 19,
-            "parent_depth": 166,
-            "parent_width": 17
-        },
-        {
-            "depth": 177,
-            "width": 13,
-            "parent_depth": 177,
-            "parent_width": 9
-        }
-    ],
-    "captureStream": [],
-    "getContext": [],
-    "mozFetchAsStream": [],
-    "mozGetAsFile": [],
-    "toBlob": [],
-    "toDataURL": [],
-    "transferControlToOffscreen": [],
-    "alert": [],
-    "blur": [],
-    "confirm": [],
-    "cancelAnimationFrame": [],
-    "cancelIdleCallback": [],
-    "clearImmediate": [],
-    "close": [],
-    "focus": [],
-    "ondevicelight": [],
-    "convertPointFromNodeToPage": [],
-    "convertPointFromPageToNode": [],
-    "ondeviceorientationabsolute": [],
-    "ondeviceproximity": [],
-    "ongamepadconnected": [],
-    "ongamepaddisconnected": [],
-    "onpaint": [],
-    "onuserproximity": [],
-    "onvrdisplayactivate": [],
-    "onvrdisplayblur": [],
-    "onvrdisplayconnect": [],
-    "onvrdisplaydeactivate": [],
-    "onvrdisplaydisconnect": [],
-    "onvrdisplayfocus": [],
-    "onvrdisplaypresentchange": [],
-    "crypto": [
-        {
-            "depth": 261,
-            "width": 12,
-            "parent_depth": 261,
-            "parent_width": 8
-        }
-    ],
-    "customElements": [],
-    "devicePixelRatio": [],
-    "dialogArguments": [],
-    "document": [
-        {
-            "depth": 158,
-            "width": 4,
-            "parent_depth": 158,
-            "parent_width": 2
-        },
-        {
-            "depth": 158,
-            "width": 19,
-            "parent_depth": 158,
+            "parent_depth": 124,
             "parent_width": 17
         }
     ],
-    "event": [
-        {
-            "depth": 83,
-            "width": 23,
-            "parent_depth": 83,
-            "parent_width": 22
-        }
-    ],
-    "frameElement": [],
-    "frames": [],
-    "fullScreen": [],
-    "getAttention": [],
-    "getAttentionWithCycleCount": [],
-    "getComputedStyle": [],
-    "getDefaultComputedStyle": [],
-    "getSelection": [],
-    "globalStorage": [],
-    "history": [],
-    "home": [],
-    "innerHeight": [],
-    "innerWidth": [],
-    "isSecureContext": [],
+    "getByteFrequencyData": [],
+    "getFloatTimeDomainData": [],
+    "getByteTimeDomainData": [],
+    "drawArraysInstancedANGLE": [],
+    "drawElementsInstancedANGLE": [],
+    "vertexAttribDivisorANGLE": [],
+    "getComputedTiming": [],
+    "getTiming": [],
+    "updateTiming": [],
+    "AnimationEvent": [],
+    "animationName": [],
+    "elapsedTime": [],
+    "initAnimationEvent": [],
+    "pseudoElement": [],
+    "Animation": [],
+    "cancel": [],
+    "currentTime": [],
+    "effect": [],
+    "finish": [],
+    "finished": [],
+    "id": [],
+    "oncancel": [],
+    "onfinish": [],
+    "pause": [],
+    "pending": [],
+    "play": [],
+    "playbackRate": [],
+    "playState": [],
+    "ready": [],
+    "reverse": [],
+    "startTime": [],
+    "timeline": [],
+    "updatePlaybackRate": [],
+    "AnimationPlaybackEvent": [],
+    "timelineTime": [],
+    "localName": [],
+    "namespaceURI": [],
+    "prefix": [],
+    "AudioBuffer": [],
+    "duration": [],
     "length": [
         {
             "depth": 7,
-            "width": 131,
+            "width": 29,
             "parent_depth": 7,
-            "parent_width": 130
+            "parent_width": 28
         },
         {
-            "depth": 15,
-            "width": 15,
-            "parent_depth": 15,
-            "parent_width": 14
+            "depth": 8,
+            "width": 3,
+            "parent_depth": 8,
+            "parent_width": 2
         },
         {
-            "depth": 33,
-            "width": 54,
-            "parent_depth": 33,
-            "parent_width": 52
-        },
-        {
-            "depth": 36,
-            "width": 41,
-            "parent_depth": 36,
-            "parent_width": 40
-        },
-        {
-            "depth": 56,
-            "width": 5,
-            "parent_depth": 56,
-            "parent_width": 4
-        },
-        {
-            "depth": 57,
-            "width": 2,
-            "parent_depth": 57,
-            "parent_width": 0
-        },
-        {
-            "depth": 57,
-            "width": 10,
-            "parent_depth": 57,
-            "parent_width": 8
-        },
-        {
-            "depth": 63,
-            "width": 20,
-            "parent_depth": 63,
-            "parent_width": 18
-        },
-        {
-            "depth": 65,
-            "width": 33,
-            "parent_depth": 65,
-            "parent_width": 32
-        },
-        {
-            "depth": 66,
-            "width": 37,
-            "parent_depth": 66,
-            "parent_width": 35
-        },
-        {
-            "depth": 67,
-            "width": 1,
-            "parent_depth": 66,
-            "parent_width": 54
-        },
-        {
-            "depth": 67,
-            "width": 16,
-            "parent_depth": 67,
-            "parent_width": 14
-        },
-        {
-            "depth": 70,
-            "width": 18,
-            "parent_depth": 70,
+            "depth": 8,
+            "width": 19,
+            "parent_depth": 8,
             "parent_width": 17
         },
         {
-            "depth": 78,
+            "depth": 8,
+            "width": 33,
+            "parent_depth": 8,
+            "parent_width": 32
+        },
+        {
+            "depth": 9,
             "width": 20,
-            "parent_depth": 78,
+            "parent_depth": 9,
             "parent_width": 19
         },
         {
-            "depth": 79,
-            "width": 37,
-            "parent_depth": 79,
-            "parent_width": 36
+            "depth": 9,
+            "width": 34,
+            "parent_depth": 9,
+            "parent_width": 33
         },
         {
-            "depth": 91,
-            "width": 100,
-            "parent_depth": 91,
-            "parent_width": 99
+            "depth": 19,
+            "width": 48,
+            "parent_depth": 19,
+            "parent_width": 47
         },
         {
-            "depth": 92,
-            "width": 15,
-            "parent_depth": 92,
-            "parent_width": 13
+            "depth": 21,
+            "width": 1,
+            "parent_depth": 21,
+            "parent_width": 0
         },
         {
-            "depth": 92,
-            "width": 90,
-            "parent_depth": 92,
-            "parent_width": 88
+            "depth": 31,
+            "width": 20,
+            "parent_depth": 31,
+            "parent_width": 19
         },
         {
-            "depth": 92,
-            "width": 128,
-            "parent_depth": 92,
-            "parent_width": 126
+            "depth": 35,
+            "width": 29,
+            "parent_depth": 35,
+            "parent_width": 28
+        },
+        {
+            "depth": 61,
+            "width": 23,
+            "parent_depth": 61,
+            "parent_width": 21
+        },
+        {
+            "depth": 73,
+            "width": 1,
+            "parent_depth": 73,
+            "parent_width": 0
         },
         {
             "depth": 93,
-            "width": 82,
+            "width": 25,
             "parent_depth": 93,
-            "parent_width": 80
-        },
-        {
-            "depth": 94,
-            "width": 7,
-            "parent_depth": 94,
-            "parent_width": 6
-        },
-        {
-            "depth": 94,
-            "width": 84,
-            "parent_depth": 94,
-            "parent_width": 83
-        },
-        {
-            "depth": 95,
-            "width": 44,
-            "parent_depth": 95,
-            "parent_width": 43
-        },
-        {
-            "depth": 97,
-            "width": 21,
-            "parent_depth": 97,
-            "parent_width": 20
-        },
-        {
-            "depth": 99,
-            "width": 10,
-            "parent_depth": 99,
-            "parent_width": 9
-        },
-        {
-            "depth": 99,
-            "width": 75,
-            "parent_depth": 99,
-            "parent_width": 74
-        },
-        {
-            "depth": 100,
-            "width": 15,
-            "parent_depth": 100,
-            "parent_width": 14
-        },
-        {
-            "depth": 100,
-            "width": 47,
-            "parent_depth": 100,
-            "parent_width": 46
-        },
-        {
-            "depth": 104,
-            "width": 25,
-            "parent_depth": 104,
             "parent_width": 24
         },
         {
-            "depth": 104,
-            "width": 44,
-            "parent_depth": 104,
-            "parent_width": 43
-        },
-        {
-            "depth": 106,
-            "width": 71,
-            "parent_depth": 106,
-            "parent_width": 70
-        },
-        {
-            "depth": 106,
-            "width": 77,
-            "parent_depth": 106,
-            "parent_width": 76
-        },
-        {
-            "depth": 107,
+            "depth": 99,
             "width": 2,
-            "parent_depth": 107,
+            "parent_depth": 99,
             "parent_width": 1
         },
         {
-            "depth": 111,
-            "width": 18,
-            "parent_depth": 111,
-            "parent_width": 16
-        },
-        {
-            "depth": 116,
-            "width": 31,
-            "parent_depth": 116,
-            "parent_width": 30
-        },
-        {
-            "depth": 116,
-            "width": 54,
-            "parent_depth": 116,
-            "parent_width": 53
-        },
-        {
-            "depth": 120,
-            "width": 18,
-            "parent_depth": 120,
-            "parent_width": 12
-        },
-        {
-            "depth": 120,
-            "width": 43,
-            "parent_depth": 120,
-            "parent_width": 29
-        },
-        {
-            "depth": 120,
-            "width": 72,
-            "parent_depth": 120,
-            "parent_width": 66
-        },
-        {
-            "depth": 121,
-            "width": 0,
-            "parent_depth": 120,
-            "parent_width": 83
-        },
-        {
-            "depth": 125,
-            "width": 73,
-            "parent_depth": 125,
-            "parent_width": 72
-        },
-        {
-            "depth": 131,
-            "width": 3,
-            "parent_depth": 131,
-            "parent_width": 1
-        },
-        {
-            "depth": 131,
-            "width": 34,
-            "parent_depth": 131,
-            "parent_width": 32
-        },
-        {
-            "depth": 131,
-            "width": 40,
-            "parent_depth": 131,
-            "parent_width": 38
-        },
-        {
-            "depth": 142,
-            "width": 17,
-            "parent_depth": 142,
-            "parent_width": 16
-        },
-        {
-            "depth": 148,
-            "width": 6,
-            "parent_depth": 148,
-            "parent_width": 4
-        },
-        {
-            "depth": 148,
-            "width": 18,
-            "parent_depth": 148,
-            "parent_width": 17
-        },
-        {
-            "depth": 150,
-            "width": 40,
-            "parent_depth": 150,
-            "parent_width": 39
-        },
-        {
-            "depth": 153,
-            "width": 4,
-            "parent_depth": 153,
-            "parent_width": 3
-        },
-        {
-            "depth": 161,
-            "width": 2,
-            "parent_depth": 161,
-            "parent_width": 1
-        },
-        {
-            "depth": 168,
-            "width": 25,
-            "parent_depth": 168,
-            "parent_width": 24
-        },
-        {
-            "depth": 175,
-            "width": 35,
-            "parent_depth": 175,
-            "parent_width": 34
-        },
-        {
-            "depth": 176,
-            "width": 13,
-            "parent_depth": 176,
-            "parent_width": 12
-        },
-        {
-            "depth": 186,
-            "width": 15,
-            "parent_depth": 186,
-            "parent_width": 13
-        },
-        {
-            "depth": 189,
-            "width": 1,
-            "parent_depth": 189,
-            "parent_width": 0
-        },
-        {
-            "depth": 189,
-            "width": 31,
-            "parent_depth": 189,
-            "parent_width": 30
-        },
-        {
-            "depth": 190,
-            "width": 24,
-            "parent_depth": 190,
-            "parent_width": 22
-        },
-        {
-            "depth": 192,
-            "width": 12,
-            "parent_depth": 192,
-            "parent_width": 11
-        },
-        {
-            "depth": 193,
+            "depth": 100,
             "width": 14,
-            "parent_depth": 193,
+            "parent_depth": 100,
             "parent_width": 12
         },
         {
-            "depth": 196,
-            "width": 9,
-            "parent_depth": 196,
+            "depth": 124,
+            "width": 8,
+            "parent_depth": 124,
             "parent_width": 7
         },
         {
-            "depth": 197,
-            "width": 15,
-            "parent_depth": 197,
-            "parent_width": 14
-        },
-        {
-            "depth": 197,
-            "width": 35,
-            "parent_depth": 197,
-            "parent_width": 33
-        },
-        {
-            "depth": 299,
-            "width": 5,
-            "parent_depth": 299,
-            "parent_width": 4
-        },
-        {
-            "depth": 305,
-            "width": 15,
-            "parent_depth": 305,
-            "parent_width": 13
-        },
-        {
-            "depth": 306,
-            "width": 5,
-            "parent_depth": 306,
-            "parent_width": 4
-        },
-        {
-            "depth": 326,
-            "width": 24,
-            "parent_depth": 326,
-            "parent_width": 23
-        },
-        {
-            "depth": 329,
-            "width": 15,
-            "parent_depth": 329,
-            "parent_width": 13
-        },
-        {
-            "depth": 337,
-            "width": 2,
-            "parent_depth": 337,
-            "parent_width": 1
-        },
-        {
-            "depth": 339,
-            "width": 22,
-            "parent_depth": 339,
-            "parent_width": 20
-        },
-        {
-            "depth": 341,
-            "width": 6,
-            "parent_depth": 341,
-            "parent_width": 5
-        },
-        {
-            "depth": 342,
-            "width": 17,
-            "parent_depth": 342,
-            "parent_width": 16
-        },
-        {
-            "depth": 344,
-            "width": 25,
-            "parent_depth": 344,
-            "parent_width": 24
-        },
-        {
-            "depth": 346,
-            "width": 19,
-            "parent_depth": 346,
-            "parent_width": 17
-        },
-        {
-            "depth": 348,
-            "width": 15,
-            "parent_depth": 348,
-            "parent_width": 14
-        },
-        {
-            "depth": 352,
-            "width": 3,
-            "parent_depth": 352,
-            "parent_width": 2
-        },
-        {
-            "depth": 359,
-            "width": 16,
-            "parent_depth": 359,
-            "parent_width": 15
-        },
-        {
-            "depth": 361,
-            "width": 15,
-            "parent_depth": 361,
-            "parent_width": 14
-        },
-        {
-            "depth": 372,
-            "width": 26,
-            "parent_depth": 372,
-            "parent_width": 25
-        },
-        {
-            "depth": 383,
-            "width": 6,
-            "parent_depth": 383,
-            "parent_width": 4
-        },
-        {
-            "depth": 383,
-            "width": 14,
-            "parent_depth": 383,
-            "parent_width": 12
-        },
-        {
-            "depth": 398,
-            "width": 1,
-            "parent_depth": 398,
-            "parent_width": 0
-        },
-        {
-            "depth": 413,
-            "width": 3,
-            "parent_depth": 413,
-            "parent_width": 2
-        },
-        {
-            "depth": 450,
-            "width": 0,
-            "parent_depth": 449,
-            "parent_width": 19
-        },
-        {
-            "depth": 463,
-            "width": 4,
-            "parent_depth": 463,
-            "parent_width": 3
-        },
-        {
-            "depth": 467,
-            "width": 30,
-            "parent_depth": 467,
-            "parent_width": 28
-        },
-        {
-            "depth": 470,
-            "width": 28,
-            "parent_depth": 470,
-            "parent_width": 27
-        },
-        {
-            "depth": 472,
-            "width": 13,
-            "parent_depth": 472,
+            "depth": 164,
+            "width": 12,
+            "parent_depth": 164,
             "parent_width": 11
         },
         {
-            "depth": 473,
-            "width": 3,
-            "parent_depth": 473,
-            "parent_width": 2
-        },
-        {
-            "depth": 497,
-            "width": 9,
-            "parent_depth": 497,
-            "parent_width": 8
-        }
-    ],
-    "localStorage": [
-        {
-            "depth": 179,
-            "width": 25,
-            "parent_depth": 179,
-            "parent_width": 23
-        },
-        {
-            "depth": 180,
-            "width": 1,
-            "parent_depth": 179,
-            "parent_width": 32
-        },
-        {
-            "depth": 181,
-            "width": 2,
-            "parent_depth": 181,
-            "parent_width": 1
-        }
-    ],
-    "location": [
-        {
-            "depth": 10,
-            "width": 51,
-            "parent_depth": 10,
-            "parent_width": 49
-        },
-        {
-            "depth": 10,
-            "width": 58,
-            "parent_depth": 10,
-            "parent_width": 56
-        },
-        {
-            "depth": 10,
-            "width": 70,
-            "parent_depth": 10,
-            "parent_width": 69
-        },
-        {
-            "depth": 10,
-            "width": 73,
-            "parent_depth": 10,
-            "parent_width": 69
-        },
-        {
-            "depth": 10,
-            "width": 79,
-            "parent_depth": 10,
-            "parent_width": 78
-        },
-        {
-            "depth": 10,
-            "width": 84,
-            "parent_depth": 10,
-            "parent_width": 78
-        },
-        {
-            "depth": 22,
-            "width": 61,
-            "parent_depth": 22,
-            "parent_width": 59
-        },
-        {
-            "depth": 38,
+            "depth": 166,
             "width": 12,
-            "parent_depth": 38,
-            "parent_width": 10
-        },
-        {
-            "depth": 46,
-            "width": 14,
-            "parent_depth": 46,
-            "parent_width": 12
-        },
-        {
-            "depth": 159,
-            "width": 2,
-            "parent_depth": 159,
-            "parent_width": 0
-        },
-        {
-            "depth": 159,
-            "width": 12,
-            "parent_depth": 159,
-            "parent_width": 10
-        }
-    ],
-    "locationbar": [],
-    "matchMedia": [],
-    "maximize": [],
-    "menubar": [],
-    "minimize": [],
-    "moveBy": [],
-    "moveTo": [],
-    "mozAnimationStartTime": [],
-    "mozInnerScreenX": [],
-    "mozInnerScreenY": [],
-    "mozPaintCount": [],
-    "name": [
-        {
-            "depth": 7,
-            "width": 110,
-            "parent_depth": 7,
-            "parent_width": 94
-        },
-        {
-            "depth": 113,
-            "width": 83,
-            "parent_depth": 113,
-            "parent_width": 82
-        },
-        {
-            "depth": 123,
-            "width": 56,
-            "parent_depth": 123,
-            "parent_width": 55
-        },
-        {
-            "depth": 150,
-            "width": 10,
-            "parent_depth": 150,
-            "parent_width": 8
-        },
-        {
-            "depth": 173,
-            "width": 9,
-            "parent_depth": 173,
-            "parent_width": 8
+            "parent_depth": 166,
+            "parent_width": 11
         },
         {
             "depth": 174,
-            "width": 33,
+            "width": 3,
             "parent_depth": 174,
-            "parent_width": 31
-        }
-    ],
-    "navigator": [],
-    "onappinstalled": [],
-    "onbeforeinstallprompt": [],
-    "ondevicemotion": [],
-    "ondeviceorientation": [],
-    "open": [
-        {
-            "depth": 61,
-            "width": 45,
-            "parent_depth": 61,
-            "parent_width": 41
-        }
-    ],
-    "openDialog": [],
-    "opener": [],
-    "orientation": [],
-    "outerHeight": [],
-    "outerWidth": [],
-    "pageXOffset": [
-        {
-            "depth": 31,
-            "width": 41,
-            "parent_depth": 31,
-            "parent_width": 40
-        }
-    ],
-    "pageYOffset": [
-        {
-            "depth": 31,
-            "width": 34,
-            "parent_depth": 31,
-            "parent_width": 33
-        }
-    ],
-    "parent": [
-        {
-            "depth": 158,
-            "width": 6,
-            "parent_depth": 158,
-            "parent_width": 4
+            "parent_width": 2
         },
         {
-            "depth": 158,
-            "width": 10,
-            "parent_depth": 157,
-            "parent_width": 19
-        }
-    ],
-    "performance": [
+            "depth": 175,
+            "width": 4,
+            "parent_depth": 175,
+            "parent_width": 3
+        },
         {
-            "depth": 21,
-            "width": 82,
-            "parent_depth": 21,
-            "parent_width": 78
-        }
-    ],
-    "personalbar": [],
-    "pkcs11": [],
-    "postMessage": [],
-    "print": [],
-    "prompt": [],
-    "releaseEvents": [],
-    "requestAnimationFrame": [],
-    "requestFileSystem": [],
-    "requestIdleCallback": [],
-    "resizeBy": [],
-    "resizeTo": [],
-    "restore": [],
-    "returnValue": [],
-    "routeEvent": [],
-    "screen": [],
-    "screenX": [],
-    "screenY": [],
-    "scroll": [],
-    "scrollbars": [],
-    "scrollBy": [],
-    "scrollByLines": [],
-    "scrollByPages": [],
-    "scrollMaxX": [],
-    "scrollMaxY": [],
-    "scrollTo": [],
-    "scrollX": [],
-    "scrollY": [],
-    "self": [],
-    "sessionStorage": [
-        {
-            "depth": 181,
-            "width": 22,
-            "parent_depth": 181,
-            "parent_width": 21
-        }
-    ],
-    "setCursor": [],
-    "setImmediate": [],
-    "setResizable": [],
-    "showModalDialog": [],
-    "sidebar": [],
-    "sizeToContent": [],
-    "speechSynthesis": [],
-    "status": [
-        {
-            "depth": 64,
-            "width": 2,
-            "parent_depth": 64,
+            "depth": 176,
+            "width": 1,
+            "parent_depth": 176,
             "parent_width": 0
         },
         {
-            "depth": 64,
-            "width": 51,
-            "parent_depth": 64,
-            "parent_width": 49
-        },
-        {
-            "depth": 64,
-            "width": 57,
-            "parent_depth": 64,
-            "parent_width": 55
+            "depth": 177,
+            "width": 1,
+            "parent_depth": 177,
+            "parent_width": 0
         }
     ],
-    "statusbar": [],
-    "stop": [],
-    "toolbar": [],
-    "top": [
+    "numberOfChannels": [],
+    "sampleRate": [],
+    "copyFromChannel": [],
+    "copyToChannel": [],
+    "getChannelData": [
         {
-            "depth": 10,
-            "width": 75,
-            "parent_depth": 10,
-            "parent_width": 73
-        },
+            "depth": 114,
+            "width": 12,
+            "parent_depth": 114,
+            "parent_width": 10
+        }
+    ],
+    "AudioBufferSourceNode": [],
+    "buffer": [],
+    "detune": [],
+    "loop": [],
+    "loopStart": [],
+    "loopEnd": [],
+    "onended": [],
+    "start": [
         {
-            "depth": 10,
-            "width": 81,
-            "parent_depth": 10,
-            "parent_width": 79
-        },
-        {
-            "depth": 54,
-            "width": 9,
-            "parent_depth": 54,
+            "depth": 115,
+            "width": 10,
+            "parent_depth": 115,
             "parent_width": 8
-        },
-        {
-            "depth": 98,
-            "width": 30,
-            "parent_depth": 98,
-            "parent_width": 28
-        },
-        {
-            "depth": 98,
-            "width": 51,
-            "parent_depth": 98,
-            "parent_width": 50
-        },
-        {
-            "depth": 102,
-            "width": 18,
-            "parent_depth": 102,
-            "parent_width": 16
         },
         {
             "depth": 122,
-            "width": 24,
+            "width": 5,
             "parent_depth": 122,
-            "parent_width": 23
+            "parent_width": 3
+        }
+    ],
+    "stop": [],
+    "AudioContext": [
+        {
+            "depth": 130,
+            "width": 10,
+            "parent_depth": 130,
+            "parent_width": 6
         },
         {
-            "depth": 158,
-            "width": 21,
-            "parent_depth": 158,
-            "parent_width": 19
+            "depth": 141,
+            "width": 5,
+            "parent_depth": 141,
+            "parent_width": 1
         }
     ],
-    "updateCommands": [],
-    "visualViewport": [],
-    "window": [
+    "baseLatency": [],
+    "outputLatency": [],
+    "close": [],
+    "createMediaElementSource": [],
+    "createMediaStreamSource": [],
+    "createMediaStreamDestination": [],
+    "createMediaStreamTrackSource": [],
+    "getOutputTimestamp": [],
+    "suspend": [],
+    "latencyHint": [],
+    "maxChannelCount": [],
+    "dopplerFactor": [],
+    "forwardX": [],
+    "forwardY": [],
+    "forwardZ": [],
+    "positionX": [],
+    "positionY": [],
+    "positionZ": [],
+    "speedOfSound": [],
+    "upX": [],
+    "upY": [],
+    "upZ": [],
+    "setOrientation": [],
+    "setPosition": [],
+    "channelCount": [],
+    "channelCountMode": [],
+    "channelInterpretation": [],
+    "context": [],
+    "numberOfInputs": [],
+    "numberOfOutputs": [],
+    "connect": [
         {
-            "depth": 132,
-            "width": 25,
-            "parent_depth": 132,
-            "parent_width": 23
-        }
-    ],
-    "subtle": [],
-    "getRandomValues": [
+            "depth": 115,
+            "width": 17,
+            "parent_depth": 115,
+            "parent_width": 13
+        },
         {
-            "depth": 260,
+            "depth": 115,
             "width": 22,
-            "parent_depth": 260,
+            "parent_depth": 115,
             "parent_width": 20
         },
         {
-            "depth": 261,
+            "depth": 125,
             "width": 9,
-            "parent_depth": 261,
+            "parent_depth": 125,
+            "parent_width": 5
+        },
+        {
+            "depth": 125,
+            "width": 15,
+            "parent_depth": 125,
+            "parent_width": 13
+        },
+        {
+            "depth": 125,
+            "width": 21,
+            "parent_depth": 125,
+            "parent_width": 19
+        },
+        {
+            "depth": 126,
+            "width": 4,
+            "parent_depth": 126,
+            "parent_width": 2
+        }
+    ],
+    "disconnect": [
+        {
+            "depth": 123,
+            "width": 13,
+            "parent_depth": 123,
+            "parent_width": 12
+        },
+        {
+            "depth": 123,
+            "width": 18,
+            "parent_depth": 123,
+            "parent_width": 17
+        },
+        {
+            "depth": 123,
+            "width": 23,
+            "parent_depth": 123,
+            "parent_width": 22
+        }
+    ],
+    "defaultValue": [],
+    "maxValue": [],
+    "minValue": [],
+    "value": [
+        {
+            "depth": 115,
+            "width": 28,
+            "parent_depth": 115,
+            "parent_width": 26
+        },
+        {
+            "depth": 116,
+            "width": 9,
+            "parent_depth": 116,
+            "parent_width": 7
+        },
+        {
+            "depth": 116,
+            "width": 21,
+            "parent_depth": 116,
+            "parent_width": 18
+        },
+        {
+            "depth": 117,
+            "width": 7,
+            "parent_depth": 117,
+            "parent_width": 5
+        },
+        {
+            "depth": 117,
+            "width": 18,
+            "parent_depth": 117,
+            "parent_width": 16
+        },
+        {
+            "depth": 118,
+            "width": 7,
+            "parent_depth": 118,
+            "parent_width": 4
+        },
+        {
+            "depth": 119,
+            "width": 3,
+            "parent_depth": 119,
+            "parent_width": 1
+        },
+        {
+            "depth": 126,
+            "width": 16,
+            "parent_depth": 126,
+            "parent_width": 14
+        }
+    ],
+    "cancelAndHoldAtTime": [],
+    "cancelScheduledValues": [],
+    "exponentialRampToValueAtTime": [],
+    "linearRampToValueAtTime": [],
+    "setTargetAtTime": [],
+    "setValueAtTime": [],
+    "setValueCurveAtTime": [],
+    "forEach": [
+        {
+            "depth": 49,
+            "width": 17,
+            "parent_depth": 49,
+            "parent_width": 1
+        },
+        {
+            "depth": 146,
+            "width": 4,
+            "parent_depth": 143,
+            "parent_width": 8
+        },
+        {
+            "depth": 146,
+            "width": 8,
+            "parent_depth": 143,
+            "parent_width": 4
+        }
+    ],
+    "get": [
+        {
+            "depth": 7,
+            "width": 1,
+            "parent_depth": 6,
+            "parent_width": 51
+        },
+        {
+            "depth": 11,
+            "width": 42,
+            "parent_depth": 11,
+            "parent_width": 40
+        }
+    ],
+    "has": [],
+    "keys": [],
+    "size": [],
+    "values": [],
+    "inputBuffer": [],
+    "outputBuffer": [],
+    "playbackTime": [],
+    "enabled": [],
+    "kind": [],
+    "label": [],
+    "language": [
+        {
+            "depth": 21,
+            "width": 17,
+            "parent_depth": 21,
+            "parent_width": 16
+        }
+    ],
+    "sourceBuffer": [],
+    "mode": [],
+    "updating": [],
+    "buffered": [],
+    "changeType": [],
+    "timestampOffset": [],
+    "audioTracks": [],
+    "videoTracks": [],
+    "textTracks": [],
+    "appendWindowStart": [],
+    "appendWindowEnd": [],
+    "trackDefaults": [],
+    "onupdate": [],
+    "onupdatestart": [],
+    "onupdateend": [],
+    "appendBuffer": [],
+    "appendBufferAsync": [],
+    "appendStream": [],
+    "remove": [],
+    "removeAsync": [],
+    "getTrackById": [],
+    "onaddtrack": [],
+    "onchange": [],
+    "onremovetrack": [],
+    "currentFrame": [],
+    "registerProcessor": [],
+    "onprocessorstatechange": [],
+    "parameters": [],
+    "port": [],
+    "processorState": [],
+    "authenticatorData": [],
+    "clientData": [],
+    "credential": [],
+    "signature": [],
+    "type": [
+        {
+            "depth": 19,
+            "width": 6,
+            "parent_depth": 19,
+            "parent_width": 5
+        },
+        {
+            "depth": 119,
+            "width": 10,
+            "parent_depth": 119,
+            "parent_width": 8
+        },
+        {
+            "depth": 126,
+            "width": 10,
+            "parent_depth": 126,
             "parent_width": 8
         }
     ],
-    "Document": [],
+    "name": [
+        {
+            "depth": 19,
+            "width": 18,
+            "parent_depth": 19,
+            "parent_width": 17
+        },
+        {
+            "depth": 19,
+            "width": 21,
+            "parent_depth": 19,
+            "parent_width": 17
+        },
+        {
+            "depth": 20,
+            "width": 11,
+            "parent_depth": 20,
+            "parent_width": 10
+        }
+    ],
+    "userHandle": [],
+    "attestationObject": [],
+    "clientDataJSON": [],
+    "audioWorklet": [],
+    "createAnalyser": [
+        {
+            "depth": 128,
+            "width": 5,
+            "parent_depth": 128,
+            "parent_width": 4
+        },
+        {
+            "depth": 139,
+            "width": 2,
+            "parent_depth": 139,
+            "parent_width": 1
+        }
+    ],
+    "createBiquadFilter": [],
+    "createBuffer": [],
+    "createBufferSource": [],
+    "createChannelMerger": [],
+    "createChannelSplitter": [],
+    "createConstantSource": [],
+    "createConvolver": [],
+    "createDelay": [],
+    "createDynamicsCompressor": [
+        {
+            "depth": 118,
+            "width": 17,
+            "parent_depth": 118,
+            "parent_width": 16
+        }
+    ],
+    "createGain": [
+        {
+            "depth": 127,
+            "width": 15,
+            "parent_depth": 127,
+            "parent_width": 14
+        }
+    ],
+    "createIIRFilter": [],
+    "createOscillator": [
+        {
+            "depth": 119,
+            "width": 15,
+            "parent_depth": 119,
+            "parent_width": 14
+        },
+        {
+            "depth": 128,
+            "width": 12,
+            "parent_depth": 128,
+            "parent_width": 11
+        }
+    ],
+    "createPanner": [],
+    "createPeriodicWave": [],
+    "createScriptProcessor": [
+        {
+            "depth": 127,
+            "width": 8,
+            "parent_depth": 127,
+            "parent_width": 4
+        }
+    ],
+    "createStereoPanner": [],
+    "createWaveShaper": [],
+    "decodeAudioData": [],
+    "destination": [
+        {
+            "depth": 115,
+            "width": 14,
+            "parent_depth": 115,
+            "parent_width": 13
+        },
+        {
+            "depth": 125,
+            "width": 6,
+            "parent_depth": 125,
+            "parent_width": 5
+        },
+        {
+            "depth": 136,
+            "width": 9,
+            "parent_depth": 136,
+            "parent_width": 7
+        }
+    ],
+    "listener": [
+        {
+            "depth": 136,
+            "width": 0,
+            "parent_depth": 135,
+            "parent_width": 14
+        }
+    ],
+    "onstatechange": [],
+    "resume": [],
+    "state": [],
+    "supportedNetworks": [],
+    "supportedTypes": [],
+    "cardNumber": [],
+    "cardholderName": [],
+    "cardSecurityCode": [],
+    "expiryMonth": [],
+    "expiryYear": [],
+    "billingAddress": [],
+    "charging": [],
+    "chargingTime": [],
+    "dischargingTime": [],
+    "level": [],
+    "onchargingchange": [],
+    "onchargingtimechange": [],
+    "ondischargingtimechange": [],
+    "onlevelchange": [],
+    "BeforeInstallPromptEvent": [],
+    "platforms": [],
+    "prompt": [],
+    "userChoice": [],
+    "user_interaction": [],
+    "BiquadFilterNode": [],
+    "frequency": [
+        {
+            "depth": 119,
+            "width": 5,
+            "parent_depth": 119,
+            "parent_width": 3
+        }
+    ],
+    "gain": [
+        {
+            "depth": 126,
+            "width": 18,
+            "parent_depth": 126,
+            "parent_width": 16
+        }
+    ],
+    "Q": [],
+    "getFrequencyResponse": [],
+    "BlobEvent": [],
+    "data": [],
+    "timecode": [],
+    "Blob": [],
+    "slice": [
+        {
+            "depth": 8,
+            "width": 12,
+            "parent_depth": 8,
+            "parent_width": 8
+        },
+        {
+            "depth": 8,
+            "width": 42,
+            "parent_depth": 8,
+            "parent_width": 38
+        },
+        {
+            "depth": 68,
+            "width": 10,
+            "parent_depth": 68,
+            "parent_width": 7
+        },
+        {
+            "depth": 69,
+            "width": 20,
+            "parent_depth": 69,
+            "parent_width": 17
+        },
+        {
+            "depth": 123,
+            "width": 7,
+            "parent_depth": 123,
+            "parent_width": 4
+        }
+    ],
+    "appearance": [],
+    "manufacturerData": [],
+    "rssi": [],
+    "serviceData": [],
+    "txPower": [],
+    "broadcast": [],
+    "read": [],
+    "writeWithoutResponse": [],
+    "write": [],
+    "notify": [],
+    "indicate": [],
+    "authenticatedSignedWrites": [],
+    "reliableWrite": [],
+    "writableAuxiliaries": [],
+    "adData": [],
+    "connectGATT": [],
+    "deviceClass": [],
+    "gatt": [],
+    "gattServer": [],
+    "paired": [],
+    "productID": [],
+    "productVersion": [],
+    "unwatchAdvertisements": [],
+    "uuids": [],
+    "vendorID": [],
+    "vendorIDSource": [],
+    "watchAdvertisements": [],
+    "watchingAdvertisements": [],
+    "getAvailability": [],
+    "onavailabilitychanged": [],
+    "referringDevice": [],
+    "requestDevice": [],
+    "getDescriptor": [],
+    "getDescriptors": [],
+    "properties": [],
+    "readValue": [],
+    "service": [],
+    "startNotifications": [],
+    "stopNotifications": [],
+    "uuid": [],
+    "writeValue": [],
+    "characteristic": [],
+    "connected": [],
+    "device": [],
+    "getPrimaryService": [],
+    "getPrimaryServices": [],
+    "getCharacteristic": [],
+    "getCharacteristics": [],
+    "getIncludedService": [],
+    "getIncludedServices": [],
+    "isPrimary": [],
+    "body": [],
+    "bodyUsed": [],
+    "arrayBuffer": [],
+    "blob": [],
+    "formData": [],
+    "json": [],
+    "text": [],
+    "FormData": [],
+    "append": [],
+    "delete": [],
+    "getAll": [],
+    "set": [],
+    "entries": [],
+    "SupportForOf": [],
+    "worker_support": [],
+    "Text": [],
+    "isElementContentWhitespace": [],
+    "wholeText": [],
+    "assignedSlot": [],
+    "replaceWholeText": [],
+    "splitText": [],
+    "BroadcastChannel": [],
+    "onmessage": [],
+    "onmessageerror": [],
+    "postMessage": [],
+    "getBudget": [],
+    "getCost": [],
+    "reserve": [],
+    "budgetAt": [],
+    "time": [],
+    "ByteLengthQueuingStrategy": [],
+    "add": [],
+    "addAll": [],
+    "match": [
+        {
+            "depth": 47,
+            "width": 0,
+            "parent_depth": 46,
+            "parent_width": 20
+        },
+        {
+            "depth": 47,
+            "width": 15,
+            "parent_depth": 47,
+            "parent_width": 12
+        }
+    ],
+    "matchAll": [],
+    "put": [],
+    "open": [],
+    "CanMakePaymentEvent": [],
+    "methodData": [],
+    "modifiers": [],
+    "paymentRequestOrigin": [],
+    "topOrigin": [],
+    "canvas": [],
+    "requestFrame": [],
+    "addColorStop": [
+        {
+            "depth": 65,
+            "width": 20,
+            "parent_depth": 65,
+            "parent_width": 17
+        },
+        {
+            "depth": 66,
+            "width": 4,
+            "parent_depth": 66,
+            "parent_width": 1
+        }
+    ],
+    "setTransform": [],
+    "currentTransform": [],
+    "direction": [],
+    "fillStyle": [
+        {
+            "depth": 28,
+            "width": 18,
+            "parent_depth": 28,
+            "parent_width": 16
+        },
+        {
+            "depth": 28,
+            "width": 32,
+            "parent_depth": 28,
+            "parent_width": 30
+        },
+        {
+            "depth": 29,
+            "width": 7,
+            "parent_depth": 29,
+            "parent_width": 5
+        },
+        {
+            "depth": 63,
+            "width": 27,
+            "parent_depth": 63,
+            "parent_width": 25
+        },
+        {
+            "depth": 65,
+            "width": 13,
+            "parent_depth": 65,
+            "parent_width": 11
+        }
+    ],
+    "filter": [],
+    "font": [
+        {
+            "depth": 29,
+            "width": 19,
+            "parent_depth": 29,
+            "parent_width": 17
+        },
+        {
+            "depth": 32,
+            "width": 3,
+            "parent_depth": 32,
+            "parent_width": 1
+        },
+        {
+            "depth": 33,
+            "width": 5,
+            "parent_depth": 33,
+            "parent_width": 3
+        },
+        {
+            "depth": 36,
+            "width": 11,
+            "parent_depth": 36,
+            "parent_width": 5
+        },
+        {
+            "depth": 37,
+            "width": 15,
+            "parent_depth": 37,
+            "parent_width": 9
+        }
+    ],
+    "globalAlpha": [],
+    "globalCompositeOperation": [],
+    "imageSmoothingEnabled": [],
+    "imageSmoothingQuality": [],
+    "lineCap": [],
+    "lineDashOffset": [],
+    "lineJoin": [],
+    "lineWidth": [],
+    "miterLimit": [],
+    "shadowBlur": [],
+    "shadowColor": [],
+    "shadowOffsetX": [],
+    "shadowOffsetY": [],
+    "strokeStyle": [],
+    "textAlign": [],
+    "textBaseline": [
+        {
+            "depth": 29,
+            "width": 13,
+            "parent_depth": 29,
+            "parent_width": 11
+        },
+        {
+            "depth": 29,
+            "width": 25,
+            "parent_depth": 29,
+            "parent_width": 23
+        }
+    ],
+    "addHitRegion": [],
+    "arc": [
+        {
+            "depth": 63,
+            "width": 21,
+            "parent_depth": 63,
+            "parent_width": 11
+        }
+    ],
+    "arcTo": [],
+    "beginPath": [],
+    "bezierCurveTo": [],
+    "clearHitRegions": [],
+    "clearRect": [],
+    "clip": [],
+    "closePath": [],
+    "createImageData": [],
+    "createLinearGradient": [
+        {
+            "depth": 66,
+            "width": 14,
+            "parent_depth": 66,
+            "parent_width": 9
+        }
+    ],
+    "createPattern": [],
+    "createRadialGradient": [],
+    "drawFocusIfNeeded": [],
+    "drawImage": [],
+    "drawWidgetAsOnScreen": [],
+    "drawWindow": [],
+    "ellipse": [],
+    "fill": [],
+    "fillRect": [
+        {
+            "depth": 29,
+            "width": 1,
+            "parent_depth": 28,
+            "parent_width": 36
+        },
+        {
+            "depth": 65,
+            "width": 7,
+            "parent_depth": 65,
+            "parent_width": 2
+        }
+    ],
+    "fillText": [
+        {
+            "depth": 28,
+            "width": 12,
+            "parent_depth": 28,
+            "parent_width": 8
+        },
+        {
+            "depth": 28,
+            "width": 26,
+            "parent_depth": 28,
+            "parent_width": 22
+        },
+        {
+            "depth": 64,
+            "width": 5,
+            "parent_depth": 64,
+            "parent_width": 1
+        }
+    ],
+    "getImageData": [],
+    "getLineDash": [],
+    "isPointInPath": [],
+    "isPointInStroke": [],
+    "lineTo": [
+        {
+            "depth": 64,
+            "width": 17,
+            "parent_depth": 64,
+            "parent_width": 14
+        }
+    ],
+    "measureText": [
+        {
+            "depth": 31,
+            "width": 40,
+            "parent_depth": 31,
+            "parent_width": 38
+        },
+        {
+            "depth": 36,
+            "width": 1,
+            "parent_depth": 35,
+            "parent_width": 44
+        }
+    ],
+    "moveTo": [
+        {
+            "depth": 64,
+            "width": 24,
+            "parent_depth": 64,
+            "parent_width": 21
+        }
+    ],
+    "putImageData": [],
+    "quadraticCurveTo": [],
+    "rect": [],
+    "removeHitRegion": [],
+    "resetTransform": [],
+    "restore": [],
+    "rotate": [],
+    "save": [],
+    "scale": [],
+    "scrollPathIntoView": [],
+    "setLineDash": [],
+    "stroke": [
+        {
+            "depth": 63,
+            "width": 7,
+            "parent_depth": 63,
+            "parent_width": 6
+        },
+        {
+            "depth": 64,
+            "width": 10,
+            "parent_depth": 64,
+            "parent_width": 9
+        }
+    ],
+    "strokeRect": [],
+    "strokeText": [],
+    "transform": [],
+    "translate": [],
+    "ChannelMergerNode": [],
+    "ChannelSplitterNode": [],
+    "ChildNode": [],
+    "appendData": [],
+    "deleteData": [],
+    "insertData": [],
+    "replaceData": [],
+    "substringData": [],
+    "after": [],
+    "before": [],
+    "replaceWith": [],
+    "frameType": [],
+    "url": [],
     "URL": [],
+    "createObjectURL": [],
+    "hash": [],
+    "host": [],
+    "hostname": [],
+    "href": [],
+    "origin": [],
+    "password": [],
+    "pathname": [],
+    "protocol": [],
+    "revokeObjectURL": [],
+    "search": [],
+    "searchParams": [],
+    "toJSON": [],
+    "username": [],
+    "claim": [],
+    "openWindow": [],
+    "ClipboardEvent": [],
+    "clipboardData": [],
+    "readText": [],
+    "writeText": [],
+    "CloseEvent": [],
+    "initCloseEvent": [],
+    "Comment": [],
+    "CompositionEvent": [],
+    "initCompositionEvent": [],
+    "locale": [],
+    "assert": [],
+    "clear": [],
+    "count": [],
+    "countReset": [],
+    "dir": [],
+    "dirxml": [],
+    "error": [],
+    "exception": [],
+    "group": [],
+    "groupCollapsed": [],
+    "groupEnd": [],
+    "info": [],
+    "log": [
+        {
+            "depth": 48,
+            "width": 14,
+            "parent_depth": 48,
+            "parent_width": 8
+        },
+        {
+            "depth": 113,
+            "width": 3,
+            "parent_depth": 112,
+            "parent_width": 11
+        },
+        {
+            "depth": 114,
+            "width": 1,
+            "parent_depth": 113,
+            "parent_width": 16
+        },
+        {
+            "depth": 133,
+            "width": 7,
+            "parent_depth": 133,
+            "parent_width": 3
+        }
+    ],
+    "profile": [],
+    "profileEnd": [],
+    "table": [],
+    "timeEnd": [],
+    "timeLog": [],
+    "timestamp": [],
+    "trace": [],
+    "warn": [],
+    "ConstantSourceNode": [],
+    "offset": [],
+    "ConvolverNode": [],
+    "normalize": [],
+    "secure_context_required": [],
+    "accuracy": [],
+    "altitude": [],
+    "altitudeAccuracy": [],
+    "heading": [],
+    "latitude": [],
+    "longitude": [],
+    "speed": [],
+    "CountQueuingStrategy": [],
+    "create": [],
+    "preventSilentAccess": [],
+    "store": [],
+    "subtle": [],
+    "getRandomValues": [],
+    "extractable": [],
+    "algorithm": [],
+    "usages": [],
+    "ch": [],
+    "cm": [],
+    "deg": [],
+    "dpcm": [],
+    "dpi": [],
+    "dppx": [],
+    "em": [],
+    "escape": [],
+    "ex": [],
+    "fr": [],
+    "grad": [],
+    "Hz": [],
+    "in": [],
+    "ic": [],
+    "kHz": [],
+    "lh": [],
+    "mm": [],
+    "ms": [],
+    "number": [],
+    "paintWorklet": [],
+    "pc": [],
+    "percent": [],
+    "pt": [],
+    "px": [],
+    "rad": [],
+    "rlh": [],
+    "rem": [],
+    "s": [],
+    "supports": [],
+    "turn": [],
+    "vb": [],
+    "vh": [],
+    "vi": [],
+    "vmax": [],
+    "vw": [],
+    "wmin": [],
+    "keyText": [],
+    "style": [
+        {
+            "depth": 33,
+            "width": 7,
+            "parent_depth": 33,
+            "parent_width": 5
+        },
+        {
+            "depth": 37,
+            "width": 17,
+            "parent_depth": 37,
+            "parent_width": 15
+        }
+    ],
+    "appendRule": [],
+    "cssRules": [],
+    "deleteRule": [],
+    "findRule": [],
+    "CSSKeywordValue": [],
+    "CSSMathInvert": [],
+    "CSSMathMax": [],
+    "CSSMathMin": [],
+    "CSSMathNegate": [],
+    "CSSMathProduct": [],
+    "CSSMathSum": [],
+    "operator": [],
+    "CSSMatrixComponent": [],
+    "matrix": [],
+    "media": [],
+    "@@iterator": [],
+    "CSSNumericValue": [],
+    "div": [],
+    "equals": [],
+    "max": [],
+    "min": [],
+    "mul": [],
+    "parse": [],
+    "sub": [],
+    "to": [],
+    "toSum": [],
+    "selectorText": [],
+    "CSSPerspective": [],
+    "CSSPositionValue": [],
+    "primitiveType": [],
+    "getCounterValue": [],
+    "getFloatValue": [],
+    "getRGBColorValue": [],
+    "getRectValue": [],
+    "getStringValue": [],
+    "setFloatValue": [],
+    "setStringValue": [],
+    "CSSRotate": [],
+    "angle": [],
+    "cssText": [],
+    "parentRule": [],
+    "parentStyleSheet": [],
+    "item": [],
+    "CSSScale": [],
+    "CSSSkew": [],
+    "ax": [],
+    "ay": [],
+    "CSSSkewX": [],
+    "CSSSkewY": [],
+    "getPropertyValue": [],
+    "getPropertyCSSValue": [],
+    "getPropertyPriority": [],
+    "setProperty": [],
+    "removeProperty": [],
+    "cssFloat": [],
+    "ownerRule": [],
+    "insertRule": [],
+    "parseAll": [],
+    "is2D": [],
+    "toMatrix": [],
+    "CSSTransformValue": [],
+    "CSSTranslate": [],
+    "CSSUnitValue": [],
+    "unit": [],
+    "cssValueType": [],
+    "CSSVariableReferenceValue": [],
+    "variable": [],
+    "fallback": [],
+    "builtin": [],
+    "define": [],
+    "upgrade": [],
+    "whenDefined": [],
+    "CustomEvent": [],
+    "detail": [],
+    "initCustomEvent": [],
+    "getAsFile": [],
+    "getAsString": [],
+    "webkitGetAsEntry": [],
+    "DataTransferItem": [],
+    "DataTransfer": [],
+    "addElement": [],
+    "clearData": [],
+    "dropEffect": [],
+    "effectAllowed": [],
+    "files": [],
+    "getData": [],
+    "items": [],
+    "mozClearDataAt": [],
+    "mozCursor": [],
+    "mozGetDataAt": [],
+    "mozItemCount": [],
+    "mozSetDataAt": [],
+    "mozSourceNode": [],
+    "mozTypesAt": [],
+    "mozUserCancelled": [],
+    "setData": [],
+    "setDragImage": [],
+    "types": [],
+    "DelayNode": [],
+    "delayTime": [],
+    "DeviceMotionEvent": [],
+    "acceleration": [],
+    "accelerationIncludingGravity": [],
+    "interval": [],
+    "rotationRate": [],
+    "DeviceOrientationEvent": [],
+    "absolute": [],
+    "alpha": [],
+    "beta": [],
+    "gamma": [],
+    "DocumentFragment": [],
+    "querySelector": [],
+    "querySelectorAll": [],
+    "methods": [],
+    "Document": [],
     "adoptNode": [],
     "alinkColor": [],
     "all": [],
@@ -985,145 +1337,80 @@
     "applets": [],
     "async": [],
     "bgColor": [],
-    "body": [
-        {
-            "depth": 31,
-            "width": 50,
-            "parent_depth": 31,
-            "parent_width": 49
-        },
-        {
-            "depth": 143,
-            "width": 25,
-            "parent_depth": 143,
-            "parent_width": 23
-        },
-        {
-            "depth": 171,
-            "width": 16,
-            "parent_depth": 171,
-            "parent_width": 15
-        },
-        {
-            "depth": 172,
-            "width": 15,
-            "parent_depth": 172,
-            "parent_width": 14
-        }
-    ],
     "captureEvents": [],
     "caretRangeFromPoint": [],
-    "characterSet": [
-        {
-            "depth": 43,
-            "width": 39,
-            "parent_depth": 43,
-            "parent_width": 35
-        }
-    ],
-    "clear": [],
-    "compatMode": [
-        {
-            "depth": 31,
-            "width": 59,
-            "parent_depth": 31,
-            "parent_width": 57
-        },
-        {
-            "depth": 31,
-            "width": 62,
-            "parent_depth": 31,
-            "parent_width": 56
-        }
-    ],
+    "characterSet": [],
+    "compatMode": [],
     "contains": [],
     "contentType": [],
-    "cookie": [
-        {
-            "depth": 9,
-            "width": 119,
-            "parent_depth": 9,
-            "parent_width": 117
-        },
-        {
-            "depth": 19,
-            "width": 44,
-            "parent_depth": 19,
-            "parent_width": 42
-        },
-        {
-            "depth": 25,
-            "width": 12,
-            "parent_depth": 25,
-            "parent_width": 5
-        },
-        {
-            "depth": 25,
-            "width": 23,
-            "parent_depth": 25,
-            "parent_width": 16
-        },
-        {
-            "depth": 29,
-            "width": 39,
-            "parent_depth": 29,
-            "parent_width": 11
-        },
-        {
-            "depth": 29,
-            "width": 60,
-            "parent_depth": 29,
-            "parent_width": 52
-        },
-        {
-            "depth": 32,
-            "width": 47,
-            "parent_depth": 32,
-            "parent_width": 43
-        },
-        {
-            "depth": 165,
-            "width": 22,
-            "parent_depth": 165,
-            "parent_width": 16
-        },
-        {
-            "depth": 178,
-            "width": 13,
-            "parent_depth": 178,
-            "parent_width": 11
-        },
-        {
-            "depth": 178,
-            "width": 20,
-            "parent_depth": 178,
-            "parent_width": 17
-        },
-        {
-            "depth": 446,
-            "width": 15,
-            "parent_depth": 446,
-            "parent_width": 14
-        },
-        {
-            "depth": 449,
-            "width": 16,
-            "parent_depth": 447,
-            "parent_width": 7
-        },
-        {
-            "depth": 450,
-            "width": 9,
-            "parent_depth": 444,
-            "parent_width": 3
-        }
-    ],
+    "cookie": [],
     "createAttribute": [],
     "createAttributeNS": [],
     "createCDATASection": [],
     "createComment": [],
     "createDocumentFragment": [],
-    "createElement": [],
+    "createElement": [
+        {
+            "depth": 30,
+            "width": 4,
+            "parent_depth": 30,
+            "parent_width": 2
+        },
+        {
+            "depth": 32,
+            "width": 14,
+            "parent_depth": 32,
+            "parent_width": 12
+        },
+        {
+            "depth": 33,
+            "width": 20,
+            "parent_depth": 33,
+            "parent_width": 18
+        },
+        {
+            "depth": 33,
+            "width": 34,
+            "parent_depth": 33,
+            "parent_width": 32
+        },
+        {
+            "depth": 37,
+            "width": 30,
+            "parent_depth": 37,
+            "parent_width": 28
+        },
+        {
+            "depth": 45,
+            "width": 16,
+            "parent_depth": 45,
+            "parent_width": 14
+        },
+        {
+            "depth": 47,
+            "width": 25,
+            "parent_depth": 47,
+            "parent_width": 23
+        },
+        {
+            "depth": 67,
+            "width": 9,
+            "parent_depth": 67,
+            "parent_width": 7
+        },
+        {
+            "depth": 161,
+            "width": 1,
+            "parent_depth": 160,
+            "parent_width": 12
+        },
+        {
+            "depth": 190,
+            "width": 5,
+            "parent_depth": 190,
+            "parent_width": 3
+        }
+    ],
     "createElementNS": [],
     "createEntityReference": [],
     "createEvent": [],
@@ -1139,55 +1426,17 @@
     "currentScript": [],
     "defaultView": [],
     "designMode": [],
-    "dir": [],
     "doctype": [],
-    "documentElement": [
-        {
-            "depth": 31,
-            "width": 53,
-            "parent_depth": 31,
-            "parent_width": 49
-        },
-        {
-            "depth": 53,
-            "width": 44,
-            "parent_depth": 53,
-            "parent_width": 42
-        },
-        {
-            "depth": 54,
-            "width": 15,
-            "parent_depth": 54,
-            "parent_width": 13
-        },
-        {
-            "depth": 171,
-            "width": 21,
-            "parent_depth": 171,
-            "parent_width": 20
-        },
-        {
-            "depth": 172,
-            "width": 18,
-            "parent_depth": 172,
-            "parent_width": 14
-        }
-    ],
+    "documentElement": [],
     "documentURI": [],
     "documentURIObject": [],
     "domConfig": [],
     "domain": [
         {
-            "depth": 38,
-            "width": 15,
-            "parent_depth": 38,
-            "parent_width": 5
-        },
-        {
-            "depth": 46,
-            "width": 17,
-            "parent_depth": 46,
-            "parent_width": 7
+            "depth": 12,
+            "width": 12,
+            "parent_depth": 12,
+            "parent_width": 11
         }
     ],
     "embeds": [],
@@ -1200,14 +1449,7 @@
     "fgColor": [],
     "fileSize": [],
     "fonts": [],
-    "forms": [
-        {
-            "depth": 203,
-            "width": 5,
-            "parent_depth": 203,
-            "parent_width": 3
-        }
-    ],
+    "forms": [],
     "fullscreen": [],
     "fullscreenEnabled": [],
     "getAnimations": [],
@@ -1217,33 +1459,23 @@
     "getElementsByName": [],
     "getElementsByTagName": [
         {
-            "depth": 163,
+            "depth": 34,
             "width": 7,
-            "parent_depth": 163,
+            "parent_depth": 34,
             "parent_width": 5
-        },
-        {
-            "depth": 202,
-            "width": 4,
-            "parent_depth": 202,
-            "parent_width": 2
-        },
-        {
-            "depth": 202,
-            "width": 26,
-            "parent_depth": 202,
-            "parent_width": 24
-        },
-        {
-            "depth": 208,
-            "width": 33,
-            "parent_depth": 208,
-            "parent_width": 31
         }
     ],
     "getElementsByTagNameNS": [],
     "hasFocus": [],
     "head": [],
+    "height": [
+        {
+            "depth": 26,
+            "width": 1,
+            "parent_depth": 26,
+            "parent_width": 0
+        }
+    ],
     "hidden": [],
     "images": [],
     "implementation": [],
@@ -1251,33 +1483,9 @@
     "lastModified": [],
     "lastStyleSheetSet": [],
     "linkColor": [],
-    "links": [
-        {
-            "depth": 36,
-            "width": 34,
-            "parent_depth": 36,
-            "parent_width": 32
-        },
-        {
-            "depth": 36,
-            "width": 43,
-            "parent_depth": 36,
-            "parent_width": 41
-        },
-        {
-            "depth": 78,
-            "width": 31,
-            "parent_depth": 78,
-            "parent_width": 30
-        },
-        {
-            "depth": 139,
-            "width": 25,
-            "parent_depth": 139,
-            "parent_width": 23
-        }
-    ],
+    "links": [],
     "loadOverlay": [],
+    "location": [],
     "mozSetImageElement": [],
     "mozSyntheticDocument": [],
     "normalizeDocument": [],
@@ -1291,60 +1499,28 @@
     "onpaste": [],
     "onpointerlockchange": [],
     "onpointerlockerror": [],
-    "onreadystatechange": [
-        {
-            "depth": 64,
-            "width": 65,
-            "parent_depth": 63,
-            "parent_width": 44
-        }
-    ],
+    "onreadystatechange": [],
     "onresume": [],
     "onselectionchange": [],
     "onvisibilitychange": [],
-    "origin": [],
     "plugins": [
         {
-            "depth": 174,
-            "width": 28,
-            "parent_depth": 174,
-            "parent_width": 26
+            "depth": 20,
+            "width": 19,
+            "parent_depth": 20,
+            "parent_width": 17
         },
         {
-            "depth": 175,
-            "width": 0,
-            "parent_depth": 174,
-            "parent_width": 35
+            "depth": 21,
+            "width": 3,
+            "parent_depth": 21,
+            "parent_width": 1
         },
         {
-            "depth": 175,
-            "width": 17,
-            "parent_depth": 175,
-            "parent_width": 15
-        },
-        {
-            "depth": 175,
-            "width": 26,
-            "parent_depth": 175,
-            "parent_width": 24
-        },
-        {
-            "depth": 175,
-            "width": 39,
-            "parent_depth": 175,
-            "parent_width": 37
-        },
-        {
-            "depth": 176,
-            "width": 15,
-            "parent_depth": 176,
-            "parent_width": 13
-        },
-        {
-            "depth": 176,
-            "width": 23,
-            "parent_depth": 174,
-            "parent_width": 11
+            "depth": 22,
+            "width": 31,
+            "parent_depth": 22,
+            "parent_width": 29
         }
     ],
     "policy": [],
@@ -1356,655 +1532,653 @@
     "queryCommandSupported": [],
     "queryCommandText": [],
     "queryCommandValue": [],
-    "querySelector": [],
-    "querySelectorAll": [],
-    "readyState": [
-        {
-            "depth": 52,
-            "width": 31,
-            "parent_depth": 52,
-            "parent_width": 30
-        },
-        {
-            "depth": 54,
-            "width": 36,
-            "parent_depth": 54,
-            "parent_width": 34
-        },
-        {
-            "depth": 64,
-            "width": 7,
-            "parent_depth": 64,
-            "parent_width": 5
-        },
-        {
-            "depth": 64,
-            "width": 62,
-            "parent_depth": 64,
-            "parent_width": 60
-        }
-    ],
-    "referrer": [
-        {
-            "depth": 157,
-            "width": 9,
-            "parent_depth": 157,
-            "parent_width": 8
-        },
-        {
-            "depth": 158,
-            "width": 2,
-            "parent_depth": 158,
-            "parent_width": 1
-        },
-        {
-            "depth": 158,
-            "width": 17,
-            "parent_depth": 158,
-            "parent_width": 16
-        }
-    ],
+    "readyState": [],
+    "referrer": [],
     "registerElement": [],
     "releaseCapture": [],
+    "releaseEvents": [],
+    "routeEvent": [],
     "scripts": [],
     "scrollingElement": [],
     "selectedStyleSheetSet": [],
     "styleSheetSets": [],
-    "timeline": [],
-    "title": [
-        {
-            "depth": 13,
-            "width": 58,
-            "parent_depth": 13,
-            "parent_width": 57
-        },
-        {
-            "depth": 16,
-            "width": 84,
-            "parent_depth": 16,
-            "parent_width": 83
-        },
-        {
-            "depth": 18,
-            "width": 91,
-            "parent_depth": 18,
-            "parent_width": 90
-        },
-        {
-            "depth": 45,
-            "width": 2,
-            "parent_depth": 45,
-            "parent_width": 1
-        }
-    ],
+    "title": [],
     "tooltipNode": [],
     "undoManager": [],
     "visibilityState": [],
     "vlinkColor": [],
     "wasDiscarded": [],
-    "write": [],
+    "width": [
+        {
+            "depth": 26,
+            "width": 15,
+            "parent_depth": 26,
+            "parent_width": 14
+        },
+        {
+            "depth": 31,
+            "width": 36,
+            "parent_depth": 31,
+            "parent_width": 35
+        },
+        {
+            "depth": 35,
+            "width": 42,
+            "parent_depth": 35,
+            "parent_width": 40
+        }
+    ],
     "writeln": [],
     "xmlEncoding": [],
     "xmlStandalone": [],
     "xmlVersion": [],
-    "createObjectURL": [],
-    "hash": [],
-    "host": [],
-    "hostname": [
-        {
-            "depth": 85,
-            "width": 38,
-            "parent_depth": 85,
-            "parent_width": 30
-        }
-    ],
-    "href": [
-        {
-            "depth": 37,
-            "width": 0,
-            "parent_depth": 36,
-            "parent_width": 59
-        },
-        {
-            "depth": 37,
-            "width": 6,
-            "parent_depth": 36,
-            "parent_width": 58
-        },
-        {
-            "depth": 37,
-            "width": 9,
-            "parent_depth": 36,
-            "parent_width": 55
-        },
-        {
-            "depth": 38,
-            "width": 10,
-            "parent_depth": 38,
-            "parent_width": 5
-        },
-        {
-            "depth": 46,
-            "width": 12,
-            "parent_depth": 46,
-            "parent_width": 7
-        },
-        {
-            "depth": 85,
-            "width": 19,
-            "parent_depth": 85,
-            "parent_width": 17
-        },
-        {
-            "depth": 85,
-            "width": 32,
-            "parent_depth": 85,
-            "parent_width": 31
-        },
-        {
-            "depth": 86,
-            "width": 2,
-            "parent_depth": 86,
-            "parent_width": 1
-        },
-        {
-            "depth": 139,
-            "width": 21,
-            "parent_depth": 139,
-            "parent_width": 20
-        },
-        {
-            "depth": 159,
-            "width": 0,
-            "parent_depth": 158,
-            "parent_width": 38
-        },
-        {
-            "depth": 159,
-            "width": 10,
-            "parent_depth": 159,
-            "parent_width": 9
-        }
-    ],
-    "password": [],
-    "pathname": [],
-    "port": [],
-    "protocol": [
-        {
-            "depth": 10,
-            "width": 56,
-            "parent_depth": 10,
-            "parent_width": 54
-        },
-        {
-            "depth": 22,
-            "width": 59,
-            "parent_depth": 22,
-            "parent_width": 58
-        }
-    ],
-    "revokeObjectURL": [],
-    "search": [],
-    "searchParams": [],
-    "toJSON": [
-        {
-            "depth": 476,
-            "width": 4,
-            "parent_depth": 476,
-            "parent_width": 2
-        },
-        {
-            "depth": 476,
-            "width": 12,
-            "parent_depth": 476,
-            "parent_width": 11
-        },
-        {
-            "depth": 484,
-            "width": 9,
-            "parent_depth": 484,
-            "parent_width": 0
-        },
-        {
-            "depth": 484,
-            "width": 14,
-            "parent_depth": 483,
-            "parent_width": 13
-        },
-        {
-            "depth": 485,
-            "width": 4,
-            "parent_depth": 483,
-            "parent_width": 12
-        },
-        {
-            "depth": 489,
-            "width": 9,
-            "parent_depth": 485,
-            "parent_width": 10
-        },
-        {
-            "depth": 490,
-            "width": 1,
-            "parent_depth": 490,
-            "parent_width": 0
-        }
-    ],
-    "username": [],
-    "bodyUsed": [],
-    "arrayBuffer": [],
-    "blob": [],
-    "formData": [],
-    "json": [],
-    "text": [
-        {
-            "depth": 162,
-            "width": 19,
-            "parent_depth": 162,
-            "parent_width": 18
-        },
-        {
-            "depth": 163,
-            "width": 15,
-            "parent_depth": 163,
-            "parent_width": 13
-        }
-    ],
-    "Blob": [],
-    "size": [],
-    "type": [
-        {
-            "depth": 81,
-            "width": 41,
-            "parent_depth": 81,
-            "parent_width": 39
-        },
-        {
-            "depth": 82,
-            "width": 31,
-            "parent_depth": 82,
-            "parent_width": 29
-        },
-        {
-            "depth": 82,
-            "width": 45,
-            "parent_depth": 82,
-            "parent_width": 43
-        },
-        {
-            "depth": 175,
-            "width": 20,
-            "parent_depth": 175,
-            "parent_width": 10
-        },
-        {
-            "depth": 205,
-            "width": 14,
-            "parent_depth": 205,
-            "parent_width": 12
-        },
-        {
-            "depth": 205,
-            "width": 22,
-            "parent_depth": 205,
-            "parent_width": 20
-        },
-        {
-            "depth": 207,
-            "width": 5,
-            "parent_depth": 207,
-            "parent_width": 3
-        },
-        {
-            "depth": 207,
-            "width": 10,
-            "parent_depth": 207,
-            "parent_width": 8
-        },
-        {
-            "depth": 207,
-            "width": 17,
-            "parent_depth": 207,
-            "parent_width": 16
-        },
-        {
-            "depth": 207,
-            "width": 20,
-            "parent_depth": 207,
-            "parent_width": 16
-        },
-        {
-            "depth": 207,
-            "width": 32,
-            "parent_depth": 207,
-            "parent_width": 23
-        },
-        {
-            "depth": 208,
-            "width": 11,
-            "parent_depth": 208,
-            "parent_width": 9
-        }
-    ],
-    "slice": [
-        {
-            "depth": 15,
-            "width": 50,
-            "parent_depth": 15,
-            "parent_width": 48
-        },
-        {
-            "depth": 28,
-            "width": 53,
-            "parent_depth": 28,
-            "parent_width": 50
-        },
-        {
-            "depth": 32,
-            "width": 24,
-            "parent_depth": 32,
-            "parent_width": 21
-        },
-        {
-            "depth": 33,
-            "width": 47,
-            "parent_depth": 33,
-            "parent_width": 42
-        },
-        {
-            "depth": 34,
-            "width": 5,
-            "parent_depth": 34,
-            "parent_width": 2
-        },
-        {
-            "depth": 34,
-            "width": 45,
-            "parent_depth": 34,
-            "parent_width": 42
-        },
-        {
-            "depth": 63,
-            "width": 36,
-            "parent_depth": 63,
-            "parent_width": 33
-        },
-        {
-            "depth": 142,
-            "width": 21,
-            "parent_depth": 142,
-            "parent_width": 16
-        },
-        {
-            "depth": 160,
-            "width": 3,
-            "parent_depth": 160,
-            "parent_width": 1
-        },
-        {
-            "depth": 160,
-            "width": 12,
-            "parent_depth": 160,
-            "parent_width": 9
-        },
-        {
-            "depth": 160,
-            "width": 22,
-            "parent_depth": 160,
-            "parent_width": 19
-        },
-        {
-            "depth": 304,
-            "width": 13,
-            "parent_depth": 304,
-            "parent_width": 9
-        },
-        {
-            "depth": 305,
-            "width": 7,
-            "parent_depth": 305,
-            "parent_width": 2
-        },
-        {
-            "depth": 457,
-            "width": 9,
-            "parent_depth": 457,
-            "parent_width": 6
-        },
-        {
-            "depth": 479,
-            "width": 9,
-            "parent_depth": 479,
-            "parent_width": 6
-        }
-    ],
-    "FormData": [],
-    "append": [],
-    "delete": [],
-    "get": [],
-    "getAll": [],
-    "has": [],
-    "set": [],
-    "entries": [],
-    "keys": [
-        {
-            "depth": 90,
-            "width": 149,
-            "parent_depth": 90,
-            "parent_width": 147
-        },
-        {
-            "depth": 101,
-            "width": 10,
-            "parent_depth": 101,
-            "parent_width": 3
-        },
-        {
-            "depth": 121,
-            "width": 8,
-            "parent_depth": 121,
-            "parent_width": 7
-        },
-        {
-            "depth": 127,
-            "width": 60,
-            "parent_depth": 127,
-            "parent_width": 59
-        }
-    ],
-    "values": [],
-    "SupportForOf": [],
-    "worker_support": [],
-    "Text": [],
-    "isElementContentWhitespace": [],
-    "wholeText": [],
-    "assignedSlot": [],
-    "replaceWholeText": [],
-    "splitText": [],
-    "assign": [
-        {
-            "depth": 91,
-            "width": 40,
-            "parent_depth": 91,
-            "parent_width": 38
-        }
-    ],
+    "assign": [],
     "reload": [],
     "replace": [
         {
             "depth": 35,
-            "width": 30,
+            "width": 11,
             "parent_depth": 35,
-            "parent_width": 27
-        },
-        {
-            "depth": 85,
-            "width": 17,
-            "parent_depth": 85,
-            "parent_width": 14
-        },
-        {
-            "depth": 98,
-            "width": 28,
-            "parent_depth": 98,
-            "parent_width": 25
-        },
-        {
-            "depth": 129,
-            "width": 31,
-            "parent_depth": 129,
-            "parent_width": 27
-        },
-        {
-            "depth": 129,
-            "width": 37,
-            "parent_depth": 129,
-            "parent_width": 33
-        },
-        {
-            "depth": 154,
-            "width": 31,
-            "parent_depth": 154,
-            "parent_width": 27
-        },
-        {
-            "depth": 230,
-            "width": 29,
-            "parent_depth": 230,
-            "parent_width": 7
-        },
-        {
-            "depth": 253,
-            "width": 6,
-            "parent_depth": 252,
-            "parent_width": 15
-        },
-        {
-            "depth": 272,
-            "width": 1,
-            "parent_depth": 271,
-            "parent_width": 18
-        },
-        {
-            "depth": 272,
-            "width": 7,
-            "parent_depth": 272,
-            "parent_width": 3
-        },
-        {
-            "depth": 272,
-            "width": 13,
-            "parent_depth": 272,
-            "parent_width": 9
-        },
-        {
-            "depth": 337,
-            "width": 22,
-            "parent_depth": 337,
-            "parent_width": 18
-        },
-        {
-            "depth": 456,
-            "width": 4,
-            "parent_depth": 456,
-            "parent_width": 0
-        },
-        {
-            "depth": 456,
-            "width": 10,
-            "parent_depth": 456,
-            "parent_width": 6
-        },
-        {
-            "depth": 456,
-            "width": 16,
-            "parent_depth": 456,
-            "parent_width": 12
-        },
-        {
-            "depth": 458,
-            "width": 0,
-            "parent_depth": 457,
-            "parent_width": 1
-        },
-        {
-            "depth": 480,
-            "width": 18,
-            "parent_depth": 479,
-            "parent_width": 0
+            "parent_width": 4
         }
     ],
     "toString": [
         {
-            "depth": 70,
-            "width": 55,
-            "parent_depth": 70,
-            "parent_width": 54
-        },
-        {
-            "depth": 129,
-            "width": 15,
-            "parent_depth": 129,
-            "parent_width": 14
-        },
-        {
-            "depth": 129,
-            "width": 47,
-            "parent_depth": 129,
-            "parent_width": 46
-        },
-        {
-            "depth": 132,
-            "width": 0,
-            "parent_depth": 131,
-            "parent_width": 57
-        },
-        {
-            "depth": 232,
-            "width": 9,
-            "parent_depth": 232,
-            "parent_width": 7
-        },
-        {
-            "depth": 254,
-            "width": 18,
-            "parent_depth": 254,
-            "parent_width": 16
-        },
-        {
-            "depth": 343,
-            "width": 20,
-            "parent_depth": 343,
-            "parent_width": 18
-        },
-        {
-            "depth": 344,
-            "width": 12,
-            "parent_depth": 344,
-            "parent_width": 10
-        },
-        {
-            "depth": 457,
-            "width": 14,
-            "parent_depth": 457,
-            "parent_width": 12
-        },
-        {
-            "depth": 473,
-            "width": 13,
-            "parent_depth": 473,
-            "parent_width": 11
-        },
-        {
-            "depth": 479,
-            "width": 14,
-            "parent_depth": 479,
-            "parent_width": 12
+            "depth": 101,
+            "width": 3,
+            "parent_depth": 101,
+            "parent_width": 1
         }
     ],
     "allowsFeature": [],
     "allowedFeatures": [],
     "getAllowlistForFeature": [],
+    "activeElement": [],
+    "adoptedStyleSheets": [],
+    "caretPositionFromPoint": [],
+    "elementFromPoint": [],
+    "elementsFromPoint": [],
+    "fullscreenElement": [],
+    "getSelection": [],
+    "pointerLockElement": [],
+    "styleSheets": [],
+    "DocumentTimeline": [],
+    "entities": [],
+    "internalSubset": [],
+    "notations": [],
+    "publicId": [],
+    "systemId": [],
+    "parameterNames": [],
+    "canSetParameter": [],
+    "getParameter": [
+        {
+            "depth": 41,
+            "width": 19,
+            "parent_depth": 41,
+            "parent_width": 15
+        },
+        {
+            "depth": 42,
+            "width": 1,
+            "parent_depth": 41,
+            "parent_width": 24
+        },
+        {
+            "depth": 42,
+            "width": 22,
+            "parent_depth": 42,
+            "parent_width": 18
+        },
+        {
+            "depth": 44,
+            "width": 14,
+            "parent_depth": 44,
+            "parent_width": 13
+        },
+        {
+            "depth": 150,
+            "width": 13,
+            "parent_depth": 150,
+            "parent_width": 9
+        },
+        {
+            "depth": 151,
+            "width": 8,
+            "parent_depth": 151,
+            "parent_width": 4
+        },
+        {
+            "depth": 151,
+            "width": 17,
+            "parent_depth": 151,
+            "parent_width": 13
+        },
+        {
+            "depth": 151,
+            "width": 26,
+            "parent_depth": 151,
+            "parent_width": 22
+        },
+        {
+            "depth": 152,
+            "width": 2,
+            "parent_depth": 151,
+            "parent_width": 31
+        },
+        {
+            "depth": 152,
+            "width": 11,
+            "parent_depth": 152,
+            "parent_width": 7
+        },
+        {
+            "depth": 152,
+            "width": 20,
+            "parent_depth": 152,
+            "parent_width": 16
+        },
+        {
+            "depth": 152,
+            "width": 29,
+            "parent_depth": 152,
+            "parent_width": 25
+        },
+        {
+            "depth": 153,
+            "width": 8,
+            "parent_depth": 153,
+            "parent_width": 4
+        },
+        {
+            "depth": 153,
+            "width": 17,
+            "parent_depth": 153,
+            "parent_width": 13
+        },
+        {
+            "depth": 154,
+            "width": 0,
+            "parent_depth": 153,
+            "parent_width": 22
+        },
+        {
+            "depth": 154,
+            "width": 9,
+            "parent_depth": 154,
+            "parent_width": 5
+        },
+        {
+            "depth": 154,
+            "width": 18,
+            "parent_depth": 154,
+            "parent_width": 14
+        },
+        {
+            "depth": 155,
+            "width": 5,
+            "parent_depth": 155,
+            "parent_width": 1
+        },
+        {
+            "depth": 155,
+            "width": 14,
+            "parent_depth": 155,
+            "parent_width": 10
+        },
+        {
+            "depth": 156,
+            "width": 5,
+            "parent_depth": 156,
+            "parent_width": 1
+        },
+        {
+            "depth": 156,
+            "width": 14,
+            "parent_depth": 156,
+            "parent_width": 10
+        },
+        {
+            "depth": 157,
+            "width": 7,
+            "parent_depth": 157,
+            "parent_width": 3
+        },
+        {
+            "depth": 158,
+            "width": 0,
+            "parent_depth": 157,
+            "parent_width": 12
+        },
+        {
+            "depth": 158,
+            "width": 9,
+            "parent_depth": 158,
+            "parent_width": 5
+        },
+        {
+            "depth": 159,
+            "width": 4,
+            "parent_depth": 159,
+            "parent_width": 0
+        },
+        {
+            "depth": 160,
+            "width": 2,
+            "parent_depth": 159,
+            "parent_width": 10
+        },
+        {
+            "depth": 186,
+            "width": 2,
+            "parent_depth": 186,
+            "parent_width": 1
+        }
+    ],
+    "setParameter": [],
+    "handleError": [],
+    "message": [
+        {
+            "depth": 48,
+            "width": 10,
+            "parent_depth": 48,
+            "parent_width": 9
+        },
+        {
+            "depth": 112,
+            "width": 13,
+            "parent_depth": 112,
+            "parent_width": 12
+        },
+        {
+            "depth": 133,
+            "width": 4,
+            "parent_depth": 133,
+            "parent_width": 3
+        }
+    ],
+    "DOMException": [],
+    "code": [],
+    "createDocument": [],
+    "createDocumentType": [],
+    "createHTMLDocument": [],
+    "hasFeature": [],
+    "DOMMatrix": [],
+    "DOMMatrixReadOnly": [],
+    "m11": [],
+    "m12": [],
+    "m13": [],
+    "m14": [],
+    "m21": [],
+    "m22": [],
+    "m23": [],
+    "m24": [],
+    "m31": [],
+    "m32": [],
+    "m33": [],
+    "m34": [],
+    "m41": [],
+    "m42": [],
+    "m43": [],
+    "m44": [],
+    "a": [
+        {
+            "depth": 57,
+            "width": 3,
+            "parent_depth": 57,
+            "parent_width": 1
+        },
+        {
+            "depth": 57,
+            "width": 20,
+            "parent_depth": 57,
+            "parent_width": 19
+        },
+        {
+            "depth": 57,
+            "width": 25,
+            "parent_depth": 57,
+            "parent_width": 24
+        },
+        {
+            "depth": 59,
+            "width": 21,
+            "parent_depth": 59,
+            "parent_width": 19
+        },
+        {
+            "depth": 60,
+            "width": 9,
+            "parent_depth": 60,
+            "parent_width": 8
+        },
+        {
+            "depth": 60,
+            "width": 14,
+            "parent_depth": 60,
+            "parent_width": 13
+        }
+    ],
+    "b": [
+        {
+            "depth": 31,
+            "width": 12,
+            "parent_depth": 31,
+            "parent_width": 10
+        },
+        {
+            "depth": 145,
+            "width": 14,
+            "parent_depth": 145,
+            "parent_width": 13
+        }
+    ],
+    "c": [
+        {
+            "depth": 44,
+            "width": 6,
+            "parent_depth": 44,
+            "parent_width": 5
+        },
+        {
+            "depth": 44,
+            "width": 20,
+            "parent_depth": 44,
+            "parent_width": 19
+        }
+    ],
+    "d": [
+        {
+            "depth": 54,
+            "width": 0,
+            "parent_depth": 53,
+            "parent_width": 21
+        },
+        {
+            "depth": 54,
+            "width": 9,
+            "parent_depth": 54,
+            "parent_width": 8
+        },
+        {
+            "depth": 114,
+            "width": 8,
+            "parent_depth": 114,
+            "parent_width": 7
+        },
+        {
+            "depth": 123,
+            "width": 29,
+            "parent_depth": 123,
+            "parent_width": 28
+        }
+    ],
+    "e": [
+        {
+            "depth": 35,
+            "width": 7,
+            "parent_depth": 35,
+            "parent_width": 6
+        },
+        {
+            "depth": 35,
+            "width": 18,
+            "parent_depth": 35,
+            "parent_width": 17
+        },
+        {
+            "depth": 96,
+            "width": 22,
+            "parent_depth": 96,
+            "parent_width": 14
+        },
+        {
+            "depth": 145,
+            "width": 17,
+            "parent_depth": 145,
+            "parent_width": 13
+        }
+    ],
+    "f": [],
+    "isIdentity": [],
+    "flipX": [],
+    "flipY": [],
+    "inverse": [],
+    "multiply": [],
+    "rotateAxisAngle": [],
+    "rotateFromVector": [],
+    "scale3d": [],
+    "scaleNonUniform": [],
+    "skewX": [],
+    "skewY": [],
+    "toFloat32Array": [],
+    "toFloat64Array": [],
+    "transformPoint": [],
+    "DOMParser": [],
+    "parseFromString": [],
+    "w": [],
+    "DOMPoint": [],
+    "DOMPointReadOnly": [],
+    "fromPoint": [],
+    "matrixTransform": [],
+    "DOMQuad": [],
+    "fromRect": [],
+    "fromQuad": [],
+    "getBounds": [],
+    "p1": [],
+    "p2": [],
+    "p3": [],
+    "p4": [],
+    "DOMRect": [],
+    "DOMRectReadOnly": [],
+    "bottom": [],
+    "left": [],
+    "right": [],
+    "top": [],
+    "remove_whitespace_and_duplicates": [],
+    "toggle": [],
+    "DragEvent": [],
+    "dataTransfer": [],
+    "DynamicsCompressorNode": [],
+    "attack": [
+        {
+            "depth": 116,
+            "width": 11,
+            "parent_depth": 116,
+            "parent_width": 9
+        },
+        {
+            "depth": 116,
+            "width": 14,
+            "parent_depth": 116,
+            "parent_width": 6
+        }
+    ],
+    "knee": [
+        {
+            "depth": 117,
+            "width": 20,
+            "parent_depth": 117,
+            "parent_width": 18
+        },
+        {
+            "depth": 118,
+            "width": 0,
+            "parent_depth": 117,
+            "parent_width": 15
+        }
+    ],
+    "ratio": [
+        {
+            "depth": 117,
+            "width": 9,
+            "parent_depth": 117,
+            "parent_width": 7
+        },
+        {
+            "depth": 117,
+            "width": 12,
+            "parent_depth": 117,
+            "parent_width": 4
+        }
+    ],
+    "reduction": [
+        {
+            "depth": 116,
+            "width": 23,
+            "parent_depth": 116,
+            "parent_width": 21
+        },
+        {
+            "depth": 117,
+            "width": 1,
+            "parent_depth": 116,
+            "parent_width": 17
+        }
+    ],
+    "release": [
+        {
+            "depth": 116,
+            "width": 0,
+            "parent_depth": 115,
+            "parent_width": 28
+        },
+        {
+            "depth": 116,
+            "width": 3,
+            "parent_depth": 115,
+            "parent_width": 25
+        }
+    ],
+    "threshold": [
+        {
+            "depth": 118,
+            "width": 9,
+            "parent_depth": 118,
+            "parent_width": 7
+        },
+        {
+            "depth": 118,
+            "width": 12,
+            "parent_depth": 118,
+            "parent_width": 3
+        }
+    ],
+    "delay": [],
+    "easing": [],
+    "endDelay": [],
+    "iterations": [],
+    "iterationStart": [],
+    "accessKey": [],
+    "animate": [],
+    "attachShadow": [],
+    "attributes": [],
+    "classList": [],
+    "className": [],
+    "clientHeight": [
+        {
+            "depth": 32,
+            "width": 26,
+            "parent_depth": 32,
+            "parent_width": 25
+        },
+        {
+            "depth": 36,
+            "width": 33,
+            "parent_depth": 36,
+            "parent_width": 32
+        }
+    ],
+    "clientLeft": [],
+    "clientTop": [],
+    "clientWidth": [
+        {
+            "depth": 32,
+            "width": 31,
+            "parent_depth": 32,
+            "parent_width": 30
+        },
+        {
+            "depth": 36,
+            "width": 38,
+            "parent_depth": 36,
+            "parent_width": 37
+        }
+    ],
+    "closest": [],
+    "computedStyleMap": [],
+    "createShadowRoot": [],
+    "currentStyle": [],
+    "getAttribute": [],
+    "getAttributeNS": [],
+    "getAttributeNames": [],
+    "getAttributeNode": [],
+    "getAttributeNodeNS": [],
+    "getBoundingClientRect": [],
+    "getClientRects": [],
+    "hasAttribute": [],
+    "hasAttributeNS": [],
+    "hasAttributes": [],
+    "innerHTML": [
+        {
+            "depth": 33,
+            "width": 13,
+            "parent_depth": 33,
+            "parent_width": 11
+        },
+        {
+            "depth": 37,
+            "width": 23,
+            "parent_depth": 37,
+            "parent_width": 21
+        }
+    ],
+    "insertAdjacentElement": [],
+    "insertAdjacentHTML": [],
+    "insertAdjacentText": [],
+    "matches": [],
+    "openOrClosedShadowRoot": [],
+    "ongotpointercapture": [],
+    "onlostpointercapture": [],
+    "outerHTML": [],
+    "releasePointerCapture": [],
+    "removeAttribute": [],
+    "removeAttributeNS": [],
+    "removeAttributeNode": [],
+    "requestFullscreen": [],
+    "requestPointerLock": [],
+    "runtimeStyle": [],
+    "scrollIntoView": [],
+    "scrollIntoViewIfNeeded": [],
+    "scrollHeight": [],
+    "scrollLeft": [],
+    "scrollLeftMax": [],
+    "scrollTop": [],
+    "scrollTopMax": [],
+    "scrollWidth": [],
+    "setAttribute": [],
+    "setAttributeNS": [],
+    "setAttributeNode": [],
+    "setAttributeNodeNS": [],
+    "setCapture": [],
+    "setPointerCapture": [],
+    "shadowRoot": [],
+    "slot": [],
+    "tabStop": [],
+    "tagName": [],
+    "toggleAttribute": [],
+    "delegatesFocus": [],
+    "documentorshadowroot": [],
+    "ErrorEvent": [],
+    "colno": [],
+    "filename": [
+        {
+            "depth": 20,
+            "width": 4,
+            "parent_depth": 20,
+            "parent_width": 3
+        }
+    ],
+    "lineno": [],
     "Event": [],
     "bubbles": [],
     "cancelBubble": [],
@@ -2022,55 +2196,914 @@
     "preventBubble": [],
     "preventCapture": [],
     "preventDefault": [],
-    "srcElement": [
-        {
-            "depth": 83,
-            "width": 3,
-            "parent_depth": 83,
-            "parent_width": 2
-        }
-    ],
+    "returnValue": [],
+    "srcElement": [],
     "stopImmediatePropagation": [],
     "stopPropagation": [],
-    "target": [
+    "target": [],
+    "timeStamp": [],
+    "handleEvent": [],
+    "EventSource": [],
+    "onopen": [],
+    "withCredentials": [],
+    "EventTarget": [],
+    "addEventListener": [],
+    "dispatchEvent": [],
+    "removeEventListener": [],
+    "createQueryEXT": [],
+    "deleteQueryEXT": [],
+    "isQueryEXT": [],
+    "beginQueryEXT": [],
+    "endQueryEXT": [],
+    "queryCounterEXT": [],
+    "getQueryEXT": [],
+    "getQueryObjectEXT": [],
+    "ExtendableEvent": [],
+    "waitUntil": [],
+    "ExtendableMessageEvent": [],
+    "lastEventId": [],
+    "ports": [],
+    "source": [],
+    "FederatedCredential": [],
+    "provider": [],
+    "FetchEvent": [],
+    "client": [],
+    "clientId": [],
+    "isReload": [],
+    "navigationPreload": [],
+    "preloadResponse": [],
+    "request": [],
+    "resultingClientId": [],
+    "targetClientId": [],
+    "Request": [],
+    "cache": [],
+    "clone": [],
+    "credentials": [],
+    "headers": [],
+    "integrity": [],
+    "keepalive": [],
+    "method": [],
+    "redirect": [],
+    "referrerPolicy": [],
+    "lexicographical_sorting": [],
+    "File": [],
+    "lastModifiedDate": [],
+    "webkitRelativePath": [],
+    "onload": [],
+    "onloadend": [],
+    "onprogress": [],
+    "readAsArrayBuffer": [],
+    "readAsBinaryString": [],
+    "readAsDataURL": [],
+    "readAsText": [],
+    "result": [
         {
-            "depth": 83,
-            "width": 6,
-            "parent_depth": 83,
-            "parent_width": 2
-        },
-        {
-            "depth": 84,
-            "width": 30,
-            "parent_depth": 84,
-            "parent_width": 29
-        },
-        {
-            "depth": 204,
-            "width": 5,
-            "parent_depth": 204,
-            "parent_width": 4
-        },
-        {
-            "depth": 206,
-            "width": 1,
-            "parent_depth": 206,
-            "parent_width": 0
+            "depth": 30,
+            "width": 18,
+            "parent_depth": 30,
+            "parent_width": 17
         }
     ],
-    "timeStamp": [],
+    "service_workers_support": [],
+    "createReader": [],
+    "getDirectory": [],
+    "getFile": [],
+    "removeRecursively": [],
+    "readEntries": [],
+    "filesystem": [],
+    "fullPath": [],
+    "isDirectory": [],
+    "isFile": [],
+    "copyTo": [],
+    "getMetadata": [],
+    "getParent": [],
+    "toURL": [],
+    "root": [],
+    "createWriter": [],
+    "file": [],
+    "exclusive": [],
+    "FocusEvent": [],
+    "relatedTarget": [],
+    "FontFace": [],
+    "display": [],
+    "family": [],
+    "weight": [],
+    "stretch": [],
+    "unicodeRange": [],
+    "variant": [],
+    "featureSettings": [],
+    "status": [],
+    "loaded": [],
+    "load": [],
+    "onloading": [],
+    "onloadingdone": [],
+    "onloadingerror": [],
+    "check": [],
+    "FontFaceSetLoadEvent": [],
+    "fontfaces": [],
+    "GainNode": [],
+    "pressed": [],
+    "touched": [],
+    "gamepad": [],
+    "Gamepad": [],
+    "axes": [],
+    "buttons": [],
+    "displayId": [],
+    "hand": [],
+    "hapticActuators": [],
+    "index": [],
+    "mapping": [],
+    "pose": [],
+    "pulse": [],
+    "angularAcceleration": [],
+    "angularVelocity": [],
+    "hasOrientation": [],
+    "hasPosition": [],
+    "linearAcceleration": [],
+    "linearVelocity": [],
+    "orientation": [],
+    "position": [],
+    "coords": [],
+    "clearWatch": [],
+    "getCurrentPosition": [],
+    "watchPosition": [],
+    "convertPointFromNode": [],
+    "convertQuadFromNode": [],
+    "convertRectFromNode": [],
+    "getBoxQuads": [],
+    "GestureEvent": [],
+    "initGestureEvent": [],
+    "rotation": [],
+    "onanimationcancel": [],
+    "onanimationend": [],
+    "onanimationiteration": [],
+    "onanimationstart": [],
+    "onauxclick": [],
+    "onblur": [],
+    "oncanplay": [],
+    "oncanplaythrough": [],
+    "onclick": [],
+    "onclose": [],
+    "oncontextmenu": [],
+    "oncuechange": [],
+    "ondblclick": [],
+    "ondrag": [],
+    "ondragend": [],
+    "ondragenter": [],
+    "ondragexit": [],
+    "ondragleave": [],
+    "ondragover": [],
+    "ondragstart": [],
+    "ondrop": [],
+    "ondurationchange": [],
+    "onemptied": [],
+    "onfocus": [],
+    "oninput": [],
+    "oninvalid": [],
+    "onkeydown": [],
+    "onkeypress": [],
+    "onkeyup": [],
+    "onloadeddata": [],
+    "onloadedmetadata": [],
+    "onloadstart": [],
+    "onmousedown": [],
+    "onmouseenter": [],
+    "onmouseleave": [],
+    "onmousemove": [],
+    "onmouseout": [],
+    "onmouseover": [],
+    "onmouseup": [],
+    "onmousewheel": [],
+    "onpause": [],
+    "onplay": [],
+    "onplaying": [],
+    "onpointercancel": [],
+    "onpointerdown": [],
+    "onpointerenter": [],
+    "onpointerleave": [],
+    "onpointermove": [],
+    "onpointerout": [],
+    "onpointerover": [],
+    "onpointerup": [],
+    "onratechange": [],
+    "onreset": [],
+    "onresize": [],
+    "onscroll": [],
+    "onseeked": [],
+    "onseeking": [],
+    "onselect": [],
+    "onselectstart": [],
+    "onshow": [],
+    "onsort": [],
+    "onstalled": [],
+    "onsubmit": [],
+    "onsuspend": [],
+    "ontimeupdate": [],
+    "ontouchcancel": [],
+    "ontouchend": [],
+    "ontouchmove": [],
+    "ontouchstart": [],
+    "ontransitioncancel": [],
+    "ontransitionend": [],
+    "ontransitionrun": [],
+    "ontransitionstart": [],
+    "onvolumechange": [],
+    "onwaiting": [],
+    "onwheel": [],
+    "Gyroscope": [],
+    "oldURL": [],
+    "newURL": [],
     "back": [],
     "forward": [],
     "go": [],
     "pushState": [],
     "replaceState": [],
     "scrollRestoration": [],
-    "state": [
+    "getEyeParameters": [],
+    "setFieldOfView": [],
+    "namedItem": [],
+    "download": [],
+    "hreflang": [],
+    "rel": [],
+    "relList": [],
+    "tabindex": [],
+    "charset": [],
+    "rev": [],
+    "shape": [],
+    "alt": [],
+    "noHref": [],
+    "tabIndex": [],
+    "mozCurrentSampleOffset": [],
+    "mozSetup": [],
+    "mozWriteAudio": [],
+    "color": [],
+    "face": [],
+    "aLink": [],
+    "background": [],
+    "link": [],
+    "vLink": [],
+    "autofocus": [],
+    "disabled": [],
+    "form": [],
+    "formAction": [],
+    "formEnctype": [],
+    "formMethod": [],
+    "formNoValidate": [],
+    "formTarget": [],
+    "labels": [],
+    "menu": [],
+    "validationMessage": [],
+    "validity": [],
+    "willValidate": [],
+    "mozOpaque": [],
+    "captureStream": [],
+    "getContext": [
         {
-            "depth": 8,
+            "depth": 29,
+            "width": 32,
+            "parent_depth": 29,
+            "parent_width": 30
+        },
+        {
+            "depth": 32,
+            "width": 10,
+            "parent_depth": 32,
+            "parent_width": 8
+        },
+        {
+            "depth": 44,
+            "width": 23,
+            "parent_depth": 44,
+            "parent_width": 19
+        },
+        {
+            "depth": 67,
             "width": 2,
-            "parent_depth": 7,
-            "parent_width": 142
+            "parent_depth": 67,
+            "parent_width": 0
+        },
+        {
+            "depth": 160,
+            "width": 10,
+            "parent_depth": 160,
+            "parent_width": 8
+        },
+        {
+            "depth": 187,
+            "width": 3,
+            "parent_depth": 186,
+            "parent_width": 7
+        }
+    ],
+    "mozFetchAsStream": [],
+    "mozGetAsFile": [],
+    "toBlob": [],
+    "toDataURL": [
+        {
+            "depth": 28,
+            "width": 1,
+            "parent_depth": 28,
+            "parent_width": 0
+        },
+        {
+            "depth": 63,
+            "width": 2,
+            "parent_depth": 63,
+            "parent_width": 1
+        }
+    ],
+    "transferControlToOffscreen": [],
+    "select": [],
+    "getDistributedNodes": [],
+    "options": [],
+    "show": [],
+    "showModal": [],
+    "align": [],
+    "compact": [],
+    "accessKeyLabel": [],
+    "blur": [],
+    "click": [],
+    "contentEditable": [],
+    "contextMenu": [],
+    "dataset": [],
+    "draggable": [],
+    "dropzone": [],
+    "focus": [],
+    "forceSpellCheck": [],
+    "inert": [],
+    "isContentEditable": [],
+    "itemId": [],
+    "itemProp": [],
+    "itemRef": [],
+    "itemScope": [],
+    "itemType": [],
+    "itemValue": [],
+    "lang": [],
+    "noModule": [],
+    "nonce": [],
+    "offsetHeight": [],
+    "offsetLeft": [],
+    "offsetParent": [],
+    "offsetTop": [],
+    "offsetWidth": [],
+    "onModule": [],
+    "outerText": [],
+    "spellcheck": [],
+    "elements": [],
+    "acceptCharset": [],
+    "action": [],
+    "autocomplete": [],
+    "checkValidity": [],
+    "encoding": [],
+    "enctype": [],
+    "noValidate": [],
+    "reportValidity": [],
+    "requestAutocomplete": [],
+    "reset": [],
+    "submit": [],
+    "contentDocument": [],
+    "contentWindow": [
+        {
+            "depth": 52,
+            "width": 22,
+            "parent_depth": 52,
+            "parent_width": 21
+        }
+    ],
+    "frameBorder": [],
+    "longDesc": [],
+    "marginHeight": [],
+    "marginWidth": [],
+    "noResize": [],
+    "scrolling": [],
+    "src": [
+        {
+            "depth": 7,
+            "width": 12,
+            "parent_depth": 5,
+            "parent_width": 20
+        },
+        {
+            "depth": 12,
+            "width": 6,
+            "parent_depth": 10,
+            "parent_width": 4
+        }
+    ],
+    "event_handlers": [],
+    "onlanguage": [],
+    "onstorage": [],
+    "cols": [],
+    "rows": [],
+    "addNextPaintListener": [],
+    "allow": [],
+    "allowFullScreen": [],
+    "allowPaymentRequest": [],
+    "clearMatch": [],
+    "csp": [],
+    "executeScript": [],
+    "findAll": [],
+    "findNext": [],
+    "getActive": [],
+    "getCanGoBack": [],
+    "getCanGoForward": [],
+    "getContentDimensions": [],
+    "getManifest": [],
+    "getMuted": [],
+    "getScreenshot": [],
+    "getStructuredData": [],
+    "getVisible": [],
+    "getVolume": [],
+    "goBack": [],
+    "goForward": [],
+    "mute": [],
+    "purgeHistory": [],
+    "removeNextPaintListener": [],
+    "sandbox": [],
+    "sendMouseEvent": [],
+    "sendTouchEvent": [],
+    "setActive": [],
+    "setNfcFocus": [],
+    "setVisible": [],
+    "setVolume": [],
+    "srcdoc": [],
+    "unmute": [],
+    "zoom": [],
+    "Image": [],
+    "complete": [],
+    "crossorigin": [],
+    "currentSrc": [],
+    "decoding": [],
+    "lowSrc": [],
+    "naturalHeight": [],
+    "naturalWidth": [],
+    "sizes": [],
+    "srcset": [],
+    "formEncType": [],
+    "indeterminate": [],
+    "list": [],
+    "mozGetFileNameArray": [],
+    "mozSetFileArray": [],
+    "mozSetFileNameArray": [],
+    "multiple": [],
+    "pattern": [],
+    "placeholder": [],
+    "required": [],
+    "selectionDirection": [],
+    "setCustomValidity": [],
+    "setSelectionRange": [],
+    "stepDown": [],
+    "stepUp": [],
+    "webkitEntries": [],
+    "webkitdirectory": [],
+    "control": [],
+    "htmlFor": [],
+    "as": [],
+    "crossOrigin": [],
+    "areas": [],
+    "behavior": [],
+    "bgcolor": [],
+    "hspace": [],
+    "scrollamount": [],
+    "scrolldelay": [],
+    "truespeed": [],
+    "vspace": [],
+    "addTextTrack": [],
+    "autoplay": [],
+    "canPlayType": [],
+    "controller": [],
+    "controls": [],
+    "controlsList": [],
+    "defaultMuted": [],
+    "defaultPlaybackRate": [],
+    "disableRemotePlayback": [],
+    "ended": [],
+    "fastSeek": [],
+    "initialTime": [],
+    "mediaGroup": [],
+    "mediaKeys": [],
+    "mozAudioCaptured": [],
+    "mozCaptureStreamUntilEnded": [],
+    "mozChannels": [],
+    "mozFragmentEnd": [],
+    "mozFrameBufferLength": [],
+    "mozGetMetadata": [],
+    "mozLoadFrom": [],
+    "mozSampleRate": [],
+    "muted": [],
+    "networkState": [],
+    "onencrypted": [],
+    "onmozinterruptbegin": [],
+    "onmozinterruptend": [],
+    "onwaitingforkey": [],
+    "paused": [],
+    "played": [],
+    "preload": [],
+    "preservesPitch": [],
+    "seekToNextFrame": [],
+    "seekable": [],
+    "seeking": [],
+    "setMediaKeys": [],
+    "setSinkId": [],
+    "sinkId": [],
+    "srcObject": [],
+    "volume": [],
+    "createSession": [],
+    "setServerCertificate": [],
+    "checked": [],
+    "default": [],
+    "icon": [],
+    "radiogroup": [],
+    "high": [],
+    "low": [],
+    "optimum": [],
+    "cite": [],
+    "datetime": [],
+    "archive": [],
+    "border": [],
+    "codeBase": [],
+    "codeType": [],
+    "declare": [],
+    "standby": [],
+    "typeMustMatch": [],
+    "useMap": [],
+    "getSVGDocument": [],
+    "reversed": [],
+    "defaultSelected": [],
+    "selected": [],
+    "selectedIndex": [],
+    "valueType": [],
+    "defer": [],
+    "event": [],
+    "selectedOptions": [],
+    "assignedNodes": [],
+    "keySystem": [],
+    "sheet": [],
+    "scoped": [],
+    "abbr": [],
+    "axis": [],
+    "cellIndex": [],
+    "chOff": [],
+    "colSpan": [],
+    "noWrap": [],
+    "rowSpan": [],
+    "scope": [],
+    "vAlign": [],
+    "span": [],
+    "caption": [],
+    "cellPadding": [],
+    "cellSpacing": [],
+    "createCaption": [],
+    "createTBody": [],
+    "createTFoot": [],
+    "createTHead": [],
+    "deleteCaption": [],
+    "deleteRow": [],
+    "deleteTFoot": [],
+    "deleteTHead": [],
+    "frame": [],
+    "insertRow": [],
+    "rules": [],
+    "sortable": [],
+    "stopSorting": [],
+    "summary": [],
+    "tBodies": [],
+    "tFoot": [],
+    "tHead": [],
+    "sorted": [],
+    "cells": [],
+    "rowIndex": [],
+    "sectionRowIndex": [],
+    "deleteCell": [],
+    "insertCell": [],
+    "content": [],
+    "autocapitalize": [],
+    "textLength": [],
+    "dateTime": [],
+    "srclang": [],
+    "track": [],
+    "poster": [],
+    "videoHeight": [],
+    "videoWidth": [],
+    "mozParsedFrames": [],
+    "mozDecodedFrames": [],
+    "mozPresentedFrames": [],
+    "mozPaintedFrames": [],
+    "mozFrameDelay": [],
+    "mozHasAudio": [],
+    "msIsStereo3D": [],
+    "getVideoPlaybackQuality": [],
+    "key": [],
+    "primaryKey": [],
+    "advance": [],
+    "continue": [],
+    "continuePrimaryKey": [],
+    "update": [],
+    "objectStoreNames": [],
+    "onversionchange": [],
+    "version": [],
+    "createObjectStore": [],
+    "deleteObjectStore": [],
+    "transaction": [],
+    "cmp": [],
+    "deleteDatabase": [],
+    "isAutoLocale": [],
+    "keyPath": [],
+    "multiEntry": [],
+    "objectStore": [],
+    "unique": [],
+    "getAllKeys": [],
+    "getKey": [],
+    "openCursor": [],
+    "openKeyCursor": [],
+    "lower": [],
+    "lowerOpen": [],
+    "upper": [],
+    "upperOpen": [],
+    "bound": [],
+    "includes": [],
+    "lowerBound": [],
+    "only": [],
+    "upperBound": [],
+    "autoIncrement": [],
+    "indexNames": [],
+    "createIndex": [],
+    "deleteIndex": [],
+    "onblocked": [],
+    "onupgradeneeded": [],
+    "onsuccess": [],
+    "db": [],
+    "oncomplete": [
+        {
+            "depth": 112,
+            "width": 2,
+            "parent_depth": 112,
+            "parent_width": 1
+        },
+        {
+            "depth": 115,
+            "width": 1,
+            "parent_depth": 113,
+            "parent_width": 10
+        }
+    ],
+    "newVersion": [],
+    "oldVersion": [],
+    "setVersion": [],
+    "didTimeout": [],
+    "timeRemaining": [],
+    "IIRFilterNode": [],
+    "transferFromImageBitmap": [],
+    "ImageCapture": [],
+    "getPhotoCapabilities": [],
+    "getPhotoSettings": [],
+    "grabFrame": [],
+    "takePhoto": [],
+    "ImageData": [],
+    "InputDeviceCapabilities": [],
+    "firesTouchEvents": [],
+    "getCapabilities": [],
+    "InputEvent": [],
+    "getTargetRanges": [],
+    "inputType": [],
+    "isComposing": [],
+    "InstallEvent": [],
+    "activeWorker": [],
+    "boundingClientRect": [],
+    "intersectionRatio": [],
+    "intersectionRect": [],
+    "isIntersecting": [],
+    "rootBounds": [],
+    "IntersectionObserver": [],
+    "rootMargin": [],
+    "thresholds": [],
+    "observe": [],
+    "takeRecords": [],
+    "unobserve": [],
+    "KeyboardEvent": [],
+    "altKey": [],
+    "charCode": [],
+    "ctrlKey": [],
+    "keyCode": [],
+    "keyIdentifier": [],
+    "metaKey": [],
+    "repeat": [],
+    "shiftKey": [],
+    "which": [],
+    "getModifierState": [],
+    "DOM_KEY_LOCATION_LEFT": [],
+    "DOM_KEY_LOCATION_NUMPAD": [],
+    "DOM_KEY_LOCATION_RIGHT": [],
+    "DOM_KEY_LOCATION_STANDARD": [],
+    "getLayoutMap": [],
+    "lock": [],
+    "unlock": [],
+    "KeyframeEffect": [],
+    "composite": [],
+    "getKeyframes": [],
+    "iterationComposite": [],
+    "setKeyframes": [],
+    "LinearAccelerationSensor": [],
+    "requestFileSystem": [],
+    "resolveLocalFileSystemURL": [],
+    "requestFileSystemSync": [],
+    "resolveLocalFileSystemSyncURL": [],
+    "query": [],
+    "Magnetometer": [],
+    "encodingInfo": [],
+    "decodingInfo": [],
+    "deviceId": [],
+    "groupId": [],
+    "ondevicechange": [],
+    "enumerateDevices": [],
+    "getSupportedConstraints": [],
+    "getUserMedia": [],
+    "stereo_audio_capture": [],
+    "MediaElementAudioSourceNode": [],
+    "mediaElement": [],
+    "MediaKeyMessageEvent": [],
+    "messageType": [],
+    "closed": [],
+    "expiration": [],
+    "keyStatuses": [],
+    "sessionId": [],
+    "onkeystatuseschange": [],
+    "generateRequest": [],
+    "iterator": [],
+    "createMediaKeys": [],
+    "getConfiguration": [],
+    "initDataTypes": [],
+    "audioCapabilities": [],
+    "videoCapabilities": [],
+    "distinctiveIdentifier": [],
+    "persistentState": [],
+    "MediaMetadata": [],
+    "album": [],
+    "artist": [],
+    "artwork": [],
+    "MediaQueryListEvent": [],
+    "addListener": [],
+    "removeListener": [],
+    "EventListener_objects": [],
+    "EventTarget_inheritance": [],
+    "MediaRecorderErrorEvent": [],
+    "MediaRecorder": [],
+    "mimeType": [],
+    "stream": [],
+    "ignoreMutedMedia": [],
+    "videoBitsPerSecond": [],
+    "audioBitsPerSecond": [],
+    "isTypeSupported": [],
+    "requestData": [],
+    "ondataavailable": [],
+    "onstart": [],
+    "onstop": [],
+    "onwarning": [],
+    "description": [],
+    "enabledPlugin": [
+        {
+            "depth": 19,
+            "width": 25,
+            "parent_depth": 19,
+            "parent_width": 24
+        }
+    ],
+    "suffixes": [
+        {
+            "depth": 19,
+            "width": 0,
+            "parent_depth": 18,
+            "parent_width": 36
+        }
+    ],
+    "metadata": [],
+    "playbackState": [],
+    "setActionHandler": [],
+    "modificationTime": [],
+    "step": [],
+    "MediaSource": [],
+    "sourceBuffers": [],
+    "activeSourceBuffers": [],
+    "onsourceclose": [],
+    "onsourceended": [],
+    "onsourceopen": [],
+    "addSourceBuffer": [],
+    "removeSourceBuffer": [],
+    "endOfStream": [],
+    "setLiveSeekableRange": [],
+    "clearLiveSeekableRange": [],
+    "MediaStreamAudioDestinationNode": [],
+    "MediaStreamAudioSourceNode": [],
+    "mediaStream": [],
+    "MediaStream": [],
+    "active": [],
+    "addTrack": [],
+    "getAudioTracks": [],
+    "getTracks": [],
+    "getVideoTracks": [],
+    "removeTrack": [],
+    "video": [],
+    "audio": [],
+    "MediaStreamEvent": [],
+    "MediaStreamTrackEvent": [],
+    "applyConstraints": [],
+    "contentHint": [],
+    "getConstraints": [],
+    "getSettings": [],
+    "getSources": [],
+    "isolated": [],
+    "onisolationchange": [],
+    "onmute": [],
+    "onoverconstrained": [],
+    "onunmute": [],
+    "readonly": [],
+    "remote": [],
+    "aspectRatio": [],
+    "autoGainControl": [],
+    "echoCancellation": [],
+    "facingMode": [],
+    "frameRate": [],
+    "latency": [],
+    "noiseSuppression": [],
+    "sampleSize": [],
+    "resizeMode": [],
+    "MessageChannel": [],
+    "port1": [],
+    "port2": [],
+    "MessageEvent": [],
+    "initMessageEvent": [],
+    "MouseEvent": [],
+    "button": [],
+    "clientX": [],
+    "clientY": [],
+    "initMouseEvent": [],
+    "movementX": [],
+    "movementY": [],
+    "offsetX": [],
+    "offsetY": [],
+    "pageX": [],
+    "pageY": [],
+    "region": [],
+    "screenX": [],
+    "screenY": [],
+    "wheelDelta": [],
+    "wheelDeltaX": [],
+    "wheelDeltaY": [],
+    "MSGestureEvent": [],
+    "expansion": [],
+    "gestureObject": [],
+    "translationX": [],
+    "translationY": [],
+    "velocityAngular": [],
+    "velocityExpansion": [],
+    "velocityX": [],
+    "velocityY": [],
+    "attributeFilter": [],
+    "attributeOldValue": [],
+    "characterData": [],
+    "characterDataOldValue": [],
+    "childList": [],
+    "subtree": [],
+    "MutationObserver": [],
+    "addedNodes": [],
+    "removedNodes": [],
+    "previousSibling": [],
+    "getNamedItem": [],
+    "getNamedItemNS": [],
+    "removeNamedItem": [],
+    "removeNamedItemNS": [],
+    "setNamedItem": [],
+    "setNamedItemNS": [],
+    "enable": [],
+    "disable": [],
+    "setHeaderValue": [],
+    "getState": [],
+    "hardwareConcurrency": [
+        {
+            "depth": 40,
+            "width": 7,
+            "parent_depth": 40,
+            "parent_width": 5
+        },
+        {
+            "depth": 40,
+            "width": 10,
+            "parent_depth": 40,
+            "parent_width": 5
+        }
+    ],
+    "appCodeName": [],
+    "appName": [],
+    "appVersion": [],
+    "platform": [],
+    "product": [],
+    "taintEnabled": [],
+    "userAgent": [
+        {
+            "depth": 17,
+            "width": 1,
+            "parent_depth": 17,
+            "parent_width": 0
         }
     ],
     "activeVRDisplays": [],
@@ -2081,63 +3114,24 @@
     "connection": [],
     "cookieEnabled": [
         {
-            "depth": 178,
-            "width": 0,
-            "parent_depth": 177,
-            "parent_width": 32
-        },
-        {
-            "depth": 178,
-            "width": 24,
-            "parent_depth": 178,
-            "parent_width": 23
+            "depth": 24,
+            "width": 21,
+            "parent_depth": 24,
+            "parent_width": 18
         }
     ],
-    "credentials": [],
     "deviceMemory": [],
     "doNotTrack": [
         {
-            "depth": 12,
-            "width": 34,
-            "parent_depth": 12,
-            "parent_width": 30
-        },
-        {
-            "depth": 44,
-            "width": 20,
-            "parent_depth": 44,
-            "parent_width": 16
+            "depth": 24,
+            "width": 10,
+            "parent_depth": 24,
+            "parent_width": 9
         }
     ],
-    "geolocation": [
-        {
-            "depth": 20,
-            "width": 53,
-            "parent_depth": 20,
-            "parent_width": 51
-        },
-        {
-            "depth": 20,
-            "width": 63,
-            "parent_depth": 20,
-            "parent_width": 61
-        },
-        {
-            "depth": 20,
-            "width": 67,
-            "parent_depth": 20,
-            "parent_width": 66
-        },
-        {
-            "depth": 40,
-            "width": 28,
-            "parent_depth": 40,
-            "parent_width": 23
-        }
-    ],
+    "geolocation": [],
     "getBattery": [],
     "getGamepads": [],
-    "getUserMedia": [],
     "getVRDisplays": [],
     "keyboard": [],
     "locks": [],
@@ -2160,42 +3154,6 @@
     "vendorSub": [],
     "vibrate": [],
     "webdriver": [],
-    "read": [],
-    "readText": [],
-    "writeText": [],
-    "secure_context_required": [],
-    "clearWatch": [],
-    "getCurrentPosition": [
-        {
-            "depth": 20,
-            "width": 51,
-            "parent_depth": 19,
-            "parent_width": 69
-        },
-        {
-            "depth": 20,
-            "width": 61,
-            "parent_depth": 20,
-            "parent_width": 60
-        }
-    ],
-    "watchPosition": [],
-    "getLayoutMap": [],
-    "lock": [],
-    "unlock": [],
-    "mode": [],
-    "encodingInfo": [],
-    "decodingInfo": [],
-    "ondevicechange": [],
-    "enumerateDevices": [],
-    "getSupportedConstraints": [],
-    "stereo_audio_capture": [],
-    "metadata": [],
-    "playbackState": [],
-    "setActionHandler": [],
-    "modificationTime": [],
-    "query": [],
-    "request": [],
     "requestAll": [],
     "revoke": [],
     "accelerometer_permission": [],
@@ -2214,345 +3172,232 @@
     "payment-handler_permission": [],
     "persistent-storage_permission": [],
     "push_permission": [],
-    "Request": [],
-    "cache": [],
-    "clone": [
-        {
-            "depth": 90,
-            "width": 101,
-            "parent_depth": 90,
-            "parent_width": 99
-        }
-    ],
-    "context": [
-        {
-            "depth": 7,
-            "width": 95,
-            "parent_depth": 7,
-            "parent_width": 94
-        },
-        {
-            "depth": 7,
-            "width": 143,
-            "parent_depth": 7,
-            "parent_width": 142
-        }
-    ],
-    "destination": [],
-    "headers": [],
-    "integrity": [],
-    "keepalive": [],
-    "method": [],
-    "redirect": [],
-    "referrerPolicy": [],
-    "signal": [],
-    "url": [],
-    "add": [
-        {
-            "depth": 23,
-            "width": 35,
-            "parent_depth": 23,
-            "parent_width": 28
-        },
-        {
-            "depth": 23,
-            "width": 46,
-            "parent_depth": 23,
-            "parent_width": 39
-        },
-        {
-            "depth": 23,
-            "width": 56,
-            "parent_depth": 23,
-            "parent_width": 53
-        },
-        {
-            "depth": 23,
-            "width": 63,
-            "parent_depth": 23,
-            "parent_width": 60
-        },
-        {
-            "depth": 23,
-            "width": 70,
-            "parent_depth": 23,
-            "parent_width": 67
-        },
-        {
-            "depth": 23,
-            "width": 77,
-            "parent_depth": 23,
-            "parent_width": 74
-        },
-        {
-            "depth": 24,
-            "width": 6,
-            "parent_depth": 24,
-            "parent_width": 3
-        },
-        {
-            "depth": 24,
-            "width": 16,
-            "parent_depth": 24,
-            "parent_width": 10
-        },
-        {
-            "depth": 24,
-            "width": 26,
-            "parent_depth": 24,
-            "parent_width": 20
-        },
-        {
-            "depth": 284,
-            "width": 36,
-            "parent_depth": 284,
-            "parent_width": 33
-        },
-        {
-            "depth": 284,
-            "width": 43,
-            "parent_depth": 284,
-            "parent_width": 40
-        },
-        {
-            "depth": 284,
-            "width": 50,
-            "parent_depth": 284,
-            "parent_width": 47
-        },
-        {
-            "depth": 285,
-            "width": 1,
-            "parent_depth": 284,
-            "parent_width": 54
-        },
-        {
-            "depth": 285,
-            "width": 8,
-            "parent_depth": 285,
-            "parent_width": 5
-        },
-        {
-            "depth": 285,
-            "width": 15,
-            "parent_depth": 285,
-            "parent_width": 12
-        },
-        {
-            "depth": 285,
-            "width": 22,
-            "parent_depth": 285,
-            "parent_width": 19
-        },
-        {
-            "depth": 285,
-            "width": 29,
-            "parent_depth": 285,
-            "parent_width": 26
-        },
-        {
-            "depth": 286,
-            "width": 0,
-            "parent_depth": 285,
-            "parent_width": 60
-        },
-        {
-            "depth": 286,
-            "width": 7,
-            "parent_depth": 286,
-            "parent_width": 4
-        },
-        {
-            "depth": 286,
-            "width": 14,
-            "parent_depth": 286,
-            "parent_width": 11
-        },
-        {
-            "depth": 286,
-            "width": 21,
-            "parent_depth": 286,
-            "parent_width": 18
-        },
-        {
-            "depth": 286,
-            "width": 28,
-            "parent_depth": 286,
-            "parent_width": 25
-        },
-        {
-            "depth": 286,
-            "width": 35,
-            "parent_depth": 286,
-            "parent_width": 32
-        },
-        {
-            "depth": 286,
-            "width": 42,
-            "parent_depth": 286,
-            "parent_width": 39
-        },
-        {
-            "depth": 286,
-            "width": 49,
-            "parent_depth": 286,
-            "parent_width": 46
-        },
-        {
-            "depth": 286,
-            "width": 56,
-            "parent_depth": 286,
-            "parent_width": 53
-        },
-        {
-            "depth": 286,
-            "width": 63,
-            "parent_depth": 286,
-            "parent_width": 60
-        },
-        {
-            "depth": 287,
-            "width": 31,
-            "parent_depth": 287,
-            "parent_width": 28
-        },
-        {
-            "depth": 287,
-            "width": 38,
-            "parent_depth": 287,
-            "parent_width": 35
-        },
-        {
-            "depth": 287,
-            "width": 45,
-            "parent_depth": 287,
-            "parent_width": 42
-        },
-        {
-            "depth": 287,
-            "width": 52,
-            "parent_depth": 287,
-            "parent_width": 49
-        },
-        {
-            "depth": 288,
-            "width": 0,
-            "parent_depth": 287,
-            "parent_width": 56
-        },
-        {
-            "depth": 288,
-            "width": 7,
-            "parent_depth": 288,
-            "parent_width": 4
-        },
-        {
-            "depth": 288,
-            "width": 39,
-            "parent_depth": 288,
-            "parent_width": 36
-        },
-        {
-            "depth": 288,
-            "width": 46,
-            "parent_depth": 288,
-            "parent_width": 43
-        },
-        {
-            "depth": 288,
-            "width": 53,
-            "parent_depth": 288,
-            "parent_width": 50
-        },
-        {
-            "depth": 289,
-            "width": 5,
-            "parent_depth": 289,
-            "parent_width": 2
-        },
-        {
-            "depth": 289,
-            "width": 12,
-            "parent_depth": 289,
-            "parent_width": 9
-        },
-        {
-            "depth": 289,
-            "width": 19,
-            "parent_depth": 289,
-            "parent_width": 16
-        },
-        {
-            "depth": 289,
-            "width": 26,
-            "parent_depth": 289,
-            "parent_width": 23
-        },
-        {
-            "depth": 289,
-            "width": 33,
-            "parent_depth": 289,
-            "parent_width": 30
-        },
-        {
-            "depth": 290,
-            "width": 7,
-            "parent_depth": 290,
-            "parent_width": 4
-        },
-        {
-            "depth": 290,
-            "width": 14,
-            "parent_depth": 290,
-            "parent_width": 11
-        },
-        {
-            "depth": 290,
-            "width": 21,
-            "parent_depth": 290,
-            "parent_width": 18
-        },
-        {
-            "depth": 290,
-            "width": 28,
-            "parent_depth": 290,
-            "parent_width": 25
-        },
-        {
-            "depth": 296,
-            "width": 5,
-            "parent_depth": 296,
-            "parent_width": 2
-        },
-        {
-            "depth": 298,
-            "width": 0,
-            "parent_depth": 297,
-            "parent_width": 25
-        },
-        {
-            "depth": 298,
-            "width": 10,
-            "parent_depth": 298,
-            "parent_width": 4
-        }
-    ],
-    "addAll": [],
-    "match": [
-        {
-            "depth": 153,
-            "width": 32,
-            "parent_depth": 153,
-            "parent_width": 29
-        }
-    ],
-    "matchAll": [],
-    "put": [],
-    "lexicographical_sorting": [],
     "defaultRequest": [],
     "receiver": [],
     "scriptURL": [],
-    "onstatechange": [],
+    "languages": [],
+    "onLine": [],
+    "mimeTypes": [],
+    "javaEnabled": [
+        {
+            "depth": 23,
+            "width": 35,
+            "parent_depth": 23,
+            "parent_width": 32
+        }
+    ],
+    "storage": [],
+    "getItem": [],
+    "removeItem": [],
+    "setItem": [],
+    "downlink": [],
+    "downlinkMax": [],
+    "effectiveType": [],
+    "rtt": [],
+    "acceptNode": [],
+    "expandEntityReferences": [],
+    "pointerBeforeReferenceNode": [],
+    "referenceNode": [],
+    "whatToShow": [],
+    "detach": [],
+    "nextNode": [],
+    "previousNode": [],
+    "appendChild": [
+        {
+            "depth": 32,
+            "width": 38,
+            "parent_depth": 32,
+            "parent_width": 36
+        },
+        {
+            "depth": 33,
+            "width": 27,
+            "parent_depth": 33,
+            "parent_width": 25
+        },
+        {
+            "depth": 37,
+            "width": 5,
+            "parent_depth": 37,
+            "parent_width": 3
+        }
+    ],
+    "baseURI": [],
+    "baseURIObject": [],
+    "childNodes": [],
+    "cloneNode": [],
+    "compareDocumentPosition": [],
+    "firstChild": [],
+    "getFeature": [],
+    "getRootNode": [],
+    "getUserData": [],
+    "hasChildNodes": [],
+    "innerText": [],
+    "insertBefore": [],
+    "isConnected": [],
+    "isDefaultNamespace": [],
+    "isEqualNode": [],
+    "isSameNode": [],
+    "isSupported": [],
+    "lastChild": [],
+    "lookupPrefix": [],
+    "lookupNamespaceURI": [],
+    "nextSibling": [],
+    "nodeName": [],
+    "nodePrincipal": [],
+    "nodeType": [],
+    "nodeValue": [],
+    "ownerDocument": [],
+    "parentElement": [],
+    "parentNode": [],
+    "removeChild": [
+        {
+            "depth": 30,
+            "width": 29,
+            "parent_depth": 30,
+            "parent_width": 27
+        },
+        {
+            "depth": 32,
+            "width": 21,
+            "parent_depth": 32,
+            "parent_width": 19
+        },
+        {
+            "depth": 36,
+            "width": 28,
+            "parent_depth": 36,
+            "parent_width": 26
+        }
+    ],
+    "replaceChild": [],
+    "rootNode": [],
+    "setUserData": [],
+    "textContent": [
+        {
+            "depth": 47,
+            "width": 21,
+            "parent_depth": 47,
+            "parent_width": 19
+        }
+    ],
+    "document_documentfragment": [],
+    "childElementCount": [],
+    "children": [],
+    "firstElementChild": [],
+    "lastElementChild": [],
+    "prepend": [],
+    "CharacterData_support": [],
+    "nextElementSibling": [],
+    "previousElementSibling": [],
+    "NotificationEvent": [],
+    "notification": [],
+    "secure_contexts_only": [],
+    "Notification": [],
+    "actions": [],
+    "badge": [],
+    "image": [],
+    "maxActions": [],
+    "permission": [],
+    "renotify": [],
+    "requireInteraction": [],
+    "silent": [],
+    "tag": [],
+    "requestPermission": [],
+    "createVertexArrayOES": [],
+    "deleteVertexArrayOES": [],
+    "isVertexArrayOES": [],
+    "bindVertexArrayOES": [],
+    "OfflineAudioCompletionEvent": [],
+    "renderedBuffer": [
+        {
+            "depth": 114,
+            "width": 14,
+            "parent_depth": 114,
+            "parent_width": 12
+        }
+    ],
+    "OfflineAudioContext": [
+        {
+            "depth": 121,
+            "width": 1,
+            "parent_depth": 120,
+            "parent_width": 12
+        }
+    ],
+    "startRendering": [
+        {
+            "depth": 115,
+            "width": 5,
+            "parent_depth": 115,
+            "parent_width": 4
+        }
+    ],
+    "OffscreenCanvas": [],
+    "transferToImageBitmap": [],
+    "quaternion": [],
+    "populateMatrix": [],
+    "OscillatorNode": [],
+    "setPeriodicWave": [],
+    "persisted": [],
+    "PannerNode": [],
+    "coneInnerAngle": [],
+    "coneOuterAngle": [],
+    "coneOuterGain": [],
+    "distanceModel": [],
+    "maxDistance": [],
+    "orientationX": [],
+    "orientationY": [],
+    "orientationZ": [],
+    "panningModel": [],
+    "refDistance": [],
+    "rolloffFactor": [],
+    "setVelocity": [],
+    "PasswordCredential": [],
+    "additionalData": [],
+    "iconURL": [],
+    "idName": [],
+    "passwordName": [],
+    "Path2D": [],
+    "addPath": [],
+    "country": [],
+    "addressLine": [],
+    "city": [],
+    "dependentLocality": [],
+    "postalCode": [],
+    "sortingCode": [],
+    "languageCode": [],
+    "organization": [],
+    "recipient": [],
+    "phone": [],
+    "displayItems": [],
+    "shippingOptions": [],
+    "total": [],
+    "shippingAddressErrors": [],
+    "instruments": [],
+    "userHint": [],
+    "methodDetails": [],
+    "methodName": [],
+    "PaymentRequestEvent": [],
+    "instrumentKey": [],
+    "paymentRequestId": [],
+    "PaymentRequest": [],
+    "canMakePayment": [],
+    "onpaymentmethodchange": [],
+    "onshippingaddresschange": [],
+    "onshippingoptionchange": [],
+    "paymentAddress": [],
+    "requestId": [],
+    "shippingOption": [],
+    "shippingType": [],
+    "PaymentRequestUpdateEvent": [],
+    "updateWith": [],
+    "details": [],
+    "payerEmail": [],
+    "payerName": [],
+    "payerPhone": [],
+    "shippingAddress": [],
+    "entryType": [],
     "clearMarks": [],
     "clearMeasures": [],
     "clearResourceTimings": [],
@@ -2567,104 +3412,1302 @@
     "onresourcetimingbufferfull": [],
     "setResourceTimingBufferSize": [],
     "timeOrigin": [],
-    "timing": [
+    "timing": [],
+    "attribution": [],
+    "redirectCount": [],
+    "domComplete": [],
+    "domContentLoadedEventEnd": [],
+    "domContentLoadedEventStart": [],
+    "domInteractive": [],
+    "loadEventEnd": [],
+    "loadEventStart": [],
+    "unloadEventEnd": [],
+    "unloadEventStart": [],
+    "PerformanceObserver": [],
+    "connectEnd": [],
+    "connectStart": [],
+    "decodedBodySize": [],
+    "domainLookupEnd": [],
+    "domainLookupStart": [],
+    "encodedBodySize": [],
+    "fetchStart": [],
+    "initiatorType": [],
+    "nextHopProtocol": [],
+    "redirectEnd": [],
+    "redirectStart": [],
+    "requestStart": [],
+    "responseEnd": [],
+    "responseStart": [],
+    "secureConnectionStart": [],
+    "serverTiming": [],
+    "transferSize": [],
+    "workerStart": [],
+    "domLoading": [],
+    "navigationStart": [],
+    "PeriodicWave": [],
+    "fillLightMode": [],
+    "imageHeight": [],
+    "imageWidth": [],
+    "redEyeReduction": [],
+    "refresh": [],
+    "PointerEvent": [],
+    "pointerId": [],
+    "pressure": [],
+    "tangentialPressure": [],
+    "tiltX": [],
+    "tiltY": [],
+    "twist": [],
+    "pointerType": [],
+    "getCoalescedEvents": [],
+    "enableHighAccuracy": [],
+    "timeout": [],
+    "maximumAge": [],
+    "getImmediateState": [],
+    "resetSensor": [],
+    "PresentationConnectionAvailableEvent": [],
+    "PresentationConnectionCloseEvent": [],
+    "reason": [],
+    "binaryType": [],
+    "onconnect": [],
+    "onterminate": [],
+    "send": [],
+    "terminate": [],
+    "connections": [],
+    "onconnectionavailable": [],
+    "connectionList": [],
+    "PresentationRequest": [],
+    "reconnect": [],
+    "startWithDevice": [],
+    "ProgressEvent": [],
+    "lengthComputable": [],
+    "initProgressEvent": [],
+    "PromiseRejectionEvent": [],
+    "promise": [],
+    "attestation": [],
+    "authenticatorSelection": [],
+    "challenge": [],
+    "excludeCredentials": [],
+    "extensions": [],
+    "pubKeyCredParams": [],
+    "rp": [],
+    "user": [],
+    "rawId": [],
+    "response": [],
+    "getClientExtensionResults": [],
+    "isUserVerifyingPlatformAuthenticatorAvailable": [],
+    "Response": [],
+    "ok": [],
+    "redirected": [],
+    "statusText": [],
+    "useFinalURL": [],
+    "trailer": [],
+    "allowCredentials": [],
+    "rpId": [],
+    "userVerification": [],
+    "PushEvent": [],
+    "supportedContentEncodings": [],
+    "getSubscription": [],
+    "permissionState": [],
+    "subscribe": [],
+    "hasPermission": [],
+    "register": [],
+    "registrations": [],
+    "unregister": [],
+    "getRegistration": [],
+    "newSubscription": [],
+    "oldSubscription": [],
+    "endpoint": [],
+    "expirationTime": [],
+    "subscriptionId": [],
+    "unsubscribe": [],
+    "applicationServerKey": [],
+    "userVisibleOnly": [],
+    "Range": [],
+    "cloneContents": [],
+    "cloneRange": [],
+    "collapse": [],
+    "collapsed": [],
+    "commonAncestorContainer": [],
+    "compareBoundaryPoints": [],
+    "compareNode": [],
+    "comparePoint": [],
+    "createContextualFragment": [],
+    "deleteContents": [],
+    "endContainer": [],
+    "endOffset": [],
+    "extractContents": [],
+    "insertNode": [],
+    "intersectsNode": [],
+    "isPointInRange": [],
+    "selectNode": [],
+    "selectNodeContents": [],
+    "setEnd": [],
+    "setEndAfter": [],
+    "setEndBefore": [],
+    "setStart": [],
+    "setStartAfter": [],
+    "setStartBefore": [],
+    "startContainer": [],
+    "startOffset": [],
+    "surroundContents": [],
+    "ReadableByteStreamController": [],
+    "byobRequest": [],
+    "desiredSize": [],
+    "enqueue": [],
+    "ReadableStreamBYOBReader": [],
+    "releaseLock": [],
+    "ReadableStreamBYOBRequest": [],
+    "respond": [],
+    "respondWithNewView": [],
+    "view": [],
+    "ReadableStreamDefaultController": [],
+    "ReadableStreamDefaultReader": [],
+    "ReadableStream": [],
+    "locked": [],
+    "getReader": [],
+    "pipeThrough": [],
+    "pipeTo": [],
+    "tee": [],
+    "RelativeOrientationSensor": [],
+    "expires": [],
+    "getFingerprints": [],
+    "getSupportedAlgorithms": [],
+    "bundlePolicy": [],
+    "certificates": [],
+    "iceCandidatePoolSize": [],
+    "iceServers": [],
+    "iceTransportPolicy": [],
+    "peerIdentity": [],
+    "rtcpMuxPolicy": [],
+    "RTCDataChannelEvent": [],
+    "channel": [],
+    "bufferedAmount": [],
+    "bufferedAmountLowThreshold": [],
+    "maxPacketLifeTime": [],
+    "maxRetransmits": [],
+    "negotiated": [],
+    "ordered": [],
+    "onbufferedamountlow": [],
+    "priority": [],
+    "reliable": [],
+    "sctp-sdp-21": [],
+    "transport": [],
+    "getRemoteCertificates": [],
+    "toneBuffer": [],
+    "ontonechange": [],
+    "insertDTMF": [],
+    "canInsertDTMF": [],
+    "tone": [],
+    "RTCDTMFToneChangeEvent": [],
+    "candidate": [
         {
-            "depth": 21,
-            "width": 41,
-            "parent_depth": 21,
-            "parent_width": 39
+            "depth": 51,
+            "width": 0,
+            "parent_depth": 50,
+            "parent_width": 30
         },
         {
-            "depth": 21,
-            "width": 51,
-            "parent_depth": 21,
-            "parent_width": 49
+            "depth": 51,
+            "width": 2,
+            "parent_depth": 51,
+            "parent_width": 0
         },
         {
-            "depth": 21,
-            "width": 57,
-            "parent_depth": 21,
-            "parent_width": 33
+            "depth": 51,
+            "width": 6,
+            "parent_depth": 50,
+            "parent_width": 29
         }
     ],
-    "availHeight": [],
+    "sdpMid": [],
+    "sdpMLineIndex": [],
+    "usernameFragment": [],
+    "RTCIceCandidate": [],
+    "foundation": [],
+    "ip": [],
+    "relatedAddress": [],
+    "relatedPort": [],
+    "tcpType": [],
+    "component": [],
+    "credentialType": [],
+    "urls": [],
+    "gatheringState": [],
+    "ongatheringstatechange": [],
+    "onselectedcandidatepairchange": [],
+    "role": [],
+    "getLocalCandidates": [],
+    "getLocalParameters": [],
+    "getRemoteCandidates": [],
+    "getRemoteParameters": [],
+    "getSelectedCandidatePair": [],
+    "idp": [],
+    "loginUrl": [],
+    "assertion": [],
+    "rtcIdentityProvider": [],
+    "voiceActivityDetection": [],
+    "iceRestart": [],
+    "errorCode": [],
+    "errorText": [],
+    "hostCandidate": [],
+    "RTCPeerConnectionIceEvent": [],
+    "RTCPeerConnection": [
+        {
+            "depth": 52,
+            "width": 16,
+            "parent_depth": 52,
+            "parent_width": 12
+        },
+        {
+            "depth": 53,
+            "width": 9,
+            "parent_depth": 53,
+            "parent_width": 5
+        }
+    ],
+    "canTrickleIceCandidates": [],
+    "connectionState": [],
+    "currentLocalDescription": [],
+    "currentRemoteDescription": [],
+    "defaultIceServers": [],
+    "iceConnectionState": [],
+    "iceGatheringState": [],
+    "localDescription": [
+        {
+            "depth": 49,
+            "width": 25,
+            "parent_depth": 49,
+            "parent_width": 23
+        }
+    ],
+    "pendingLocalDescription": [],
+    "pendingRemoteDescription": [],
+    "remoteDescription": [],
+    "sctp": [],
+    "signalingState": [],
+    "onaddstream": [],
+    "onconnectionstatechange": [],
+    "ondatachannel": [],
+    "onicecandidate": [
+        {
+            "depth": 51,
+            "width": 10,
+            "parent_depth": 50,
+            "parent_width": 25
+        }
+    ],
+    "oniceconnectionstatechange": [],
+    "onicegatheringstatechange": [],
+    "onidentityresult": [],
+    "onidpassertionerror": [],
+    "onidpvalidationerror": [],
+    "onnegotiationneeded": [],
+    "onpeeridentity": [],
+    "onremovestream": [],
+    "onsignalingstatechange": [],
+    "ontrack": [],
+    "addIceCandidate": [],
+    "addStream": [],
+    "addTransceiver": [],
+    "createAnswer": [],
+    "createDataChannel": [
+        {
+            "depth": 50,
+            "width": 21,
+            "parent_depth": 50,
+            "parent_width": 19
+        }
+    ],
+    "createOffer": [
+        {
+            "depth": 50,
+            "width": 15,
+            "parent_depth": 49,
+            "parent_width": 30
+        }
+    ],
+    "generateCertificate": [],
+    "getIdentityAssertion": [],
+    "getLocalStreams": [],
+    "getReceivers": [],
+    "getRemoteStreams": [],
+    "getSenders": [],
+    "getStreamById": [],
+    "removeStream": [],
+    "setConfiguration": [],
+    "setIdentityProvider": [],
+    "setLocalDescription": [
+        {
+            "depth": 50,
+            "width": 11,
+            "parent_depth": 50,
+            "parent_width": 5
+        }
+    ],
+    "setRemoteDescription": [],
+    "createDTMFSender": [],
+    "onicecandidateerror": [],
+    "getDefaultIceServers": [],
+    "audioLevel": [],
+    "rtcpTransport": [],
+    "getParameters": [],
+    "getContributingSources": [],
+    "getSynchronizationSources": [],
+    "getStats": [],
+    "dtmf": [],
+    "replaceTrack": [],
+    "setParameters": [],
+    "codecId": [],
+    "firCount": [],
+    "isRemote": [],
+    "mediaTrackId": [],
+    "mediaType": [],
+    "nackCount": [],
+    "pliCount": [],
+    "qpSum": [],
+    "remoteId": [],
+    "sliCount": [],
+    "ssrc": [],
+    "transportId": [],
+    "voiceActivityFlag": [],
+    "sendEncodings": [],
+    "streams": [],
+    "currentDirection": [],
+    "mid": [],
+    "sender": [],
+    "stopped": [],
+    "setCodecPreferences": [],
+    "maxMessageSize": [],
+    "sdp": [
+        {
+            "depth": 49,
+            "width": 23,
+            "parent_depth": 49,
+            "parent_width": 21
+        }
+    ],
+    "RTCSessionDescription": [],
+    "report": [],
+    "transceiver": [],
+    "availHeight": [
+        {
+            "depth": 25,
+            "width": 16,
+            "parent_depth": 25,
+            "parent_width": 15
+        }
+    ],
     "availLeft": [],
     "availTop": [],
-    "availWidth": [],
-    "colorDepth": [
+    "availWidth": [
         {
-            "depth": 166,
-            "width": 5,
-            "parent_depth": 166,
-            "parent_width": 4
-        },
-        {
-            "depth": 177,
-            "width": 10,
-            "parent_depth": 177,
-            "parent_width": 9
+            "depth": 25,
+            "width": 22,
+            "parent_depth": 25,
+            "parent_width": 21
         }
     ],
-    "left": [],
+    "colorDepth": [
+        {
+            "depth": 26,
+            "width": 32,
+            "parent_depth": 26,
+            "parent_width": 30
+        }
+    ],
     "lockOrientation": [],
     "mozBrightness": [],
     "mozEnabled": [],
     "onorientationchange": [],
-    "pixelDepth": [],
+    "pixelDepth": [
+        {
+            "depth": 26,
+            "width": 27,
+            "parent_depth": 26,
+            "parent_width": 26
+        }
+    ],
     "unlockOrientation": [],
-    "cancel": [],
+    "bufferSize": [],
+    "onaudioprocess": [
+        {
+            "depth": 125,
+            "width": 1,
+            "parent_depth": 122,
+            "parent_width": 9
+        }
+    ],
+    "SecurityPolicyViolationEvent": [],
+    "blockedURI": [],
+    "columnNumber": [],
+    "disposition": [],
+    "effectiveDirective": [],
+    "lineNumber": [],
+    "originalPolicy": [],
+    "sample": [],
+    "sourceFile": [],
+    "statusCode": [],
+    "violatedDirective": [],
+    "addRange": [],
+    "anchorNode": [],
+    "anchorOffset": [],
+    "collapseToStart": [],
+    "collapseToEnd": [],
+    "containsNode": [],
+    "deleteFromDocument": [],
+    "empty": [],
+    "extend": [],
+    "focusNode": [],
+    "focusOffset": [],
+    "getRangeAt": [],
+    "isCollapsed": [],
+    "modify": [],
+    "rangeCount": [],
+    "removeRange": [],
+    "removeAllRanges": [],
+    "selectAllChildren": [],
+    "setBaseAndExtent": [],
+    "SensorErrorEvent": [],
+    "activated": [],
+    "hasReading": [],
+    "onactivate": [],
+    "onreading": [],
+    "oncontrollerchange": [],
+    "getRegistrations": [],
+    "startMessages": [],
+    "clients": [],
+    "caches": [],
+    "onabortpayment": [],
+    "oncanmakepayment": [],
+    "onfetch": [],
+    "oninstall": [],
+    "onnotificationclick": [],
+    "onnotificationclose": [],
+    "onpaymentrequest": [],
+    "onpush": [],
+    "onpushsubscriptionchange": [],
+    "onsync": [],
+    "registration": [],
+    "skipWaiting": [],
+    "ServiceWorkerMessageEvent": [],
+    "getNotifications": [],
+    "installing": [],
+    "onupdatefound": [],
+    "paymentManager": [],
+    "periodicSync": [],
+    "pushManager": [],
+    "showNotification": [],
+    "sync": [],
+    "updateViaCache": [],
+    "waiting": [],
+    "applicationCache": [],
+    "SharedWorker": [],
+    "SourceBuffer": [],
+    "onaddsourcebuffer": [],
+    "onremovesourcebuffer": [],
+    "SpeechGrammar": [],
+    "SpeechGrammarList": [],
+    "addFromString": [],
+    "addFromURI": [],
+    "confidence": [],
+    "transcript": [],
+    "emma": [],
+    "interpretation": [],
+    "resultIndex": [],
+    "results": [],
+    "SpeechRecognition": [],
+    "continuous": [],
+    "grammars": [],
+    "interimResults": [],
+    "maxAlternatives": [],
+    "onaudioend": [],
+    "onaudiostart": [],
+    "onend": [],
+    "onnomatch": [],
+    "onresult": [],
+    "onsoundend": [],
+    "onsoundstart": [],
+    "onspeechend": [],
+    "onspeechstart": [],
+    "serviceURI": [],
+    "isFinal": [],
+    "charIndex": [],
+    "utterance": [],
     "getVoices": [],
     "onvoiceschanged": [],
-    "pause": [],
-    "paused": [],
-    "pending": [],
-    "resume": [],
     "speak": [],
     "speaking": [],
-    "offsetLeft": [],
-    "offsetTop": [],
-    "onresize": [],
-    "onscroll": [],
+    "SpeechSynthesisUtterance": [],
+    "onboundary": [],
+    "onmark": [],
+    "pitch": [],
+    "rate": [],
+    "voice": [],
+    "localService": [],
+    "voiceURI": [],
+    "StaticRange": [],
+    "toRange": [],
+    "StereoPannerNode": [],
+    "pan": [],
+    "quota": [],
+    "usage": [],
+    "StorageEvent": [],
+    "initStorageEvent": [],
+    "newValue": [],
+    "oldValue": [],
+    "storageArea": [],
+    "estimate": [],
+    "persist": [],
+    "queryInfo": [],
+    "requestPersistentQuota": [],
+    "ownerNode": [],
+    "encrypt": [],
+    "decrypt": [],
+    "sign": [],
+    "verify": [],
+    "digest": [],
+    "generateKey": [],
+    "deriveKey": [],
+    "deriveBits": [],
+    "importKey": [],
+    "exportKey": [],
+    "wrapKey": [],
+    "unwrapKey": [],
+    "ping": [],
+    "glyphRef": [],
+    "format": [],
+    "animVal": [],
+    "baseVal": [],
+    "onbegin": [],
+    "onrepeat": [],
+    "targetElement": [],
+    "cx": [],
+    "cy": [],
+    "r": [],
+    "clipPathUnits": [],
+    "rx": [],
+    "ry": [],
+    "in1": [],
+    "supportOtherThanPath": [],
+    "pathLength": [],
+    "isPointInFill": [],
+    "getTotalLength": [],
+    "getPointAtLength": [],
+    "getBBox": [],
+    "getCTM": [],
+    "getScreenCTM": [],
+    "preserveAspectRatio": [],
+    "x1": [],
+    "y1": [],
+    "x2": [],
+    "y2": [],
+    "maskUnits": [],
+    "maskContentUnits": [],
+    "createSVGPathSegArcAbs": [],
+    "createSVGPathSegArcRel": [],
+    "createSVGPathSegClosePath": [],
+    "createSVGPathSegCurvetoCubicAbs": [],
+    "createSVGPathSegCurvetoCubicRel": [],
+    "createSVGPathSegCurvetoCubicSmoothAbs": [],
+    "createSVGPathSegCurvetoCubicSmoothRel": [],
+    "createSVGPathSegCurvetoQuadraticAbs": [],
+    "createSVGPathSegCurvetoQuadraticRel": [],
+    "createSVGPathSegCurvetoQuadraticSmoothAbs": [],
+    "createSVGPathSegCurvetoQuadraticSmoothRel": [],
+    "createSVGPathSegLinetoAbs": [],
+    "createSVGPathSegLinetoRel": [],
+    "createSVGPathSegLinetoHorizontalAbs": [],
+    "createSVGPathSegLinetoHorizontalRel": [],
+    "createSVGPathSegLinetoVerticalAbs": [],
+    "createSVGPathSegLinetoVerticalRel": [],
+    "createSVGPathSegMovetoAbs": [],
+    "createSVGPathSegMovetoRel": [],
+    "getPathSegAtLength": [],
+    "patternContentUnits": [],
+    "patternTransform": [],
+    "patternUnits": [],
+    "animationsPaused": [],
+    "checkEnclosure": [],
+    "checkIntersection": [],
+    "contentScriptType": [],
+    "contentStyleType": [],
+    "createSVGAngle": [],
+    "createSVGLength": [],
+    "createSVGMatrix": [],
+    "createSVGNumber": [],
+    "createSVGPoint": [],
+    "createSVGRect": [],
+    "createSVGTransform": [],
+    "createSVGTransformFromMatrix": [],
+    "currentScale": [],
+    "currentTranslate": [],
+    "currentView": [],
+    "deselectAll": [],
+    "forceRedraw": [],
+    "getCurrentTime": [],
+    "getEnclosureList": [],
+    "getIntersectionList": [],
+    "pauseAnimations": [],
+    "pixelUnitToMillimeterX": [],
+    "pixelUnitToMillimeterY": [],
+    "screenPixelToMillimeterX": [],
+    "screenPixelToMillimeterY": [],
+    "setCurrentTime": [],
+    "suspendRedraw": [],
+    "unpauseAnimations": [],
+    "unsuspendRedraw": [],
+    "unsuspendRedrawAll": [],
+    "useCurrentView": [],
+    "viewport": [],
+    "hasextension": [],
+    "requiredFeatures": [],
+    "lengthAdjust": [],
+    "getCharNumAtPosition": [],
+    "getComputedTextLength": [],
+    "getEndPositionOfChar": [],
+    "getExtentOfChar": [],
+    "getNumberOfChars": [],
+    "getRotationOfChar": [],
+    "getStartPositionOfChar": [],
+    "getSubStringLength": [],
+    "selectSubString": [],
+    "spacing": [],
+    "dx": [],
+    "dy": [],
+    "animatedInstanceRoot": [],
+    "instanceRoot": [],
+    "viewtarget": [],
+    "SyncEvent": [],
+    "lastChance": [],
+    "getTags": [],
+    "containerId": [],
+    "containerName": [],
+    "containerSrc": [],
+    "containerType": [],
+    "TextDecoder": [],
+    "decode": [],
+    "fatal": [],
+    "ignoreBOM": [],
+    "TextEncoder": [],
+    "encode": [],
+    "advanced_text_metrics": [],
+    "activeCues": [],
+    "cues": [],
+    "inBandMetadataTrackDispatchType": [],
+    "addCue": [],
+    "removeCue": [],
+    "end": [],
+    "TouchEvent": [],
+    "changedTouches": [],
+    "targetTouches": [],
+    "touches": [],
+    "Touch": [],
+    "force": [],
+    "identifier": [],
+    "radiusX": [],
+    "radiusY": [],
+    "rotationAngle": [],
+    "identifiedTouch": [],
+    "TrackDefault": [],
+    "byteStreamTrackID": [],
+    "kinds": [],
+    "TrackDefaultList": [],
+    "TransitionEvent": [],
+    "propertyName": [],
+    "initTransitionEvent": [],
+    "currentNode": [],
+    "UIEvent": [],
+    "initUIEvent": [],
+    "isChar": [],
+    "layerX": [],
+    "layerY": [],
+    "sourceCapabilities": [],
+    "URLSearchParams": [],
+    "sort": [],
+    "USBAlternateInterface": [],
+    "alternateSetting": [],
+    "interfaceClass": [],
+    "interfaceSubclass": [],
+    "interfaceProtocol": [],
+    "interfaceName": [],
+    "endpoints": [],
+    "USBConfiguration": [],
+    "configurationValue": [],
+    "configurationName": [],
+    "interfaces": [],
+    "usbVersionMajor": [],
+    "usbVersionMinor": [],
+    "usbVersionSubminor": [],
+    "deviceSubclass": [],
+    "deviceProtocol": [],
+    "vendorId": [],
+    "productId": [],
+    "deviceVersionMajor": [],
+    "deviceVersionMinor": [],
+    "deviceVersionSubminor": [],
+    "manufacturerName": [],
+    "productName": [],
+    "serialNumber": [],
+    "configuration": [],
+    "configurations": [],
+    "opened": [],
+    "selectConfiguration": [],
+    "claimInterface": [],
+    "releaseInterface": [],
+    "selectAlternateInterface": [],
+    "controlTransferIn": [],
+    "controlTransferOut": [],
+    "clearHalt": [],
+    "transferIn": [],
+    "transferOut": [],
+    "isochronousTransferIn": [],
+    "isochronousTransferOut": [],
+    "USBEndpoint": [],
+    "endpointNumber": [],
+    "packetSize": [],
+    "USBInterface": [],
+    "interfaceNumber": [],
+    "alternate": [],
+    "alternates": [],
+    "claimed": [],
+    "USBInTransferResult": [],
+    "USBIsochronousInTransferPacket": [],
+    "USBIsochronousInTransferResult": [],
+    "packets": [],
+    "USBIsochronousOutTransferPacket": [],
+    "bytesWritten": [],
+    "USBIsochronousOutTransferResult": [],
+    "ondisconnect": [],
+    "getDevices": [],
+    "USBOutTransferResult": [],
+    "devices": [],
+    "handle": [],
+    "near": [],
+    "badInput": [],
+    "tooLong": [],
+    "creationTime": [],
+    "droppedVideoFrames": [],
+    "corruptedVideoFrames": [],
+    "totalVideoFrames": [],
+    "totalFrameDelay": [],
     "pageLeft": [],
     "pageTop": [],
-    "scale": [],
-    "appCodeName": [],
-    "appName": [],
-    "appVersion": [],
-    "platform": [
+    "canPresent": [],
+    "hasExternalDisplay": [],
+    "maxLayers": [],
+    "VRDisplayEvent": [],
+    "cancelAnimationFrame": [],
+    "capabilities": [],
+    "depthFar": [],
+    "depthNear": [],
+    "displayName": [],
+    "exitPresent": [],
+    "getFrameData": [],
+    "getLayers": [],
+    "getImmediatePose": [],
+    "getPose": [],
+    "hardwareUnitId": [],
+    "isPresenting": [],
+    "requestAnimationFrame": [],
+    "resetPose": [],
+    "requestPresent": [],
+    "stageParameters": [],
+    "submitFrame": [],
+    "fieldOfView": [],
+    "maximumFieldOfView": [],
+    "minimumFieldOfView": [],
+    "recommendedFieldOfView": [],
+    "renderHeight": [],
+    "renderRect": [],
+    "renderWidth": [],
+    "VRFieldOfView": [],
+    "downDegrees": [],
+    "leftDegrees": [],
+    "rightDegrees": [],
+    "upDegrees": [],
+    "VRFrameData": [],
+    "leftProjectionMatrix": [],
+    "leftViewMatrix": [],
+    "rightProjectionMatrix": [],
+    "rightViewMatrix": [],
+    "leftBounds": [],
+    "rightBounds": [],
+    "sittingToStandingTransform": [],
+    "sizeX": [],
+    "sizeY": [],
+    "VTTCue": [],
+    "getCueAsHTML": [],
+    "line": [],
+    "lineAlign": [],
+    "positionAlign": [],
+    "snapToLines": [],
+    "vertical": [],
+    "WaveShaperNode": [],
+    "curve": [],
+    "oversample": [],
+    "getAssertion": [],
+    "makeCredential": [],
+    "beginQuery": [],
+    "beginTransformFeedback": [],
+    "bindBufferBase": [],
+    "bindBufferRange": [],
+    "bindSampler": [],
+    "bindTransformFeedback": [],
+    "bindVertexArray": [],
+    "blitFramebuffer": [],
+    "bufferSubData": [],
+    "clearBufferfi": [],
+    "clearBufferfv": [],
+    "clearBufferiv": [],
+    "clearBufferuiv": [],
+    "clientWaitSync": [],
+    "compressedTexImage3D": [],
+    "compressedTexSubImage3D": [],
+    "copyBufferSubData": [],
+    "copyTexSubImage3D": [],
+    "createQuery": [],
+    "createSampler": [],
+    "createTransformFeedback": [],
+    "createVertexArray": [],
+    "deleteQuery": [],
+    "deleteSampler": [],
+    "deleteSync": [],
+    "deleteTransformFeedback": [],
+    "deleteVertexArray": [],
+    "drawArraysInstanced": [],
+    "drawBuffers": [],
+    "drawElementsInstanced": [],
+    "drawRangeElements": [],
+    "endQuery": [],
+    "endTransformFeedback": [],
+    "fenceSync": [],
+    "framebufferTextureLayer": [],
+    "getActiveUniformBlockName": [],
+    "getActiveUniformBlockParameter": [],
+    "getActiveUniforms": [],
+    "getBufferSubData": [],
+    "getFragDataLocation": [],
+    "getInternalformatParameter": [],
+    "getQuery": [],
+    "getQueryParameter": [],
+    "getSamplerParameter": [],
+    "getSyncParameter": [],
+    "getTransformFeedbackVarying": [],
+    "getUniformBlockIndex": [],
+    "getUniformIndices": [],
+    "getIndexedParameter": [],
+    "invalidateFramebuffer": [],
+    "invalidateSubFramebuffer": [],
+    "isQuery": [],
+    "isSampler": [],
+    "isSync": [],
+    "isTransformFeedback": [],
+    "isVertexArray": [],
+    "pauseTransformFeedback": [],
+    "readBuffer": [],
+    "renderbufferStorageMultisample": [],
+    "resumeTransformFeedback": [],
+    "samplerParameteri": [],
+    "samplerParameterf": [],
+    "texImage3D": [],
+    "texStorage2D": [],
+    "texStorage3D": [],
+    "texSubImage3D": [],
+    "transformFeedbackVaryings": [],
+    "uniform1uiv": [],
+    "uniform1ui": [],
+    "uniform1i": [],
+    "uniform1f": [],
+    "uniform2uiv": [],
+    "uniform2ui": [],
+    "uniform2i": [],
+    "uniform2f": [],
+    "uniform3uiv": [],
+    "uniform3ui": [],
+    "uniform3i": [],
+    "uniform3f": [],
+    "uniform4uiv": [],
+    "uniform4ui": [],
+    "uniform4i": [],
+    "uniform4f": [],
+    "uniformBlockBinding": [],
+    "uniformMatrix2fv": [],
+    "uniformMatrix2x3fv": [],
+    "uniformMatrix2x4fv": [],
+    "uniformMatrix3fv": [],
+    "uniformMatrix3x2fv": [],
+    "uniformMatrix3x4fv": [],
+    "uniformMatrix4fv": [],
+    "uniformMatrix4x2fv": [],
+    "uniformMatrix4x3fv": [],
+    "vertexAttribDivisor": [],
+    "vertexAttribI4i": [],
+    "vertexAttribI4iv": [],
+    "vertexAttribI4ui": [],
+    "vertexAttribI4uiv": [],
+    "vertexAttribIPointer": [],
+    "waitSync": [],
+    "RGB32F_EXT": [],
+    "getSupportedProfiles": [],
+    "statusMessage": [],
+    "getTranslatedShaderSource": [],
+    "drawBuffersWEBGL": [],
+    "loseContext": [],
+    "restoreContext": [],
+    "activeTexture": [],
+    "attachShader": [],
+    "bindAttribLocation": [],
+    "bindBuffer": [],
+    "bindFramebuffer": [],
+    "bindRenderbuffer": [],
+    "bindTexture": [],
+    "blendColor": [],
+    "blendEquation": [],
+    "blendEquationSeparate": [],
+    "blendFunc": [],
+    "blendFuncSeparate": [],
+    "bufferData": [],
+    "checkFramebufferStatus": [],
+    "clearColor": [],
+    "clearDepth": [],
+    "clearStencil": [],
+    "colorMask": [],
+    "commit": [],
+    "compileShader": [],
+    "compressedTexImage2D": [],
+    "compressedTexSubImage2D": [],
+    "copyTexImage2D": [],
+    "copyTexSubImage2D": [],
+    "createFramebuffer": [],
+    "createProgram": [],
+    "createRenderbuffer": [],
+    "createShader": [],
+    "createTexture": [],
+    "cullFace": [],
+    "deleteBuffer": [],
+    "deleteFramebuffer": [],
+    "deleteProgram": [],
+    "deleteRenderbuffer": [],
+    "deleteShader": [],
+    "deleteTexture": [],
+    "depthFunc": [],
+    "depthMask": [],
+    "depthRange": [],
+    "detachShader": [],
+    "disableVertexAttribArray": [],
+    "drawArrays": [],
+    "drawElements": [],
+    "drawingBufferHeight": [],
+    "drawingBufferWidth": [],
+    "enableVertexAttribArray": [],
+    "flush": [],
+    "framebufferRenderbuffer": [],
+    "framebufferTexture2D": [],
+    "frontFace": [],
+    "generateMipmap": [],
+    "getActiveAttrib": [],
+    "getActiveUniform": [],
+    "getAttachedShaders": [],
+    "getAttribLocation": [],
+    "getBufferParameter": [],
+    "getContextAttributes": [],
+    "getError": [],
+    "getExtension": [
         {
-            "depth": 28,
-            "width": 77,
-            "parent_depth": 28,
-            "parent_width": 75
+            "depth": 42,
+            "width": 33,
+            "parent_depth": 42,
+            "parent_width": 31
+        }
+    ],
+    "getFramebufferAttachmentParameter": [],
+    "getProgramInfoLog": [],
+    "getProgramParameter": [],
+    "getRenderbufferParameter": [],
+    "getShaderInfoLog": [],
+    "getShaderParameter": [],
+    "getShaderPrecisionFormat": [
+        {
+            "depth": 145,
+            "width": 20,
+            "parent_depth": 145,
+            "parent_width": 13
+        }
+    ],
+    "getShaderSource": [],
+    "getSupportedExtensions": [],
+    "getTexParameter": [],
+    "getUniform": [],
+    "getUniformLocation": [],
+    "getVertexAttrib": [],
+    "getVertexAttribOffset": [],
+    "hint": [],
+    "isBuffer": [],
+    "isContextLost": [],
+    "isEnabled": [],
+    "isFramebuffer": [],
+    "isProgram": [],
+    "isRenderbuffer": [],
+    "isShader": [],
+    "isTexture": [],
+    "linkProgram": [],
+    "pixelStorei": [],
+    "polygonOffset": [],
+    "readPixels": [],
+    "renderbufferStorage": [],
+    "sampleCoverage": [],
+    "scissor": [],
+    "shaderSource": [],
+    "stencilFunc": [],
+    "stencilFuncSeparate": [],
+    "stencilMask": [],
+    "stencilMaskSeparate": [],
+    "stencilOp": [],
+    "stencilOpSeparate": [],
+    "texImage2D": [],
+    "texParameterf": [],
+    "texParameteri": [],
+    "texSubImage2D": [],
+    "uniform1fv": [],
+    "uniform1iv": [],
+    "uniform2fv": [],
+    "uniform2iv": [],
+    "uniform3fv": [],
+    "uniform3iv": [],
+    "uniform4fv": [],
+    "uniform4iv": [],
+    "useProgram": [],
+    "validateProgram": [],
+    "vertexAttrib1f": [],
+    "vertexAttrib1fv": [],
+    "vertexAttrib2f": [],
+    "vertexAttrib2fv": [],
+    "vertexAttrib3f": [],
+    "vertexAttrib3fv": [],
+    "vertexAttrib4f": [],
+    "vertexAttrib4fv": [],
+    "vertexAttribPointer": [],
+    "rangeMin": [
+        {
+            "depth": 144,
+            "width": 11,
+            "parent_depth": 144,
+            "parent_width": 10
+        }
+    ],
+    "rangeMax": [
+        {
+            "depth": 144,
+            "width": 5,
+            "parent_depth": 144,
+            "parent_width": 4
+        }
+    ],
+    "precision": [
+        {
+            "depth": 145,
+            "width": 0,
+            "parent_depth": 144,
+            "parent_width": 16
+        }
+    ],
+    "WebSocket": [],
+    "pinch-to-zoom_support": [],
+    "WheelEvent": [],
+    "deltaMode": [],
+    "deltaX": [],
+    "deltaY": [],
+    "deltaZ": [],
+    "navigate": [],
+    "focused": [],
+    "ancestorOrigins": [],
+    "onafterprint": [],
+    "onbeforeprint": [],
+    "onbeforeunload": [],
+    "onhashchange": [],
+    "onlanguagechange": [],
+    "onpopstate": [],
+    "onrejectionhandled": [],
+    "onunhandledrejection": [],
+    "onunload": [],
+    "alert": [],
+    "confirm": [],
+    "cancelIdleCallback": [],
+    "clearImmediate": [],
+    "ondevicelight": [],
+    "convertPointFromNodeToPage": [],
+    "convertPointFromPageToNode": [],
+    "ondeviceorientationabsolute": [],
+    "ondeviceproximity": [],
+    "ongamepadconnected": [],
+    "ongamepaddisconnected": [],
+    "onpaint": [],
+    "onuserproximity": [],
+    "onvrdisplayactivate": [],
+    "onvrdisplayblur": [],
+    "onvrdisplayconnect": [],
+    "onvrdisplaydeactivate": [],
+    "onvrdisplaydisconnect": [],
+    "onvrdisplayfocus": [],
+    "onvrdisplaypresentchange": [],
+    "crypto": [],
+    "customElements": [],
+    "devicePixelRatio": [
+        {
+            "depth": 26,
+            "width": 4,
+            "parent_depth": 26,
+            "parent_width": 0
         },
         {
-            "depth": 45,
-            "width": 25,
-            "parent_depth": 45,
+            "depth": 26,
+            "width": 18,
+            "parent_depth": 26,
+            "parent_width": 14
+        }
+    ],
+    "dialogArguments": [],
+    "document": [],
+    "frameElement": [],
+    "frames": [],
+    "fullScreen": [],
+    "getAttention": [],
+    "getAttentionWithCycleCount": [],
+    "getComputedStyle": [],
+    "getDefaultComputedStyle": [],
+    "globalStorage": [],
+    "history": [],
+    "home": [],
+    "innerHeight": [],
+    "innerWidth": [],
+    "isSecureContext": [],
+    "localStorage": [
+        {
+            "depth": 23,
+            "width": 26,
+            "parent_depth": 23,
             "parent_width": 23
         }
     ],
-    "product": [],
-    "taintEnabled": [],
-    "userAgent": [
+    "locationbar": [],
+    "matchMedia": [],
+    "maximize": [],
+    "menubar": [],
+    "minimize": [],
+    "moveBy": [],
+    "mozAnimationStartTime": [],
+    "mozInnerScreenX": [],
+    "mozInnerScreenY": [],
+    "mozPaintCount": [],
+    "navigator": [],
+    "onappinstalled": [],
+    "onbeforeinstallprompt": [],
+    "ondevicemotion": [],
+    "ondeviceorientation": [],
+    "openDialog": [],
+    "opener": [],
+    "outerHeight": [],
+    "outerWidth": [],
+    "pageXOffset": [],
+    "pageYOffset": [],
+    "parent": [],
+    "performance": [],
+    "personalbar": [],
+    "pkcs11": [],
+    "print": [],
+    "requestIdleCallback": [],
+    "resizeBy": [],
+    "resizeTo": [],
+    "screen": [
         {
-            "depth": 29,
-            "width": 3,
-            "parent_depth": 29,
-            "parent_width": 1
-        },
-        {
-            "depth": 53,
-            "width": 5,
-            "parent_depth": 53,
-            "parent_width": 4
-        },
-        {
-            "depth": 177,
-            "width": 19,
-            "parent_depth": 176,
-            "parent_width": 32
+            "depth": 27,
+            "width": 1,
+            "parent_depth": 27,
+            "parent_width": 0
         }
-    ]
+    ],
+    "scroll": [],
+    "scrollbars": [],
+    "scrollBy": [],
+    "scrollByLines": [],
+    "scrollByPages": [],
+    "scrollMaxX": [],
+    "scrollMaxY": [],
+    "scrollTo": [],
+    "scrollX": [],
+    "scrollY": [],
+    "self": [],
+    "sessionStorage": [
+        {
+            "depth": 23,
+            "width": 17,
+            "parent_depth": 23,
+            "parent_width": 14
+        }
+    ],
+    "setCursor": [],
+    "setImmediate": [],
+    "setResizable": [],
+    "showModalDialog": [],
+    "sidebar": [],
+    "sizeToContent": [],
+    "speechSynthesis": [],
+    "statusbar": [],
+    "toolbar": [],
+    "updateCommands": [],
+    "visualViewport": [],
+    "window": [],
+    "atob": [],
+    "btoa": [],
+    "clearInterval": [],
+    "clearTimeout": [],
+    "createImageBitmap": [],
+    "fetch": [],
+    "indexedDB": [],
+    "setInterval": [],
+    "setTimeout": [
+        {
+            "depth": 12,
+            "width": 16,
+            "parent_depth": 5,
+            "parent_width": 12
+        },
+        {
+            "depth": 12,
+            "width": 39,
+            "parent_depth": 5,
+            "parent_width": 7
+        }
+    ],
+    "onoffline": [],
+    "ononline": [],
+    "console": [],
+    "dump": [],
+    "importScripts": [],
+    "Worker": [],
+    "addModule": [],
+    "WritableStreamDefaultController": [],
+    "WritableStreamDefaultWriter": [],
+    "WritableStream": [],
+    "getWriter": [],
+    "ontimeout": [],
+    "responseText": [],
+    "responseType": [],
+    "responseURL": [],
+    "responseXML": [],
+    "upload": [],
+    "getAllResponseHeaders": [],
+    "getResponseHeader": [],
+    "overrideMimeType": [],
+    "sendAsBinary": [],
+    "setRequestHeader": [],
+    "serializeToStream": [],
+    "invalidIteratorState": [],
+    "iterateNext": [],
+    "resultType": [],
+    "snapshotItem": [],
+    "importStylesheet": [],
+    "transformToFragment": [],
+    "transformToDocument": [],
+    "removeParameter": [],
+    "clearParameters": []
 }
