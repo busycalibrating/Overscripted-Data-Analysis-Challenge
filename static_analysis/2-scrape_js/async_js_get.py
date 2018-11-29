@@ -28,6 +28,7 @@ from pypeln import asyncio_task as aio
 # Max number of workers
 limit = 20
 
+# Not sure what this monkey business does
 ssl.match_hostname = lambda cert, hostname: True
 
 # Parent directories
@@ -91,7 +92,19 @@ async def fetch(data, session):
         print(e)
         return e
 
+    except ssl.SSLError as e:
+        print(e)
+        return e
+
     except ValueError as e:
+        print(e)
+        return e
+
+    except TimeoutError as e:
+        print(e)
+        return e
+
+    except concurrent.futures._base.TimeoutError as e:
         print(e)
         return e
 
