@@ -97,22 +97,37 @@ class Element:
 
         # storage for the data
         symbol_counter          = {key: 0 for key in api_symbols}
+        extended_symbol_counter = {}
         node_dict               = {key: [] for key in api_symbols}
 
         while len(queue) > 0:           # While stuff in the queue
-            node = queue.pop()          # Pop stuff off of it
+            node = queue.pop(0)          # Pop stuff off of the FRONT (0)
             this_depth_num_nodes -= 1   #TODO: reduce how many left
             node_counter += 1           #TODO: increment counter
             width = node_counter - this_depth_count - 1
 
             for v in self._visitors:    # Run visitor instances here
-                if v.visit(node):
-                    print("\t-> node count: {}; width: {}".format(node_counter, width))
-                    symbol_counter[node.property.name] += 1 # increment counter
-                    this_node = SymbolNode(depth, width, node.parent_depth, node.parent_width)
-                    node_dict[node.property.name].append(this_node)
-                    break # TODO: Not sure why this is double counting
+                result = v.visit(node, api_symbols)
+                if result:
 
+                    if result not in extended_symbol_counter.keys():
+                        extended_symbol_counter[result] = 1;
+                    else:
+                        extended_symbol_counter[result] += 1;
+
+                    print("\t-> Node counter: {}; width: {}".format(node_counter, width))
+                    #MemberExpression
+                    if 'MemberExpression' == node.type:
+                        tmp = node.property.name
+
+                    # CallExpression
+                    if 'CallExpression' == node.type:
+                        tmp = node.callee.name
+
+                    symbol_counter[tmp] += 1 # increment counter
+                    this_node = SymbolNode(depth, width, node.parent_depth, node.parent_width)
+                    node_dict[tmp].append(this_node)
+                    break # TODO: Not sure why this is double counting
 
 
             # If node is an instance of "esprima node", step through the node
@@ -122,13 +137,18 @@ class Element:
                 # Feed the nodes that will be labeled as children the current
                 #   depth and width
                 next_depth_num_nodes += self._step(node, queue, depth, width)
-                print("{} : {}".format(this_depth_num_nodes,
-                    next_depth_num_nodes))
+                print("{} : {}".format(this_depth_num_nodes, next_depth_num_nodes))
 
-                if (node.type == "MemberExpression"):
+                #if (node.type == "MemberExpression"):
+                try:
                     print("---> {} = {}".format(node.property.type, node.property.name))
+                except AttributeError as e:
+                    pass
 
-
+                try:
+                    print("---> {} = {}".format(node.callee.type, node.property.name))
+                except AttributeError as e:
+                    pass
 
 
             #TODO: Depth seemingly not working properly?
@@ -144,7 +164,7 @@ class Element:
                 print("\n-------------------- Depth: {};\t Current: {};\t Width: {}\n\n".format(
                     depth, this_depth_count, this_depth_num_nodes))
 
-        return symbol_counter, node_dict
+        return symbol_counter, extended_symbol_counter, node_dict
 
 
 ################################################################################
@@ -162,27 +182,117 @@ Attributes:
 class MatchPropertyVisitor:
 
     ## Constructor
-    def __init__(self, property_name, node_handler):
-        self._property_name = property_name
-        self._node_handler = node_handler
+    def __init__(self, property_name, memb_expr_handler, call_expr_handler):
+        self._property_name = property_name # userAgent, getContext, etc
+        self._memb_expr_handler = memb_expr_handler #TODO: delete
+        self._call_expr_handler = call_expr_handler #TODO: delete
 
-    ## Visit the nodes, check if matches, and execute handler if it does
-    def visit(self, node):
-        if 'MemberExpression' == node.type and \
-                node.property.type == 'Identifier' and \
-                node.property.name == self._property_name:
-            self._node_handler(node)
+    ##################################################
+    def _recursive_check_objects(self, node, api_symbols):
 
-            return True
+        if node.object:
+            tmp = self._recurrance_visit(node.object, api_symbols)
+            print("\t\t\t\t\t\t\t{}".format(node.object.type))
+            print(tmp)
+            return tmp
+
+        else:
+            print("\t\t\t\t\t\t\tNO OBJECT FOUND!")
+
         return False
 
+    ## Visit the nodes, check if matches, and execute handler if it does
+    def _recurrance_visit(self, node, api_symbols):
+        #property_full_name = property_name # to deal with namespace stuff
 
-def node_handler(n):
+        # No more objects to look through
+        if 'Identifier' == node.type:
+            if node.name in api_symbols:
+                return node.name
+
+        # MemberExpression; maybe more objects
+        elif 'MemberExpression' == node.type:
+            if node.property.name in api_symbols:
+                self._memb_expr_handler(node)
+
+                print("LALALALALALA")
+                return_val = node.property.name
+                tmp = self._recursive_check_objects(node, api_symbols)
+
+                if tmp:
+                    return_val = tmp + '.' + return_val
+
+                return return_val
+
+        # CallExpression; maybe more objects
+        elif 'CallExpression' == node.type:
+            if node.callee.name in api_symbols:
+                self._call_expr_handler(node)
+
+                return_val = node.callee.name
+                tmp = self._recursive_check_objects(node.callee, api_symbols)
+
+                if tmp:
+                    return_val = tmp + '.' + return_val
+
+                return return_val
+
+        return False
+    ##################################################
+
+    # Visit the nodes, check if matches, and execute handler if it does
+    def visit(self, node, api_symbols):
+        #property_full_name = property_name # to deal with namespace stuff
+
+        #MemberExpression
+        if 'MemberExpression' == node.type:
+            if node.property.name == self._property_name:
+                self._memb_expr_handler(node)
+
+                return_val = node.property.name
+                tmp = self._recursive_check_objects(node, api_symbols)
+
+                if tmp:
+                    return_val = tmp + '.' + return_val
+
+                print(">\t>\t>\t>\t>\t{}\t<\t<\t<\t<\t<\t".format(return_val))
+
+                return return_val
+
+        # CallExpression
+        if 'CallExpression' == node.type:
+            if node.callee.name == self._property_name:
+                self._call_expr_handler(node)
+
+                return_val = node.callee.name
+                tmp = self._recursive_check_objects(node.callee, api_symbols)
+
+                if tmp:
+                    return_val = tmp + '.' + return_val
+
+                print(">\t>\t>\t>\t>\t{}\t<\t<\t<\t<\t<\t<".format(return_val))
+
+                return return_val
+
+        return False
+
+# Probably can cut this...
+def memb_expr_handler(n):
 
     def parent_type(node):
         return getattr(getattr(node, 'parent', None), 'type', None)
 
-    print("- {}\t\t{}:{}".format(n.property.name, n.type, parent_type(n)))
+    print("- {}\t\tnode type:{} parent type:{}".format(n.property.name, n.type, parent_type(n)))
+
+    if hasattr(n, 'parent_depth'):
+        print("p-depth: {}, p-width: {}".format(n.parent_depth, n.parent_width))
+
+def call_expr_handler(n):
+
+    def parent_type(node):
+        return getattr(getattr(node, 'parent', None), 'type', None)
+
+    print("- {}\t\tnode type:{} parent type:{}".format(n.callee.name, n.type, parent_type(n)))
 
     if hasattr(n, 'parent_depth'):
         print("p-depth: {}, p-width: {}".format(n.parent_depth, n.parent_width))
@@ -253,18 +363,21 @@ def main():
     el = Element(ast)
 
     for entry in api_symbols:
-        visitor = MatchPropertyVisitor(entry, node_handler)
+        visitor = MatchPropertyVisitor(entry, memb_expr_handler, call_expr_handler)
         el.accept(visitor)
 
     # Flatten all api symbols into a single list
 
-    symbol_counter, node_dict = el.walk(api_symbols)
+    symbol_counter, extended_symbol_counter, node_dict = el.walk(api_symbols)
 
     with open('output_data/symbol_counts.json', 'w') as out1:
         json.dump(symbol_counter, out1, indent = 4)
 
-    with open('output_data/symbol_node_info.json', 'w') as out2:
-        json.dump(node_dict, out2, indent=4, cls=CustomEncoder)
+    with open('output_data/extended_symbol_counts.json', 'w') as out2:
+        json.dump(extended_symbol_counter, out2, indent = 4)
+
+    with open('output_data/symbol_node_info.json', 'w') as out3:
+        json.dump(node_dict, out3, indent=4, cls=CustomEncoder)
 
 if __name__ == '__main__':
     main()

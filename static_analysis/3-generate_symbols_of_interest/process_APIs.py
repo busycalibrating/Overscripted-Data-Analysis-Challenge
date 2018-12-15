@@ -142,7 +142,7 @@ def main():
 
     # dump all results to a file
     with open('symbol_list.json', 'w') as fp:
-        json.dump(res_dict, fp)
+        json.dump(res_dict, fp, indent=4)
 
 
 ################################################################################

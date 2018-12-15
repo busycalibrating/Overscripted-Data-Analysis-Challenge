@@ -1,1 +1,6147 @@
-{"htmlcanvaselement": ["height", "mozOpaque", "width", "captureStream", "getContext", "mozFetchAsStream", "mozGetAsFile", "toBlob", "toDataURL", "transferControlToOffscreen"], "window": ["alert", "blur", "confirm", "cancelAnimationFrame", "cancelIdleCallback", "clearImmediate", "close", "focus", "ondevicelight", "convertPointFromNodeToPage", "convertPointFromPageToNode", "ondeviceorientationabsolute", "ondeviceproximity", "ongamepadconnected", "ongamepaddisconnected", "onpaint", "onuserproximity", "onvrdisplayactivate", "onvrdisplayblur", "onvrdisplayconnect", "onvrdisplaydeactivate", "onvrdisplaydisconnect", "onvrdisplayfocus", "onvrdisplaypresentchange", "crypto", "customElements", "devicePixelRatio", "dialogArguments", "document", "event", "frameElement", "frames", "fullScreen", "getAttention", "getAttentionWithCycleCount", "getComputedStyle", "getDefaultComputedStyle", "getSelection", "globalStorage", "history", "home", "innerHeight", "innerWidth", "isSecureContext", "length", "localStorage", "location", "locationbar", "matchMedia", "maximize", "menubar", "minimize", "moveBy", "moveTo", "mozAnimationStartTime", "mozInnerScreenX", "mozInnerScreenY", "mozPaintCount", "name", "navigator", "onappinstalled", "onbeforeinstallprompt", "ondevicemotion", "ondeviceorientation", "open", "openDialog", "opener", "orientation", "outerHeight", "outerWidth", "pageXOffset", "pageYOffset", "parent", "performance", "personalbar", "pkcs11", "postMessage", "print", "prompt", "releaseEvents", "requestAnimationFrame", "requestFileSystem", "requestIdleCallback", "resizeBy", "resizeTo", "restore", "returnValue", "routeEvent", "screen", "screenX", "screenY", "scroll", "scrollbars", "scrollBy", "scrollByLines", "scrollByPages", "scrollMaxX", "scrollMaxY", "scrollTo", "scrollX", "scrollY", "self", "sessionStorage", "setCursor", "setImmediate", "setResizable", "showModalDialog", "sidebar", "sizeToContent", "speechSynthesis", "status", "statusbar", "stop", "toolbar", "top", "updateCommands", "visualViewport", "window"], "crypto": ["subtle", "getRandomValues"], "document": ["Document", "URL", "adoptNode", "alinkColor", "all", "anchors", "applets", "async", "bgColor", "body", "captureEvents", "caretRangeFromPoint", "characterSet", "clear", "close", "compatMode", "contains", "contentType", "cookie", "createAttribute", "createAttributeNS", "createCDATASection", "createComment", "createDocumentFragment", "createElement", "createElementNS", "createEntityReference", "createEvent", "createExpression", "createNSResolver", "createNodeIterator", "createProcessingInstruction", "createRange", "createTextNode", "createTouch", "createTouchList", "createTreeWalker", "currentScript", "defaultView", "designMode", "dir", "doctype", "documentElement", "documentURI", "documentURIObject", "domConfig", "domain", "embeds", "enableStyleSheetsForSet", "evaluate", "execCommand", "execCommandShowHelp", "exitFullscreen", "exitPointerLock", "fgColor", "fileSize", "fonts", "forms", "fullscreen", "fullscreenEnabled", "getAnimations", "getBoxObjectFor", "getElementById", "getElementsByClassName", "getElementsByName", "getElementsByTagName", "getElementsByTagNameNS", "hasFocus", "head", "height", "hidden", "images", "implementation", "importNode", "lastModified", "lastStyleSheetSet", "linkColor", "links", "loadOverlay", "location", "mozSetImageElement", "mozSyntheticDocument", "normalizeDocument", "onafterscriptexecute", "onbeforescriptexecute", "oncopy", "oncut", "onfreeze", "onfullscreenchange", "onfullscreenerror", "onpaste", "onpointerlockchange", "onpointerlockerror", "onreadystatechange", "onresume", "onselectionchange", "onvisibilitychange", "open", "origin", "plugins", "policy", "popupNode", "preferredStyleSheetSet", "queryCommandEnabled", "queryCommandIndeterm", "queryCommandState", "queryCommandSupported", "queryCommandText", "queryCommandValue", "querySelector", "querySelectorAll", "readyState", "referrer", "registerElement", "releaseCapture", "releaseEvents", "routeEvent", "scripts", "scrollingElement", "selectedStyleSheetSet", "styleSheetSets", "timeline", "title", "tooltipNode", "undoManager", "visibilityState", "vlinkColor", "wasDiscarded", "width", "write", "writeln", "xmlEncoding", "xmlStandalone", "xmlVersion"], "url": ["URL", "createObjectURL", "hash", "host", "hostname", "href", "origin", "password", "pathname", "port", "protocol", "revokeObjectURL", "search", "searchParams", "toJSON", "username"], "body": ["body", "bodyUsed", "arrayBuffer", "blob", "formData", "json", "text"], "blob": ["Blob", "size", "type", "slice"], "formdata": ["FormData", "append", "delete", "get", "getAll", "has", "set", "entries", "keys", "values", "SupportForOf", "worker_support"], "text": ["Text", "isElementContentWhitespace", "wholeText", "assignedSlot", "replaceWholeText", "splitText"], "location": ["assign", "hash", "host", "hostname", "href", "origin", "password", "pathname", "port", "protocol", "reload", "replace", "search", "toString", "username"], "policy": ["allowsFeature", "allowedFeatures", "getAllowlistForFeature"], "event": ["Event", "bubbles", "cancelBubble", "cancelable", "composed", "composedPath", "createEvent", "currentTarget", "defaultPrevented", "eventPhase", "explicitOriginalTarget", "getPreventDefault", "initEvent", "isTrusted", "originalTarget", "preventBubble", "preventCapture", "preventDefault", "returnValue", "srcElement", "stopImmediatePropagation", "stopPropagation", "target", "timeStamp", "type"], "history": ["back", "forward", "go", "length", "pushState", "replaceState", "scrollRestoration", "state"], "navigator": ["activeVRDisplays", "authentication", "battery", "buildID", "clipboard", "connection", "cookieEnabled", "credentials", "deviceMemory", "doNotTrack", "geolocation", "getBattery", "getGamepads", "getUserMedia", "getVRDisplays", "keyboard", "locks", "maxTouchPoints", "mediaCapabilities", "mediaDevices", "mediaSession", "mozIsLocallyAvailable", "oscpu", "permissions", "presentation", "productSub", "registerContentHandler", "registerProtocolHandler", "requestMediaKeySystemAccess", "sendBeacon", "serviceWorker", "share", "vendor", "vendorSub", "vibrate", "webdriver"], "clipboard": ["read", "readText", "write", "writeText"], "geolocation": ["secure_context_required", "clearWatch", "getCurrentPosition", "watchPosition"], "keyboard": ["getLayoutMap", "lock", "unlock"], "lock": ["mode", "name"], "mediacapabilities": ["encodingInfo", "decodingInfo"], "mediadevices": ["ondevicechange", "enumerateDevices", "getSupportedConstraints", "getUserMedia", "stereo_audio_capture"], "mediasession": ["metadata", "playbackState", "setActionHandler"], "metadata": ["modificationTime", "size"], "permissions": ["query", "request", "requestAll", "revoke", "accelerometer_permission", "accessibility-events_permission", "ambient-light-sensor_permission", "background-sync_permission", "camera_permission", "clipboard-read_permission", "clipboard-write_permission", "geolocation_permission", "gyroscope_permission", "magnetometer_permission", "microphone_permission", "midi_permission", "notifications_permission", "payment-handler_permission", "persistent-storage_permission", "push_permission"], "request": ["Request", "cache", "clone", "context", "credentials", "destination", "headers", "integrity", "keepalive", "method", "mode", "redirect", "referrer", "referrerPolicy", "signal", "url"], "cache": ["add", "addAll", "delete", "keys", "match", "matchAll", "put"], "headers": ["lexicographical_sorting", "headers", "append", "delete", "entries", "get", "getAll", "has", "keys", "set", "values"], "presentation": ["defaultRequest", "receiver"], "serviceworker": ["scriptURL", "state", "onstatechange"], "performance": ["clearMarks", "clearMeasures", "clearResourceTimings", "getEntries", "getEntriesByName", "getEntriesByType", "mark", "measure", "memory", "navigation", "now", "onresourcetimingbufferfull", "setResourceTimingBufferSize", "timeOrigin", "timing", "toJSON"], "screen": ["availHeight", "availLeft", "availTop", "availWidth", "colorDepth", "height", "left", "lockOrientation", "mozBrightness", "mozEnabled", "onorientationchange", "orientation", "pixelDepth", "top", "unlockOrientation", "width"], "speechsynthesis": ["cancel", "getVoices", "onvoiceschanged", "pause", "paused", "pending", "resume", "speak", "speaking"], "visualviewport": ["height", "offsetLeft", "offsetTop", "onresize", "onscroll", "pageLeft", "pageTop", "scale", "width"], "navigatorid": ["appCodeName", "appName", "appVersion", "platform", "product", "taintEnabled", "userAgent"]}
+{
+    "abortcontroller": [
+        "AbortController",
+        "signal",
+        "abort"
+    ],
+    "abortpaymentevent": [
+        "AbortPaymentEvent",
+        "respondWith"
+    ],
+    "abortsignal": [
+        "aborted",
+        "onabort"
+    ],
+    "absoluteorientationsensor": [
+        "AbsoluteOrientationSensor"
+    ],
+    "abstractworker": [
+        "onerror"
+    ],
+    "accelerometer": [
+        "Accelerometer",
+        "x",
+        "y",
+        "z"
+    ],
+    "ambientlightsensor": [
+        "AmbientLightSensor",
+        "illuminance"
+    ],
+    "analysernode": [
+        "AnalyserNode",
+        "fftSize",
+        "frequencyBinCount",
+        "minDecibels",
+        "maxDecibels",
+        "smoothingTimeConstant",
+        "getFloatFrequencyData",
+        "getByteFrequencyData",
+        "getFloatTimeDomainData",
+        "getByteTimeDomainData"
+    ],
+    "angle_instanced_arrays": [
+        "drawArraysInstancedANGLE",
+        "drawElementsInstancedANGLE",
+        "vertexAttribDivisorANGLE"
+    ],
+    "animationeffect": [
+        "getComputedTiming",
+        "getTiming",
+        "updateTiming"
+    ],
+    "animationevent": [
+        "AnimationEvent",
+        "animationName",
+        "elapsedTime",
+        "initAnimationEvent",
+        "pseudoElement"
+    ],
+    "animation": [
+        "Animation",
+        "cancel",
+        "currentTime",
+        "effect",
+        "finish",
+        "finished",
+        "id",
+        "oncancel",
+        "onfinish",
+        "pause",
+        "pending",
+        "play",
+        "playbackRate",
+        "playState",
+        "ready",
+        "reverse",
+        "startTime",
+        "timeline",
+        "updatePlaybackRate"
+    ],
+    "animationplaybackevent": [
+        "AnimationPlaybackEvent",
+        "currentTime",
+        "timelineTime"
+    ],
+    "animationtimeline": [
+        "currentTime"
+    ],
+    "attr": [
+        "localName",
+        "namespaceURI",
+        "prefix"
+    ],
+    "audiobuffer": [
+        "AudioBuffer",
+        "duration",
+        "length",
+        "numberOfChannels",
+        "sampleRate",
+        "copyFromChannel",
+        "copyToChannel",
+        "getChannelData"
+    ],
+    "audiobuffersourcenode": [
+        "AudioBufferSourceNode",
+        "buffer",
+        "detune",
+        "loop",
+        "loopStart",
+        "loopEnd",
+        "onended",
+        "playbackRate",
+        "start",
+        "stop"
+    ],
+    "audiocontext": [
+        "AudioContext",
+        "baseLatency",
+        "outputLatency",
+        "close",
+        "createMediaElementSource",
+        "createMediaStreamSource",
+        "createMediaStreamDestination",
+        "createMediaStreamTrackSource",
+        "getOutputTimestamp",
+        "suspend"
+    ],
+    "audiocontextoptions": [
+        "latencyHint",
+        "sampleRate"
+    ],
+    "audiodestinationnode": [
+        "maxChannelCount"
+    ],
+    "audiolistener": [
+        "dopplerFactor",
+        "forwardX",
+        "forwardY",
+        "forwardZ",
+        "positionX",
+        "positionY",
+        "positionZ",
+        "speedOfSound",
+        "upX",
+        "upY",
+        "upZ",
+        "setOrientation",
+        "setPosition"
+    ],
+    "audionode": [
+        "channelCount",
+        "channelCountMode",
+        "channelInterpretation",
+        "context",
+        "numberOfInputs",
+        "numberOfOutputs",
+        "connect",
+        "disconnect"
+    ],
+    "audionodeoptions": [],
+    "audioparam": [
+        "defaultValue",
+        "maxValue",
+        "minValue",
+        "value",
+        "cancelAndHoldAtTime",
+        "cancelScheduledValues",
+        "exponentialRampToValueAtTime",
+        "linearRampToValueAtTime",
+        "setTargetAtTime",
+        "setValueAtTime",
+        "setValueCurveAtTime"
+    ],
+    "audioparammap": [
+        "forEach",
+        "get",
+        "has",
+        "keys",
+        "size",
+        "values"
+    ],
+    "audioprocessingevent": [
+        "inputBuffer",
+        "outputBuffer",
+        "playbackTime"
+    ],
+    "audioscheduledsourcenode": [
+        "onended",
+        "start",
+        "stop"
+    ],
+    "audiotrack": [
+        "enabled",
+        "id",
+        "kind",
+        "label",
+        "language",
+        "sourceBuffer"
+    ],
+    "sourcebuffer": [
+        "mode",
+        "updating",
+        "buffered",
+        "changeType",
+        "timestampOffset",
+        "audioTracks",
+        "videoTracks",
+        "textTracks",
+        "appendWindowStart",
+        "appendWindowEnd",
+        "trackDefaults",
+        "onabort",
+        "onerror",
+        "onupdate",
+        "onupdatestart",
+        "onupdateend",
+        "appendBuffer",
+        "appendBufferAsync",
+        "appendStream",
+        "abort",
+        "remove",
+        "removeAsync"
+    ],
+    "audiotracklist": [
+        "getTrackById",
+        "length",
+        "onaddtrack",
+        "onchange",
+        "onremovetrack"
+    ],
+    "audioworkletglobalscope": [
+        "currentFrame",
+        "currentTime",
+        "registerProcessor",
+        "sampleRate"
+    ],
+    "audioworkletnode": [
+        "onprocessorstatechange",
+        "parameters",
+        "port",
+        "processorState"
+    ],
+    "audioworkletprocessor": [
+        "port"
+    ],
+    "authenticationassertion": [
+        "authenticatorData",
+        "clientData",
+        "credential",
+        "signature"
+    ],
+    "credential": [
+        "id",
+        "type",
+        "name"
+    ],
+    "authenticatorassertionresponse": [
+        "authenticatorData",
+        "signature",
+        "userHandle"
+    ],
+    "authenticatorattestationresponse": [
+        "attestationObject"
+    ],
+    "authenticatorresponse": [
+        "clientDataJSON"
+    ],
+    "baseaudiocontext": [
+        "audioWorklet",
+        "createAnalyser",
+        "createBiquadFilter",
+        "createBuffer",
+        "createBufferSource",
+        "createChannelMerger",
+        "createChannelSplitter",
+        "createConstantSource",
+        "createConvolver",
+        "createDelay",
+        "createDynamicsCompressor",
+        "createGain",
+        "createIIRFilter",
+        "createOscillator",
+        "createPanner",
+        "createPeriodicWave",
+        "createScriptProcessor",
+        "createStereoPanner",
+        "createWaveShaper",
+        "currentTime",
+        "decodeAudioData",
+        "destination",
+        "listener",
+        "onstatechange",
+        "resume",
+        "sampleRate",
+        "state"
+    ],
+    "basiccardrequest": [
+        "supportedNetworks",
+        "supportedTypes"
+    ],
+    "basiccardresponse": [
+        "cardNumber",
+        "cardholderName",
+        "cardSecurityCode",
+        "expiryMonth",
+        "expiryYear",
+        "billingAddress"
+    ],
+    "batterymanager": [
+        "charging",
+        "chargingTime",
+        "dischargingTime",
+        "level",
+        "onchargingchange",
+        "onchargingtimechange",
+        "ondischargingtimechange",
+        "onlevelchange"
+    ],
+    "beforeinstallpromptevent": [
+        "BeforeInstallPromptEvent",
+        "platforms",
+        "prompt",
+        "userChoice"
+    ],
+    "beforeunloadevent": [
+        "user_interaction"
+    ],
+    "biquadfilternode": [
+        "BiquadFilterNode",
+        "detune",
+        "frequency",
+        "gain",
+        "Q",
+        "type",
+        "getFrequencyResponse"
+    ],
+    "blobbuilder": [],
+    "blobevent": [
+        "BlobEvent",
+        "data",
+        "timecode"
+    ],
+    "blob": [
+        "Blob",
+        "size",
+        "type",
+        "slice"
+    ],
+    "bluetoothadvertisingdata": [
+        "appearance",
+        "manufacturerData",
+        "rssi",
+        "serviceData",
+        "txPower"
+    ],
+    "bluetoothcharacteristicproperties": [
+        "broadcast",
+        "read",
+        "writeWithoutResponse",
+        "write",
+        "notify",
+        "indicate",
+        "authenticatedSignedWrites",
+        "reliableWrite",
+        "writableAuxiliaries"
+    ],
+    "bluetoothdevice": [
+        "adData",
+        "connectGATT",
+        "deviceClass",
+        "gatt",
+        "gattServer",
+        "id",
+        "name",
+        "paired",
+        "productID",
+        "productVersion",
+        "unwatchAdvertisements",
+        "uuids",
+        "vendorID",
+        "vendorIDSource",
+        "watchAdvertisements",
+        "watchingAdvertisements"
+    ],
+    "bluetooth": [
+        "getAvailability",
+        "onavailabilitychanged",
+        "referringDevice",
+        "requestDevice"
+    ],
+    "bluetoothremotegattcharacteristic": [
+        "getDescriptor",
+        "getDescriptors",
+        "properties",
+        "readValue",
+        "service",
+        "startNotifications",
+        "stopNotifications",
+        "uuid",
+        "value",
+        "writeValue"
+    ],
+    "bluetoothremotegattdescriptor": [
+        "characteristic",
+        "uuid",
+        "value",
+        "readValue",
+        "writeValue"
+    ],
+    "bluetoothremotegattserver": [
+        "connect",
+        "connected",
+        "device",
+        "disconnect",
+        "getPrimaryService",
+        "getPrimaryServices"
+    ],
+    "bluetoothremotegattservice": [
+        "device",
+        "getCharacteristic",
+        "getCharacteristics",
+        "getIncludedService",
+        "getIncludedServices",
+        "isPrimary",
+        "uuid"
+    ],
+    "body": [
+        "body",
+        "bodyUsed",
+        "arrayBuffer",
+        "blob",
+        "formData",
+        "json",
+        "text"
+    ],
+    "formdata": [
+        "FormData",
+        "append",
+        "delete",
+        "get",
+        "getAll",
+        "has",
+        "set",
+        "entries",
+        "keys",
+        "values",
+        "SupportForOf",
+        "worker_support"
+    ],
+    "text": [
+        "Text",
+        "isElementContentWhitespace",
+        "wholeText",
+        "assignedSlot",
+        "replaceWholeText",
+        "splitText"
+    ],
+    "broadcastchannel": [
+        "BroadcastChannel",
+        "name",
+        "onmessage",
+        "onmessageerror",
+        "close",
+        "postMessage"
+    ],
+    "budgetservice": [
+        "getBudget",
+        "getCost",
+        "reserve"
+    ],
+    "budgetstate": [
+        "budgetAt",
+        "time"
+    ],
+    "bytelengthqueuingstrategy": [
+        "ByteLengthQueuingStrategy",
+        "size"
+    ],
+    "cache": [
+        "add",
+        "addAll",
+        "delete",
+        "keys",
+        "match",
+        "matchAll",
+        "put"
+    ],
+    "cachestorage": [
+        "delete",
+        "has",
+        "keys",
+        "match",
+        "open"
+    ],
+    "canmakepaymentevent": [
+        "CanMakePaymentEvent",
+        "methodData",
+        "modifiers",
+        "paymentRequestOrigin",
+        "respondWith",
+        "topOrigin"
+    ],
+    "canvascapturemediastreamtrack": [
+        "canvas",
+        "requestFrame"
+    ],
+    "canvasgradient": [
+        "addColorStop"
+    ],
+    "canvaspattern": [
+        "setTransform"
+    ],
+    "canvasrenderingcontext2d": [
+        "canvas",
+        "currentTransform",
+        "direction",
+        "fillStyle",
+        "filter",
+        "font",
+        "globalAlpha",
+        "globalCompositeOperation",
+        "imageSmoothingEnabled",
+        "imageSmoothingQuality",
+        "lineCap",
+        "lineDashOffset",
+        "lineJoin",
+        "lineWidth",
+        "miterLimit",
+        "shadowBlur",
+        "shadowColor",
+        "shadowOffsetX",
+        "shadowOffsetY",
+        "strokeStyle",
+        "textAlign",
+        "textBaseline",
+        "addHitRegion",
+        "arc",
+        "arcTo",
+        "beginPath",
+        "bezierCurveTo",
+        "clearHitRegions",
+        "clearRect",
+        "clip",
+        "closePath",
+        "createImageData",
+        "createLinearGradient",
+        "createPattern",
+        "createRadialGradient",
+        "drawFocusIfNeeded",
+        "drawImage",
+        "drawWidgetAsOnScreen",
+        "drawWindow",
+        "ellipse",
+        "fill",
+        "fillRect",
+        "fillText",
+        "getImageData",
+        "getLineDash",
+        "isPointInPath",
+        "isPointInStroke",
+        "lineTo",
+        "measureText",
+        "moveTo",
+        "putImageData",
+        "quadraticCurveTo",
+        "rect",
+        "removeHitRegion",
+        "resetTransform",
+        "restore",
+        "rotate",
+        "save",
+        "scale",
+        "scrollPathIntoView",
+        "setLineDash",
+        "setTransform",
+        "stroke",
+        "strokeRect",
+        "strokeText",
+        "transform",
+        "translate"
+    ],
+    "caretposition": [],
+    "cdatasection": [],
+    "channelmergernode": [
+        "ChannelMergerNode"
+    ],
+    "channelsplitternode": [
+        "ChannelSplitterNode"
+    ],
+    "characterdata": [
+        "ChildNode",
+        "appendData",
+        "data",
+        "deleteData",
+        "insertData",
+        "length",
+        "replaceData",
+        "substringData"
+    ],
+    "childnode": [
+        "after",
+        "before",
+        "remove",
+        "replaceWith"
+    ],
+    "client": [
+        "frameType",
+        "id",
+        "postMessage",
+        "type",
+        "url"
+    ],
+    "url": [
+        "URL",
+        "createObjectURL",
+        "hash",
+        "host",
+        "hostname",
+        "href",
+        "origin",
+        "password",
+        "pathname",
+        "port",
+        "protocol",
+        "revokeObjectURL",
+        "search",
+        "searchParams",
+        "toJSON",
+        "username"
+    ],
+    "clients": [
+        "claim",
+        "get",
+        "matchAll",
+        "openWindow"
+    ],
+    "clipboardevent": [
+        "ClipboardEvent",
+        "clipboardData"
+    ],
+    "clipboard": [
+        "read",
+        "readText",
+        "write",
+        "writeText"
+    ],
+    "closeevent": [
+        "CloseEvent",
+        "initCloseEvent"
+    ],
+    "comment": [
+        "Comment"
+    ],
+    "compositionevent": [
+        "CompositionEvent",
+        "data",
+        "initCompositionEvent",
+        "locale"
+    ],
+    "console": [
+        "worker_support",
+        "assert",
+        "clear",
+        "count",
+        "countReset",
+        "dir",
+        "dirxml",
+        "error",
+        "exception",
+        "group",
+        "groupCollapsed",
+        "groupEnd",
+        "info",
+        "log",
+        "profile",
+        "profileEnd",
+        "table",
+        "time",
+        "timeEnd",
+        "timeLog",
+        "timestamp",
+        "trace",
+        "warn"
+    ],
+    "constantsourcenode": [
+        "ConstantSourceNode",
+        "offset",
+        "onended",
+        "start",
+        "stop"
+    ],
+    "constrainboolean": [],
+    "constraindomstring": [],
+    "constraindouble": [],
+    "constrainlong": [],
+    "convolvernode": [
+        "ConvolverNode",
+        "buffer",
+        "normalize"
+    ],
+    "coordinates": [
+        "secure_context_required",
+        "accuracy",
+        "altitude",
+        "altitudeAccuracy",
+        "heading",
+        "latitude",
+        "longitude",
+        "speed"
+    ],
+    "countqueuingstrategy": [
+        "CountQueuingStrategy",
+        "size"
+    ],
+    "credentialscontainer": [
+        "create",
+        "get",
+        "preventSilentAccess",
+        "store"
+    ],
+    "crypto": [
+        "subtle",
+        "getRandomValues"
+    ],
+    "cryptokey": [
+        "type",
+        "extractable",
+        "algorithm",
+        "usages"
+    ],
+    "cssconditionrule": [],
+    "csscounterstylerule": [],
+    "cssgroupingrule": [],
+    "cssimagevalue": [],
+    "css": [
+        "ch",
+        "cm",
+        "deg",
+        "dpcm",
+        "dpi",
+        "dppx",
+        "em",
+        "escape",
+        "ex",
+        "fr",
+        "grad",
+        "Hz",
+        "in",
+        "ic",
+        "kHz",
+        "lh",
+        "mm",
+        "ms",
+        "number",
+        "paintWorklet",
+        "pc",
+        "percent",
+        "pt",
+        "px",
+        "Q",
+        "rad",
+        "rlh",
+        "rem",
+        "s",
+        "supports",
+        "turn",
+        "vb",
+        "vh",
+        "vi",
+        "vmax",
+        "vw",
+        "wmin"
+    ],
+    "csskeyframerule": [
+        "keyText",
+        "style"
+    ],
+    "csskeyframesrule": [
+        "appendRule",
+        "cssRules",
+        "deleteRule",
+        "findRule",
+        "name"
+    ],
+    "csskeywordvalue": [
+        "CSSKeywordValue",
+        "value"
+    ],
+    "cssmathinvert": [
+        "CSSMathInvert",
+        "value"
+    ],
+    "cssmathmax": [
+        "CSSMathMax",
+        "values"
+    ],
+    "cssmathmin": [
+        "CSSMathMin",
+        "values"
+    ],
+    "cssmathnegate": [
+        "CSSMathNegate",
+        "values"
+    ],
+    "cssmathproduct": [
+        "CSSMathProduct",
+        "values"
+    ],
+    "cssmathsum": [
+        "CSSMathSum",
+        "values"
+    ],
+    "cssmathvalue": [
+        "operator"
+    ],
+    "cssmatrixcomponent": [
+        "CSSMatrixComponent",
+        "matrix"
+    ],
+    "cssmatrix": [],
+    "cssmediarule": [
+        "media"
+    ],
+    "cssnamespacerule": [
+        "namespaceURI",
+        "prefix"
+    ],
+    "cssnumericarray": [
+        "@@iterator",
+        "CSSNumericValue",
+        "entries",
+        "forEach",
+        "keys",
+        "length",
+        "values"
+    ],
+    "cssnumericvalue": [
+        "add",
+        "div",
+        "equals",
+        "max",
+        "min",
+        "mul",
+        "parse",
+        "sub",
+        "to",
+        "toSum",
+        "type"
+    ],
+    "csspagerule": [
+        "selectorText",
+        "style"
+    ],
+    "cssperspective": [
+        "CSSPerspective",
+        "length"
+    ],
+    "csspositionvalue": [
+        "CSSPositionValue",
+        "x",
+        "y"
+    ],
+    "cssprimitivevalue": [
+        "primitiveType",
+        "getCounterValue",
+        "getFloatValue",
+        "getRGBColorValue",
+        "getRectValue",
+        "getStringValue",
+        "setFloatValue",
+        "setStringValue"
+    ],
+    "cssrotate": [
+        "CSSRotate",
+        "angle",
+        "x",
+        "y",
+        "z"
+    ],
+    "cssrule": [
+        "type",
+        "cssText",
+        "parentRule",
+        "parentStyleSheet"
+    ],
+    "cssrulelist": [
+        "length",
+        "item"
+    ],
+    "cssscale": [
+        "CSSScale",
+        "x",
+        "y",
+        "z"
+    ],
+    "cssskew": [
+        "CSSSkew",
+        "ax",
+        "ay"
+    ],
+    "cssskewx": [
+        "CSSSkewX",
+        "ax"
+    ],
+    "cssskewy": [
+        "CSSSkewY",
+        "ay"
+    ],
+    "cssstyledeclaration": [
+        "cssText",
+        "length",
+        "item",
+        "getPropertyValue",
+        "getPropertyCSSValue",
+        "getPropertyPriority",
+        "setProperty",
+        "removeProperty",
+        "parentRule",
+        "cssFloat"
+    ],
+    "cssstylerule": [
+        "selectorText",
+        "style"
+    ],
+    "cssstylesheet": [
+        "cssRules",
+        "ownerRule",
+        "deleteRule",
+        "insertRule"
+    ],
+    "cssstylevalue": [
+        "parse",
+        "parseAll"
+    ],
+    "csssupportsrule": [],
+    "csstransformcomponent": [
+        "is2D",
+        "toMatrix"
+    ],
+    "csstransformvalue": [
+        "CSSTransformValue",
+        "@@iterator",
+        "entries",
+        "forEach",
+        "is2D",
+        "length",
+        "keys",
+        "toMatrix",
+        "values"
+    ],
+    "csstranslate": [
+        "CSSTranslate",
+        "x",
+        "y",
+        "z"
+    ],
+    "cssunitvalue": [
+        "CSSUnitValue",
+        "unit",
+        "value"
+    ],
+    "cssunparsedvalue": [
+        "CSSTransformValue",
+        "@@iterator",
+        "entries",
+        "forEach",
+        "length",
+        "keys",
+        "values"
+    ],
+    "cssvalue": [
+        "cssText",
+        "cssValueType"
+    ],
+    "cssvaluelist": [
+        "length",
+        "item"
+    ],
+    "cssvariablereferencevalue": [
+        "CSSVariableReferenceValue",
+        "variable",
+        "fallback"
+    ],
+    "customelementregistry": [
+        "builtin",
+        "define",
+        "get",
+        "upgrade",
+        "whenDefined"
+    ],
+    "customevent": [
+        "worker_support",
+        "CustomEvent",
+        "detail",
+        "initCustomEvent"
+    ],
+    "datatransferitem": [
+        "getAsFile",
+        "getAsString",
+        "kind",
+        "type",
+        "webkitGetAsEntry"
+    ],
+    "datatransferitemlist": [
+        "DataTransferItem",
+        "add",
+        "clear",
+        "length",
+        "remove"
+    ],
+    "datatransfer": [
+        "DataTransfer",
+        "addElement",
+        "clearData",
+        "dropEffect",
+        "effectAllowed",
+        "files",
+        "getData",
+        "items",
+        "mozClearDataAt",
+        "mozCursor",
+        "mozGetDataAt",
+        "mozItemCount",
+        "mozSetDataAt",
+        "mozSourceNode",
+        "mozTypesAt",
+        "mozUserCancelled",
+        "setData",
+        "setDragImage",
+        "types"
+    ],
+    "dedicatedworkerglobalscope": [
+        "name",
+        "onmessage",
+        "onmessageerror",
+        "close",
+        "postMessage"
+    ],
+    "delaynode": [
+        "DelayNode",
+        "delayTime"
+    ],
+    "deviceacceleration": [
+        "x",
+        "y",
+        "z"
+    ],
+    "devicelightevent": [
+        "value"
+    ],
+    "devicemotionevent": [
+        "DeviceMotionEvent",
+        "acceleration",
+        "accelerationIncludingGravity",
+        "interval",
+        "rotationRate"
+    ],
+    "deviceorientationevent": [
+        "DeviceOrientationEvent",
+        "absolute",
+        "alpha",
+        "beta",
+        "gamma"
+    ],
+    "deviceproximityevent": [
+        "max",
+        "min",
+        "value"
+    ],
+    "devicerotationrate": [
+        "alpha",
+        "beta",
+        "gamma"
+    ],
+    "directoryentrysync": [],
+    "directoryreadersync": [],
+    "documentfragment": [
+        "DocumentFragment",
+        "querySelector",
+        "querySelectorAll",
+        "properties",
+        "methods"
+    ],
+    "document": [
+        "Document",
+        "URL",
+        "adoptNode",
+        "alinkColor",
+        "all",
+        "anchors",
+        "applets",
+        "async",
+        "bgColor",
+        "body",
+        "captureEvents",
+        "caretRangeFromPoint",
+        "characterSet",
+        "clear",
+        "close",
+        "compatMode",
+        "contains",
+        "contentType",
+        "cookie",
+        "createAttribute",
+        "createAttributeNS",
+        "createCDATASection",
+        "createComment",
+        "createDocumentFragment",
+        "createElement",
+        "createElementNS",
+        "createEntityReference",
+        "createEvent",
+        "createExpression",
+        "createNSResolver",
+        "createNodeIterator",
+        "createProcessingInstruction",
+        "createRange",
+        "createTextNode",
+        "createTouch",
+        "createTouchList",
+        "createTreeWalker",
+        "currentScript",
+        "defaultView",
+        "designMode",
+        "dir",
+        "doctype",
+        "documentElement",
+        "documentURI",
+        "documentURIObject",
+        "domConfig",
+        "domain",
+        "embeds",
+        "enableStyleSheetsForSet",
+        "evaluate",
+        "execCommand",
+        "execCommandShowHelp",
+        "exitFullscreen",
+        "exitPointerLock",
+        "fgColor",
+        "fileSize",
+        "fonts",
+        "forms",
+        "fullscreen",
+        "fullscreenEnabled",
+        "getAnimations",
+        "getBoxObjectFor",
+        "getElementById",
+        "getElementsByClassName",
+        "getElementsByName",
+        "getElementsByTagName",
+        "getElementsByTagNameNS",
+        "hasFocus",
+        "head",
+        "height",
+        "hidden",
+        "images",
+        "implementation",
+        "importNode",
+        "lastModified",
+        "lastStyleSheetSet",
+        "linkColor",
+        "links",
+        "loadOverlay",
+        "location",
+        "mozSetImageElement",
+        "mozSyntheticDocument",
+        "normalizeDocument",
+        "onafterscriptexecute",
+        "onbeforescriptexecute",
+        "oncopy",
+        "oncut",
+        "onfreeze",
+        "onfullscreenchange",
+        "onfullscreenerror",
+        "onpaste",
+        "onpointerlockchange",
+        "onpointerlockerror",
+        "onreadystatechange",
+        "onresume",
+        "onselectionchange",
+        "onvisibilitychange",
+        "open",
+        "origin",
+        "plugins",
+        "policy",
+        "popupNode",
+        "preferredStyleSheetSet",
+        "queryCommandEnabled",
+        "queryCommandIndeterm",
+        "queryCommandState",
+        "queryCommandSupported",
+        "queryCommandText",
+        "queryCommandValue",
+        "querySelector",
+        "querySelectorAll",
+        "readyState",
+        "referrer",
+        "registerElement",
+        "releaseCapture",
+        "releaseEvents",
+        "routeEvent",
+        "scripts",
+        "scrollingElement",
+        "selectedStyleSheetSet",
+        "styleSheetSets",
+        "timeline",
+        "title",
+        "tooltipNode",
+        "undoManager",
+        "visibilityState",
+        "vlinkColor",
+        "wasDiscarded",
+        "width",
+        "write",
+        "writeln",
+        "xmlEncoding",
+        "xmlStandalone",
+        "xmlVersion"
+    ],
+    "location": [
+        "assign",
+        "hash",
+        "host",
+        "hostname",
+        "href",
+        "origin",
+        "password",
+        "pathname",
+        "port",
+        "protocol",
+        "reload",
+        "replace",
+        "search",
+        "toString",
+        "username"
+    ],
+    "policy": [
+        "allowsFeature",
+        "allowedFeatures",
+        "getAllowlistForFeature"
+    ],
+    "documentorshadowroot": [
+        "activeElement",
+        "adoptedStyleSheets",
+        "caretPositionFromPoint",
+        "elementFromPoint",
+        "elementsFromPoint",
+        "fullscreenElement",
+        "getSelection",
+        "pointerLockElement",
+        "styleSheets"
+    ],
+    "documenttimeline": [
+        "DocumentTimeline"
+    ],
+    "documenttype": [
+        "entities",
+        "internalSubset",
+        "name",
+        "notations",
+        "publicId",
+        "systemId"
+    ],
+    "domconfiguration": [
+        "parameterNames",
+        "canSetParameter",
+        "getParameter",
+        "setParameter"
+    ],
+    "domerrorhandler": [
+        "handleError"
+    ],
+    "domerror": [
+        "name",
+        "message"
+    ],
+    "domexception": [
+        "DOMException",
+        "code",
+        "message",
+        "name"
+    ],
+    "domhighrestimestamp": [],
+    "domimplementation": [
+        "createDocument",
+        "createDocumentType",
+        "createHTMLDocument",
+        "hasFeature"
+    ],
+    "domimplementationlist": [
+        "length",
+        "item"
+    ],
+    "dommatrix": [
+        "worker_support",
+        "DOMMatrix"
+    ],
+    "dommatrixreadonly": [
+        "worker_support",
+        "DOMMatrixReadOnly",
+        "m11",
+        "m12",
+        "m13",
+        "m14",
+        "m21",
+        "m22",
+        "m23",
+        "m24",
+        "m31",
+        "m32",
+        "m33",
+        "m34",
+        "m41",
+        "m42",
+        "m43",
+        "m44",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "is2D",
+        "isIdentity",
+        "flipX",
+        "flipY",
+        "inverse",
+        "multiply",
+        "rotate",
+        "rotateAxisAngle",
+        "rotateFromVector",
+        "scale",
+        "scale3d",
+        "scaleNonUniform",
+        "skewX",
+        "skewY",
+        "toFloat32Array",
+        "toFloat64Array",
+        "toJSON",
+        "toString",
+        "transform",
+        "transformPoint"
+    ],
+    "domparser": [
+        "DOMParser",
+        "parseFromString"
+    ],
+    "dompointinit": [
+        "x",
+        "y",
+        "z",
+        "w"
+    ],
+    "dompoint": [
+        "DOMPoint"
+    ],
+    "dompointreadonly": [
+        "DOMPointReadOnly",
+        "x",
+        "y",
+        "z",
+        "w",
+        "fromPoint",
+        "matrixTransform",
+        "toJSON"
+    ],
+    "domquad": [
+        "DOMQuad",
+        "fromRect",
+        "fromQuad",
+        "getBounds",
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "toJSON"
+    ],
+    "domrect": [
+        "DOMRect"
+    ],
+    "domrectreadonly": [
+        "DOMRectReadOnly",
+        "fromRect",
+        "bottom",
+        "height",
+        "left",
+        "right",
+        "top",
+        "width",
+        "x",
+        "y"
+    ],
+    "domstringlist": [
+        "length",
+        "contains",
+        "item"
+    ],
+    "domstringmap": [],
+    "domtokenlist": [
+        "replace",
+        "supports",
+        "remove_whitespace_and_duplicates",
+        "length",
+        "value",
+        "item",
+        "contains",
+        "add",
+        "remove",
+        "toggle",
+        "entries",
+        "forEach",
+        "keys",
+        "values"
+    ],
+    "doublerange": [],
+    "dragevent": [
+        "DragEvent",
+        "dataTransfer"
+    ],
+    "dynamicscompressornode": [
+        "DynamicsCompressorNode",
+        "attack",
+        "knee",
+        "ratio",
+        "reduction",
+        "release",
+        "threshold"
+    ],
+    "effecttiming": [
+        "delay",
+        "direction",
+        "duration",
+        "easing",
+        "endDelay",
+        "fill",
+        "iterations",
+        "iterationStart"
+    ],
+    "element": [
+        "accessKey",
+        "animate",
+        "attachShadow",
+        "attributes",
+        "classList",
+        "className",
+        "clientHeight",
+        "clientLeft",
+        "clientTop",
+        "clientWidth",
+        "closest",
+        "computedStyleMap",
+        "createShadowRoot",
+        "currentStyle",
+        "getAttribute",
+        "getAttributeNS",
+        "getAttributeNames",
+        "getAttributeNode",
+        "getAttributeNodeNS",
+        "getBoundingClientRect",
+        "getClientRects",
+        "getElementsByClassName",
+        "getElementsByTagName",
+        "getElementsByTagNameNS",
+        "hasAttribute",
+        "hasAttributeNS",
+        "hasAttributes",
+        "id",
+        "innerHTML",
+        "insertAdjacentElement",
+        "insertAdjacentHTML",
+        "insertAdjacentText",
+        "localName",
+        "matches",
+        "name",
+        "namespaceURI",
+        "openOrClosedShadowRoot",
+        "ongotpointercapture",
+        "onlostpointercapture",
+        "outerHTML",
+        "prefix",
+        "querySelector",
+        "querySelectorAll",
+        "releasePointerCapture",
+        "removeAttribute",
+        "removeAttributeNS",
+        "removeAttributeNode",
+        "requestFullscreen",
+        "requestPointerLock",
+        "runtimeStyle",
+        "scrollIntoView",
+        "scrollIntoViewIfNeeded",
+        "scrollHeight",
+        "scrollLeft",
+        "scrollLeftMax",
+        "scrollTop",
+        "scrollTopMax",
+        "scrollWidth",
+        "setAttribute",
+        "setAttributeNS",
+        "setAttributeNode",
+        "setAttributeNodeNS",
+        "setCapture",
+        "setPointerCapture",
+        "shadowRoot",
+        "slot",
+        "tabStop",
+        "tagName",
+        "toggleAttribute"
+    ],
+    "shadowroot": [
+        "delegatesFocus",
+        "documentorshadowroot",
+        "host",
+        "innerHTML",
+        "mode"
+    ],
+    "entrysync": [],
+    "errorevent": [
+        "ErrorEvent",
+        "colno",
+        "error",
+        "filename",
+        "lineno",
+        "message"
+    ],
+    "event": [
+        "Event",
+        "bubbles",
+        "cancelBubble",
+        "cancelable",
+        "composed",
+        "composedPath",
+        "createEvent",
+        "currentTarget",
+        "defaultPrevented",
+        "eventPhase",
+        "explicitOriginalTarget",
+        "getPreventDefault",
+        "initEvent",
+        "isTrusted",
+        "originalTarget",
+        "preventBubble",
+        "preventCapture",
+        "preventDefault",
+        "returnValue",
+        "srcElement",
+        "stopImmediatePropagation",
+        "stopPropagation",
+        "target",
+        "timeStamp",
+        "type"
+    ],
+    "eventlistener": [
+        "handleEvent"
+    ],
+    "eventsource": [
+        "worker_support",
+        "EventSource",
+        "close",
+        "onerror",
+        "onmessage",
+        "onopen",
+        "readyState",
+        "url",
+        "withCredentials"
+    ],
+    "eventtarget": [
+        "EventTarget",
+        "addEventListener",
+        "dispatchEvent",
+        "removeEventListener"
+    ],
+    "ext_blend_minmax": [],
+    "ext_color_buffer_float": [],
+    "ext_color_buffer_half_float": [],
+    "ext_disjoint_timer_query": [
+        "createQueryEXT",
+        "deleteQueryEXT",
+        "isQueryEXT",
+        "beginQueryEXT",
+        "endQueryEXT",
+        "queryCounterEXT",
+        "getQueryEXT",
+        "getQueryObjectEXT"
+    ],
+    "extendableevent": [
+        "ExtendableEvent",
+        "waitUntil"
+    ],
+    "extendablemessageevent": [
+        "ExtendableMessageEvent",
+        "data",
+        "lastEventId",
+        "origin",
+        "ports",
+        "source"
+    ],
+    "ext_frag_depth": [],
+    "ext_shader_texture_lod": [],
+    "ext_srgb": [],
+    "ext_texture_filter_anisotropic": [],
+    "federatedcredential": [
+        "FederatedCredential",
+        "provider"
+    ],
+    "fetchevent": [
+        "FetchEvent",
+        "client",
+        "clientId",
+        "isReload",
+        "navigationPreload",
+        "preloadResponse",
+        "request",
+        "respondWith",
+        "resultingClientId",
+        "targetClientId"
+    ],
+    "request": [
+        "Request",
+        "cache",
+        "clone",
+        "context",
+        "credentials",
+        "destination",
+        "headers",
+        "integrity",
+        "keepalive",
+        "method",
+        "mode",
+        "redirect",
+        "referrer",
+        "referrerPolicy",
+        "signal",
+        "url"
+    ],
+    "headers": [
+        "lexicographical_sorting",
+        "headers",
+        "append",
+        "delete",
+        "entries",
+        "get",
+        "getAll",
+        "has",
+        "keys",
+        "set",
+        "values"
+    ],
+    "fileentrysync": [],
+    "fileerror": [],
+    "fileexception": [],
+    "file": [
+        "File",
+        "lastModified",
+        "lastModifiedDate",
+        "name",
+        "type",
+        "webkitRelativePath"
+    ],
+    "filelist": [
+        "length",
+        "item"
+    ],
+    "filereader": [
+        "worker_support",
+        "abort",
+        "error",
+        "onabort",
+        "onerror",
+        "onload",
+        "onloadend",
+        "onprogress",
+        "readyState",
+        "readAsArrayBuffer",
+        "readAsBinaryString",
+        "readAsDataURL",
+        "readAsText",
+        "result"
+    ],
+    "filereadersync": [
+        "worker_support",
+        "readAsArrayBuffer",
+        "readAsBinaryString",
+        "readAsDataURL",
+        "readAsText",
+        "service_workers_support"
+    ],
+    "filesystemdirectoryentry": [
+        "createReader",
+        "getDirectory",
+        "getFile",
+        "removeRecursively"
+    ],
+    "filesystemdirectoryreader": [
+        "readEntries"
+    ],
+    "filesystementry": [
+        "filesystem",
+        "fullPath",
+        "isDirectory",
+        "isFile",
+        "name",
+        "copyTo",
+        "getMetadata",
+        "getParent",
+        "moveTo",
+        "remove",
+        "toURL"
+    ],
+    "filesystem": [
+        "name",
+        "root"
+    ],
+    "filesystemfileentry": [
+        "createWriter",
+        "file"
+    ],
+    "filesystemflags": [
+        "create",
+        "exclusive"
+    ],
+    "filesystemsync": [
+        "name",
+        "root"
+    ],
+    "focusevent": [
+        "FocusEvent",
+        "relatedTarget"
+    ],
+    "fontface": [
+        "FontFace",
+        "display",
+        "family",
+        "style",
+        "weight",
+        "stretch",
+        "unicodeRange",
+        "variant",
+        "featureSettings",
+        "status",
+        "loaded",
+        "load"
+    ],
+    "fontfaceset": [
+        "status",
+        "onloading",
+        "onloadingdone",
+        "onloadingerror",
+        "add",
+        "check",
+        "clear",
+        "delete",
+        "load",
+        "ready"
+    ],
+    "fontfacesetloadevent": [
+        "FontFaceSetLoadEvent",
+        "fontfaces"
+    ],
+    "gainnode": [
+        "GainNode",
+        "gain"
+    ],
+    "gamepadbutton": [
+        "pressed",
+        "value",
+        "touched"
+    ],
+    "gamepadevent": [
+        "gamepad"
+    ],
+    "gamepad": [
+        "Gamepad",
+        "axes",
+        "buttons",
+        "connected",
+        "displayId",
+        "hand",
+        "hapticActuators",
+        "id",
+        "index",
+        "mapping",
+        "pose",
+        "timestamp"
+    ],
+    "gamepadhapticactuator": [
+        "pulse",
+        "type"
+    ],
+    "gamepadpose": [
+        "angularAcceleration",
+        "angularVelocity",
+        "hasOrientation",
+        "hasPosition",
+        "linearAcceleration",
+        "linearVelocity",
+        "orientation",
+        "position"
+    ],
+    "position": [
+        "secure_context_required",
+        "timestamp",
+        "coords"
+    ],
+    "geolocation": [
+        "secure_context_required",
+        "clearWatch",
+        "getCurrentPosition",
+        "watchPosition"
+    ],
+    "geometryutils": [
+        "convertPointFromNode",
+        "convertQuadFromNode",
+        "convertRectFromNode",
+        "getBoxQuads"
+    ],
+    "gestureevent": [
+        "GestureEvent",
+        "initGestureEvent",
+        "rotation",
+        "scale"
+    ],
+    "globaleventhandlers": [
+        "onabort",
+        "onanimationcancel",
+        "onanimationend",
+        "onanimationiteration",
+        "onanimationstart",
+        "onauxclick",
+        "onblur",
+        "oncancel",
+        "oncanplay",
+        "oncanplaythrough",
+        "onchange",
+        "onclick",
+        "onclose",
+        "oncontextmenu",
+        "oncuechange",
+        "ondblclick",
+        "ondrag",
+        "ondragend",
+        "ondragenter",
+        "ondragexit",
+        "ondragleave",
+        "ondragover",
+        "ondragstart",
+        "ondrop",
+        "ondurationchange",
+        "onemptied",
+        "onended",
+        "onerror",
+        "onfocus",
+        "ongotpointercapture",
+        "oninput",
+        "oninvalid",
+        "onkeydown",
+        "onkeypress",
+        "onkeyup",
+        "onload",
+        "onloadeddata",
+        "onloadedmetadata",
+        "onloadend",
+        "onloadstart",
+        "onlostpointercapture",
+        "onmousedown",
+        "onmouseenter",
+        "onmouseleave",
+        "onmousemove",
+        "onmouseout",
+        "onmouseover",
+        "onmouseup",
+        "onmousewheel",
+        "onpause",
+        "onplay",
+        "onplaying",
+        "onpointercancel",
+        "onpointerdown",
+        "onpointerenter",
+        "onpointerleave",
+        "onpointerlockchange",
+        "onpointerlockerror",
+        "onpointermove",
+        "onpointerout",
+        "onpointerover",
+        "onpointerup",
+        "onprogress",
+        "onratechange",
+        "onreset",
+        "onresize",
+        "onscroll",
+        "onseeked",
+        "onseeking",
+        "onselect",
+        "onselectionchange",
+        "onselectstart",
+        "onshow",
+        "onsort",
+        "onstalled",
+        "onsubmit",
+        "onsuspend",
+        "ontimeupdate",
+        "ontouchcancel",
+        "ontouchend",
+        "ontouchmove",
+        "ontouchstart",
+        "ontransitioncancel",
+        "ontransitionend",
+        "ontransitionrun",
+        "ontransitionstart",
+        "onvolumechange",
+        "onwaiting",
+        "onwheel"
+    ],
+    "gyroscope": [
+        "Gyroscope",
+        "x",
+        "y",
+        "z"
+    ],
+    "hashchangeevent": [
+        "oldURL",
+        "newURL"
+    ],
+    "history": [
+        "back",
+        "forward",
+        "go",
+        "length",
+        "pushState",
+        "replaceState",
+        "scrollRestoration",
+        "state"
+    ],
+    "hmdvrdevice": [
+        "getEyeParameters",
+        "setFieldOfView"
+    ],
+    "htmlallcollection": [
+        "length",
+        "item",
+        "namedItem"
+    ],
+    "htmlanchorelement": [
+        "accessKey",
+        "download",
+        "hreflang",
+        "media",
+        "referrerPolicy",
+        "rel",
+        "relList",
+        "tabindex",
+        "target",
+        "text",
+        "type",
+        "charset",
+        "coords",
+        "name",
+        "rev",
+        "shape"
+    ],
+    "htmlareaelement": [
+        "accessKey",
+        "alt",
+        "coords",
+        "download",
+        "hreflang",
+        "media",
+        "noHref",
+        "referrerPolicy",
+        "rel",
+        "relList",
+        "shape",
+        "tabIndex",
+        "target",
+        "type"
+    ],
+    "htmlaudioelement": [
+        "mozCurrentSampleOffset",
+        "mozSetup",
+        "mozWriteAudio"
+    ],
+    "htmlbaseelement": [
+        "href",
+        "target"
+    ],
+    "htmlbasefontelement": [
+        "color",
+        "face",
+        "size"
+    ],
+    "htmlbodyelement": [
+        "aLink",
+        "background",
+        "bgColor",
+        "link",
+        "text",
+        "vLink"
+    ],
+    "htmlbrelement": [
+        "clear"
+    ],
+    "htmlbuttonelement": [
+        "accessKey",
+        "autofocus",
+        "disabled",
+        "form",
+        "formAction",
+        "formEnctype",
+        "formMethod",
+        "formNoValidate",
+        "formTarget",
+        "labels",
+        "menu",
+        "name",
+        "tabIndex",
+        "type",
+        "validationMessage",
+        "validity",
+        "value",
+        "willValidate"
+    ],
+    "htmlcanvaselement": [
+        "height",
+        "mozOpaque",
+        "width",
+        "captureStream",
+        "getContext",
+        "mozFetchAsStream",
+        "mozGetAsFile",
+        "toBlob",
+        "toDataURL",
+        "transferControlToOffscreen"
+    ],
+    "htmlcollection": [
+        "length",
+        "item",
+        "namedItem"
+    ],
+    "htmlcontentelement": [
+        "select",
+        "getDistributedNodes"
+    ],
+    "htmldataelement": [
+        "value"
+    ],
+    "htmldatalistelement": [
+        "options"
+    ],
+    "htmldetailselement": [
+        "open"
+    ],
+    "htmldialogelement": [
+        "open",
+        "returnValue",
+        "close",
+        "show",
+        "showModal"
+    ],
+    "htmldivelement": [
+        "align"
+    ],
+    "htmldlistelement": [
+        "compact"
+    ],
+    "htmldocument": [],
+    "htmlelement": [
+        "accessKey",
+        "accessKeyLabel",
+        "blur",
+        "click",
+        "contentEditable",
+        "contextMenu",
+        "dataset",
+        "dir",
+        "draggable",
+        "dropzone",
+        "focus",
+        "forceSpellCheck",
+        "hidden",
+        "inert",
+        "isContentEditable",
+        "itemId",
+        "itemProp",
+        "itemRef",
+        "itemScope",
+        "itemType",
+        "itemValue",
+        "lang",
+        "noModule",
+        "nonce",
+        "offsetHeight",
+        "offsetLeft",
+        "offsetParent",
+        "offsetTop",
+        "offsetWidth",
+        "onModule",
+        "oncopy",
+        "oncut",
+        "onpaste",
+        "outerText",
+        "spellcheck",
+        "style",
+        "tabIndex",
+        "title",
+        "translate"
+    ],
+    "htmlembedelement": [],
+    "htmlfieldsetelement": [
+        "disabled",
+        "elements",
+        "form",
+        "name",
+        "type",
+        "validationMessage",
+        "validity",
+        "willValidate"
+    ],
+    "htmlfontelement": [
+        "color",
+        "face",
+        "size"
+    ],
+    "htmlformcontrolscollection": [
+        "namedItem"
+    ],
+    "htmlformelement": [
+        "acceptCharset",
+        "action",
+        "autocomplete",
+        "checkValidity",
+        "elements",
+        "encoding",
+        "enctype",
+        "length",
+        "method",
+        "name",
+        "noValidate",
+        "reportValidity",
+        "requestAutocomplete",
+        "reset",
+        "submit",
+        "target"
+    ],
+    "htmlframeelement": [
+        "contentDocument",
+        "contentWindow",
+        "frameBorder",
+        "longDesc",
+        "marginHeight",
+        "marginWidth",
+        "name",
+        "noResize",
+        "scrolling",
+        "src"
+    ],
+    "htmlframesetelement": [
+        "event_handlers",
+        "onlanguage",
+        "onstorage",
+        "cols",
+        "rows"
+    ],
+    "htmlheadelement": [
+        "profile"
+    ],
+    "htmlheadingelement": [
+        "align"
+    ],
+    "htmlhrelement": [],
+    "htmlhtmlelement": [],
+    "htmlhyperlinkelementutils": [
+        "hash",
+        "host",
+        "hostname",
+        "href",
+        "origin",
+        "password",
+        "pathname",
+        "port",
+        "protocol",
+        "search",
+        "toString",
+        "username"
+    ],
+    "htmliframeelement": [
+        "addNextPaintListener",
+        "align",
+        "allow",
+        "allowFullScreen",
+        "allowPaymentRequest",
+        "clearMatch",
+        "contentDocument",
+        "contentWindow",
+        "csp",
+        "download",
+        "executeScript",
+        "findAll",
+        "findNext",
+        "frameBorder",
+        "getActive",
+        "getCanGoBack",
+        "getCanGoForward",
+        "getContentDimensions",
+        "getManifest",
+        "getMuted",
+        "getScreenshot",
+        "getStructuredData",
+        "getVisible",
+        "getVolume",
+        "goBack",
+        "goForward",
+        "height",
+        "longDesc",
+        "marginHeight",
+        "marginWidth",
+        "mute",
+        "name",
+        "policy",
+        "purgeHistory",
+        "referrerPolicy",
+        "reload",
+        "removeNextPaintListener",
+        "sandbox",
+        "scrolling",
+        "sendMouseEvent",
+        "sendTouchEvent",
+        "setActive",
+        "setNfcFocus",
+        "setVisible",
+        "setVolume",
+        "src",
+        "srcdoc",
+        "stop",
+        "unmute",
+        "width",
+        "zoom"
+    ],
+    "htmlimageelement": [
+        "Image",
+        "complete",
+        "crossorigin",
+        "currentSrc",
+        "decoding",
+        "lowSrc",
+        "naturalHeight",
+        "naturalWidth",
+        "onerror",
+        "referrerPolicy",
+        "sizes",
+        "srcset",
+        "x",
+        "y"
+    ],
+    "htmlinputelement": [
+        "autocomplete",
+        "autofocus",
+        "checkValidity",
+        "files",
+        "formAction",
+        "formEncType",
+        "formMethod",
+        "formNoValidate",
+        "formTarget",
+        "height",
+        "indeterminate",
+        "labels",
+        "list",
+        "mozGetFileNameArray",
+        "mozSetFileArray",
+        "mozSetFileNameArray",
+        "multiple",
+        "pattern",
+        "placeholder",
+        "required",
+        "selectionDirection",
+        "setCustomValidity",
+        "setSelectionRange",
+        "stepDown",
+        "stepUp",
+        "validationMessage",
+        "validity",
+        "webkitEntries",
+        "webkitdirectory",
+        "weight",
+        "willValidate"
+    ],
+    "htmlisindexelement": [
+        "form",
+        "prompt"
+    ],
+    "htmlkeygenelement": [],
+    "htmllabelelement": [
+        "control",
+        "form",
+        "htmlFor"
+    ],
+    "htmllegendelement": [],
+    "htmllielement": [],
+    "htmllinkelement": [
+        "as",
+        "crossOrigin",
+        "referrerPolicy",
+        "rel",
+        "relList",
+        "sizes"
+    ],
+    "htmlmapelement": [
+        "areas",
+        "name"
+    ],
+    "htmlmarqueeelement": [
+        "behavior",
+        "bgcolor",
+        "direction",
+        "height",
+        "hspace",
+        "loop",
+        "scrollamount",
+        "scrolldelay",
+        "truespeed",
+        "vspace",
+        "width"
+    ],
+    "htmlmediaelement": [
+        "addTextTrack",
+        "audioTracks",
+        "autoplay",
+        "buffered",
+        "canPlayType",
+        "captureStream",
+        "controller",
+        "controls",
+        "controlsList",
+        "crossOrigin",
+        "currentSrc",
+        "currentTime",
+        "defaultMuted",
+        "defaultPlaybackRate",
+        "disableRemotePlayback",
+        "duration",
+        "ended",
+        "error",
+        "fastSeek",
+        "initialTime",
+        "load",
+        "loop",
+        "mediaGroup",
+        "mediaKeys",
+        "mozAudioCaptured",
+        "mozCaptureStreamUntilEnded",
+        "mozChannels",
+        "mozFragmentEnd",
+        "mozFrameBufferLength",
+        "mozGetMetadata",
+        "mozLoadFrom",
+        "mozSampleRate",
+        "muted",
+        "networkState",
+        "onerror",
+        "onencrypted",
+        "onmozinterruptbegin",
+        "onmozinterruptend",
+        "onwaitingforkey",
+        "pause",
+        "paused",
+        "play",
+        "playbackRate",
+        "played",
+        "preload",
+        "preservesPitch",
+        "readyState",
+        "seekToNextFrame",
+        "seekable",
+        "seeking",
+        "setMediaKeys",
+        "setSinkId",
+        "sinkId",
+        "src",
+        "srcObject",
+        "textTracks",
+        "videoTracks",
+        "volume"
+    ],
+    "mediakeys": [
+        "createSession",
+        "setServerCertificate"
+    ],
+    "htmlmenuelement": [
+        "compact",
+        "label",
+        "type"
+    ],
+    "htmlmenuitemelement": [
+        "checked",
+        "default",
+        "disabled",
+        "icon",
+        "label",
+        "radiogroup",
+        "type"
+    ],
+    "htmlmetaelement": [],
+    "htmlmeterelement": [
+        "high",
+        "low",
+        "max",
+        "min",
+        "optimum",
+        "value",
+        "labels"
+    ],
+    "htmlmodelement": [
+        "cite",
+        "datetime"
+    ],
+    "htmlobjectelement": [
+        "align",
+        "archive",
+        "border",
+        "code",
+        "codeBase",
+        "codeType",
+        "contentDocument",
+        "contentWindow",
+        "data",
+        "declare",
+        "form",
+        "height",
+        "hspace",
+        "name",
+        "standby",
+        "type",
+        "typeMustMatch",
+        "useMap",
+        "validationMessage",
+        "validity",
+        "vspace",
+        "width",
+        "willValidate",
+        "checkValidity",
+        "getSVGDocument",
+        "reportValidity",
+        "setCustomValidity"
+    ],
+    "htmlolistelement": [
+        "reversed",
+        "start",
+        "type",
+        "compact"
+    ],
+    "htmloptgroupelement": [
+        "disabled",
+        "label"
+    ],
+    "htmloptionelement": [
+        "defaultSelected",
+        "disabled",
+        "form",
+        "index",
+        "label",
+        "selected",
+        "text",
+        "value"
+    ],
+    "htmloptionscollection": [
+        "length",
+        "add",
+        "remove",
+        "selectedIndex"
+    ],
+    "htmloutputelement": [
+        "defaultValue",
+        "form",
+        "htmlFor",
+        "labels",
+        "name",
+        "type",
+        "validationMessage",
+        "validity",
+        "value",
+        "willValidate",
+        "checkValidity",
+        "reportValidity",
+        "setCustomValidity"
+    ],
+    "htmlparagraphelement": [
+        "align"
+    ],
+    "htmlparamelement": [
+        "name",
+        "value",
+        "type",
+        "valueType"
+    ],
+    "htmlpictureelement": [],
+    "htmlpreelement": [
+        "width"
+    ],
+    "htmlprogresselement": [
+        "max",
+        "position",
+        "value",
+        "labels"
+    ],
+    "htmlquoteelement": [
+        "cite"
+    ],
+    "htmlscriptelement": [
+        "async",
+        "charset",
+        "crossOrigin",
+        "defer",
+        "event",
+        "htmlFor",
+        "noModule",
+        "src",
+        "text",
+        "type"
+    ],
+    "htmlselectelement": [
+        "autofocus",
+        "disabled",
+        "form",
+        "labels",
+        "length",
+        "multiple",
+        "name",
+        "options",
+        "required",
+        "selectedIndex",
+        "selectedOptions",
+        "size",
+        "type",
+        "validationMessage",
+        "validity",
+        "value",
+        "willValidate",
+        "add",
+        "blur",
+        "checkValidity",
+        "focus",
+        "item",
+        "namedItem",
+        "remove",
+        "setCustomValidity"
+    ],
+    "htmlshadowelement": [
+        "getDistributedNodes"
+    ],
+    "htmlslotelement": [
+        "name",
+        "assignedNodes"
+    ],
+    "htmlsourceelement": [
+        "keySystem",
+        "media",
+        "sizes",
+        "src",
+        "srcset",
+        "type"
+    ],
+    "htmlspanelement": [],
+    "htmlstyleelement": [
+        "media",
+        "type",
+        "disabled",
+        "sheet",
+        "scoped"
+    ],
+    "htmltablecaptionelement": [
+        "align"
+    ],
+    "htmltablecellelement": [
+        "abbr",
+        "align",
+        "axis",
+        "bgColor",
+        "cellIndex",
+        "ch",
+        "chOff",
+        "colSpan",
+        "headers",
+        "height",
+        "noWrap",
+        "rowSpan",
+        "scope",
+        "vAlign",
+        "width"
+    ],
+    "htmltablecolelement": [
+        "align",
+        "ch",
+        "chOff",
+        "span",
+        "vAlign",
+        "width"
+    ],
+    "htmltabledatacellelement": [],
+    "htmltableelement": [
+        "align",
+        "bgColor",
+        "border",
+        "caption",
+        "cellPadding",
+        "cellSpacing",
+        "createCaption",
+        "createTBody",
+        "createTFoot",
+        "createTHead",
+        "deleteCaption",
+        "deleteRow",
+        "deleteTFoot",
+        "deleteTHead",
+        "frame",
+        "insertRow",
+        "rows",
+        "rules",
+        "sortable",
+        "stopSorting",
+        "summary",
+        "tBodies",
+        "tFoot",
+        "tHead",
+        "width"
+    ],
+    "htmltableheadercellelement": [
+        "abbr",
+        "scope",
+        "sorted"
+    ],
+    "htmltablerowelement": [
+        "align",
+        "bgColor",
+        "cells",
+        "ch",
+        "chOff",
+        "rowIndex",
+        "sectionRowIndex",
+        "vAlign",
+        "deleteCell",
+        "insertCell"
+    ],
+    "htmltablesectionelement": [
+        "align",
+        "ch",
+        "chOff",
+        "deleteRow",
+        "insertRow",
+        "rows",
+        "vAlign"
+    ],
+    "htmltemplateelement": [
+        "content"
+    ],
+    "htmltextareaelement": [
+        "autocapitalize",
+        "textLength",
+        "labels"
+    ],
+    "htmltimeelement": [
+        "dateTime"
+    ],
+    "htmltitleelement": [
+        "text"
+    ],
+    "htmltrackelement": [
+        "default",
+        "kind",
+        "label",
+        "readyState",
+        "src",
+        "srclang",
+        "track"
+    ],
+    "htmlulistelement": [
+        "compact",
+        "type"
+    ],
+    "htmlunknownelement": [],
+    "htmlvideoelement": [
+        "height",
+        "poster",
+        "videoHeight",
+        "videoWidth",
+        "width",
+        "mozParsedFrames",
+        "mozDecodedFrames",
+        "mozPresentedFrames",
+        "mozPaintedFrames",
+        "mozFrameDelay",
+        "mozHasAudio",
+        "msIsStereo3D",
+        "getVideoPlaybackQuality"
+    ],
+    "idbcursor": [
+        "worker_support",
+        "direction",
+        "key",
+        "primaryKey",
+        "source",
+        "advance",
+        "continue",
+        "continuePrimaryKey",
+        "delete",
+        "update"
+    ],
+    "idbcursorwithvalue": [
+        "worker_support",
+        "value"
+    ],
+    "idbdatabaseexception": [],
+    "idbdatabase": [
+        "worker_support",
+        "name",
+        "objectStoreNames",
+        "onabort",
+        "onclose",
+        "onerror",
+        "onversionchange",
+        "version",
+        "close",
+        "createObjectStore",
+        "deleteObjectStore",
+        "transaction"
+    ],
+    "idbenvironment": [
+        "worker_support"
+    ],
+    "idbfactory": [
+        "worker_support",
+        "cmp",
+        "deleteDatabase",
+        "open"
+    ],
+    "idbindex": [
+        "worker_support",
+        "isAutoLocale",
+        "keyPath",
+        "locale",
+        "multiEntry",
+        "name",
+        "objectStore",
+        "unique",
+        "count",
+        "get",
+        "getAll",
+        "getAllKeys",
+        "getKey",
+        "openCursor",
+        "openKeyCursor"
+    ],
+    "idbkeyrange": [
+        "worker_support",
+        "lower",
+        "lowerOpen",
+        "upper",
+        "upperOpen",
+        "bound",
+        "includes",
+        "lowerBound",
+        "only",
+        "upperBound"
+    ],
+    "idblocaleawarekeyrange": [],
+    "idbobjectstore": [
+        "worker_support",
+        "autoIncrement",
+        "indexNames",
+        "keyPath",
+        "name",
+        "transaction",
+        "add",
+        "clear",
+        "count",
+        "createIndex",
+        "delete",
+        "deleteIndex",
+        "get",
+        "getAll",
+        "getAllKeys",
+        "getKey",
+        "index",
+        "openCursor",
+        "openKeyCursor",
+        "put"
+    ],
+    "idbopendbrequest": [
+        "worker_support",
+        "onblocked",
+        "onupgradeneeded"
+    ],
+    "idbrequest": [
+        "worker_support",
+        "error",
+        "onerror",
+        "onsuccess",
+        "readyState",
+        "result",
+        "source",
+        "transaction"
+    ],
+    "idbtransaction": [
+        "worker_support",
+        "db",
+        "error",
+        "mode",
+        "objectStoreNames",
+        "onabort",
+        "oncomplete",
+        "onerror",
+        "abort",
+        "objectStore"
+    ],
+    "idbversionchangeevent": [
+        "worker_support",
+        "newVersion",
+        "oldVersion",
+        "version"
+    ],
+    "idbversionchangerequest": [
+        "setVersion"
+    ],
+    "idledeadline": [
+        "didTimeout",
+        "timeRemaining"
+    ],
+    "iirfilternode": [
+        "IIRFilterNode",
+        "getFrequencyResponse"
+    ],
+    "imagebitmap": [
+        "height",
+        "width",
+        "close"
+    ],
+    "imagebitmaprenderingcontext": [
+        "transferFromImageBitmap"
+    ],
+    "imagecapture": [
+        "ImageCapture",
+        "getPhotoCapabilities",
+        "getPhotoSettings",
+        "grabFrame",
+        "takePhoto",
+        "track"
+    ],
+    "imagedata": [
+        "worker_support",
+        "ImageData",
+        "data",
+        "height",
+        "width"
+    ],
+    "inputdevicecapabilities": [
+        "InputDeviceCapabilities",
+        "firesTouchEvents"
+    ],
+    "inputdeviceinfo": [
+        "getCapabilities"
+    ],
+    "inputevent": [
+        "InputEvent",
+        "data",
+        "dataTransfer",
+        "getTargetRanges",
+        "inputType",
+        "isComposing"
+    ],
+    "installevent": [
+        "InstallEvent",
+        "activeWorker"
+    ],
+    "intersectionobserverentry": [
+        "boundingClientRect",
+        "intersectionRatio",
+        "intersectionRect",
+        "isIntersecting",
+        "rootBounds",
+        "target",
+        "time"
+    ],
+    "intersectionobserver": [
+        "IntersectionObserver",
+        "root",
+        "rootMargin",
+        "thresholds",
+        "disconnect",
+        "observe",
+        "takeRecords",
+        "unobserve"
+    ],
+    "keyboardevent": [
+        "KeyboardEvent",
+        "altKey",
+        "charCode",
+        "code",
+        "ctrlKey",
+        "isComposing",
+        "key",
+        "keyCode",
+        "keyIdentifier",
+        "location",
+        "metaKey",
+        "repeat",
+        "shiftKey",
+        "which",
+        "getModifierState",
+        "DOM_KEY_LOCATION_LEFT",
+        "DOM_KEY_LOCATION_NUMPAD",
+        "DOM_KEY_LOCATION_RIGHT",
+        "DOM_KEY_LOCATION_STANDARD"
+    ],
+    "keyboard": [
+        "getLayoutMap",
+        "lock",
+        "unlock"
+    ],
+    "lock": [
+        "mode",
+        "name"
+    ],
+    "keyboardlayoutmap": [
+        "entries",
+        "forEach",
+        "get",
+        "has",
+        "keys",
+        "size",
+        "values"
+    ],
+    "keyframeeffect": [
+        "KeyframeEffect",
+        "composite",
+        "getKeyframes",
+        "iterationComposite",
+        "setKeyframes",
+        "target"
+    ],
+    "linearaccelerationsensor": [
+        "LinearAccelerationSensor",
+        "x",
+        "y",
+        "z"
+    ],
+    "linkstyle": [
+        "sheet"
+    ],
+    "localfilesystem": [
+        "requestFileSystem",
+        "resolveLocalFileSystemURL"
+    ],
+    "localfilesystemsync": [
+        "requestFileSystemSync",
+        "resolveLocalFileSystemSyncURL"
+    ],
+    "localmediastream": [],
+    "lockmanager": [
+        "query",
+        "request"
+    ],
+    "longrange": [],
+    "magnetometer": [
+        "Magnetometer",
+        "x",
+        "y",
+        "z"
+    ],
+    "mediacapabilities": [
+        "encodingInfo",
+        "decodingInfo"
+    ],
+    "mediadeviceinfo": [
+        "deviceId",
+        "groupId",
+        "kind",
+        "label",
+        "toJSON"
+    ],
+    "mediadevices": [
+        "ondevicechange",
+        "enumerateDevices",
+        "getSupportedConstraints",
+        "getUserMedia",
+        "stereo_audio_capture"
+    ],
+    "mediaelementaudiosourcenode": [
+        "MediaElementAudioSourceNode",
+        "mediaElement"
+    ],
+    "mediaerror": [
+        "code",
+        "message"
+    ],
+    "mediakeymessageevent": [
+        "MediaKeyMessageEvent",
+        "message",
+        "messageType"
+    ],
+    "mediakeysession": [
+        "closed",
+        "expiration",
+        "keyStatuses",
+        "sessionId",
+        "onkeystatuseschange",
+        "onmessage",
+        "close",
+        "generateRequest",
+        "load",
+        "remove",
+        "update"
+    ],
+    "mediakeystatusmap": [
+        "size",
+        "entries",
+        "forEach",
+        "get",
+        "has",
+        "keys",
+        "iterator",
+        "values"
+    ],
+    "mediakeysystemaccess": [
+        "keySystem",
+        "createMediaKeys",
+        "getConfiguration"
+    ],
+    "mediakeysystemconfiguration": [
+        "initDataTypes",
+        "audioCapabilities",
+        "videoCapabilities",
+        "distinctiveIdentifier",
+        "persistentState"
+    ],
+    "mediametadata": [
+        "MediaMetadata",
+        "album",
+        "artist",
+        "artwork",
+        "title"
+    ],
+    "mediaquerylistevent": [
+        "MediaQueryListEvent",
+        "matches",
+        "media"
+    ],
+    "mediaquerylist": [
+        "addListener",
+        "matches",
+        "media",
+        "onchange",
+        "removeListener",
+        "EventListener_objects",
+        "EventTarget_inheritance"
+    ],
+    "mediaquerylistlistener": [],
+    "mediarecordererrorevent": [
+        "MediaRecorderErrorEvent",
+        "error"
+    ],
+    "mediarecorder": [
+        "MediaRecorder",
+        "mimeType",
+        "state",
+        "stream",
+        "ignoreMutedMedia",
+        "videoBitsPerSecond",
+        "audioBitsPerSecond",
+        "isTypeSupported",
+        "pause",
+        "requestData",
+        "resume",
+        "start",
+        "stop",
+        "ondataavailable",
+        "onerror",
+        "onpause",
+        "onresume",
+        "onstart",
+        "onstop",
+        "onwarning"
+    ],
+    "mimetype": [
+        "description",
+        "enabledPlugin",
+        "suffixes",
+        "type"
+    ],
+    "mediasession": [
+        "metadata",
+        "playbackState",
+        "setActionHandler"
+    ],
+    "metadata": [
+        "modificationTime",
+        "size"
+    ],
+    "mediasettingsrange": [
+        "max",
+        "min",
+        "step"
+    ],
+    "mediasource": [
+        "MediaSource",
+        "sourceBuffers",
+        "activeSourceBuffers",
+        "readyState",
+        "duration",
+        "onsourceclose",
+        "onsourceended",
+        "onsourceopen",
+        "addSourceBuffer",
+        "removeSourceBuffer",
+        "endOfStream",
+        "setLiveSeekableRange",
+        "clearLiveSeekableRange",
+        "isTypeSupported"
+    ],
+    "mediastreamaudiodestinationnode": [
+        "MediaStreamAudioDestinationNode",
+        "stream"
+    ],
+    "mediastreamaudiosourcenode": [
+        "MediaStreamAudioSourceNode",
+        "mediaStream"
+    ],
+    "mediastream": [
+        "MediaStream",
+        "active",
+        "ended",
+        "id",
+        "onaddtrack",
+        "onremovetrack",
+        "addTrack",
+        "clone",
+        "getAudioTracks",
+        "getTrackById",
+        "getTracks",
+        "getVideoTracks",
+        "removeTrack",
+        "label",
+        "stop"
+    ],
+    "mediastreamconstraints": [
+        "video",
+        "audio"
+    ],
+    "mediastreamevent": [
+        "MediaStreamEvent",
+        "stream"
+    ],
+    "mediastreamtrackaudiosourcenode": [],
+    "mediastreamtrackevent": [
+        "MediaStreamTrackEvent",
+        "track"
+    ],
+    "mediastreamtrack": [
+        "applyConstraints",
+        "clone",
+        "contentHint",
+        "enabled",
+        "getCapabilities",
+        "getConstraints",
+        "getSettings",
+        "getSources",
+        "id",
+        "isolated",
+        "kind",
+        "label",
+        "muted",
+        "onended",
+        "onisolationchange",
+        "onmute",
+        "onoverconstrained",
+        "onunmute",
+        "readonly",
+        "readyState",
+        "remote",
+        "stop"
+    ],
+    "mediatrackconstraints": [
+        "aspectRatio",
+        "autoGainControl",
+        "channelCount",
+        "deviceId",
+        "echoCancellation",
+        "facingMode",
+        "frameRate",
+        "groupId",
+        "height",
+        "latency",
+        "noiseSuppression",
+        "sampleRate",
+        "sampleSize",
+        "volume",
+        "width"
+    ],
+    "mediatracksettings": [
+        "aspectRatio",
+        "autoGainControl",
+        "channelCount",
+        "deviceId",
+        "echoCancellation",
+        "facingMode",
+        "frameRate",
+        "groupId",
+        "height",
+        "latency",
+        "noiseSuppression",
+        "resizeMode",
+        "sampleRate",
+        "sampleSize",
+        "volume",
+        "width"
+    ],
+    "mediatracksupportedconstraints": [
+        "width",
+        "height",
+        "aspectRatio",
+        "frameRate",
+        "facingMode",
+        "resizeMode",
+        "volume",
+        "sampleRate",
+        "sampleSize",
+        "echoCancellation",
+        "autoGainControl",
+        "noiseSuppression",
+        "latency",
+        "channelCount",
+        "deviceId",
+        "groupId"
+    ],
+    "messagechannel": [
+        "MessageChannel",
+        "port1",
+        "port2"
+    ],
+    "messageevent": [
+        "MessageEvent",
+        "data",
+        "initMessageEvent",
+        "lastEventId",
+        "origin",
+        "ports",
+        "source"
+    ],
+    "messageport": [
+        "worker_support",
+        "close",
+        "onmessage",
+        "onmessageerror",
+        "postMessage",
+        "start"
+    ],
+    "midiaccess": [],
+    "midiconnectionevent": [],
+    "midiinput": [],
+    "midiinputmap": [],
+    "midioutputmap": [],
+    "mimetypearray": [
+        "item",
+        "length",
+        "namedItem"
+    ],
+    "mouseevent": [
+        "MouseEvent",
+        "altKey",
+        "button",
+        "buttons",
+        "clientX",
+        "clientY",
+        "ctrlKey",
+        "getModifierState",
+        "initMouseEvent",
+        "metaKey",
+        "movementX",
+        "movementY",
+        "offsetX",
+        "offsetY",
+        "pageX",
+        "pageY",
+        "region",
+        "relatedTarget",
+        "screenX",
+        "screenY",
+        "shiftKey",
+        "which",
+        "x",
+        "y"
+    ],
+    "mousescrollevent": [],
+    "mousewheelevent": [
+        "wheelDelta",
+        "wheelDeltaX",
+        "wheelDeltaY"
+    ],
+    "msgestureevent": [
+        "MSGestureEvent",
+        "expansion",
+        "gestureObject",
+        "initGestureEvent",
+        "rotation",
+        "scale",
+        "translationX",
+        "translationY",
+        "velocityAngular",
+        "velocityExpansion",
+        "velocityX",
+        "velocityY"
+    ],
+    "mutationobserverinit": [
+        "attributeFilter",
+        "attributeOldValue",
+        "attributes",
+        "characterData",
+        "characterDataOldValue",
+        "childList",
+        "subtree"
+    ],
+    "mutationobserver": [
+        "MutationObserver",
+        "observe",
+        "disconnect",
+        "takeRecords"
+    ],
+    "mutationrecord": [
+        "type",
+        "target",
+        "addedNodes",
+        "removedNodes",
+        "previousSibling"
+    ],
+    "namednodemap": [
+        "getNamedItem",
+        "getNamedItemNS",
+        "item",
+        "length",
+        "removeNamedItem",
+        "removeNamedItemNS",
+        "setNamedItem",
+        "setNamedItemNS"
+    ],
+    "navigationpreloadmanager": [
+        "enable",
+        "disable",
+        "setHeaderValue",
+        "getState"
+    ],
+    "navigatorconcurrenthardware": [
+        "worker_support",
+        "hardwareConcurrency"
+    ],
+    "navigatorgeolocation": [],
+    "navigatorid": [
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "platform",
+        "product",
+        "taintEnabled",
+        "userAgent"
+    ],
+    "navigator": [
+        "activeVRDisplays",
+        "authentication",
+        "battery",
+        "buildID",
+        "clipboard",
+        "connection",
+        "cookieEnabled",
+        "credentials",
+        "deviceMemory",
+        "doNotTrack",
+        "geolocation",
+        "getBattery",
+        "getGamepads",
+        "getUserMedia",
+        "getVRDisplays",
+        "keyboard",
+        "locks",
+        "maxTouchPoints",
+        "mediaCapabilities",
+        "mediaDevices",
+        "mediaSession",
+        "mozIsLocallyAvailable",
+        "oscpu",
+        "permissions",
+        "presentation",
+        "productSub",
+        "registerContentHandler",
+        "registerProtocolHandler",
+        "requestMediaKeySystemAccess",
+        "sendBeacon",
+        "serviceWorker",
+        "share",
+        "vendor",
+        "vendorSub",
+        "vibrate",
+        "webdriver"
+    ],
+    "permissions": [
+        "query",
+        "request",
+        "requestAll",
+        "revoke",
+        "accelerometer_permission",
+        "accessibility-events_permission",
+        "ambient-light-sensor_permission",
+        "background-sync_permission",
+        "camera_permission",
+        "clipboard-read_permission",
+        "clipboard-write_permission",
+        "geolocation_permission",
+        "gyroscope_permission",
+        "magnetometer_permission",
+        "microphone_permission",
+        "midi_permission",
+        "notifications_permission",
+        "payment-handler_permission",
+        "persistent-storage_permission",
+        "push_permission"
+    ],
+    "presentation": [
+        "defaultRequest",
+        "receiver"
+    ],
+    "serviceworker": [
+        "scriptURL",
+        "state",
+        "onstatechange"
+    ],
+    "navigatorlanguage": [
+        "worker_support",
+        "language",
+        "languages"
+    ],
+    "navigatoronline": [
+        "worker_support",
+        "onLine"
+    ],
+    "navigatorplugins": [
+        "mimeTypes",
+        "plugins",
+        "javaEnabled"
+    ],
+    "navigatorstorage": [
+        "storage"
+    ],
+    "storage": [
+        "clear",
+        "getItem",
+        "key",
+        "length",
+        "removeItem",
+        "setItem"
+    ],
+    "networkinformation": [
+        "worker_support",
+        "downlink",
+        "downlinkMax",
+        "effectiveType",
+        "onchange",
+        "rtt",
+        "type"
+    ],
+    "nodefilter": [
+        "acceptNode"
+    ],
+    "nodeiterator": [
+        "expandEntityReferences",
+        "filter",
+        "pointerBeforeReferenceNode",
+        "referenceNode",
+        "root",
+        "whatToShow",
+        "detach",
+        "nextNode",
+        "previousNode"
+    ],
+    "node": [
+        "appendChild",
+        "baseURI",
+        "baseURIObject",
+        "childNodes",
+        "cloneNode",
+        "compareDocumentPosition",
+        "contains",
+        "firstChild",
+        "getFeature",
+        "getRootNode",
+        "getUserData",
+        "hasAttributes",
+        "hasChildNodes",
+        "innerText",
+        "insertBefore",
+        "isConnected",
+        "isDefaultNamespace",
+        "isEqualNode",
+        "isSameNode",
+        "isSupported",
+        "lastChild",
+        "localName",
+        "lookupPrefix",
+        "lookupNamespaceURI",
+        "namespaceURI",
+        "nextSibling",
+        "nodeName",
+        "nodePrincipal",
+        "nodeType",
+        "nodeValue",
+        "normalize",
+        "outerText",
+        "ownerDocument",
+        "parentElement",
+        "parentNode",
+        "prefix",
+        "previousSibling",
+        "removeChild",
+        "replaceChild",
+        "rootNode",
+        "setUserData",
+        "textContent"
+    ],
+    "parentnode": [
+        "document_documentfragment",
+        "childElementCount",
+        "children",
+        "firstElementChild",
+        "lastElementChild",
+        "append",
+        "prepend",
+        "querySelectorAll"
+    ],
+    "nodelist": [
+        "length",
+        "entries",
+        "forEach",
+        "item",
+        "keys",
+        "values"
+    ],
+    "nondocumenttypechildnode": [
+        "CharacterData_support",
+        "nextElementSibling",
+        "previousElementSibling"
+    ],
+    "notation": [
+        "publicId",
+        "systemId"
+    ],
+    "notificationevent": [
+        "NotificationEvent",
+        "notification",
+        "action"
+    ],
+    "notification": [
+        "worker_support",
+        "secure_contexts_only",
+        "Notification",
+        "actions",
+        "badge",
+        "body",
+        "data",
+        "dir",
+        "icon",
+        "image",
+        "lang",
+        "maxActions",
+        "onclick",
+        "onclose",
+        "onerror",
+        "onshow",
+        "permission",
+        "renotify",
+        "requireInteraction",
+        "silent",
+        "tag",
+        "timestamp",
+        "title",
+        "vibrate",
+        "close",
+        "requestPermission"
+    ],
+    "oes_element_index_uint": [],
+    "oes_standard_derivatives": [],
+    "oes_texture_float": [],
+    "oes_texture_float_linear": [],
+    "oes_texture_half_float": [],
+    "oes_texture_half_float_linear": [],
+    "oes_vertex_array_object": [
+        "createVertexArrayOES",
+        "deleteVertexArrayOES",
+        "isVertexArrayOES",
+        "bindVertexArrayOES"
+    ],
+    "offlineaudiocompletionevent": [
+        "OfflineAudioCompletionEvent",
+        "renderedBuffer"
+    ],
+    "offlineaudiocontext": [
+        "OfflineAudioContext",
+        "length",
+        "oncomplete",
+        "resume",
+        "suspend",
+        "startRendering"
+    ],
+    "offscreencanvas": [
+        "OffscreenCanvas",
+        "height",
+        "width",
+        "getContext",
+        "toBlob",
+        "transferToImageBitmap"
+    ],
+    "orientationsensor": [
+        "quaternion",
+        "populateMatrix"
+    ],
+    "oscillatornode": [
+        "OscillatorNode",
+        "detune",
+        "frequency",
+        "onended",
+        "type",
+        "setPeriodicWave",
+        "start",
+        "stop"
+    ],
+    "overconstrainederrorevent": [
+        "error"
+    ],
+    "pagetransitionevent": [
+        "persisted"
+    ],
+    "pannernode": [
+        "PannerNode",
+        "coneInnerAngle",
+        "coneOuterAngle",
+        "coneOuterGain",
+        "distanceModel",
+        "maxDistance",
+        "orientationX",
+        "orientationY",
+        "orientationZ",
+        "panningModel",
+        "positionX",
+        "positionY",
+        "positionZ",
+        "refDistance",
+        "rolloffFactor",
+        "setOrientation",
+        "setPosition",
+        "setVelocity"
+    ],
+    "passwordcredential": [
+        "PasswordCredential",
+        "additionalData",
+        "iconURL",
+        "idName",
+        "name",
+        "password",
+        "passwordName"
+    ],
+    "path2d": [
+        "Path2D",
+        "addPath"
+    ],
+    "paymentaddress": [
+        "country",
+        "addressLine",
+        "region",
+        "city",
+        "dependentLocality",
+        "postalCode",
+        "sortingCode",
+        "languageCode",
+        "organization",
+        "recipient",
+        "phone",
+        "toJSON"
+    ],
+    "paymentdetailsbase": [
+        "displayItems",
+        "modifiers",
+        "shippingOptions"
+    ],
+    "paymentdetailsinit": [
+        "id",
+        "total"
+    ],
+    "paymentdetailsupdate": [
+        "error",
+        "shippingAddressErrors",
+        "total"
+    ],
+    "paymentinstruments": [
+        "clear",
+        "delete",
+        "get",
+        "has",
+        "keys",
+        "set"
+    ],
+    "paymentmanager": [
+        "instruments",
+        "requestPermission",
+        "userHint"
+    ],
+    "paymentmethodchangeevent": [
+        "methodDetails",
+        "methodName"
+    ],
+    "paymentrequestevent": [
+        "PaymentRequestEvent",
+        "instrumentKey",
+        "methodData",
+        "modifiers",
+        "openWindow",
+        "paymentRequestId",
+        "paymentRequestOrigin",
+        "respondWith",
+        "topOrigin",
+        "total"
+    ],
+    "paymentrequest": [
+        "PaymentRequest",
+        "abort",
+        "canMakePayment",
+        "id",
+        "onpaymentmethodchange",
+        "onshippingaddresschange",
+        "onshippingoptionchange",
+        "paymentAddress",
+        "requestId",
+        "shippingOption",
+        "shippingType",
+        "show"
+    ],
+    "paymentrequestupdateevent": [
+        "PaymentRequestUpdateEvent",
+        "updateWith"
+    ],
+    "paymentresponse": [
+        "details",
+        "methodName",
+        "payerEmail",
+        "payerName",
+        "payerPhone",
+        "requestId",
+        "shippingAddress",
+        "shippingOption",
+        "complete",
+        "toJSON"
+    ],
+    "performanceentry": [
+        "worker_support",
+        "duration",
+        "entryType",
+        "name",
+        "startTime",
+        "toJSON"
+    ],
+    "performanceframetiming": [],
+    "performance": [
+        "clearMarks",
+        "clearMeasures",
+        "clearResourceTimings",
+        "getEntries",
+        "getEntriesByName",
+        "getEntriesByType",
+        "mark",
+        "measure",
+        "memory",
+        "navigation",
+        "now",
+        "onresourcetimingbufferfull",
+        "setResourceTimingBufferSize",
+        "timeOrigin",
+        "timing",
+        "toJSON"
+    ],
+    "performancelongtasktiming": [
+        "attribution"
+    ],
+    "performancemark": [],
+    "performancemeasure": [],
+    "performancenavigation": [
+        "type",
+        "redirectCount",
+        "toJSON"
+    ],
+    "performancenavigationtiming": [
+        "domComplete",
+        "domContentLoadedEventEnd",
+        "domContentLoadedEventStart",
+        "domInteractive",
+        "loadEventEnd",
+        "loadEventStart",
+        "redirectCount",
+        "type",
+        "unloadEventEnd",
+        "unloadEventStart",
+        "toJSON"
+    ],
+    "performanceobserverentrylist": [
+        "getEntries",
+        "getEntriesByType",
+        "getEntriesByName"
+    ],
+    "performanceobserver": [
+        "worker_support",
+        "PerformanceObserver",
+        "disconnect",
+        "observe",
+        "takeRecords"
+    ],
+    "performancepainttiming": [],
+    "performanceresourcetiming": [
+        "connectEnd",
+        "connectStart",
+        "decodedBodySize",
+        "domainLookupEnd",
+        "domainLookupStart",
+        "encodedBodySize",
+        "fetchStart",
+        "initiatorType",
+        "nextHopProtocol",
+        "redirectEnd",
+        "redirectStart",
+        "requestStart",
+        "responseEnd",
+        "responseStart",
+        "secureConnectionStart",
+        "serverTiming",
+        "transferSize",
+        "workerStart",
+        "toJSON",
+        "worker_support"
+    ],
+    "performanceservertiming": [
+        "description",
+        "duration",
+        "name",
+        "toJSON"
+    ],
+    "performancetiming": [
+        "connectEnd",
+        "connectStart",
+        "domComplete",
+        "domContentLoadedEventEnd",
+        "domContentLoadedEventStart",
+        "domInteractive",
+        "domLoading",
+        "domainLookupEnd",
+        "domainLookupStart",
+        "fetchStart",
+        "loadEventEnd",
+        "loadEventStart",
+        "navigationStart",
+        "redirectEnd",
+        "redirectStart",
+        "requestStart",
+        "responseEnd",
+        "responseStart",
+        "secureConnectionStart",
+        "toJSON",
+        "unloadEventEnd",
+        "unloadEventStart"
+    ],
+    "periodicwave": [
+        "PeriodicWave"
+    ],
+    "permissionstatus": [
+        "onchange",
+        "state"
+    ],
+    "photocapabilities": [
+        "fillLightMode",
+        "imageHeight",
+        "imageWidth",
+        "redEyeReduction"
+    ],
+    "pictureinpicture": [
+        "height",
+        "onresize",
+        "width"
+    ],
+    "pluginarray": [
+        "item",
+        "length",
+        "namedItem",
+        "refresh"
+    ],
+    "plugin": [
+        "description",
+        "filename",
+        "item",
+        "name",
+        "namedItem",
+        "version"
+    ],
+    "pointerevent": [
+        "PointerEvent",
+        "pointerId",
+        "width",
+        "height",
+        "pressure",
+        "tangentialPressure",
+        "tiltX",
+        "tiltY",
+        "twist",
+        "pointerType",
+        "isPrimary",
+        "getCoalescedEvents"
+    ],
+    "point": [
+        "x",
+        "y"
+    ],
+    "popstateevent": [
+        "state"
+    ],
+    "positionerror": [
+        "secure_context_required",
+        "code",
+        "message"
+    ],
+    "positionoptions": [
+        "secure_context_required",
+        "enableHighAccuracy",
+        "timeout",
+        "maximumAge"
+    ],
+    "positionsensorvrdevice": [
+        "getImmediateState",
+        "getState",
+        "resetSensor"
+    ],
+    "presentationavailability": [
+        "onchange",
+        "value"
+    ],
+    "presentationconnectionavailableevent": [
+        "PresentationConnectionAvailableEvent",
+        "connection"
+    ],
+    "presentationconnectioncloseevent": [
+        "PresentationConnectionCloseEvent",
+        "message",
+        "reason"
+    ],
+    "presentationconnection": [
+        "binaryType",
+        "close",
+        "id",
+        "onclose",
+        "onconnect",
+        "onmessage",
+        "onterminate",
+        "send",
+        "state",
+        "terminate",
+        "url"
+    ],
+    "presentationconnectionlist": [
+        "connections",
+        "onconnectionavailable"
+    ],
+    "presentationreceiver": [
+        "connectionList"
+    ],
+    "presentationrequest": [
+        "secure_context_required",
+        "PresentationRequest",
+        "getAvailability",
+        "onconnectionavailable",
+        "reconnect",
+        "start",
+        "startWithDevice"
+    ],
+    "processinginstruction": [
+        "target",
+        "data"
+    ],
+    "progressevent": [
+        "ProgressEvent",
+        "lengthComputable",
+        "loaded",
+        "total",
+        "initProgressEvent"
+    ],
+    "promiserejectionevent": [
+        "PromiseRejectionEvent",
+        "promise",
+        "reason"
+    ],
+    "publickeycredentialcreationoptions": [
+        "attestation",
+        "authenticatorSelection",
+        "challenge",
+        "excludeCredentials",
+        "extensions",
+        "pubKeyCredParams",
+        "rp",
+        "timeout",
+        "user"
+    ],
+    "publickeycredential": [
+        "rawId",
+        "response",
+        "getClientExtensionResults",
+        "isUserVerifyingPlatformAuthenticatorAvailable"
+    ],
+    "response": [
+        "Response",
+        "headers",
+        "ok",
+        "redirected",
+        "status",
+        "statusText",
+        "type",
+        "url",
+        "useFinalURL",
+        "clone",
+        "error",
+        "redirect",
+        "trailer"
+    ],
+    "publickeycredentialrequestoptions": [
+        "allowCredentials",
+        "challenge",
+        "extensions",
+        "rpId",
+        "timeout",
+        "userVerification"
+    ],
+    "pushevent": [
+        "PushEvent",
+        "data"
+    ],
+    "pushmanager": [
+        "supportedContentEncodings",
+        "getSubscription",
+        "permissionState",
+        "subscribe",
+        "hasPermission",
+        "register",
+        "registrations",
+        "unregister"
+    ],
+    "pushmessagedata": [
+        "arrayBuffer",
+        "blob",
+        "json",
+        "text"
+    ],
+    "pushregistrationmanager": [
+        "register",
+        "unregister",
+        "getRegistration",
+        "hasPermission"
+    ],
+    "pushsubscriptionchangeevent": [
+        "newSubscription",
+        "oldSubscription"
+    ],
+    "pushsubscription": [
+        "endpoint",
+        "expirationTime",
+        "options",
+        "subscriptionId",
+        "getKey",
+        "toJSON",
+        "unsubscribe"
+    ],
+    "pushsubscriptionoptions": [
+        "applicationServerKey",
+        "userVisibleOnly"
+    ],
+    "radionodelist": [
+        "value"
+    ],
+    "range": [
+        "Range",
+        "cloneContents",
+        "cloneRange",
+        "collapse",
+        "collapsed",
+        "commonAncestorContainer",
+        "compareBoundaryPoints",
+        "compareNode",
+        "comparePoint",
+        "createContextualFragment",
+        "deleteContents",
+        "detach",
+        "endContainer",
+        "endOffset",
+        "extractContents",
+        "getBoundingClientRect",
+        "getClientRects",
+        "insertNode",
+        "intersectsNode",
+        "isPointInRange",
+        "selectNode",
+        "selectNodeContents",
+        "setEnd",
+        "setEndAfter",
+        "setEndBefore",
+        "setStart",
+        "setStartAfter",
+        "setStartBefore",
+        "startContainer",
+        "startOffset",
+        "surroundContents",
+        "toString"
+    ],
+    "readablebytestreamcontroller": [
+        "ReadableByteStreamController",
+        "byobRequest",
+        "desiredSize",
+        "close",
+        "enqueue",
+        "error"
+    ],
+    "readablestreambyobreader": [
+        "ReadableStreamBYOBReader",
+        "closed",
+        "cancel",
+        "read",
+        "releaseLock"
+    ],
+    "readablestreambyobrequest": [
+        "ReadableStreamBYOBRequest",
+        "respond",
+        "respondWithNewView",
+        "view"
+    ],
+    "readablestreamdefaultcontroller": [
+        "ReadableStreamDefaultController",
+        "close",
+        "desiredSize",
+        "enqueue",
+        "error"
+    ],
+    "readablestreamdefaultreader": [
+        "ReadableStreamDefaultReader",
+        "cancel",
+        "closed",
+        "read",
+        "releaseLock"
+    ],
+    "readablestream": [
+        "ReadableStream",
+        "locked",
+        "cancel",
+        "getReader",
+        "pipeThrough",
+        "pipeTo",
+        "tee"
+    ],
+    "relativeorientationsensor": [
+        "RelativeOrientationSensor"
+    ],
+    "requestdestination": [],
+    "rtcansweroptions": [],
+    "rtccertificate": [
+        "expires",
+        "getFingerprints",
+        "getSupportedAlgorithms"
+    ],
+    "rtcconfiguration": [
+        "bundlePolicy",
+        "certificates",
+        "iceCandidatePoolSize",
+        "iceServers",
+        "iceTransportPolicy",
+        "peerIdentity",
+        "rtcpMuxPolicy"
+    ],
+    "rtcdatachannelevent": [
+        "RTCDataChannelEvent",
+        "channel"
+    ],
+    "rtcdatachannel": [
+        "binaryType",
+        "bufferedAmount",
+        "bufferedAmountLowThreshold",
+        "close",
+        "id",
+        "label",
+        "maxPacketLifeTime",
+        "maxRetransmits",
+        "negotiated",
+        "ordered",
+        "protocol",
+        "onbufferedamountlow",
+        "onclose",
+        "onerror",
+        "onmessage",
+        "onopen",
+        "priority",
+        "readyState",
+        "reliable",
+        "sctp-sdp-21",
+        "send",
+        "stream"
+    ],
+    "rtcdtlstransport": [
+        "onerror",
+        "onstatechange",
+        "state",
+        "transport",
+        "getRemoteCertificates"
+    ],
+    "rtcdtmfsender": [
+        "toneBuffer",
+        "ontonechange",
+        "insertDTMF",
+        "canInsertDTMF"
+    ],
+    "rtcdtmftonechangeevent": [
+        "tone",
+        "RTCDTMFToneChangeEvent"
+    ],
+    "rtcerrorevent": [
+        "error"
+    ],
+    "rtcicecandidateinit": [
+        "candidate",
+        "sdpMid",
+        "sdpMLineIndex",
+        "usernameFragment"
+    ],
+    "rtcicecandidate": [
+        "RTCIceCandidate",
+        "candidate",
+        "foundation",
+        "ip",
+        "port",
+        "priority",
+        "protocol",
+        "relatedAddress",
+        "relatedPort",
+        "sdpMid",
+        "sdpMLineIndex",
+        "tcpType",
+        "type",
+        "component",
+        "usernameFragment",
+        "toJSON"
+    ],
+    "rtcicecomponent": [],
+    "rtciceserver": [
+        "credential",
+        "credentialType",
+        "url",
+        "urls",
+        "username"
+    ],
+    "rtcicetransport": [
+        "component",
+        "gatheringState",
+        "ongatheringstatechange",
+        "onselectedcandidatepairchange",
+        "onstatechange",
+        "role",
+        "state",
+        "getLocalCandidates",
+        "getLocalParameters",
+        "getRemoteCandidates",
+        "getRemoteParameters",
+        "getSelectedCandidatePair"
+    ],
+    "rtcidentityassertion": [
+        "idp",
+        "name"
+    ],
+    "rtcidentityerrorevent": [
+        "idp",
+        "loginUrl",
+        "protocol"
+    ],
+    "rtcidentityevent": [
+        "assertion"
+    ],
+    "rtcidentityproviderglobalscope": [
+        "rtcIdentityProvider"
+    ],
+    "rtcidentityproviderregistrar": [
+        "register"
+    ],
+    "rtcofferansweroptions": [
+        "voiceActivityDetection"
+    ],
+    "rtcofferoptions": [
+        "iceRestart"
+    ],
+    "rtcpeerconnectioniceerrorevent": [
+        "errorCode",
+        "errorText",
+        "hostCandidate",
+        "url"
+    ],
+    "rtcpeerconnectioniceevent": [
+        "candidate",
+        "RTCPeerConnectionIceEvent",
+        "url"
+    ],
+    "rtcpeerconnection": [
+        "RTCPeerConnection",
+        "canTrickleIceCandidates",
+        "connectionState",
+        "currentLocalDescription",
+        "currentRemoteDescription",
+        "defaultIceServers",
+        "iceConnectionState",
+        "iceGatheringState",
+        "localDescription",
+        "peerIdentity",
+        "pendingLocalDescription",
+        "pendingRemoteDescription",
+        "remoteDescription",
+        "sctp",
+        "signalingState",
+        "onaddstream",
+        "onconnectionstatechange",
+        "ondatachannel",
+        "onicecandidate",
+        "oniceconnectionstatechange",
+        "onicegatheringstatechange",
+        "onidentityresult",
+        "onidpassertionerror",
+        "onidpvalidationerror",
+        "onnegotiationneeded",
+        "onpeeridentity",
+        "onremovestream",
+        "onsignalingstatechange",
+        "ontrack",
+        "addIceCandidate",
+        "addStream",
+        "addTrack",
+        "addTransceiver",
+        "createAnswer",
+        "createDataChannel",
+        "createOffer",
+        "generateCertificate",
+        "getConfiguration",
+        "getIdentityAssertion",
+        "getLocalStreams",
+        "getReceivers",
+        "getRemoteStreams",
+        "getSenders",
+        "getStreamById",
+        "removeStream",
+        "removeTrack",
+        "setConfiguration",
+        "setIdentityProvider",
+        "setLocalDescription",
+        "setRemoteDescription",
+        "createDTMFSender",
+        "onicecandidateerror",
+        "close",
+        "getDefaultIceServers"
+    ],
+    "rtcrtpcontributingsource": [
+        "timestamp",
+        "source",
+        "audioLevel"
+    ],
+    "rtcrtpreceiver": [
+        "track",
+        "transport",
+        "rtcpTransport",
+        "getCapabilities",
+        "getParameters",
+        "getContributingSources",
+        "getSynchronizationSources",
+        "getStats"
+    ],
+    "rtcrtpsender": [
+        "dtmf",
+        "getStats",
+        "rtcpTransport",
+        "track",
+        "transport",
+        "getCapabilities",
+        "getParameters",
+        "replaceTrack",
+        "setParameters"
+    ],
+    "rtcrtpstreamstats": [
+        "codecId",
+        "firCount",
+        "isRemote",
+        "kind",
+        "mediaTrackId",
+        "mediaType",
+        "nackCount",
+        "pliCount",
+        "qpSum",
+        "remoteId",
+        "sliCount",
+        "ssrc",
+        "transportId"
+    ],
+    "rtcrtpsynchronizationsource": [
+        "voiceActivityFlag"
+    ],
+    "rtcrtptransceiverdirection": [],
+    "rtcrtptransceiverinit": [
+        "direction",
+        "sendEncodings",
+        "streams"
+    ],
+    "rtcrtptransceiver": [
+        "currentDirection",
+        "direction",
+        "mid",
+        "receiver",
+        "sender",
+        "stopped",
+        "setCodecPreferences",
+        "stop"
+    ],
+    "rtcsctptransport": [
+        "maxMessageSize",
+        "transport",
+        "onstatechange",
+        "state"
+    ],
+    "rtcsessiondescriptioncallback": [],
+    "rtcsessiondescription": [
+        "type",
+        "sdp",
+        "RTCSessionDescription",
+        "toJSON"
+    ],
+    "rtcstatsevent": [
+        "report"
+    ],
+    "rtcstatsreport": [],
+    "rtctrackeventinit": [
+        "receiver",
+        "streams",
+        "track",
+        "transceiver"
+    ],
+    "rtctrackevent": [
+        "receiver",
+        "streams",
+        "track",
+        "transceiver"
+    ],
+    "scopedcredentialinfo": [
+        "attestation",
+        "clientData"
+    ],
+    "scopedcredential": [
+        "id",
+        "type"
+    ],
+    "screen": [
+        "availHeight",
+        "availLeft",
+        "availTop",
+        "availWidth",
+        "colorDepth",
+        "height",
+        "left",
+        "lockOrientation",
+        "mozBrightness",
+        "mozEnabled",
+        "onorientationchange",
+        "orientation",
+        "pixelDepth",
+        "top",
+        "unlockOrientation",
+        "width"
+    ],
+    "screenorientation": [
+        "angle",
+        "onchange",
+        "type",
+        "lock",
+        "unlock"
+    ],
+    "scriptprocessornode": [
+        "bufferSize",
+        "onaudioprocess"
+    ],
+    "securitypolicyviolationevent": [
+        "worker_support",
+        "SecurityPolicyViolationEvent",
+        "blockedURI",
+        "columnNumber",
+        "disposition",
+        "documentURI",
+        "effectiveDirective",
+        "lineNumber",
+        "originalPolicy",
+        "referrer",
+        "sample",
+        "sourceFile",
+        "statusCode",
+        "violatedDirective"
+    ],
+    "selection": [
+        "addRange",
+        "anchorNode",
+        "anchorOffset",
+        "collapse",
+        "collapseToStart",
+        "collapseToEnd",
+        "containsNode",
+        "deleteFromDocument",
+        "empty",
+        "extend",
+        "focusNode",
+        "focusOffset",
+        "getRangeAt",
+        "isCollapsed",
+        "modify",
+        "rangeCount",
+        "removeRange",
+        "removeAllRanges",
+        "selectAllChildren",
+        "setBaseAndExtent",
+        "setPosition",
+        "toString",
+        "type"
+    ],
+    "sensorerrorevent": [
+        "SensorErrorEvent",
+        "error"
+    ],
+    "sensor": [
+        "activated",
+        "hasReading",
+        "onactivate",
+        "onerror",
+        "onreading",
+        "start",
+        "stop",
+        "timestamp"
+    ],
+    "serviceworkercontainer": [
+        "controller",
+        "ready",
+        "oncontrollerchange",
+        "onerror",
+        "onmessage",
+        "register",
+        "getRegistration",
+        "getRegistrations",
+        "onmessageerror",
+        "startMessages"
+    ],
+    "serviceworkerglobalscope": [
+        "clients",
+        "caches",
+        "onabortpayment",
+        "onactivate",
+        "oncanmakepayment",
+        "onfetch",
+        "oninstall",
+        "onmessage",
+        "onmessageerror",
+        "onnotificationclick",
+        "onnotificationclose",
+        "onpaymentrequest",
+        "onpush",
+        "onpushsubscriptionchange",
+        "onsync",
+        "registration",
+        "skipWaiting"
+    ],
+    "serviceworkermessageevent": [
+        "ServiceWorkerMessageEvent",
+        "data",
+        "origin",
+        "lastEventId",
+        "source",
+        "ports"
+    ],
+    "serviceworkerregistration": [
+        "active",
+        "getNotifications",
+        "installing",
+        "navigationPreload",
+        "onupdatefound",
+        "paymentManager",
+        "periodicSync",
+        "pushManager",
+        "scope",
+        "showNotification",
+        "sync",
+        "unregister",
+        "update",
+        "updateViaCache",
+        "waiting"
+    ],
+    "sharedworkerglobalscope": [
+        "applicationCache",
+        "name",
+        "onconnect",
+        "close"
+    ],
+    "sharedworker": [
+        "SharedWorker",
+        "port"
+    ],
+    "slotable": [
+        "assignedSlot"
+    ],
+    "sourcebufferlist": [
+        "SourceBuffer",
+        "length",
+        "onaddsourcebuffer",
+        "onremovesourcebuffer"
+    ],
+    "speechgrammar": [
+        "SpeechGrammar",
+        "src",
+        "weight"
+    ],
+    "speechgrammarlist": [
+        "SpeechGrammarList",
+        "addFromString",
+        "addFromURI",
+        "item",
+        "length"
+    ],
+    "speechrecognitionalternative": [
+        "confidence",
+        "transcript"
+    ],
+    "speechrecognitionerror": [
+        "error",
+        "message"
+    ],
+    "speechrecognitionevent": [
+        "emma",
+        "interpretation",
+        "resultIndex",
+        "results"
+    ],
+    "speechrecognition": [
+        "SpeechRecognition",
+        "abort",
+        "continuous",
+        "grammars",
+        "interimResults",
+        "lang",
+        "maxAlternatives",
+        "onaudioend",
+        "onaudiostart",
+        "onend",
+        "onerror",
+        "onnomatch",
+        "onresult",
+        "onsoundend",
+        "onsoundstart",
+        "onspeechend",
+        "onspeechstart",
+        "onstart",
+        "serviceURI",
+        "start",
+        "stop"
+    ],
+    "speechrecognitionresult": [
+        "isFinal",
+        "length",
+        "item"
+    ],
+    "speechrecognitionresultlist": [
+        "item",
+        "length"
+    ],
+    "speechsynthesiserrorevent": [
+        "error"
+    ],
+    "speechsynthesisevent": [
+        "charIndex",
+        "elapsedTime",
+        "name",
+        "utterance"
+    ],
+    "speechsynthesis": [
+        "cancel",
+        "getVoices",
+        "onvoiceschanged",
+        "pause",
+        "paused",
+        "pending",
+        "resume",
+        "speak",
+        "speaking"
+    ],
+    "speechsynthesisutterance": [
+        "SpeechSynthesisUtterance",
+        "lang",
+        "onboundary",
+        "onend",
+        "onerror",
+        "onmark",
+        "onpause",
+        "onresume",
+        "onstart",
+        "pitch",
+        "rate",
+        "text",
+        "voice",
+        "volume"
+    ],
+    "speechsynthesisvoice": [
+        "default",
+        "lang",
+        "localService",
+        "name",
+        "voiceURI"
+    ],
+    "staticrange": [
+        "StaticRange",
+        "startContainer",
+        "startOffset",
+        "endContainer",
+        "endOffset",
+        "collapsed",
+        "toRange"
+    ],
+    "stereopannernode": [
+        "StereoPannerNode",
+        "pan"
+    ],
+    "storageestimate": [
+        "quota",
+        "usage"
+    ],
+    "storageevent": [
+        "StorageEvent",
+        "initStorageEvent",
+        "key",
+        "newValue",
+        "oldValue",
+        "storageArea",
+        "url"
+    ],
+    "storagemanager": [
+        "estimate",
+        "persist",
+        "persisted"
+    ],
+    "storagequota": [
+        "queryInfo",
+        "requestPersistentQuota",
+        "supportedTypes"
+    ],
+    "stylepropertymap": [
+        "append",
+        "clear",
+        "delete",
+        "set"
+    ],
+    "stylepropertymapreadonly": [
+        "@@iterator",
+        "entries",
+        "forEach",
+        "get",
+        "getAll",
+        "has",
+        "keys",
+        "size",
+        "values"
+    ],
+    "stylesheet": [
+        "disabled",
+        "href",
+        "media",
+        "ownerNode",
+        "parentStyleSheet",
+        "title",
+        "type"
+    ],
+    "stylesheetlist": [
+        "item",
+        "length"
+    ],
+    "subtlecrypto": [
+        "encrypt",
+        "decrypt",
+        "sign",
+        "verify",
+        "digest",
+        "generateKey",
+        "deriveKey",
+        "deriveBits",
+        "importKey",
+        "exportKey",
+        "wrapKey",
+        "unwrapKey"
+    ],
+    "svgaelement": [
+        "download",
+        "hreflang",
+        "ping",
+        "referrerPolicy",
+        "rel",
+        "relList",
+        "target",
+        "text",
+        "type"
+    ],
+    "svgaltglyphdefelement": [],
+    "svgaltglyphelement": [
+        "glyphRef",
+        "format"
+    ],
+    "svgaltglyphitemelement": [],
+    "svgangle": [],
+    "svganimatecolorelement": [],
+    "svganimatedangle": [],
+    "svganimatedboolean": [],
+    "svganimatedenumeration": [],
+    "svganimatedinteger": [],
+    "svganimatedlength": [],
+    "svganimatedlengthlist": [],
+    "svganimatednumber": [],
+    "svganimatednumberlist": [],
+    "svganimatedpoints": [],
+    "svganimatedpreserveaspectratio": [],
+    "svganimatedrect": [],
+    "svganimatedstring": [
+        "animVal",
+        "baseVal"
+    ],
+    "svganimatedtransformlist": [],
+    "svganimateelement": [],
+    "svganimatemotionelement": [],
+    "svganimatetransformelement": [],
+    "svganimationelement": [
+        "onbegin",
+        "onend",
+        "onrepeat",
+        "targetElement"
+    ],
+    "svgcircleelement": [
+        "cx",
+        "cy",
+        "r"
+    ],
+    "svgclippathelement": [
+        "clipPathUnits"
+    ],
+    "svgcolorprofileelement": [],
+    "svgcomponenttransferfunctionelement": [],
+    "svgcursorelement": [],
+    "svgdefselement": [],
+    "svgdescelement": [],
+    "svgelement": [
+        "dataset",
+        "offsetHeight",
+        "offsetLeft",
+        "offsetParent",
+        "offsetTop",
+        "offsetWidth"
+    ],
+    "svgellipseelement": [
+        "cx",
+        "cy",
+        "rx",
+        "ry"
+    ],
+    "svgexternalresourcesrequired": [],
+    "svgfeblendelement": [],
+    "svgfecolormatrixelement": [
+        "in1",
+        "type",
+        "values"
+    ],
+    "svgfecomponenttransferelement": [],
+    "svgfecompositeelement": [],
+    "svgfeconvolvematrixelement": [],
+    "svgfediffuselightingelement": [],
+    "svgfedisplacementmapelement": [],
+    "svgfedistantlightelement": [],
+    "svgfedropshadowelement": [],
+    "svgfefloodelement": [],
+    "svgfefuncaelement": [],
+    "svgfefuncbelement": [],
+    "svgfefuncgelement": [],
+    "svgfefuncrelement": [],
+    "svgfegaussianblurelement": [],
+    "svgfeimageelement": [],
+    "svgfemergeelement": [],
+    "svgfemergenodeelement": [],
+    "svgfemorphologyelement": [],
+    "svgfeoffsetelement": [],
+    "svgfepointlightelement": [],
+    "svgfespecularlightingelement": [],
+    "svgfespotlightelement": [],
+    "svgfetileelement": [],
+    "svgfeturbulenceelement": [],
+    "svgfilterelement": [],
+    "svgfilterprimitivestandardattributes": [],
+    "svgfontelement": [],
+    "svgfontfaceelement": [],
+    "svgfontfaceformatelement": [],
+    "svgfontfacenameelement": [],
+    "svgfontfacesrcelement": [],
+    "svgfontfaceurielement": [],
+    "svgforeignobjectelement": [],
+    "svggelement": [],
+    "svggeometryelement": [
+        "supportOtherThanPath",
+        "pathLength",
+        "isPointInFill",
+        "isPointInStroke",
+        "getTotalLength",
+        "getPointAtLength"
+    ],
+    "svgglyphelement": [],
+    "svgglyphrefelement": [],
+    "svggradientelement": [],
+    "svggraphicselement": [
+        "transform",
+        "getBBox",
+        "getCTM",
+        "getScreenCTM"
+    ],
+    "svghkernelement": [],
+    "svgimageelement": [
+        "x",
+        "y",
+        "width",
+        "height",
+        "preserveAspectRatio",
+        "crossOrigin"
+    ],
+    "svglength": [],
+    "svglengthlist": [],
+    "svglineargradientelement": [],
+    "svglineelement": [
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+    ],
+    "svgmaskelement": [
+        "maskUnits",
+        "maskContentUnits",
+        "height",
+        "width",
+        "x",
+        "y"
+    ],
+    "svgmatrix": [],
+    "svgmeshelement": [],
+    "svgmetadataelement": [],
+    "svgmissingglyphelement": [],
+    "svgmpathelement": [],
+    "svgnumber": [],
+    "svgnumberlist": [],
+    "svgpathelement": [
+        "pathLength",
+        "createSVGPathSegArcAbs",
+        "createSVGPathSegArcRel",
+        "createSVGPathSegClosePath",
+        "createSVGPathSegCurvetoCubicAbs",
+        "createSVGPathSegCurvetoCubicRel",
+        "createSVGPathSegCurvetoCubicSmoothAbs",
+        "createSVGPathSegCurvetoCubicSmoothRel",
+        "createSVGPathSegCurvetoQuadraticAbs",
+        "createSVGPathSegCurvetoQuadraticRel",
+        "createSVGPathSegCurvetoQuadraticSmoothAbs",
+        "createSVGPathSegCurvetoQuadraticSmoothRel",
+        "createSVGPathSegLinetoAbs",
+        "createSVGPathSegLinetoRel",
+        "createSVGPathSegLinetoHorizontalAbs",
+        "createSVGPathSegLinetoHorizontalRel",
+        "createSVGPathSegLinetoVerticalAbs",
+        "createSVGPathSegLinetoVerticalRel",
+        "createSVGPathSegMovetoAbs",
+        "createSVGPathSegMovetoRel",
+        "getTotalLength",
+        "getPointAtLength",
+        "getPathSegAtLength"
+    ],
+    "svgpatternelement": [
+        "height",
+        "patternContentUnits",
+        "patternTransform",
+        "patternUnits",
+        "width",
+        "x",
+        "y"
+    ],
+    "svgpoint": [
+        "x",
+        "y",
+        "matrixTransform"
+    ],
+    "svgpolygonelement": [],
+    "svgpolylineelement": [],
+    "svgpreserveaspectratio": [],
+    "svgradialgradientelement": [],
+    "svgrectelement": [
+        "height",
+        "rx",
+        "ry",
+        "width",
+        "x",
+        "y"
+    ],
+    "svgrect": [
+        "height",
+        "width",
+        "x",
+        "y"
+    ],
+    "svgrenderingintent": [],
+    "svgscriptelement": [],
+    "svgsetelement": [],
+    "svgsolidcolorelement": [],
+    "svgstopelement": [],
+    "svgstringlist": [
+        "length"
+    ],
+    "svgstylable": [],
+    "svgstyleelement": [],
+    "svgsvgelement": [
+        "animationsPaused",
+        "checkEnclosure",
+        "checkIntersection",
+        "contentScriptType",
+        "contentStyleType",
+        "createSVGAngle",
+        "createSVGLength",
+        "createSVGMatrix",
+        "createSVGNumber",
+        "createSVGPoint",
+        "createSVGRect",
+        "createSVGTransform",
+        "createSVGTransformFromMatrix",
+        "currentScale",
+        "currentTranslate",
+        "currentView",
+        "deselectAll",
+        "forceRedraw",
+        "getCurrentTime",
+        "getElementById",
+        "getEnclosureList",
+        "getIntersectionList",
+        "height",
+        "pauseAnimations",
+        "pixelUnitToMillimeterX",
+        "pixelUnitToMillimeterY",
+        "screenPixelToMillimeterX",
+        "screenPixelToMillimeterY",
+        "setCurrentTime",
+        "suspendRedraw",
+        "unpauseAnimations",
+        "unsuspendRedraw",
+        "unsuspendRedrawAll",
+        "useCurrentView",
+        "viewport",
+        "width",
+        "x",
+        "y"
+    ],
+    "svgswitchelement": [],
+    "svgsymbolelement": [],
+    "svgtests": [
+        "hasextension",
+        "requiredFeatures"
+    ],
+    "svgtextcontentelement": [
+        "lengthAdjust",
+        "textLength",
+        "getCharNumAtPosition",
+        "getComputedTextLength",
+        "getEndPositionOfChar",
+        "getExtentOfChar",
+        "getNumberOfChars",
+        "getRotationOfChar",
+        "getStartPositionOfChar",
+        "getSubStringLength",
+        "selectSubString"
+    ],
+    "svgtextelement": [],
+    "svgtextpathelement": [
+        "method",
+        "spacing",
+        "startOffset"
+    ],
+    "svgtextpositioningelement": [
+        "dx",
+        "dy",
+        "rotate",
+        "x",
+        "y"
+    ],
+    "svgtitleelement": [],
+    "svgtransformable": [],
+    "svgtransform": [],
+    "svgtransformlist": [
+        "length"
+    ],
+    "svgtrefelement": [],
+    "svgtspanelement": [],
+    "svgunittypes": [],
+    "svgunknownelement": [],
+    "svgurireference": [],
+    "svguseelement": [
+        "animatedInstanceRoot",
+        "height",
+        "instanceRoot",
+        "width",
+        "x",
+        "y"
+    ],
+    "svgviewelement": [
+        "viewtarget"
+    ],
+    "svgvkernelement": [],
+    "svgzoomandpan": [],
+    "syncevent": [
+        "SyncEvent",
+        "tag",
+        "lastChance"
+    ],
+    "syncmanager": [
+        "worker_support",
+        "register",
+        "getTags"
+    ],
+    "taskattributiontiming": [
+        "containerId",
+        "containerName",
+        "containerSrc",
+        "containerType"
+    ],
+    "textdecoder": [
+        "worker_support",
+        "TextDecoder",
+        "decode",
+        "encoding",
+        "fatal",
+        "ignoreBOM"
+    ],
+    "textencoder": [
+        "worker_support",
+        "TextEncoder",
+        "encoding",
+        "encode"
+    ],
+    "textmetrics": [
+        "width",
+        "advanced_text_metrics"
+    ],
+    "texttrack": [
+        "activeCues",
+        "cues",
+        "id",
+        "inBandMetadataTrackDispatchType",
+        "kind",
+        "label",
+        "language",
+        "mode",
+        "oncuechange",
+        "addCue",
+        "removeCue",
+        "sourceBuffer"
+    ],
+    "timeranges": [
+        "end",
+        "length",
+        "start"
+    ],
+    "touchevent": [
+        "TouchEvent",
+        "altKey",
+        "changedTouches",
+        "ctrlKey",
+        "metaKey",
+        "shiftKey",
+        "targetTouches",
+        "touches"
+    ],
+    "touch": [
+        "Touch",
+        "clientX",
+        "clientY",
+        "force",
+        "identifier",
+        "pageX",
+        "pageY",
+        "radiusX",
+        "radiusY",
+        "rotationAngle",
+        "screenX",
+        "screenY",
+        "target"
+    ],
+    "touchlist": [
+        "length",
+        "identifiedTouch",
+        "item"
+    ],
+    "trackdefault": [
+        "TrackDefault",
+        "byteStreamTrackID",
+        "kinds",
+        "label",
+        "language",
+        "type"
+    ],
+    "trackdefaultlist": [
+        "TrackDefaultList",
+        "length",
+        "TrackDefault"
+    ],
+    "transferable": [],
+    "transitionevent": [
+        "TransitionEvent",
+        "animationName",
+        "propertyName",
+        "elapsedTime",
+        "pseudoElement",
+        "initTransitionEvent"
+    ],
+    "treewalker": [
+        "currentNode",
+        "expandEntityReferences",
+        "filter",
+        "root",
+        "whatToShow",
+        "firstChild",
+        "lastChild",
+        "nextNode",
+        "nextSibling",
+        "parentNode",
+        "previousNode",
+        "previousSibling"
+    ],
+    "uievent": [
+        "UIEvent",
+        "cancelBubble",
+        "detail",
+        "initUIEvent",
+        "isChar",
+        "layerX",
+        "layerY",
+        "pageX",
+        "pageY",
+        "sourceCapabilities",
+        "view",
+        "which"
+    ],
+    "urlsearchparams": [
+        "URLSearchParams",
+        "append",
+        "delete",
+        "entries",
+        "get",
+        "getAll",
+        "has",
+        "keys",
+        "set",
+        "sort",
+        "toString",
+        "values"
+    ],
+    "urlutilsreadonly": [
+        "hash",
+        "host",
+        "hostname",
+        "href",
+        "origin",
+        "pathname",
+        "port",
+        "protocol",
+        "search",
+        "toString"
+    ],
+    "usbalternateinterface": [
+        "USBAlternateInterface",
+        "alternateSetting",
+        "interfaceClass",
+        "interfaceSubclass",
+        "interfaceProtocol",
+        "interfaceName",
+        "endpoints"
+    ],
+    "usbconfiguration": [
+        "USBConfiguration",
+        "configurationValue",
+        "configurationName",
+        "interfaces"
+    ],
+    "usbconnectionevent": [
+        "device"
+    ],
+    "usbdevice": [
+        "usbVersionMajor",
+        "usbVersionMinor",
+        "usbVersionSubminor",
+        "deviceClass",
+        "deviceSubclass",
+        "deviceProtocol",
+        "vendorId",
+        "productId",
+        "deviceVersionMajor",
+        "deviceVersionMinor",
+        "deviceVersionSubminor",
+        "manufacturerName",
+        "productName",
+        "serialNumber",
+        "configuration",
+        "configurations",
+        "opened",
+        "open",
+        "close",
+        "selectConfiguration",
+        "claimInterface",
+        "releaseInterface",
+        "selectAlternateInterface",
+        "controlTransferIn",
+        "controlTransferOut",
+        "clearHalt",
+        "transferIn",
+        "transferOut",
+        "isochronousTransferIn",
+        "isochronousTransferOut",
+        "reset"
+    ],
+    "usbendpoint": [
+        "USBEndpoint",
+        "endpointNumber",
+        "direction",
+        "type",
+        "packetSize"
+    ],
+    "usbinterface": [
+        "USBInterface",
+        "interfaceNumber",
+        "alternate",
+        "alternates",
+        "claimed"
+    ],
+    "usbintransferresult": [
+        "USBInTransferResult",
+        "data",
+        "status"
+    ],
+    "usbisochronousintransferpacket": [
+        "USBIsochronousInTransferPacket",
+        "data",
+        "status"
+    ],
+    "usbisochronousintransferresult": [
+        "USBIsochronousInTransferResult",
+        "data",
+        "packets"
+    ],
+    "usbisochronousouttransferpacket": [
+        "USBIsochronousOutTransferPacket",
+        "bytesWritten",
+        "status"
+    ],
+    "usbisochronousouttransferresult": [
+        "USBIsochronousOutTransferResult",
+        "packets"
+    ],
+    "usb": [
+        "onconnect",
+        "ondisconnect",
+        "getDevices",
+        "requestDevice"
+    ],
+    "usbouttransferresult": [
+        "USBOutTransferResult",
+        "bytesWritten",
+        "status"
+    ],
+    "usbpermissionresult": [
+        "devices"
+    ],
+    "userdatahandler": [
+        "handle"
+    ],
+    "userproximityevent": [
+        "near"
+    ],
+    "validitystate": [
+        "badInput",
+        "tooLong"
+    ],
+    "videoplaybackquality": [
+        "creationTime",
+        "droppedVideoFrames",
+        "corruptedVideoFrames",
+        "totalVideoFrames",
+        "totalFrameDelay"
+    ],
+    "videotrack": [
+        "id",
+        "kind",
+        "label",
+        "language",
+        "selected",
+        "sourceBuffer"
+    ],
+    "videotracklist": [
+        "getTrackById",
+        "length",
+        "onaddtrack",
+        "onchange",
+        "onremovetrack",
+        "selectedIndex"
+    ],
+    "visualviewport": [
+        "height",
+        "offsetLeft",
+        "offsetTop",
+        "onresize",
+        "onscroll",
+        "pageLeft",
+        "pageTop",
+        "scale",
+        "width"
+    ],
+    "vrdisplaycapabilities": [
+        "canPresent",
+        "hasExternalDisplay",
+        "hasPosition",
+        "hasOrientation",
+        "maxLayers"
+    ],
+    "vrdisplayevent": [
+        "VRDisplayEvent",
+        "display",
+        "reason"
+    ],
+    "vrdisplay": [
+        "cancelAnimationFrame",
+        "capabilities",
+        "depthFar",
+        "depthNear",
+        "displayId",
+        "displayName",
+        "exitPresent",
+        "getEyeParameters",
+        "getFrameData",
+        "getLayers",
+        "getImmediatePose",
+        "getPose",
+        "hardwareUnitId",
+        "isConnected",
+        "isPresenting",
+        "requestAnimationFrame",
+        "resetPose",
+        "requestPresent",
+        "stageParameters",
+        "submitFrame"
+    ],
+    "vreyeparameters": [
+        "fieldOfView",
+        "maximumFieldOfView",
+        "minimumFieldOfView",
+        "offset",
+        "recommendedFieldOfView",
+        "renderHeight",
+        "renderRect",
+        "renderWidth"
+    ],
+    "vrfieldofview": [
+        "VRFieldOfView",
+        "downDegrees",
+        "leftDegrees",
+        "rightDegrees",
+        "upDegrees"
+    ],
+    "vrframedata": [
+        "VRFrameData",
+        "leftProjectionMatrix",
+        "leftViewMatrix",
+        "pose",
+        "rightProjectionMatrix",
+        "rightViewMatrix",
+        "timestamp"
+    ],
+    "vrlayerinit": [
+        "leftBounds",
+        "rightBounds",
+        "source"
+    ],
+    "vrpose": [
+        "angularAcceleration",
+        "angularVelocity",
+        "hasOrientation",
+        "hasPosition",
+        "linearAcceleration",
+        "linearVelocity",
+        "position",
+        "orientation",
+        "timestamp"
+    ],
+    "vrstageparameters": [
+        "sittingToStandingTransform",
+        "sizeX",
+        "sizeY"
+    ],
+    "vttcue": [
+        "VTTCue",
+        "align",
+        "getCueAsHTML",
+        "line",
+        "lineAlign",
+        "position",
+        "positionAlign",
+        "region",
+        "size",
+        "snapToLines",
+        "text",
+        "vertical"
+    ],
+    "waveshapernode": [
+        "WaveShaperNode",
+        "curve",
+        "oversample"
+    ],
+    "webauthentication": [
+        "getAssertion",
+        "makeCredential"
+    ],
+    "webgl2renderingcontext": [
+        "beginQuery",
+        "beginTransformFeedback",
+        "bindBufferBase",
+        "bindBufferRange",
+        "bindSampler",
+        "bindTransformFeedback",
+        "bindVertexArray",
+        "blitFramebuffer",
+        "bufferSubData",
+        "clearBufferfi",
+        "clearBufferfv",
+        "clearBufferiv",
+        "clearBufferuiv",
+        "clientWaitSync",
+        "compressedTexImage3D",
+        "compressedTexSubImage3D",
+        "copyBufferSubData",
+        "copyTexSubImage3D",
+        "createQuery",
+        "createSampler",
+        "createTransformFeedback",
+        "createVertexArray",
+        "deleteQuery",
+        "deleteSampler",
+        "deleteSync",
+        "deleteTransformFeedback",
+        "deleteVertexArray",
+        "drawArraysInstanced",
+        "drawBuffers",
+        "drawElementsInstanced",
+        "drawRangeElements",
+        "endQuery",
+        "endTransformFeedback",
+        "fenceSync",
+        "framebufferTextureLayer",
+        "getActiveUniformBlockName",
+        "getActiveUniformBlockParameter",
+        "getActiveUniforms",
+        "getBufferSubData",
+        "getFragDataLocation",
+        "getInternalformatParameter",
+        "getQuery",
+        "getQueryParameter",
+        "getSamplerParameter",
+        "getSyncParameter",
+        "getTransformFeedbackVarying",
+        "getUniformBlockIndex",
+        "getUniformIndices",
+        "getIndexedParameter",
+        "invalidateFramebuffer",
+        "invalidateSubFramebuffer",
+        "isQuery",
+        "isSampler",
+        "isSync",
+        "isTransformFeedback",
+        "isVertexArray",
+        "pauseTransformFeedback",
+        "readBuffer",
+        "renderbufferStorageMultisample",
+        "resumeTransformFeedback",
+        "samplerParameteri",
+        "samplerParameterf",
+        "texImage3D",
+        "texStorage2D",
+        "texStorage3D",
+        "texSubImage3D",
+        "transformFeedbackVaryings",
+        "uniform1uiv",
+        "uniform1ui",
+        "uniform1i",
+        "uniform1f",
+        "uniform2uiv",
+        "uniform2ui",
+        "uniform2i",
+        "uniform2f",
+        "uniform3uiv",
+        "uniform3ui",
+        "uniform3i",
+        "uniform3f",
+        "uniform4uiv",
+        "uniform4ui",
+        "uniform4i",
+        "uniform4f",
+        "uniformBlockBinding",
+        "uniformMatrix2fv",
+        "uniformMatrix2x3fv",
+        "uniformMatrix2x4fv",
+        "uniformMatrix3fv",
+        "uniformMatrix3x2fv",
+        "uniformMatrix3x4fv",
+        "uniformMatrix4fv",
+        "uniformMatrix4x2fv",
+        "uniformMatrix4x3fv",
+        "vertexAttribDivisor",
+        "vertexAttribI4i",
+        "vertexAttribI4iv",
+        "vertexAttribI4ui",
+        "vertexAttribI4uiv",
+        "vertexAttribIPointer",
+        "waitSync"
+    ],
+    "webglactiveinfo": [
+        "worker_support",
+        "name",
+        "size",
+        "type"
+    ],
+    "webglbuffer": [
+        "worker_support"
+    ],
+    "webgl_color_buffer_float": [
+        "RGB32F_EXT"
+    ],
+    "webgl_compressed_texture_astc": [
+        "getSupportedProfiles"
+    ],
+    "webgl_compressed_texture_atc": [],
+    "webgl_compressed_texture_etc1": [],
+    "webgl_compressed_texture_etc": [],
+    "webgl_compressed_texture_pvrtc": [],
+    "webgl_compressed_texture_s3tc": [],
+    "webgl_compressed_texture_s3tc_srgb": [],
+    "webglcontextevent": [
+        "worker_support",
+        "statusMessage"
+    ],
+    "webgl_debug_renderer_info": [],
+    "webgl_debug_shaders": [
+        "getTranslatedShaderSource"
+    ],
+    "webgl_depth_texture": [],
+    "webgl_draw_buffers": [
+        "drawBuffersWEBGL"
+    ],
+    "webglframebuffer": [
+        "worker_support"
+    ],
+    "webgl_lose_context": [
+        "loseContext",
+        "restoreContext"
+    ],
+    "webglobject": [],
+    "webglprogram": [
+        "worker_support"
+    ],
+    "webglquery": [],
+    "webglrenderbuffer": [
+        "worker_support"
+    ],
+    "webglrenderingcontext": [
+        "worker_support",
+        "activeTexture",
+        "attachShader",
+        "bindAttribLocation",
+        "bindBuffer",
+        "bindFramebuffer",
+        "bindRenderbuffer",
+        "bindTexture",
+        "blendColor",
+        "blendEquation",
+        "blendEquationSeparate",
+        "blendFunc",
+        "blendFuncSeparate",
+        "bufferData",
+        "bufferSubData",
+        "canvas",
+        "checkFramebufferStatus",
+        "clear",
+        "clearColor",
+        "clearDepth",
+        "clearStencil",
+        "colorMask",
+        "commit",
+        "compileShader",
+        "compressedTexImage2D",
+        "compressedTexSubImage2D",
+        "copyTexImage2D",
+        "copyTexSubImage2D",
+        "createBuffer",
+        "createFramebuffer",
+        "createProgram",
+        "createRenderbuffer",
+        "createShader",
+        "createTexture",
+        "cullFace",
+        "deleteBuffer",
+        "deleteFramebuffer",
+        "deleteProgram",
+        "deleteRenderbuffer",
+        "deleteShader",
+        "deleteTexture",
+        "depthFunc",
+        "depthMask",
+        "depthRange",
+        "detachShader",
+        "disable",
+        "disableVertexAttribArray",
+        "drawArrays",
+        "drawElements",
+        "drawingBufferHeight",
+        "drawingBufferWidth",
+        "enable",
+        "enableVertexAttribArray",
+        "finish",
+        "flush",
+        "framebufferRenderbuffer",
+        "framebufferTexture2D",
+        "frontFace",
+        "generateMipmap",
+        "getActiveAttrib",
+        "getActiveUniform",
+        "getAttachedShaders",
+        "getAttribLocation",
+        "getBufferParameter",
+        "getContextAttributes",
+        "getError",
+        "getExtension",
+        "getFramebufferAttachmentParameter",
+        "getParameter",
+        "getProgramInfoLog",
+        "getProgramParameter",
+        "getRenderbufferParameter",
+        "getShaderInfoLog",
+        "getShaderParameter",
+        "getShaderPrecisionFormat",
+        "getShaderSource",
+        "getSupportedExtensions",
+        "getTexParameter",
+        "getUniform",
+        "getUniformLocation",
+        "getVertexAttrib",
+        "getVertexAttribOffset",
+        "hint",
+        "isBuffer",
+        "isContextLost",
+        "isEnabled",
+        "isFramebuffer",
+        "isProgram",
+        "isRenderbuffer",
+        "isShader",
+        "isTexture",
+        "lineWidth",
+        "linkProgram",
+        "pixelStorei",
+        "polygonOffset",
+        "readPixels",
+        "renderbufferStorage",
+        "sampleCoverage",
+        "scissor",
+        "shaderSource",
+        "stencilFunc",
+        "stencilFuncSeparate",
+        "stencilMask",
+        "stencilMaskSeparate",
+        "stencilOp",
+        "stencilOpSeparate",
+        "texImage2D",
+        "texParameterf",
+        "texParameteri",
+        "texSubImage2D",
+        "uniform1f",
+        "uniform1fv",
+        "uniform1i",
+        "uniform1iv",
+        "uniform2f",
+        "uniform2fv",
+        "uniform2i",
+        "uniform2iv",
+        "uniform3f",
+        "uniform3fv",
+        "uniform3i",
+        "uniform3iv",
+        "uniform4f",
+        "uniform4fv",
+        "uniform4i",
+        "uniform4iv",
+        "uniformMatrix2fv",
+        "uniformMatrix3fv",
+        "uniformMatrix4fv",
+        "useProgram",
+        "validateProgram",
+        "vertexAttrib1f",
+        "vertexAttrib1fv",
+        "vertexAttrib2f",
+        "vertexAttrib2fv",
+        "vertexAttrib3f",
+        "vertexAttrib3fv",
+        "vertexAttrib4f",
+        "vertexAttrib4fv",
+        "vertexAttribPointer",
+        "viewport"
+    ],
+    "webglsampler": [],
+    "webglshader": [
+        "worker_support"
+    ],
+    "webglshaderprecisionformat": [
+        "worker_support",
+        "rangeMin",
+        "rangeMax",
+        "precision"
+    ],
+    "webglsync": [],
+    "webgltexture": [
+        "worker_support"
+    ],
+    "webgltransformfeedback": [],
+    "webgluniformlocation": [
+        "worker_support"
+    ],
+    "webglvertexarrayobject": [],
+    "webglvertexarrayobjectoes": [],
+    "websocket": [
+        "WebSocket",
+        "binaryType",
+        "bufferedAmount",
+        "close",
+        "extensions",
+        "onclose",
+        "onerror",
+        "onmessage",
+        "onopen",
+        "protocol",
+        "readyState",
+        "send",
+        "url"
+    ],
+    "wheelevent": [
+        "pinch-to-zoom_support",
+        "WheelEvent",
+        "deltaMode",
+        "deltaX",
+        "deltaY",
+        "deltaZ"
+    ],
+    "windowclient": [
+        "focus",
+        "navigate",
+        "focused",
+        "visibilityState",
+        "ancestorOrigins"
+    ],
+    "windoweventhandlers": [
+        "onafterprint",
+        "onbeforeprint",
+        "onbeforeunload",
+        "onhashchange",
+        "onlanguagechange",
+        "onmessage",
+        "onmessageerror",
+        "onpopstate",
+        "onrejectionhandled",
+        "onstorage",
+        "onunhandledrejection",
+        "onunload"
+    ],
+    "window": [
+        "alert",
+        "blur",
+        "confirm",
+        "cancelAnimationFrame",
+        "cancelIdleCallback",
+        "clearImmediate",
+        "close",
+        "focus",
+        "ondevicelight",
+        "convertPointFromNodeToPage",
+        "convertPointFromPageToNode",
+        "ondeviceorientationabsolute",
+        "ondeviceproximity",
+        "ongamepadconnected",
+        "ongamepaddisconnected",
+        "onpaint",
+        "onuserproximity",
+        "onvrdisplayactivate",
+        "onvrdisplayblur",
+        "onvrdisplayconnect",
+        "onvrdisplaydeactivate",
+        "onvrdisplaydisconnect",
+        "onvrdisplayfocus",
+        "onvrdisplaypresentchange",
+        "crypto",
+        "customElements",
+        "devicePixelRatio",
+        "dialogArguments",
+        "document",
+        "event",
+        "frameElement",
+        "frames",
+        "fullScreen",
+        "getAttention",
+        "getAttentionWithCycleCount",
+        "getComputedStyle",
+        "getDefaultComputedStyle",
+        "getSelection",
+        "globalStorage",
+        "history",
+        "home",
+        "innerHeight",
+        "innerWidth",
+        "isSecureContext",
+        "length",
+        "localStorage",
+        "location",
+        "locationbar",
+        "matchMedia",
+        "maximize",
+        "menubar",
+        "minimize",
+        "moveBy",
+        "moveTo",
+        "mozAnimationStartTime",
+        "mozInnerScreenX",
+        "mozInnerScreenY",
+        "mozPaintCount",
+        "name",
+        "navigator",
+        "onappinstalled",
+        "onbeforeinstallprompt",
+        "ondevicemotion",
+        "ondeviceorientation",
+        "open",
+        "openDialog",
+        "opener",
+        "orientation",
+        "outerHeight",
+        "outerWidth",
+        "pageXOffset",
+        "pageYOffset",
+        "parent",
+        "performance",
+        "personalbar",
+        "pkcs11",
+        "postMessage",
+        "print",
+        "prompt",
+        "releaseEvents",
+        "requestAnimationFrame",
+        "requestFileSystem",
+        "requestIdleCallback",
+        "resizeBy",
+        "resizeTo",
+        "restore",
+        "returnValue",
+        "routeEvent",
+        "screen",
+        "screenX",
+        "screenY",
+        "scroll",
+        "scrollbars",
+        "scrollBy",
+        "scrollByLines",
+        "scrollByPages",
+        "scrollMaxX",
+        "scrollMaxY",
+        "scrollTo",
+        "scrollX",
+        "scrollY",
+        "self",
+        "sessionStorage",
+        "setCursor",
+        "setImmediate",
+        "setResizable",
+        "showModalDialog",
+        "sidebar",
+        "sizeToContent",
+        "speechSynthesis",
+        "status",
+        "statusbar",
+        "stop",
+        "toolbar",
+        "top",
+        "updateCommands",
+        "visualViewport",
+        "window"
+    ],
+    "windoworworkerglobalscope": [
+        "atob",
+        "btoa",
+        "caches",
+        "clearInterval",
+        "clearTimeout",
+        "createImageBitmap",
+        "fetch",
+        "indexedDB",
+        "isSecureContext",
+        "origin",
+        "setInterval",
+        "setTimeout"
+    ],
+    "workerglobalscope": [
+        "location",
+        "navigator",
+        "onerror",
+        "onlanguagechange",
+        "onoffline",
+        "ononline",
+        "performance",
+        "self",
+        "console",
+        "close",
+        "dump",
+        "importScripts",
+        "onclose"
+    ],
+    "worker": [
+        "Worker",
+        "onmessage",
+        "onmessageerror",
+        "postMessage",
+        "terminate"
+    ],
+    "workerlocation": [],
+    "workernavigator": [
+        "connection",
+        "permissions",
+        "serviceWorker"
+    ],
+    "worklet": [
+        "addModule"
+    ],
+    "writablestreamdefaultcontroller": [
+        "WritableStreamDefaultController",
+        "error"
+    ],
+    "writablestreamdefaultwriter": [
+        "WritableStreamDefaultWriter",
+        "closed",
+        "desiredSize",
+        "ready",
+        "abort",
+        "close",
+        "releaseLock",
+        "write"
+    ],
+    "writablestream": [
+        "WritableStream",
+        "abort",
+        "getWriter",
+        "locked"
+    ],
+    "xdomainrequest": [
+        "abort",
+        "onerror",
+        "onload",
+        "onprogress",
+        "ontimeout",
+        "open",
+        "responseText",
+        "send",
+        "timeout"
+    ],
+    "xmldocument": [
+        "load"
+    ],
+    "xmlhttprequesteventtarget": [
+        "onabort",
+        "onerror",
+        "onload",
+        "onloadend",
+        "onloadstart",
+        "onprogress",
+        "ontimeout"
+    ],
+    "xmlhttprequest": [
+        "onreadystatechange",
+        "readyState",
+        "response",
+        "responseText",
+        "responseType",
+        "responseURL",
+        "responseXML",
+        "status",
+        "statusText",
+        "timeout",
+        "upload",
+        "withCredentials",
+        "abort",
+        "getAllResponseHeaders",
+        "getResponseHeader",
+        "open",
+        "overrideMimeType",
+        "send",
+        "sendAsBinary",
+        "setRequestHeader"
+    ],
+    "xmlhttprequestupload": [],
+    "xmlserializer": [
+        "serializeToStream"
+    ],
+    "xpathexpression": [
+        "evaluate"
+    ],
+    "xpathresult": [
+        "invalidIteratorState",
+        "iterateNext",
+        "resultType",
+        "snapshotItem"
+    ],
+    "xsltprocessor": [
+        "importStylesheet",
+        "transformToFragment",
+        "transformToDocument",
+        "setParameter",
+        "getParameter",
+        "removeParameter",
+        "clearParameters",
+        "reset"
+    ]
+}

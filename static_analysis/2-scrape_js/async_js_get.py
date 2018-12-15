@@ -94,7 +94,7 @@ async def fetch(data, session):
 
     except asyncio.TimeoutError as e:
         print(e)
-        return e
+        return erb
 
     except ssl.CertificateError as e:
         print(e)
