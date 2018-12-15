@@ -1,4 +1,4 @@
-# WIP: Extract script URLs from dataset
+# Extract script URLs from dataset
 _Note, this section uses pySpark_
 
 ## 1) Setup Spark:
