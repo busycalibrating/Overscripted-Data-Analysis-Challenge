@@ -51,7 +51,7 @@ def getAllFileDict():
     master_API_dict = {}
 
     for entry in listdir(sys.argv[2]):
-        key = str.lower(entry.split(".")[0])
+        key = str(entry.split(".")[0])
         master_API_dict[key] = entry
 
     return master_API_dict
@@ -78,7 +78,7 @@ def extractProperties(json_data):
     if "__compat" in property_list:
         property_list.remove("__compat")
 
-    return str.lower(interface_name), property_list
+    return str(interface_name), property_list
 
 
 ################################################################################

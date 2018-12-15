@@ -1,34 +1,34 @@
 {
-    "abortcontroller": [
+    "AbortController": [
         "AbortController",
         "signal",
         "abort"
     ],
-    "abortpaymentevent": [
+    "AbortPaymentEvent": [
         "AbortPaymentEvent",
         "respondWith"
     ],
-    "abortsignal": [
+    "AbortSignal": [
         "aborted",
         "onabort"
     ],
-    "absoluteorientationsensor": [
+    "AbsoluteOrientationSensor": [
         "AbsoluteOrientationSensor"
     ],
-    "abstractworker": [
+    "AbstractWorker": [
         "onerror"
     ],
-    "accelerometer": [
+    "Accelerometer": [
         "Accelerometer",
         "x",
         "y",
         "z"
     ],
-    "ambientlightsensor": [
+    "AmbientLightSensor": [
         "AmbientLightSensor",
         "illuminance"
     ],
-    "analysernode": [
+    "AnalyserNode": [
         "AnalyserNode",
         "fftSize",
         "frequencyBinCount",
@@ -40,24 +40,24 @@
         "getFloatTimeDomainData",
         "getByteTimeDomainData"
     ],
-    "angle_instanced_arrays": [
+    "ANGLE_instanced_arrays": [
         "drawArraysInstancedANGLE",
         "drawElementsInstancedANGLE",
         "vertexAttribDivisorANGLE"
     ],
-    "animationeffect": [
+    "AnimationEffect": [
         "getComputedTiming",
         "getTiming",
         "updateTiming"
     ],
-    "animationevent": [
+    "AnimationEvent": [
         "AnimationEvent",
         "animationName",
         "elapsedTime",
         "initAnimationEvent",
         "pseudoElement"
     ],
-    "animation": [
+    "Animation": [
         "Animation",
         "cancel",
         "currentTime",
@@ -78,20 +78,20 @@
         "timeline",
         "updatePlaybackRate"
     ],
-    "animationplaybackevent": [
+    "AnimationPlaybackEvent": [
         "AnimationPlaybackEvent",
         "currentTime",
         "timelineTime"
     ],
-    "animationtimeline": [
+    "AnimationTimeline": [
         "currentTime"
     ],
-    "attr": [
+    "Attr": [
         "localName",
         "namespaceURI",
         "prefix"
     ],
-    "audiobuffer": [
+    "AudioBuffer": [
         "AudioBuffer",
         "duration",
         "length",
@@ -101,7 +101,7 @@
         "copyToChannel",
         "getChannelData"
     ],
-    "audiobuffersourcenode": [
+    "AudioBufferSourceNode": [
         "AudioBufferSourceNode",
         "buffer",
         "detune",
@@ -113,7 +113,7 @@
         "start",
         "stop"
     ],
-    "audiocontext": [
+    "AudioContext": [
         "AudioContext",
         "baseLatency",
         "outputLatency",
@@ -125,14 +125,14 @@
         "getOutputTimestamp",
         "suspend"
     ],
-    "audiocontextoptions": [
+    "AudioContextOptions": [
         "latencyHint",
         "sampleRate"
     ],
-    "audiodestinationnode": [
+    "AudioDestinationNode": [
         "maxChannelCount"
     ],
-    "audiolistener": [
+    "AudioListener": [
         "dopplerFactor",
         "forwardX",
         "forwardY",
@@ -147,7 +147,7 @@
         "setOrientation",
         "setPosition"
     ],
-    "audionode": [
+    "AudioNode": [
         "channelCount",
         "channelCountMode",
         "channelInterpretation",
@@ -157,8 +157,8 @@
         "connect",
         "disconnect"
     ],
-    "audionodeoptions": [],
-    "audioparam": [
+    "AudioNodeOptions": [],
+    "AudioParam": [
         "defaultValue",
         "maxValue",
         "minValue",
@@ -171,7 +171,7 @@
         "setValueAtTime",
         "setValueCurveAtTime"
     ],
-    "audioparammap": [
+    "AudioParamMap": [
         "forEach",
         "get",
         "has",
@@ -179,17 +179,17 @@
         "size",
         "values"
     ],
-    "audioprocessingevent": [
+    "AudioProcessingEvent": [
         "inputBuffer",
         "outputBuffer",
         "playbackTime"
     ],
-    "audioscheduledsourcenode": [
+    "AudioScheduledSourceNode": [
         "onended",
         "start",
         "stop"
     ],
-    "audiotrack": [
+    "AudioTrack": [
         "enabled",
         "id",
         "kind",
@@ -197,75 +197,46 @@
         "language",
         "sourceBuffer"
     ],
-    "sourcebuffer": [
-        "mode",
-        "updating",
-        "buffered",
-        "changeType",
-        "timestampOffset",
-        "audioTracks",
-        "videoTracks",
-        "textTracks",
-        "appendWindowStart",
-        "appendWindowEnd",
-        "trackDefaults",
-        "onabort",
-        "onerror",
-        "onupdate",
-        "onupdatestart",
-        "onupdateend",
-        "appendBuffer",
-        "appendBufferAsync",
-        "appendStream",
-        "abort",
-        "remove",
-        "removeAsync"
-    ],
-    "audiotracklist": [
+    "AudioTrackList": [
         "getTrackById",
         "length",
         "onaddtrack",
         "onchange",
         "onremovetrack"
     ],
-    "audioworkletglobalscope": [
+    "AudioWorkletGlobalScope": [
         "currentFrame",
         "currentTime",
         "registerProcessor",
         "sampleRate"
     ],
-    "audioworkletnode": [
+    "AudioWorkletNode": [
         "onprocessorstatechange",
         "parameters",
         "port",
         "processorState"
     ],
-    "audioworkletprocessor": [
+    "AudioWorkletProcessor": [
         "port"
     ],
-    "authenticationassertion": [
+    "AuthenticationAssertion": [
         "authenticatorData",
         "clientData",
         "credential",
         "signature"
     ],
-    "credential": [
-        "id",
-        "type",
-        "name"
-    ],
-    "authenticatorassertionresponse": [
+    "AuthenticatorAssertionResponse": [
         "authenticatorData",
         "signature",
         "userHandle"
     ],
-    "authenticatorattestationresponse": [
+    "AuthenticatorAttestationResponse": [
         "attestationObject"
     ],
-    "authenticatorresponse": [
+    "AuthenticatorResponse": [
         "clientDataJSON"
     ],
-    "baseaudiocontext": [
+    "BaseAudioContext": [
         "audioWorklet",
         "createAnalyser",
         "createBiquadFilter",
@@ -294,11 +265,11 @@
         "sampleRate",
         "state"
     ],
-    "basiccardrequest": [
+    "BasicCardRequest": [
         "supportedNetworks",
         "supportedTypes"
     ],
-    "basiccardresponse": [
+    "BasicCardResponse": [
         "cardNumber",
         "cardholderName",
         "cardSecurityCode",
@@ -306,7 +277,7 @@
         "expiryYear",
         "billingAddress"
     ],
-    "batterymanager": [
+    "BatteryManager": [
         "charging",
         "chargingTime",
         "dischargingTime",
@@ -316,16 +287,16 @@
         "ondischargingtimechange",
         "onlevelchange"
     ],
-    "beforeinstallpromptevent": [
+    "BeforeInstallPromptEvent": [
         "BeforeInstallPromptEvent",
         "platforms",
         "prompt",
         "userChoice"
     ],
-    "beforeunloadevent": [
+    "BeforeUnloadEvent": [
         "user_interaction"
     ],
-    "biquadfilternode": [
+    "BiquadFilterNode": [
         "BiquadFilterNode",
         "detune",
         "frequency",
@@ -334,26 +305,26 @@
         "type",
         "getFrequencyResponse"
     ],
-    "blobbuilder": [],
-    "blobevent": [
+    "BlobBuilder": [],
+    "BlobEvent": [
         "BlobEvent",
         "data",
         "timecode"
     ],
-    "blob": [
+    "Blob": [
         "Blob",
         "size",
         "type",
         "slice"
     ],
-    "bluetoothadvertisingdata": [
+    "BluetoothAdvertisingData": [
         "appearance",
         "manufacturerData",
         "rssi",
         "serviceData",
         "txPower"
     ],
-    "bluetoothcharacteristicproperties": [
+    "BluetoothCharacteristicProperties": [
         "broadcast",
         "read",
         "writeWithoutResponse",
@@ -364,7 +335,7 @@
         "reliableWrite",
         "writableAuxiliaries"
     ],
-    "bluetoothdevice": [
+    "BluetoothDevice": [
         "adData",
         "connectGATT",
         "deviceClass",
@@ -382,13 +353,13 @@
         "watchAdvertisements",
         "watchingAdvertisements"
     ],
-    "bluetooth": [
+    "Bluetooth": [
         "getAvailability",
         "onavailabilitychanged",
         "referringDevice",
         "requestDevice"
     ],
-    "bluetoothremotegattcharacteristic": [
+    "BluetoothRemoteGATTCharacteristic": [
         "getDescriptor",
         "getDescriptors",
         "properties",
@@ -400,14 +371,14 @@
         "value",
         "writeValue"
     ],
-    "bluetoothremotegattdescriptor": [
+    "BluetoothRemoteGATTDescriptor": [
         "characteristic",
         "uuid",
         "value",
         "readValue",
         "writeValue"
     ],
-    "bluetoothremotegattserver": [
+    "BluetoothRemoteGATTServer": [
         "connect",
         "connected",
         "device",
@@ -415,7 +386,7 @@
         "getPrimaryService",
         "getPrimaryServices"
     ],
-    "bluetoothremotegattservice": [
+    "BluetoothRemoteGATTService": [
         "device",
         "getCharacteristic",
         "getCharacteristics",
@@ -424,7 +395,7 @@
         "isPrimary",
         "uuid"
     ],
-    "body": [
+    "Body": [
         "body",
         "bodyUsed",
         "arrayBuffer",
@@ -433,29 +404,7 @@
         "json",
         "text"
     ],
-    "formdata": [
-        "FormData",
-        "append",
-        "delete",
-        "get",
-        "getAll",
-        "has",
-        "set",
-        "entries",
-        "keys",
-        "values",
-        "SupportForOf",
-        "worker_support"
-    ],
-    "text": [
-        "Text",
-        "isElementContentWhitespace",
-        "wholeText",
-        "assignedSlot",
-        "replaceWholeText",
-        "splitText"
-    ],
-    "broadcastchannel": [
+    "BroadcastChannel": [
         "BroadcastChannel",
         "name",
         "onmessage",
@@ -463,20 +412,20 @@
         "close",
         "postMessage"
     ],
-    "budgetservice": [
+    "BudgetService": [
         "getBudget",
         "getCost",
         "reserve"
     ],
-    "budgetstate": [
+    "BudgetState": [
         "budgetAt",
         "time"
     ],
-    "bytelengthqueuingstrategy": [
+    "ByteLengthQueuingStrategy": [
         "ByteLengthQueuingStrategy",
         "size"
     ],
-    "cache": [
+    "Cache": [
         "add",
         "addAll",
         "delete",
@@ -485,14 +434,14 @@
         "matchAll",
         "put"
     ],
-    "cachestorage": [
+    "CacheStorage": [
         "delete",
         "has",
         "keys",
         "match",
         "open"
     ],
-    "canmakepaymentevent": [
+    "CanMakePaymentEvent": [
         "CanMakePaymentEvent",
         "methodData",
         "modifiers",
@@ -500,17 +449,17 @@
         "respondWith",
         "topOrigin"
     ],
-    "canvascapturemediastreamtrack": [
+    "CanvasCaptureMediaStreamTrack": [
         "canvas",
         "requestFrame"
     ],
-    "canvasgradient": [
+    "CanvasGradient": [
         "addColorStop"
     ],
-    "canvaspattern": [
+    "CanvasPattern": [
         "setTransform"
     ],
-    "canvasrenderingcontext2d": [
+    "CanvasRenderingContext2D": [
         "canvas",
         "currentTransform",
         "direction",
@@ -579,15 +528,15 @@
         "transform",
         "translate"
     ],
-    "caretposition": [],
-    "cdatasection": [],
-    "channelmergernode": [
+    "CaretPosition": [],
+    "CDATASection": [],
+    "ChannelMergerNode": [
         "ChannelMergerNode"
     ],
-    "channelsplitternode": [
+    "ChannelSplitterNode": [
         "ChannelSplitterNode"
     ],
-    "characterdata": [
+    "CharacterData": [
         "ChildNode",
         "appendData",
         "data",
@@ -597,67 +546,49 @@
         "replaceData",
         "substringData"
     ],
-    "childnode": [
+    "ChildNode": [
         "after",
         "before",
         "remove",
         "replaceWith"
     ],
-    "client": [
+    "Client": [
         "frameType",
         "id",
         "postMessage",
         "type",
         "url"
     ],
-    "url": [
-        "URL",
-        "createObjectURL",
-        "hash",
-        "host",
-        "hostname",
-        "href",
-        "origin",
-        "password",
-        "pathname",
-        "port",
-        "protocol",
-        "revokeObjectURL",
-        "search",
-        "searchParams",
-        "toJSON",
-        "username"
-    ],
-    "clients": [
+    "Clients": [
         "claim",
         "get",
         "matchAll",
         "openWindow"
     ],
-    "clipboardevent": [
+    "ClipboardEvent": [
         "ClipboardEvent",
         "clipboardData"
     ],
-    "clipboard": [
+    "Clipboard": [
         "read",
         "readText",
         "write",
         "writeText"
     ],
-    "closeevent": [
+    "CloseEvent": [
         "CloseEvent",
         "initCloseEvent"
     ],
-    "comment": [
+    "Comment": [
         "Comment"
     ],
-    "compositionevent": [
+    "CompositionEvent": [
         "CompositionEvent",
         "data",
         "initCompositionEvent",
         "locale"
     ],
-    "console": [
+    "Console": [
         "worker_support",
         "assert",
         "clear",
@@ -682,23 +613,23 @@
         "trace",
         "warn"
     ],
-    "constantsourcenode": [
+    "ConstantSourceNode": [
         "ConstantSourceNode",
         "offset",
         "onended",
         "start",
         "stop"
     ],
-    "constrainboolean": [],
-    "constraindomstring": [],
-    "constraindouble": [],
-    "constrainlong": [],
-    "convolvernode": [
+    "ConstrainBoolean": [],
+    "ConstrainDOMString": [],
+    "ConstrainDouble": [],
+    "ConstrainLong": [],
+    "ConvolverNode": [
         "ConvolverNode",
         "buffer",
         "normalize"
     ],
-    "coordinates": [
+    "Coordinates": [
         "secure_context_required",
         "accuracy",
         "altitude",
@@ -708,31 +639,36 @@
         "longitude",
         "speed"
     ],
-    "countqueuingstrategy": [
+    "CountQueuingStrategy": [
         "CountQueuingStrategy",
         "size"
     ],
-    "credentialscontainer": [
+    "Credential": [
+        "id",
+        "type",
+        "name"
+    ],
+    "CredentialsContainer": [
         "create",
         "get",
         "preventSilentAccess",
         "store"
     ],
-    "crypto": [
+    "Crypto": [
         "subtle",
         "getRandomValues"
     ],
-    "cryptokey": [
+    "CryptoKey": [
         "type",
         "extractable",
         "algorithm",
         "usages"
     ],
-    "cssconditionrule": [],
-    "csscounterstylerule": [],
-    "cssgroupingrule": [],
-    "cssimagevalue": [],
-    "css": [
+    "CSSConditionRule": [],
+    "CSSCounterStyleRule": [],
+    "CSSGroupingRule": [],
+    "CSSImageValue": [],
+    "CSS": [
         "ch",
         "cm",
         "deg",
@@ -771,61 +707,61 @@
         "vw",
         "wmin"
     ],
-    "csskeyframerule": [
+    "CSSKeyframeRule": [
         "keyText",
         "style"
     ],
-    "csskeyframesrule": [
+    "CSSKeyframesRule": [
         "appendRule",
         "cssRules",
         "deleteRule",
         "findRule",
         "name"
     ],
-    "csskeywordvalue": [
+    "CSSKeywordValue": [
         "CSSKeywordValue",
         "value"
     ],
-    "cssmathinvert": [
+    "CSSMathInvert": [
         "CSSMathInvert",
         "value"
     ],
-    "cssmathmax": [
+    "CSSMathMax": [
         "CSSMathMax",
         "values"
     ],
-    "cssmathmin": [
+    "CSSMathMin": [
         "CSSMathMin",
         "values"
     ],
-    "cssmathnegate": [
+    "CSSMathNegate": [
         "CSSMathNegate",
         "values"
     ],
-    "cssmathproduct": [
+    "CSSMathProduct": [
         "CSSMathProduct",
         "values"
     ],
-    "cssmathsum": [
+    "CSSMathSum": [
         "CSSMathSum",
         "values"
     ],
-    "cssmathvalue": [
+    "CSSMathValue": [
         "operator"
     ],
-    "cssmatrixcomponent": [
+    "CSSMatrixComponent": [
         "CSSMatrixComponent",
         "matrix"
     ],
-    "cssmatrix": [],
-    "cssmediarule": [
+    "CSSMatrix": [],
+    "CSSMediaRule": [
         "media"
     ],
-    "cssnamespacerule": [
+    "CSSNamespaceRule": [
         "namespaceURI",
         "prefix"
     ],
-    "cssnumericarray": [
+    "CSSNumericArray": [
         "@@iterator",
         "CSSNumericValue",
         "entries",
@@ -834,7 +770,7 @@
         "length",
         "values"
     ],
-    "cssnumericvalue": [
+    "CSSNumericValue": [
         "add",
         "div",
         "equals",
@@ -847,20 +783,20 @@
         "toSum",
         "type"
     ],
-    "csspagerule": [
+    "CSSPageRule": [
         "selectorText",
         "style"
     ],
-    "cssperspective": [
+    "CSSPerspective": [
         "CSSPerspective",
         "length"
     ],
-    "csspositionvalue": [
+    "CSSPositionValue": [
         "CSSPositionValue",
         "x",
         "y"
     ],
-    "cssprimitivevalue": [
+    "CSSPrimitiveValue": [
         "primitiveType",
         "getCounterValue",
         "getFloatValue",
@@ -870,43 +806,43 @@
         "setFloatValue",
         "setStringValue"
     ],
-    "cssrotate": [
+    "CSSRotate": [
         "CSSRotate",
         "angle",
         "x",
         "y",
         "z"
     ],
-    "cssrule": [
+    "CSSRule": [
         "type",
         "cssText",
         "parentRule",
         "parentStyleSheet"
     ],
-    "cssrulelist": [
+    "CSSRuleList": [
         "length",
         "item"
     ],
-    "cssscale": [
+    "CSSScale": [
         "CSSScale",
         "x",
         "y",
         "z"
     ],
-    "cssskew": [
+    "CSSSkew": [
         "CSSSkew",
         "ax",
         "ay"
     ],
-    "cssskewx": [
+    "CSSSkewX": [
         "CSSSkewX",
         "ax"
     ],
-    "cssskewy": [
+    "CSSSkewY": [
         "CSSSkewY",
         "ay"
     ],
-    "cssstyledeclaration": [
+    "CSSStyleDeclaration": [
         "cssText",
         "length",
         "item",
@@ -918,26 +854,26 @@
         "parentRule",
         "cssFloat"
     ],
-    "cssstylerule": [
+    "CSSStyleRule": [
         "selectorText",
         "style"
     ],
-    "cssstylesheet": [
+    "CSSStyleSheet": [
         "cssRules",
         "ownerRule",
         "deleteRule",
         "insertRule"
     ],
-    "cssstylevalue": [
+    "CSSStyleValue": [
         "parse",
         "parseAll"
     ],
-    "csssupportsrule": [],
-    "csstransformcomponent": [
+    "CSSSupportsRule": [],
+    "CSSTransformComponent": [
         "is2D",
         "toMatrix"
     ],
-    "csstransformvalue": [
+    "CSSTransformValue": [
         "CSSTransformValue",
         "@@iterator",
         "entries",
@@ -948,18 +884,18 @@
         "toMatrix",
         "values"
     ],
-    "csstranslate": [
+    "CSSTranslate": [
         "CSSTranslate",
         "x",
         "y",
         "z"
     ],
-    "cssunitvalue": [
+    "CSSUnitValue": [
         "CSSUnitValue",
         "unit",
         "value"
     ],
-    "cssunparsedvalue": [
+    "CSSUnparsedValue": [
         "CSSTransformValue",
         "@@iterator",
         "entries",
@@ -968,47 +904,47 @@
         "keys",
         "values"
     ],
-    "cssvalue": [
+    "CSSValue": [
         "cssText",
         "cssValueType"
     ],
-    "cssvaluelist": [
+    "CSSValueList": [
         "length",
         "item"
     ],
-    "cssvariablereferencevalue": [
+    "CSSVariableReferenceValue": [
         "CSSVariableReferenceValue",
         "variable",
         "fallback"
     ],
-    "customelementregistry": [
+    "CustomElementRegistry": [
         "builtin",
         "define",
         "get",
         "upgrade",
         "whenDefined"
     ],
-    "customevent": [
+    "CustomEvent": [
         "worker_support",
         "CustomEvent",
         "detail",
         "initCustomEvent"
     ],
-    "datatransferitem": [
+    "DataTransferItem": [
         "getAsFile",
         "getAsString",
         "kind",
         "type",
         "webkitGetAsEntry"
     ],
-    "datatransferitemlist": [
+    "DataTransferItemList": [
         "DataTransferItem",
         "add",
         "clear",
         "length",
         "remove"
     ],
-    "datatransfer": [
+    "DataTransfer": [
         "DataTransfer",
         "addElement",
         "clearData",
@@ -1029,59 +965,59 @@
         "setDragImage",
         "types"
     ],
-    "dedicatedworkerglobalscope": [
+    "DedicatedWorkerGlobalScope": [
         "name",
         "onmessage",
         "onmessageerror",
         "close",
         "postMessage"
     ],
-    "delaynode": [
+    "DelayNode": [
         "DelayNode",
         "delayTime"
     ],
-    "deviceacceleration": [
+    "DeviceAcceleration": [
         "x",
         "y",
         "z"
     ],
-    "devicelightevent": [
+    "DeviceLightEvent": [
         "value"
     ],
-    "devicemotionevent": [
+    "DeviceMotionEvent": [
         "DeviceMotionEvent",
         "acceleration",
         "accelerationIncludingGravity",
         "interval",
         "rotationRate"
     ],
-    "deviceorientationevent": [
+    "DeviceOrientationEvent": [
         "DeviceOrientationEvent",
         "absolute",
         "alpha",
         "beta",
         "gamma"
     ],
-    "deviceproximityevent": [
+    "DeviceProximityEvent": [
         "max",
         "min",
         "value"
     ],
-    "devicerotationrate": [
+    "DeviceRotationRate": [
         "alpha",
         "beta",
         "gamma"
     ],
-    "directoryentrysync": [],
-    "directoryreadersync": [],
-    "documentfragment": [
+    "DirectoryEntrySync": [],
+    "DirectoryReaderSync": [],
+    "DocumentFragment": [
         "DocumentFragment",
         "querySelector",
         "querySelectorAll",
         "properties",
         "methods"
     ],
-    "document": [
+    "Document": [
         "Document",
         "URL",
         "adoptNode",
@@ -1217,29 +1153,7 @@
         "xmlStandalone",
         "xmlVersion"
     ],
-    "location": [
-        "assign",
-        "hash",
-        "host",
-        "hostname",
-        "href",
-        "origin",
-        "password",
-        "pathname",
-        "port",
-        "protocol",
-        "reload",
-        "replace",
-        "search",
-        "toString",
-        "username"
-    ],
-    "policy": [
-        "allowsFeature",
-        "allowedFeatures",
-        "getAllowlistForFeature"
-    ],
-    "documentorshadowroot": [
+    "DocumentOrShadowRoot": [
         "activeElement",
         "adoptedStyleSheets",
         "caretPositionFromPoint",
@@ -1250,10 +1164,10 @@
         "pointerLockElement",
         "styleSheets"
     ],
-    "documenttimeline": [
+    "DocumentTimeline": [
         "DocumentTimeline"
     ],
-    "documenttype": [
+    "DocumentType": [
         "entities",
         "internalSubset",
         "name",
@@ -1261,41 +1175,41 @@
         "publicId",
         "systemId"
     ],
-    "domconfiguration": [
+    "DOMConfiguration": [
         "parameterNames",
         "canSetParameter",
         "getParameter",
         "setParameter"
     ],
-    "domerrorhandler": [
+    "DOMErrorHandler": [
         "handleError"
     ],
-    "domerror": [
+    "DOMError": [
         "name",
         "message"
     ],
-    "domexception": [
+    "DOMException": [
         "DOMException",
         "code",
         "message",
         "name"
     ],
-    "domhighrestimestamp": [],
-    "domimplementation": [
+    "DOMHighResTimestamp": [],
+    "DOMImplementation": [
         "createDocument",
         "createDocumentType",
         "createHTMLDocument",
         "hasFeature"
     ],
-    "domimplementationlist": [
+    "DOMImplementationList": [
         "length",
         "item"
     ],
-    "dommatrix": [
+    "DOMMatrix": [
         "worker_support",
         "DOMMatrix"
     ],
-    "dommatrixreadonly": [
+    "DOMMatrixReadOnly": [
         "worker_support",
         "DOMMatrixReadOnly",
         "m11",
@@ -1341,20 +1255,20 @@
         "transform",
         "transformPoint"
     ],
-    "domparser": [
+    "DOMParser": [
         "DOMParser",
         "parseFromString"
     ],
-    "dompointinit": [
+    "DOMPointInit": [
         "x",
         "y",
         "z",
         "w"
     ],
-    "dompoint": [
+    "DOMPoint": [
         "DOMPoint"
     ],
-    "dompointreadonly": [
+    "DOMPointReadOnly": [
         "DOMPointReadOnly",
         "x",
         "y",
@@ -1364,7 +1278,7 @@
         "matrixTransform",
         "toJSON"
     ],
-    "domquad": [
+    "DOMQuad": [
         "DOMQuad",
         "fromRect",
         "fromQuad",
@@ -1375,10 +1289,10 @@
         "p4",
         "toJSON"
     ],
-    "domrect": [
+    "DOMRect": [
         "DOMRect"
     ],
-    "domrectreadonly": [
+    "DOMRectReadOnly": [
         "DOMRectReadOnly",
         "fromRect",
         "bottom",
@@ -1390,13 +1304,13 @@
         "x",
         "y"
     ],
-    "domstringlist": [
+    "DOMStringList": [
         "length",
         "contains",
         "item"
     ],
-    "domstringmap": [],
-    "domtokenlist": [
+    "DOMStringMap": [],
+    "DOMTokenList": [
         "replace",
         "supports",
         "remove_whitespace_and_duplicates",
@@ -1412,12 +1326,12 @@
         "keys",
         "values"
     ],
-    "doublerange": [],
-    "dragevent": [
+    "DoubleRange": [],
+    "DragEvent": [
         "DragEvent",
         "dataTransfer"
     ],
-    "dynamicscompressornode": [
+    "DynamicsCompressorNode": [
         "DynamicsCompressorNode",
         "attack",
         "knee",
@@ -1426,7 +1340,7 @@
         "release",
         "threshold"
     ],
-    "effecttiming": [
+    "EffectTiming": [
         "delay",
         "direction",
         "duration",
@@ -1436,7 +1350,7 @@
         "iterations",
         "iterationStart"
     ],
-    "element": [
+    "Element": [
         "accessKey",
         "animate",
         "attachShadow",
@@ -1507,15 +1421,8 @@
         "tagName",
         "toggleAttribute"
     ],
-    "shadowroot": [
-        "delegatesFocus",
-        "documentorshadowroot",
-        "host",
-        "innerHTML",
-        "mode"
-    ],
-    "entrysync": [],
-    "errorevent": [
+    "EntrySync": [],
+    "ErrorEvent": [
         "ErrorEvent",
         "colno",
         "error",
@@ -1523,7 +1430,7 @@
         "lineno",
         "message"
     ],
-    "event": [
+    "Event": [
         "Event",
         "bubbles",
         "cancelBubble",
@@ -1550,10 +1457,10 @@
         "timeStamp",
         "type"
     ],
-    "eventlistener": [
+    "EventListener": [
         "handleEvent"
     ],
-    "eventsource": [
+    "EventSource": [
         "worker_support",
         "EventSource",
         "close",
@@ -1564,16 +1471,16 @@
         "url",
         "withCredentials"
     ],
-    "eventtarget": [
+    "EventTarget": [
         "EventTarget",
         "addEventListener",
         "dispatchEvent",
         "removeEventListener"
     ],
-    "ext_blend_minmax": [],
-    "ext_color_buffer_float": [],
-    "ext_color_buffer_half_float": [],
-    "ext_disjoint_timer_query": [
+    "EXT_blend_minmax": [],
+    "EXT_color_buffer_float": [],
+    "EXT_color_buffer_half_float": [],
+    "EXT_disjoint_timer_query": [
         "createQueryEXT",
         "deleteQueryEXT",
         "isQueryEXT",
@@ -1583,11 +1490,11 @@
         "getQueryEXT",
         "getQueryObjectEXT"
     ],
-    "extendableevent": [
+    "ExtendableEvent": [
         "ExtendableEvent",
         "waitUntil"
     ],
-    "extendablemessageevent": [
+    "ExtendableMessageEvent": [
         "ExtendableMessageEvent",
         "data",
         "lastEventId",
@@ -1595,15 +1502,15 @@
         "ports",
         "source"
     ],
-    "ext_frag_depth": [],
-    "ext_shader_texture_lod": [],
-    "ext_srgb": [],
-    "ext_texture_filter_anisotropic": [],
-    "federatedcredential": [
+    "EXT_frag_depth": [],
+    "EXT_shader_texture_lod": [],
+    "EXT_sRGB": [],
+    "EXT_texture_filter_anisotropic": [],
+    "FederatedCredential": [
         "FederatedCredential",
         "provider"
     ],
-    "fetchevent": [
+    "FetchEvent": [
         "FetchEvent",
         "client",
         "clientId",
@@ -1615,41 +1522,10 @@
         "resultingClientId",
         "targetClientId"
     ],
-    "request": [
-        "Request",
-        "cache",
-        "clone",
-        "context",
-        "credentials",
-        "destination",
-        "headers",
-        "integrity",
-        "keepalive",
-        "method",
-        "mode",
-        "redirect",
-        "referrer",
-        "referrerPolicy",
-        "signal",
-        "url"
-    ],
-    "headers": [
-        "lexicographical_sorting",
-        "headers",
-        "append",
-        "delete",
-        "entries",
-        "get",
-        "getAll",
-        "has",
-        "keys",
-        "set",
-        "values"
-    ],
-    "fileentrysync": [],
-    "fileerror": [],
-    "fileexception": [],
-    "file": [
+    "FileEntrySync": [],
+    "FileError": [],
+    "FileException": [],
+    "File": [
         "File",
         "lastModified",
         "lastModifiedDate",
@@ -1657,11 +1533,11 @@
         "type",
         "webkitRelativePath"
     ],
-    "filelist": [
+    "FileList": [
         "length",
         "item"
     ],
-    "filereader": [
+    "FileReader": [
         "worker_support",
         "abort",
         "error",
@@ -1677,7 +1553,7 @@
         "readAsText",
         "result"
     ],
-    "filereadersync": [
+    "FileReaderSync": [
         "worker_support",
         "readAsArrayBuffer",
         "readAsBinaryString",
@@ -1685,16 +1561,16 @@
         "readAsText",
         "service_workers_support"
     ],
-    "filesystemdirectoryentry": [
+    "FileSystemDirectoryEntry": [
         "createReader",
         "getDirectory",
         "getFile",
         "removeRecursively"
     ],
-    "filesystemdirectoryreader": [
+    "FileSystemDirectoryReader": [
         "readEntries"
     ],
-    "filesystementry": [
+    "FileSystemEntry": [
         "filesystem",
         "fullPath",
         "isDirectory",
@@ -1707,27 +1583,27 @@
         "remove",
         "toURL"
     ],
-    "filesystem": [
-        "name",
-        "root"
-    ],
-    "filesystemfileentry": [
+    "FileSystemFileEntry": [
         "createWriter",
         "file"
     ],
-    "filesystemflags": [
+    "FileSystemFlags": [
         "create",
         "exclusive"
     ],
-    "filesystemsync": [
+    "FileSystem": [
         "name",
         "root"
     ],
-    "focusevent": [
+    "FileSystemSync": [
+        "name",
+        "root"
+    ],
+    "FocusEvent": [
         "FocusEvent",
         "relatedTarget"
     ],
-    "fontface": [
+    "FontFace": [
         "FontFace",
         "display",
         "family",
@@ -1741,7 +1617,7 @@
         "loaded",
         "load"
     ],
-    "fontfaceset": [
+    "FontFaceSet": [
         "status",
         "onloading",
         "onloadingdone",
@@ -1753,23 +1629,41 @@
         "load",
         "ready"
     ],
-    "fontfacesetloadevent": [
+    "FontFaceSetLoadEvent": [
         "FontFaceSetLoadEvent",
         "fontfaces"
     ],
-    "gainnode": [
+    "FormData": [
+        "FormData",
+        "append",
+        "delete",
+        "get",
+        "getAll",
+        "has",
+        "set",
+        "entries",
+        "keys",
+        "values",
+        "SupportForOf",
+        "worker_support"
+    ],
+    "GainNode": [
         "GainNode",
         "gain"
     ],
-    "gamepadbutton": [
+    "GamepadButton": [
         "pressed",
         "value",
         "touched"
     ],
-    "gamepadevent": [
+    "GamepadEvent": [
         "gamepad"
     ],
-    "gamepad": [
+    "GamepadHapticActuator": [
+        "pulse",
+        "type"
+    ],
+    "Gamepad": [
         "Gamepad",
         "axes",
         "buttons",
@@ -1783,11 +1677,7 @@
         "pose",
         "timestamp"
     ],
-    "gamepadhapticactuator": [
-        "pulse",
-        "type"
-    ],
-    "gamepadpose": [
+    "GamepadPose": [
         "angularAcceleration",
         "angularVelocity",
         "hasOrientation",
@@ -1797,30 +1687,25 @@
         "orientation",
         "position"
     ],
-    "position": [
-        "secure_context_required",
-        "timestamp",
-        "coords"
-    ],
-    "geolocation": [
+    "Geolocation": [
         "secure_context_required",
         "clearWatch",
         "getCurrentPosition",
         "watchPosition"
     ],
-    "geometryutils": [
+    "GeometryUtils": [
         "convertPointFromNode",
         "convertQuadFromNode",
         "convertRectFromNode",
         "getBoxQuads"
     ],
-    "gestureevent": [
+    "GestureEvent": [
         "GestureEvent",
         "initGestureEvent",
         "rotation",
         "scale"
     ],
-    "globaleventhandlers": [
+    "GlobalEventHandlers": [
         "onabort",
         "onanimationcancel",
         "onanimationend",
@@ -1911,17 +1796,30 @@
         "onwaiting",
         "onwheel"
     ],
-    "gyroscope": [
+    "Gyroscope": [
         "Gyroscope",
         "x",
         "y",
         "z"
     ],
-    "hashchangeevent": [
+    "HashChangeEvent": [
         "oldURL",
         "newURL"
     ],
-    "history": [
+    "Headers": [
+        "lexicographical_sorting",
+        "headers",
+        "append",
+        "delete",
+        "entries",
+        "get",
+        "getAll",
+        "has",
+        "keys",
+        "set",
+        "values"
+    ],
+    "History": [
         "back",
         "forward",
         "go",
@@ -1931,16 +1829,16 @@
         "scrollRestoration",
         "state"
     ],
-    "hmdvrdevice": [
+    "HMDVRDevice": [
         "getEyeParameters",
         "setFieldOfView"
     ],
-    "htmlallcollection": [
+    "HTMLAllCollection": [
         "length",
         "item",
         "namedItem"
     ],
-    "htmlanchorelement": [
+    "HTMLAnchorElement": [
         "accessKey",
         "download",
         "hreflang",
@@ -1958,7 +1856,7 @@
         "rev",
         "shape"
     ],
-    "htmlareaelement": [
+    "HTMLAreaElement": [
         "accessKey",
         "alt",
         "coords",
@@ -1974,21 +1872,21 @@
         "target",
         "type"
     ],
-    "htmlaudioelement": [
+    "HTMLAudioElement": [
         "mozCurrentSampleOffset",
         "mozSetup",
         "mozWriteAudio"
     ],
-    "htmlbaseelement": [
+    "HTMLBaseElement": [
         "href",
         "target"
     ],
-    "htmlbasefontelement": [
+    "HTMLBaseFontElement": [
         "color",
         "face",
         "size"
     ],
-    "htmlbodyelement": [
+    "HTMLBodyElement": [
         "aLink",
         "background",
         "bgColor",
@@ -1996,10 +1894,10 @@
         "text",
         "vLink"
     ],
-    "htmlbrelement": [
+    "HTMLBRElement": [
         "clear"
     ],
-    "htmlbuttonelement": [
+    "HTMLButtonElement": [
         "accessKey",
         "autofocus",
         "disabled",
@@ -2019,7 +1917,7 @@
         "value",
         "willValidate"
     ],
-    "htmlcanvaselement": [
+    "HTMLCanvasElement": [
         "height",
         "mozOpaque",
         "width",
@@ -2031,39 +1929,39 @@
         "toDataURL",
         "transferControlToOffscreen"
     ],
-    "htmlcollection": [
+    "HTMLCollection": [
         "length",
         "item",
         "namedItem"
     ],
-    "htmlcontentelement": [
+    "HTMLContentElement": [
         "select",
         "getDistributedNodes"
     ],
-    "htmldataelement": [
+    "HTMLDataElement": [
         "value"
     ],
-    "htmldatalistelement": [
+    "HTMLDataListElement": [
         "options"
     ],
-    "htmldetailselement": [
+    "HTMLDetailsElement": [
         "open"
     ],
-    "htmldialogelement": [
+    "HTMLDialogElement": [
         "open",
         "returnValue",
         "close",
         "show",
         "showModal"
     ],
-    "htmldivelement": [
+    "HTMLDivElement": [
         "align"
     ],
-    "htmldlistelement": [
+    "HTMLDListElement": [
         "compact"
     ],
-    "htmldocument": [],
-    "htmlelement": [
+    "HTMLDocument": [],
+    "HTMLElement": [
         "accessKey",
         "accessKeyLabel",
         "blur",
@@ -2104,8 +2002,8 @@
         "title",
         "translate"
     ],
-    "htmlembedelement": [],
-    "htmlfieldsetelement": [
+    "HTMLEmbedElement": [],
+    "HTMLFieldSetElement": [
         "disabled",
         "elements",
         "form",
@@ -2115,15 +2013,15 @@
         "validity",
         "willValidate"
     ],
-    "htmlfontelement": [
+    "HTMLFontElement": [
         "color",
         "face",
         "size"
     ],
-    "htmlformcontrolscollection": [
+    "HTMLFormControlsCollection": [
         "namedItem"
     ],
-    "htmlformelement": [
+    "HTMLFormElement": [
         "acceptCharset",
         "action",
         "autocomplete",
@@ -2141,7 +2039,7 @@
         "submit",
         "target"
     ],
-    "htmlframeelement": [
+    "HTMLFrameElement": [
         "contentDocument",
         "contentWindow",
         "frameBorder",
@@ -2153,22 +2051,22 @@
         "scrolling",
         "src"
     ],
-    "htmlframesetelement": [
+    "HTMLFrameSetElement": [
         "event_handlers",
         "onlanguage",
         "onstorage",
         "cols",
         "rows"
     ],
-    "htmlheadelement": [
+    "HTMLHeadElement": [
         "profile"
     ],
-    "htmlheadingelement": [
+    "HTMLHeadingElement": [
         "align"
     ],
-    "htmlhrelement": [],
-    "htmlhtmlelement": [],
-    "htmlhyperlinkelementutils": [
+    "HTMLHRElement": [],
+    "HTMLHtmlElement": [],
+    "HTMLHyperlinkElementUtils": [
         "hash",
         "host",
         "hostname",
@@ -2182,7 +2080,7 @@
         "toString",
         "username"
     ],
-    "htmliframeelement": [
+    "HTMLIFrameElement": [
         "addNextPaintListener",
         "align",
         "allow",
@@ -2235,7 +2133,7 @@
         "width",
         "zoom"
     ],
-    "htmlimageelement": [
+    "HTMLImageElement": [
         "Image",
         "complete",
         "crossorigin",
@@ -2251,7 +2149,7 @@
         "x",
         "y"
     ],
-    "htmlinputelement": [
+    "HTMLInputElement": [
         "autocomplete",
         "autofocus",
         "checkValidity",
@@ -2284,19 +2182,19 @@
         "weight",
         "willValidate"
     ],
-    "htmlisindexelement": [
+    "HTMLIsIndexElement": [
         "form",
         "prompt"
     ],
-    "htmlkeygenelement": [],
-    "htmllabelelement": [
+    "HTMLKeygenElement": [],
+    "HTMLLabelElement": [
         "control",
         "form",
         "htmlFor"
     ],
-    "htmllegendelement": [],
-    "htmllielement": [],
-    "htmllinkelement": [
+    "HTMLLegendElement": [],
+    "HTMLLIElement": [],
+    "HTMLLinkElement": [
         "as",
         "crossOrigin",
         "referrerPolicy",
@@ -2304,11 +2202,11 @@
         "relList",
         "sizes"
     ],
-    "htmlmapelement": [
+    "HTMLMapElement": [
         "areas",
         "name"
     ],
-    "htmlmarqueeelement": [
+    "HTMLMarqueeElement": [
         "behavior",
         "bgcolor",
         "direction",
@@ -2321,7 +2219,7 @@
         "vspace",
         "width"
     ],
-    "htmlmediaelement": [
+    "HTMLMediaElement": [
         "addTextTrack",
         "audioTracks",
         "autoplay",
@@ -2381,16 +2279,12 @@
         "videoTracks",
         "volume"
     ],
-    "mediakeys": [
-        "createSession",
-        "setServerCertificate"
-    ],
-    "htmlmenuelement": [
+    "HTMLMenuElement": [
         "compact",
         "label",
         "type"
     ],
-    "htmlmenuitemelement": [
+    "HTMLMenuItemElement": [
         "checked",
         "default",
         "disabled",
@@ -2399,8 +2293,8 @@
         "radiogroup",
         "type"
     ],
-    "htmlmetaelement": [],
-    "htmlmeterelement": [
+    "HTMLMetaElement": [],
+    "HTMLMeterElement": [
         "high",
         "low",
         "max",
@@ -2409,11 +2303,11 @@
         "value",
         "labels"
     ],
-    "htmlmodelement": [
+    "HTMLModElement": [
         "cite",
         "datetime"
     ],
-    "htmlobjectelement": [
+    "HTMLObjectElement": [
         "align",
         "archive",
         "border",
@@ -2442,17 +2336,17 @@
         "reportValidity",
         "setCustomValidity"
     ],
-    "htmlolistelement": [
+    "HTMLOListElement": [
         "reversed",
         "start",
         "type",
         "compact"
     ],
-    "htmloptgroupelement": [
+    "HTMLOptGroupElement": [
         "disabled",
         "label"
     ],
-    "htmloptionelement": [
+    "HTMLOptionElement": [
         "defaultSelected",
         "disabled",
         "form",
@@ -2462,13 +2356,13 @@
         "text",
         "value"
     ],
-    "htmloptionscollection": [
+    "HTMLOptionsCollection": [
         "length",
         "add",
         "remove",
         "selectedIndex"
     ],
-    "htmloutputelement": [
+    "HTMLOutputElement": [
         "defaultValue",
         "form",
         "htmlFor",
@@ -2483,29 +2377,29 @@
         "reportValidity",
         "setCustomValidity"
     ],
-    "htmlparagraphelement": [
+    "HTMLParagraphElement": [
         "align"
     ],
-    "htmlparamelement": [
+    "HTMLParamElement": [
         "name",
         "value",
         "type",
         "valueType"
     ],
-    "htmlpictureelement": [],
-    "htmlpreelement": [
+    "HTMLPictureElement": [],
+    "HTMLPreElement": [
         "width"
     ],
-    "htmlprogresselement": [
+    "HTMLProgressElement": [
         "max",
         "position",
         "value",
         "labels"
     ],
-    "htmlquoteelement": [
+    "HTMLQuoteElement": [
         "cite"
     ],
-    "htmlscriptelement": [
+    "HTMLScriptElement": [
         "async",
         "charset",
         "crossOrigin",
@@ -2517,7 +2411,7 @@
         "text",
         "type"
     ],
-    "htmlselectelement": [
+    "HTMLSelectElement": [
         "autofocus",
         "disabled",
         "form",
@@ -2544,14 +2438,14 @@
         "remove",
         "setCustomValidity"
     ],
-    "htmlshadowelement": [
+    "HTMLShadowElement": [
         "getDistributedNodes"
     ],
-    "htmlslotelement": [
+    "HTMLSlotElement": [
         "name",
         "assignedNodes"
     ],
-    "htmlsourceelement": [
+    "HTMLSourceElement": [
         "keySystem",
         "media",
         "sizes",
@@ -2559,18 +2453,18 @@
         "srcset",
         "type"
     ],
-    "htmlspanelement": [],
-    "htmlstyleelement": [
+    "HTMLSpanElement": [],
+    "HTMLStyleElement": [
         "media",
         "type",
         "disabled",
         "sheet",
         "scoped"
     ],
-    "htmltablecaptionelement": [
+    "HTMLTableCaptionElement": [
         "align"
     ],
-    "htmltablecellelement": [
+    "HTMLTableCellElement": [
         "abbr",
         "align",
         "axis",
@@ -2587,7 +2481,7 @@
         "vAlign",
         "width"
     ],
-    "htmltablecolelement": [
+    "HTMLTableColElement": [
         "align",
         "ch",
         "chOff",
@@ -2595,8 +2489,8 @@
         "vAlign",
         "width"
     ],
-    "htmltabledatacellelement": [],
-    "htmltableelement": [
+    "HTMLTableDataCellElement": [],
+    "HTMLTableElement": [
         "align",
         "bgColor",
         "border",
@@ -2623,12 +2517,12 @@
         "tHead",
         "width"
     ],
-    "htmltableheadercellelement": [
+    "HTMLTableHeaderCellElement": [
         "abbr",
         "scope",
         "sorted"
     ],
-    "htmltablerowelement": [
+    "HTMLTableRowElement": [
         "align",
         "bgColor",
         "cells",
@@ -2640,7 +2534,7 @@
         "deleteCell",
         "insertCell"
     ],
-    "htmltablesectionelement": [
+    "HTMLTableSectionElement": [
         "align",
         "ch",
         "chOff",
@@ -2649,21 +2543,21 @@
         "rows",
         "vAlign"
     ],
-    "htmltemplateelement": [
+    "HTMLTemplateElement": [
         "content"
     ],
-    "htmltextareaelement": [
+    "HTMLTextAreaElement": [
         "autocapitalize",
         "textLength",
         "labels"
     ],
-    "htmltimeelement": [
+    "HTMLTimeElement": [
         "dateTime"
     ],
-    "htmltitleelement": [
+    "HTMLTitleElement": [
         "text"
     ],
-    "htmltrackelement": [
+    "HTMLTrackElement": [
         "default",
         "kind",
         "label",
@@ -2672,12 +2566,12 @@
         "srclang",
         "track"
     ],
-    "htmlulistelement": [
+    "HTMLUListElement": [
         "compact",
         "type"
     ],
-    "htmlunknownelement": [],
-    "htmlvideoelement": [
+    "HTMLUnknownElement": [],
+    "HTMLVideoElement": [
         "height",
         "poster",
         "videoHeight",
@@ -2692,7 +2586,7 @@
         "msIsStereo3D",
         "getVideoPlaybackQuality"
     ],
-    "idbcursor": [
+    "IDBCursor": [
         "worker_support",
         "direction",
         "key",
@@ -2704,12 +2598,12 @@
         "delete",
         "update"
     ],
-    "idbcursorwithvalue": [
+    "IDBCursorWithValue": [
         "worker_support",
         "value"
     ],
-    "idbdatabaseexception": [],
-    "idbdatabase": [
+    "IDBDatabaseException": [],
+    "IDBDatabase": [
         "worker_support",
         "name",
         "objectStoreNames",
@@ -2723,16 +2617,16 @@
         "deleteObjectStore",
         "transaction"
     ],
-    "idbenvironment": [
+    "IDBEnvironment": [
         "worker_support"
     ],
-    "idbfactory": [
+    "IDBFactory": [
         "worker_support",
         "cmp",
         "deleteDatabase",
         "open"
     ],
-    "idbindex": [
+    "IDBIndex": [
         "worker_support",
         "isAutoLocale",
         "keyPath",
@@ -2749,7 +2643,7 @@
         "openCursor",
         "openKeyCursor"
     ],
-    "idbkeyrange": [
+    "IDBKeyRange": [
         "worker_support",
         "lower",
         "lowerOpen",
@@ -2761,8 +2655,8 @@
         "only",
         "upperBound"
     ],
-    "idblocaleawarekeyrange": [],
-    "idbobjectstore": [
+    "IDBLocaleAwareKeyRange": [],
+    "IDBObjectStore": [
         "worker_support",
         "autoIncrement",
         "indexNames",
@@ -2784,12 +2678,12 @@
         "openKeyCursor",
         "put"
     ],
-    "idbopendbrequest": [
+    "IDBOpenDBRequest": [
         "worker_support",
         "onblocked",
         "onupgradeneeded"
     ],
-    "idbrequest": [
+    "IDBRequest": [
         "worker_support",
         "error",
         "onerror",
@@ -2799,7 +2693,7 @@
         "source",
         "transaction"
     ],
-    "idbtransaction": [
+    "IDBTransaction": [
         "worker_support",
         "db",
         "error",
@@ -2811,32 +2705,32 @@
         "abort",
         "objectStore"
     ],
-    "idbversionchangeevent": [
+    "IDBVersionChangeEvent": [
         "worker_support",
         "newVersion",
         "oldVersion",
         "version"
     ],
-    "idbversionchangerequest": [
+    "IDBVersionChangeRequest": [
         "setVersion"
     ],
-    "idledeadline": [
+    "IdleDeadline": [
         "didTimeout",
         "timeRemaining"
     ],
-    "iirfilternode": [
+    "IIRFilterNode": [
         "IIRFilterNode",
         "getFrequencyResponse"
     ],
-    "imagebitmap": [
+    "ImageBitmap": [
         "height",
         "width",
         "close"
     ],
-    "imagebitmaprenderingcontext": [
+    "ImageBitmapRenderingContext": [
         "transferFromImageBitmap"
     ],
-    "imagecapture": [
+    "ImageCapture": [
         "ImageCapture",
         "getPhotoCapabilities",
         "getPhotoSettings",
@@ -2844,21 +2738,21 @@
         "takePhoto",
         "track"
     ],
-    "imagedata": [
+    "ImageData": [
         "worker_support",
         "ImageData",
         "data",
         "height",
         "width"
     ],
-    "inputdevicecapabilities": [
+    "InputDeviceCapabilities": [
         "InputDeviceCapabilities",
         "firesTouchEvents"
     ],
-    "inputdeviceinfo": [
+    "InputDeviceInfo": [
         "getCapabilities"
     ],
-    "inputevent": [
+    "InputEvent": [
         "InputEvent",
         "data",
         "dataTransfer",
@@ -2866,11 +2760,11 @@
         "inputType",
         "isComposing"
     ],
-    "installevent": [
+    "InstallEvent": [
         "InstallEvent",
         "activeWorker"
     ],
-    "intersectionobserverentry": [
+    "IntersectionObserverEntry": [
         "boundingClientRect",
         "intersectionRatio",
         "intersectionRect",
@@ -2879,7 +2773,7 @@
         "target",
         "time"
     ],
-    "intersectionobserver": [
+    "IntersectionObserver": [
         "IntersectionObserver",
         "root",
         "rootMargin",
@@ -2889,7 +2783,7 @@
         "takeRecords",
         "unobserve"
     ],
-    "keyboardevent": [
+    "KeyboardEvent": [
         "KeyboardEvent",
         "altKey",
         "charCode",
@@ -2910,16 +2804,12 @@
         "DOM_KEY_LOCATION_RIGHT",
         "DOM_KEY_LOCATION_STANDARD"
     ],
-    "keyboard": [
+    "Keyboard": [
         "getLayoutMap",
         "lock",
         "unlock"
     ],
-    "lock": [
-        "mode",
-        "name"
-    ],
-    "keyboardlayoutmap": [
+    "KeyboardLayoutMap": [
         "entries",
         "forEach",
         "get",
@@ -2928,7 +2818,7 @@
         "size",
         "values"
     ],
-    "keyframeeffect": [
+    "KeyframeEffect": [
         "KeyframeEffect",
         "composite",
         "getKeyframes",
@@ -2936,67 +2826,88 @@
         "setKeyframes",
         "target"
     ],
-    "linearaccelerationsensor": [
+    "LinearAccelerationSensor": [
         "LinearAccelerationSensor",
         "x",
         "y",
         "z"
     ],
-    "linkstyle": [
+    "LinkStyle": [
         "sheet"
     ],
-    "localfilesystem": [
+    "LocalFileSystem": [
         "requestFileSystem",
         "resolveLocalFileSystemURL"
     ],
-    "localfilesystemsync": [
+    "LocalFileSystemSync": [
         "requestFileSystemSync",
         "resolveLocalFileSystemSyncURL"
     ],
-    "localmediastream": [],
-    "lockmanager": [
+    "LocalMediaStream": [],
+    "Location": [
+        "assign",
+        "hash",
+        "host",
+        "hostname",
+        "href",
+        "origin",
+        "password",
+        "pathname",
+        "port",
+        "protocol",
+        "reload",
+        "replace",
+        "search",
+        "toString",
+        "username"
+    ],
+    "Lock": [
+        "mode",
+        "name"
+    ],
+    "LockManager": [
         "query",
         "request"
     ],
-    "longrange": [],
-    "magnetometer": [
+    "LongRange": [],
+    "Magnetometer": [
         "Magnetometer",
         "x",
         "y",
         "z"
     ],
-    "mediacapabilities": [
+    "MediaCapabilities": [
         "encodingInfo",
         "decodingInfo"
     ],
-    "mediadeviceinfo": [
+    "MediaDeviceInfo": [
         "deviceId",
         "groupId",
         "kind",
         "label",
         "toJSON"
     ],
-    "mediadevices": [
+    "MediaDevices": [
         "ondevicechange",
         "enumerateDevices",
         "getSupportedConstraints",
         "getUserMedia",
         "stereo_audio_capture"
     ],
-    "mediaelementaudiosourcenode": [
+    "MediaElementAudioSourceNode": [
         "MediaElementAudioSourceNode",
         "mediaElement"
     ],
-    "mediaerror": [
+    "MediaError": [
         "code",
         "message"
     ],
-    "mediakeymessageevent": [
+    "MediaKeyMessageEvent": [
         "MediaKeyMessageEvent",
         "message",
         "messageType"
     ],
-    "mediakeysession": [
+    "MediaKeySession": [
         "closed",
         "expiration",
         "keyStatuses",
@@ -3009,7 +2920,11 @@
         "remove",
         "update"
     ],
-    "mediakeystatusmap": [
+    "MediaKeys": [
+        "createSession",
+        "setServerCertificate"
+    ],
+    "MediaKeyStatusMap": [
         "size",
         "entries",
         "forEach",
@@ -3019,31 +2934,31 @@
         "iterator",
         "values"
     ],
-    "mediakeysystemaccess": [
+    "MediaKeySystemAccess": [
         "keySystem",
         "createMediaKeys",
         "getConfiguration"
     ],
-    "mediakeysystemconfiguration": [
+    "MediaKeySystemConfiguration": [
         "initDataTypes",
         "audioCapabilities",
         "videoCapabilities",
         "distinctiveIdentifier",
         "persistentState"
     ],
-    "mediametadata": [
+    "MediaMetadata": [
         "MediaMetadata",
         "album",
         "artist",
         "artwork",
         "title"
     ],
-    "mediaquerylistevent": [
+    "MediaQueryListEvent": [
         "MediaQueryListEvent",
         "matches",
         "media"
     ],
-    "mediaquerylist": [
+    "MediaQueryList": [
         "addListener",
         "matches",
         "media",
@@ -3052,12 +2967,12 @@
         "EventListener_objects",
         "EventTarget_inheritance"
     ],
-    "mediaquerylistlistener": [],
-    "mediarecordererrorevent": [
+    "MediaQueryListListener": [],
+    "MediaRecorderErrorEvent": [
         "MediaRecorderErrorEvent",
         "error"
     ],
-    "mediarecorder": [
+    "MediaRecorder": [
         "MediaRecorder",
         "mimeType",
         "state",
@@ -3079,27 +2994,17 @@
         "onstop",
         "onwarning"
     ],
-    "mimetype": [
-        "description",
-        "enabledPlugin",
-        "suffixes",
-        "type"
-    ],
-    "mediasession": [
+    "MediaSession": [
         "metadata",
         "playbackState",
         "setActionHandler"
     ],
-    "metadata": [
-        "modificationTime",
-        "size"
-    ],
-    "mediasettingsrange": [
+    "MediaSettingsRange": [
         "max",
         "min",
         "step"
     ],
-    "mediasource": [
+    "MediaSource": [
         "MediaSource",
         "sourceBuffers",
         "activeSourceBuffers",
@@ -3115,15 +3020,23 @@
         "clearLiveSeekableRange",
         "isTypeSupported"
     ],
-    "mediastreamaudiodestinationnode": [
+    "MediaStreamAudioDestinationNode": [
         "MediaStreamAudioDestinationNode",
         "stream"
     ],
-    "mediastreamaudiosourcenode": [
+    "MediaStreamAudioSourceNode": [
         "MediaStreamAudioSourceNode",
         "mediaStream"
     ],
-    "mediastream": [
+    "MediaStreamConstraints": [
+        "video",
+        "audio"
+    ],
+    "MediaStreamEvent": [
+        "MediaStreamEvent",
+        "stream"
+    ],
+    "MediaStream": [
         "MediaStream",
         "active",
         "ended",
@@ -3140,20 +3053,12 @@
         "label",
         "stop"
     ],
-    "mediastreamconstraints": [
-        "video",
-        "audio"
-    ],
-    "mediastreamevent": [
-        "MediaStreamEvent",
-        "stream"
-    ],
-    "mediastreamtrackaudiosourcenode": [],
-    "mediastreamtrackevent": [
+    "MediaStreamTrackAudioSourceNode": [],
+    "MediaStreamTrackEvent": [
         "MediaStreamTrackEvent",
         "track"
     ],
-    "mediastreamtrack": [
+    "MediaStreamTrack": [
         "applyConstraints",
         "clone",
         "contentHint",
@@ -3177,7 +3082,7 @@
         "remote",
         "stop"
     ],
-    "mediatrackconstraints": [
+    "MediaTrackConstraints": [
         "aspectRatio",
         "autoGainControl",
         "channelCount",
@@ -3194,7 +3099,7 @@
         "volume",
         "width"
     ],
-    "mediatracksettings": [
+    "MediaTrackSettings": [
         "aspectRatio",
         "autoGainControl",
         "channelCount",
@@ -3212,7 +3117,7 @@
         "volume",
         "width"
     ],
-    "mediatracksupportedconstraints": [
+    "MediaTrackSupportedConstraints": [
         "width",
         "height",
         "aspectRatio",
@@ -3230,12 +3135,12 @@
         "deviceId",
         "groupId"
     ],
-    "messagechannel": [
+    "MessageChannel": [
         "MessageChannel",
         "port1",
         "port2"
     ],
-    "messageevent": [
+    "MessageEvent": [
         "MessageEvent",
         "data",
         "initMessageEvent",
@@ -3244,7 +3149,7 @@
         "ports",
         "source"
     ],
-    "messageport": [
+    "MessagePort": [
         "worker_support",
         "close",
         "onmessage",
@@ -3252,17 +3157,27 @@
         "postMessage",
         "start"
     ],
-    "midiaccess": [],
-    "midiconnectionevent": [],
-    "midiinput": [],
-    "midiinputmap": [],
-    "midioutputmap": [],
-    "mimetypearray": [
+    "Metadata": [
+        "modificationTime",
+        "size"
+    ],
+    "MIDIAccess": [],
+    "MIDIConnectionEvent": [],
+    "MIDIInput": [],
+    "MIDIInputMap": [],
+    "MIDIOutputMap": [],
+    "MimeTypeArray": [
         "item",
         "length",
         "namedItem"
     ],
-    "mouseevent": [
+    "MimeType": [
+        "description",
+        "enabledPlugin",
+        "suffixes",
+        "type"
+    ],
+    "MouseEvent": [
         "MouseEvent",
         "altKey",
         "button",
@@ -3288,13 +3203,13 @@
         "x",
         "y"
     ],
-    "mousescrollevent": [],
-    "mousewheelevent": [
+    "MouseScrollEvent": [],
+    "MouseWheelEvent": [
         "wheelDelta",
         "wheelDeltaX",
         "wheelDeltaY"
     ],
-    "msgestureevent": [
+    "MSGestureEvent": [
         "MSGestureEvent",
         "expansion",
         "gestureObject",
@@ -3308,7 +3223,7 @@
         "velocityX",
         "velocityY"
     ],
-    "mutationobserverinit": [
+    "MutationObserverInit": [
         "attributeFilter",
         "attributeOldValue",
         "attributes",
@@ -3317,20 +3232,20 @@
         "childList",
         "subtree"
     ],
-    "mutationobserver": [
+    "MutationObserver": [
         "MutationObserver",
         "observe",
         "disconnect",
         "takeRecords"
     ],
-    "mutationrecord": [
+    "MutationRecord": [
         "type",
         "target",
         "addedNodes",
         "removedNodes",
         "previousSibling"
     ],
-    "namednodemap": [
+    "NamedNodeMap": [
         "getNamedItem",
         "getNamedItemNS",
         "item",
@@ -3340,18 +3255,18 @@
         "setNamedItem",
         "setNamedItemNS"
     ],
-    "navigationpreloadmanager": [
+    "NavigationPreloadManager": [
         "enable",
         "disable",
         "setHeaderValue",
         "getState"
     ],
-    "navigatorconcurrenthardware": [
+    "NavigatorConcurrentHardware": [
         "worker_support",
         "hardwareConcurrency"
     ],
-    "navigatorgeolocation": [],
-    "navigatorid": [
+    "NavigatorGeolocation": [],
+    "NavigatorID": [
         "appCodeName",
         "appName",
         "appVersion",
@@ -3360,7 +3275,7 @@
         "taintEnabled",
         "userAgent"
     ],
-    "navigator": [
+    "Navigator": [
         "activeVRDisplays",
         "authentication",
         "battery",
@@ -3398,63 +3313,24 @@
         "vibrate",
         "webdriver"
     ],
-    "permissions": [
-        "query",
-        "request",
-        "requestAll",
-        "revoke",
-        "accelerometer_permission",
-        "accessibility-events_permission",
-        "ambient-light-sensor_permission",
-        "background-sync_permission",
-        "camera_permission",
-        "clipboard-read_permission",
-        "clipboard-write_permission",
-        "geolocation_permission",
-        "gyroscope_permission",
-        "magnetometer_permission",
-        "microphone_permission",
-        "midi_permission",
-        "notifications_permission",
-        "payment-handler_permission",
-        "persistent-storage_permission",
-        "push_permission"
-    ],
-    "presentation": [
-        "defaultRequest",
-        "receiver"
-    ],
-    "serviceworker": [
-        "scriptURL",
-        "state",
-        "onstatechange"
-    ],
-    "navigatorlanguage": [
+    "NavigatorLanguage": [
         "worker_support",
         "language",
         "languages"
     ],
-    "navigatoronline": [
+    "NavigatorOnLine": [
         "worker_support",
         "onLine"
     ],
-    "navigatorplugins": [
+    "NavigatorPlugins": [
         "mimeTypes",
         "plugins",
         "javaEnabled"
     ],
-    "navigatorstorage": [
+    "NavigatorStorage": [
         "storage"
     ],
-    "storage": [
-        "clear",
-        "getItem",
-        "key",
-        "length",
-        "removeItem",
-        "setItem"
-    ],
-    "networkinformation": [
+    "NetworkInformation": [
         "worker_support",
         "downlink",
         "downlinkMax",
@@ -3463,10 +3339,10 @@
         "rtt",
         "type"
     ],
-    "nodefilter": [
+    "NodeFilter": [
         "acceptNode"
     ],
-    "nodeiterator": [
+    "NodeIterator": [
         "expandEntityReferences",
         "filter",
         "pointerBeforeReferenceNode",
@@ -3477,7 +3353,7 @@
         "nextNode",
         "previousNode"
     ],
-    "node": [
+    "Node": [
         "appendChild",
         "baseURI",
         "baseURIObject",
@@ -3521,17 +3397,7 @@
         "setUserData",
         "textContent"
     ],
-    "parentnode": [
-        "document_documentfragment",
-        "childElementCount",
-        "children",
-        "firstElementChild",
-        "lastElementChild",
-        "append",
-        "prepend",
-        "querySelectorAll"
-    ],
-    "nodelist": [
+    "NodeList": [
         "length",
         "entries",
         "forEach",
@@ -3539,21 +3405,21 @@
         "keys",
         "values"
     ],
-    "nondocumenttypechildnode": [
+    "NonDocumentTypeChildNode": [
         "CharacterData_support",
         "nextElementSibling",
         "previousElementSibling"
     ],
-    "notation": [
+    "Notation": [
         "publicId",
         "systemId"
     ],
-    "notificationevent": [
+    "NotificationEvent": [
         "NotificationEvent",
         "notification",
         "action"
     ],
-    "notification": [
+    "Notification": [
         "worker_support",
         "secure_contexts_only",
         "Notification",
@@ -3581,23 +3447,23 @@
         "close",
         "requestPermission"
     ],
-    "oes_element_index_uint": [],
-    "oes_standard_derivatives": [],
-    "oes_texture_float": [],
-    "oes_texture_float_linear": [],
-    "oes_texture_half_float": [],
-    "oes_texture_half_float_linear": [],
-    "oes_vertex_array_object": [
+    "OES_element_index_uint": [],
+    "OES_standard_derivatives": [],
+    "OES_texture_float": [],
+    "OES_texture_float_linear": [],
+    "OES_texture_half_float": [],
+    "OES_texture_half_float_linear": [],
+    "OES_vertex_array_object": [
         "createVertexArrayOES",
         "deleteVertexArrayOES",
         "isVertexArrayOES",
         "bindVertexArrayOES"
     ],
-    "offlineaudiocompletionevent": [
+    "OfflineAudioCompletionEvent": [
         "OfflineAudioCompletionEvent",
         "renderedBuffer"
     ],
-    "offlineaudiocontext": [
+    "OfflineAudioContext": [
         "OfflineAudioContext",
         "length",
         "oncomplete",
@@ -3605,7 +3471,7 @@
         "suspend",
         "startRendering"
     ],
-    "offscreencanvas": [
+    "OffscreenCanvas": [
         "OffscreenCanvas",
         "height",
         "width",
@@ -3613,11 +3479,11 @@
         "toBlob",
         "transferToImageBitmap"
     ],
-    "orientationsensor": [
+    "OrientationSensor": [
         "quaternion",
         "populateMatrix"
     ],
-    "oscillatornode": [
+    "OscillatorNode": [
         "OscillatorNode",
         "detune",
         "frequency",
@@ -3627,13 +3493,13 @@
         "start",
         "stop"
     ],
-    "overconstrainederrorevent": [
+    "OverconstrainedErrorEvent": [
         "error"
     ],
-    "pagetransitionevent": [
+    "PageTransitionEvent": [
         "persisted"
     ],
-    "pannernode": [
+    "PannerNode": [
         "PannerNode",
         "coneInnerAngle",
         "coneOuterAngle",
@@ -3653,7 +3519,17 @@
         "setPosition",
         "setVelocity"
     ],
-    "passwordcredential": [
+    "ParentNode": [
+        "document_documentfragment",
+        "childElementCount",
+        "children",
+        "firstElementChild",
+        "lastElementChild",
+        "append",
+        "prepend",
+        "querySelectorAll"
+    ],
+    "PasswordCredential": [
         "PasswordCredential",
         "additionalData",
         "iconURL",
@@ -3662,11 +3538,11 @@
         "password",
         "passwordName"
     ],
-    "path2d": [
+    "Path2D": [
         "Path2D",
         "addPath"
     ],
-    "paymentaddress": [
+    "PaymentAddress": [
         "country",
         "addressLine",
         "region",
@@ -3680,21 +3556,21 @@
         "phone",
         "toJSON"
     ],
-    "paymentdetailsbase": [
+    "PaymentDetailsBase": [
         "displayItems",
         "modifiers",
         "shippingOptions"
     ],
-    "paymentdetailsinit": [
+    "PaymentDetailsInit": [
         "id",
         "total"
     ],
-    "paymentdetailsupdate": [
+    "PaymentDetailsUpdate": [
         "error",
         "shippingAddressErrors",
         "total"
     ],
-    "paymentinstruments": [
+    "PaymentInstruments": [
         "clear",
         "delete",
         "get",
@@ -3702,16 +3578,16 @@
         "keys",
         "set"
     ],
-    "paymentmanager": [
+    "PaymentManager": [
         "instruments",
         "requestPermission",
         "userHint"
     ],
-    "paymentmethodchangeevent": [
+    "PaymentMethodChangeEvent": [
         "methodDetails",
         "methodName"
     ],
-    "paymentrequestevent": [
+    "PaymentRequestEvent": [
         "PaymentRequestEvent",
         "instrumentKey",
         "methodData",
@@ -3723,7 +3599,7 @@
         "topOrigin",
         "total"
     ],
-    "paymentrequest": [
+    "PaymentRequest": [
         "PaymentRequest",
         "abort",
         "canMakePayment",
@@ -3737,11 +3613,11 @@
         "shippingType",
         "show"
     ],
-    "paymentrequestupdateevent": [
+    "PaymentRequestUpdateEvent": [
         "PaymentRequestUpdateEvent",
         "updateWith"
     ],
-    "paymentresponse": [
+    "PaymentResponse": [
         "details",
         "methodName",
         "payerEmail",
@@ -3753,7 +3629,7 @@
         "complete",
         "toJSON"
     ],
-    "performanceentry": [
+    "PerformanceEntry": [
         "worker_support",
         "duration",
         "entryType",
@@ -3761,8 +3637,8 @@
         "startTime",
         "toJSON"
     ],
-    "performanceframetiming": [],
-    "performance": [
+    "PerformanceFrameTiming": [],
+    "Performance": [
         "clearMarks",
         "clearMeasures",
         "clearResourceTimings",
@@ -3780,17 +3656,17 @@
         "timing",
         "toJSON"
     ],
-    "performancelongtasktiming": [
+    "PerformanceLongTaskTiming": [
         "attribution"
     ],
-    "performancemark": [],
-    "performancemeasure": [],
-    "performancenavigation": [
+    "PerformanceMark": [],
+    "PerformanceMeasure": [],
+    "PerformanceNavigation": [
         "type",
         "redirectCount",
         "toJSON"
     ],
-    "performancenavigationtiming": [
+    "PerformanceNavigationTiming": [
         "domComplete",
         "domContentLoadedEventEnd",
         "domContentLoadedEventStart",
@@ -3803,20 +3679,20 @@
         "unloadEventStart",
         "toJSON"
     ],
-    "performanceobserverentrylist": [
+    "PerformanceObserverEntryList": [
         "getEntries",
         "getEntriesByType",
         "getEntriesByName"
     ],
-    "performanceobserver": [
+    "PerformanceObserver": [
         "worker_support",
         "PerformanceObserver",
         "disconnect",
         "observe",
         "takeRecords"
     ],
-    "performancepainttiming": [],
-    "performanceresourcetiming": [
+    "PerformancePaintTiming": [],
+    "PerformanceResourceTiming": [
         "connectEnd",
         "connectStart",
         "decodedBodySize",
@@ -3838,13 +3714,13 @@
         "toJSON",
         "worker_support"
     ],
-    "performanceservertiming": [
+    "PerformanceServerTiming": [
         "description",
         "duration",
         "name",
         "toJSON"
     ],
-    "performancetiming": [
+    "PerformanceTiming": [
         "connectEnd",
         "connectStart",
         "domComplete",
@@ -3868,31 +3744,53 @@
         "unloadEventEnd",
         "unloadEventStart"
     ],
-    "periodicwave": [
+    "PeriodicWave": [
         "PeriodicWave"
     ],
-    "permissionstatus": [
+    "Permissions": [
+        "query",
+        "request",
+        "requestAll",
+        "revoke",
+        "accelerometer_permission",
+        "accessibility-events_permission",
+        "ambient-light-sensor_permission",
+        "background-sync_permission",
+        "camera_permission",
+        "clipboard-read_permission",
+        "clipboard-write_permission",
+        "geolocation_permission",
+        "gyroscope_permission",
+        "magnetometer_permission",
+        "microphone_permission",
+        "midi_permission",
+        "notifications_permission",
+        "payment-handler_permission",
+        "persistent-storage_permission",
+        "push_permission"
+    ],
+    "PermissionStatus": [
         "onchange",
         "state"
     ],
-    "photocapabilities": [
+    "PhotoCapabilities": [
         "fillLightMode",
         "imageHeight",
         "imageWidth",
         "redEyeReduction"
     ],
-    "pictureinpicture": [
+    "PictureInPicture": [
         "height",
         "onresize",
         "width"
     ],
-    "pluginarray": [
+    "PluginArray": [
         "item",
         "length",
         "namedItem",
         "refresh"
     ],
-    "plugin": [
+    "Plugin": [
         "description",
         "filename",
         "item",
@@ -3900,7 +3798,7 @@
         "namedItem",
         "version"
     ],
-    "pointerevent": [
+    "PointerEvent": [
         "PointerEvent",
         "pointerId",
         "width",
@@ -3914,43 +3812,53 @@
         "isPrimary",
         "getCoalescedEvents"
     ],
-    "point": [
+    "Point": [
         "x",
         "y"
     ],
-    "popstateevent": [
+    "Policy": [
+        "allowsFeature",
+        "allowedFeatures",
+        "getAllowlistForFeature"
+    ],
+    "PopStateEvent": [
         "state"
     ],
-    "positionerror": [
+    "PositionError": [
         "secure_context_required",
         "code",
         "message"
     ],
-    "positionoptions": [
+    "Position": [
+        "secure_context_required",
+        "timestamp",
+        "coords"
+    ],
+    "PositionOptions": [
         "secure_context_required",
         "enableHighAccuracy",
         "timeout",
         "maximumAge"
     ],
-    "positionsensorvrdevice": [
+    "PositionSensorVRDevice": [
         "getImmediateState",
         "getState",
         "resetSensor"
     ],
-    "presentationavailability": [
+    "PresentationAvailability": [
         "onchange",
         "value"
     ],
-    "presentationconnectionavailableevent": [
+    "PresentationConnectionAvailableEvent": [
         "PresentationConnectionAvailableEvent",
         "connection"
     ],
-    "presentationconnectioncloseevent": [
+    "PresentationConnectionCloseEvent": [
         "PresentationConnectionCloseEvent",
         "message",
         "reason"
     ],
-    "presentationconnection": [
+    "PresentationConnection": [
         "binaryType",
         "close",
         "id",
@@ -3963,14 +3871,18 @@
         "terminate",
         "url"
     ],
-    "presentationconnectionlist": [
+    "PresentationConnectionList": [
         "connections",
         "onconnectionavailable"
     ],
-    "presentationreceiver": [
+    "Presentation": [
+        "defaultRequest",
+        "receiver"
+    ],
+    "PresentationReceiver": [
         "connectionList"
     ],
-    "presentationrequest": [
+    "PresentationRequest": [
         "secure_context_required",
         "PresentationRequest",
         "getAvailability",
@@ -3979,23 +3891,23 @@
         "start",
         "startWithDevice"
     ],
-    "processinginstruction": [
+    "ProcessingInstruction": [
         "target",
         "data"
     ],
-    "progressevent": [
+    "ProgressEvent": [
         "ProgressEvent",
         "lengthComputable",
         "loaded",
         "total",
         "initProgressEvent"
     ],
-    "promiserejectionevent": [
+    "PromiseRejectionEvent": [
         "PromiseRejectionEvent",
         "promise",
         "reason"
     ],
-    "publickeycredentialcreationoptions": [
+    "PublicKeyCredentialCreationOptions": [
         "attestation",
         "authenticatorSelection",
         "challenge",
@@ -4006,28 +3918,13 @@
         "timeout",
         "user"
     ],
-    "publickeycredential": [
+    "PublicKeyCredential": [
         "rawId",
         "response",
         "getClientExtensionResults",
         "isUserVerifyingPlatformAuthenticatorAvailable"
     ],
-    "response": [
-        "Response",
-        "headers",
-        "ok",
-        "redirected",
-        "status",
-        "statusText",
-        "type",
-        "url",
-        "useFinalURL",
-        "clone",
-        "error",
-        "redirect",
-        "trailer"
-    ],
-    "publickeycredentialrequestoptions": [
+    "PublicKeyCredentialRequestOptions": [
         "allowCredentials",
         "challenge",
         "extensions",
@@ -4035,11 +3932,11 @@
         "timeout",
         "userVerification"
     ],
-    "pushevent": [
+    "PushEvent": [
         "PushEvent",
         "data"
     ],
-    "pushmanager": [
+    "PushManager": [
         "supportedContentEncodings",
         "getSubscription",
         "permissionState",
@@ -4049,23 +3946,23 @@
         "registrations",
         "unregister"
     ],
-    "pushmessagedata": [
+    "PushMessageData": [
         "arrayBuffer",
         "blob",
         "json",
         "text"
     ],
-    "pushregistrationmanager": [
+    "PushRegistrationManager": [
         "register",
         "unregister",
         "getRegistration",
         "hasPermission"
     ],
-    "pushsubscriptionchangeevent": [
+    "PushSubscriptionChangeEvent": [
         "newSubscription",
         "oldSubscription"
     ],
-    "pushsubscription": [
+    "PushSubscription": [
         "endpoint",
         "expirationTime",
         "options",
@@ -4074,14 +3971,14 @@
         "toJSON",
         "unsubscribe"
     ],
-    "pushsubscriptionoptions": [
+    "PushSubscriptionOptions": [
         "applicationServerKey",
         "userVisibleOnly"
     ],
-    "radionodelist": [
+    "RadioNodeList": [
         "value"
     ],
-    "range": [
+    "Range": [
         "Range",
         "cloneContents",
         "cloneRange",
@@ -4115,7 +4012,7 @@
         "surroundContents",
         "toString"
     ],
-    "readablebytestreamcontroller": [
+    "ReadableByteStreamController": [
         "ReadableByteStreamController",
         "byobRequest",
         "desiredSize",
@@ -4123,34 +4020,34 @@
         "enqueue",
         "error"
     ],
-    "readablestreambyobreader": [
+    "ReadableStreamBYOBReader": [
         "ReadableStreamBYOBReader",
         "closed",
         "cancel",
         "read",
         "releaseLock"
     ],
-    "readablestreambyobrequest": [
+    "ReadableStreamBYOBRequest": [
         "ReadableStreamBYOBRequest",
         "respond",
         "respondWithNewView",
         "view"
     ],
-    "readablestreamdefaultcontroller": [
+    "ReadableStreamDefaultController": [
         "ReadableStreamDefaultController",
         "close",
         "desiredSize",
         "enqueue",
         "error"
     ],
-    "readablestreamdefaultreader": [
+    "ReadableStreamDefaultReader": [
         "ReadableStreamDefaultReader",
         "cancel",
         "closed",
         "read",
         "releaseLock"
     ],
-    "readablestream": [
+    "ReadableStream": [
         "ReadableStream",
         "locked",
         "cancel",
@@ -4159,17 +4056,50 @@
         "pipeTo",
         "tee"
     ],
-    "relativeorientationsensor": [
+    "RelativeOrientationSensor": [
         "RelativeOrientationSensor"
     ],
-    "requestdestination": [],
-    "rtcansweroptions": [],
-    "rtccertificate": [
+    "RequestDestination": [],
+    "Request": [
+        "Request",
+        "cache",
+        "clone",
+        "context",
+        "credentials",
+        "destination",
+        "headers",
+        "integrity",
+        "keepalive",
+        "method",
+        "mode",
+        "redirect",
+        "referrer",
+        "referrerPolicy",
+        "signal",
+        "url"
+    ],
+    "Response": [
+        "Response",
+        "headers",
+        "ok",
+        "redirected",
+        "status",
+        "statusText",
+        "type",
+        "url",
+        "useFinalURL",
+        "clone",
+        "error",
+        "redirect",
+        "trailer"
+    ],
+    "RTCAnswerOptions": [],
+    "RTCCertificate": [
         "expires",
         "getFingerprints",
         "getSupportedAlgorithms"
     ],
-    "rtcconfiguration": [
+    "RTCConfiguration": [
         "bundlePolicy",
         "certificates",
         "iceCandidatePoolSize",
@@ -4178,11 +4108,11 @@
         "peerIdentity",
         "rtcpMuxPolicy"
     ],
-    "rtcdatachannelevent": [
+    "RTCDataChannelEvent": [
         "RTCDataChannelEvent",
         "channel"
     ],
-    "rtcdatachannel": [
+    "RTCDataChannel": [
         "binaryType",
         "bufferedAmount",
         "bufferedAmountLowThreshold",
@@ -4206,33 +4136,33 @@
         "send",
         "stream"
     ],
-    "rtcdtlstransport": [
+    "RTCDtlsTransport": [
         "onerror",
         "onstatechange",
         "state",
         "transport",
         "getRemoteCertificates"
     ],
-    "rtcdtmfsender": [
+    "RTCDTMFSender": [
         "toneBuffer",
         "ontonechange",
         "insertDTMF",
         "canInsertDTMF"
     ],
-    "rtcdtmftonechangeevent": [
+    "RTCDTMFToneChangeEvent": [
         "tone",
         "RTCDTMFToneChangeEvent"
     ],
-    "rtcerrorevent": [
+    "RTCErrorEvent": [
         "error"
     ],
-    "rtcicecandidateinit": [
+    "RTCIceCandidateInit": [
         "candidate",
         "sdpMid",
         "sdpMLineIndex",
         "usernameFragment"
     ],
-    "rtcicecandidate": [
+    "RTCIceCandidate": [
         "RTCIceCandidate",
         "candidate",
         "foundation",
@@ -4250,15 +4180,15 @@
         "usernameFragment",
         "toJSON"
     ],
-    "rtcicecomponent": [],
-    "rtciceserver": [
+    "RTCIceComponent": [],
+    "RTCIceServer": [
         "credential",
         "credentialType",
         "url",
         "urls",
         "username"
     ],
-    "rtcicetransport": [
+    "RTCIceTransport": [
         "component",
         "gatheringState",
         "ongatheringstatechange",
@@ -4272,42 +4202,42 @@
         "getRemoteParameters",
         "getSelectedCandidatePair"
     ],
-    "rtcidentityassertion": [
+    "RTCIdentityAssertion": [
         "idp",
         "name"
     ],
-    "rtcidentityerrorevent": [
+    "RTCIdentityErrorEvent": [
         "idp",
         "loginUrl",
         "protocol"
     ],
-    "rtcidentityevent": [
+    "RTCIdentityEvent": [
         "assertion"
     ],
-    "rtcidentityproviderglobalscope": [
+    "RTCIdentityProviderGlobalScope": [
         "rtcIdentityProvider"
     ],
-    "rtcidentityproviderregistrar": [
+    "RTCIdentityProviderRegistrar": [
         "register"
     ],
-    "rtcofferansweroptions": [
+    "RTCOfferAnswerOptions": [
         "voiceActivityDetection"
     ],
-    "rtcofferoptions": [
+    "RTCOfferOptions": [
         "iceRestart"
     ],
-    "rtcpeerconnectioniceerrorevent": [
+    "RTCPeerConnectionIceErrorEvent": [
         "errorCode",
         "errorText",
         "hostCandidate",
         "url"
     ],
-    "rtcpeerconnectioniceevent": [
+    "RTCPeerConnectionIceEvent": [
         "candidate",
         "RTCPeerConnectionIceEvent",
         "url"
     ],
-    "rtcpeerconnection": [
+    "RTCPeerConnection": [
         "RTCPeerConnection",
         "canTrickleIceCandidates",
         "connectionState",
@@ -4363,12 +4293,12 @@
         "close",
         "getDefaultIceServers"
     ],
-    "rtcrtpcontributingsource": [
+    "RTCRtpContributingSource": [
         "timestamp",
         "source",
         "audioLevel"
     ],
-    "rtcrtpreceiver": [
+    "RTCRtpReceiver": [
         "track",
         "transport",
         "rtcpTransport",
@@ -4378,7 +4308,7 @@
         "getSynchronizationSources",
         "getStats"
     ],
-    "rtcrtpsender": [
+    "RTCRtpSender": [
         "dtmf",
         "getStats",
         "rtcpTransport",
@@ -4389,7 +4319,7 @@
         "replaceTrack",
         "setParameters"
     ],
-    "rtcrtpstreamstats": [
+    "RTCRtpStreamStats": [
         "codecId",
         "firCount",
         "isRemote",
@@ -4404,16 +4334,16 @@
         "ssrc",
         "transportId"
     ],
-    "rtcrtpsynchronizationsource": [
+    "RTCRtpSynchronizationSource": [
         "voiceActivityFlag"
     ],
-    "rtcrtptransceiverdirection": [],
-    "rtcrtptransceiverinit": [
+    "RTCRtpTransceiverDirection": [],
+    "RTCRtpTransceiverInit": [
         "direction",
         "sendEncodings",
         "streams"
     ],
-    "rtcrtptransceiver": [
+    "RTCRtpTransceiver": [
         "currentDirection",
         "direction",
         "mid",
@@ -4423,44 +4353,44 @@
         "setCodecPreferences",
         "stop"
     ],
-    "rtcsctptransport": [
+    "RTCSctpTransport": [
         "maxMessageSize",
         "transport",
         "onstatechange",
         "state"
     ],
-    "rtcsessiondescriptioncallback": [],
-    "rtcsessiondescription": [
+    "RTCSessionDescriptionCallback": [],
+    "RTCSessionDescription": [
         "type",
         "sdp",
         "RTCSessionDescription",
         "toJSON"
     ],
-    "rtcstatsevent": [
+    "RTCStatsEvent": [
         "report"
     ],
-    "rtcstatsreport": [],
-    "rtctrackeventinit": [
+    "RTCStatsReport": [],
+    "RTCTrackEventInit": [
         "receiver",
         "streams",
         "track",
         "transceiver"
     ],
-    "rtctrackevent": [
+    "RTCTrackEvent": [
         "receiver",
         "streams",
         "track",
         "transceiver"
     ],
-    "scopedcredentialinfo": [
+    "ScopedCredentialInfo": [
         "attestation",
         "clientData"
     ],
-    "scopedcredential": [
+    "ScopedCredential": [
         "id",
         "type"
     ],
-    "screen": [
+    "Screen": [
         "availHeight",
         "availLeft",
         "availTop",
@@ -4478,18 +4408,18 @@
         "unlockOrientation",
         "width"
     ],
-    "screenorientation": [
+    "ScreenOrientation": [
         "angle",
         "onchange",
         "type",
         "lock",
         "unlock"
     ],
-    "scriptprocessornode": [
+    "ScriptProcessorNode": [
         "bufferSize",
         "onaudioprocess"
     ],
-    "securitypolicyviolationevent": [
+    "SecurityPolicyViolationEvent": [
         "worker_support",
         "SecurityPolicyViolationEvent",
         "blockedURI",
@@ -4505,7 +4435,7 @@
         "statusCode",
         "violatedDirective"
     ],
-    "selection": [
+    "Selection": [
         "addRange",
         "anchorNode",
         "anchorOffset",
@@ -4530,11 +4460,11 @@
         "toString",
         "type"
     ],
-    "sensorerrorevent": [
+    "SensorErrorEvent": [
         "SensorErrorEvent",
         "error"
     ],
-    "sensor": [
+    "Sensor": [
         "activated",
         "hasReading",
         "onactivate",
@@ -4544,7 +4474,7 @@
         "stop",
         "timestamp"
     ],
-    "serviceworkercontainer": [
+    "ServiceWorkerContainer": [
         "controller",
         "ready",
         "oncontrollerchange",
@@ -4556,7 +4486,7 @@
         "onmessageerror",
         "startMessages"
     ],
-    "serviceworkerglobalscope": [
+    "ServiceWorkerGlobalScope": [
         "clients",
         "caches",
         "onabortpayment",
@@ -4575,7 +4505,12 @@
         "registration",
         "skipWaiting"
     ],
-    "serviceworkermessageevent": [
+    "ServiceWorker": [
+        "scriptURL",
+        "state",
+        "onstatechange"
+    ],
+    "ServiceWorkerMessageEvent": [
         "ServiceWorkerMessageEvent",
         "data",
         "origin",
@@ -4583,7 +4518,7 @@
         "source",
         "ports"
     ],
-    "serviceworkerregistration": [
+    "ServiceWorkerRegistration": [
         "active",
         "getNotifications",
         "installing",
@@ -4600,52 +4535,83 @@
         "updateViaCache",
         "waiting"
     ],
-    "sharedworkerglobalscope": [
+    "ShadowRoot": [
+        "delegatesFocus",
+        "documentorshadowroot",
+        "host",
+        "innerHTML",
+        "mode"
+    ],
+    "SharedWorkerGlobalScope": [
         "applicationCache",
         "name",
         "onconnect",
         "close"
     ],
-    "sharedworker": [
+    "SharedWorker": [
         "SharedWorker",
         "port"
     ],
-    "slotable": [
+    "Slotable": [
         "assignedSlot"
     ],
-    "sourcebufferlist": [
+    "SourceBuffer": [
+        "mode",
+        "updating",
+        "buffered",
+        "changeType",
+        "timestampOffset",
+        "audioTracks",
+        "videoTracks",
+        "textTracks",
+        "appendWindowStart",
+        "appendWindowEnd",
+        "trackDefaults",
+        "onabort",
+        "onerror",
+        "onupdate",
+        "onupdatestart",
+        "onupdateend",
+        "appendBuffer",
+        "appendBufferAsync",
+        "appendStream",
+        "abort",
+        "remove",
+        "removeAsync"
+    ],
+    "SourceBufferList": [
         "SourceBuffer",
         "length",
         "onaddsourcebuffer",
         "onremovesourcebuffer"
     ],
-    "speechgrammar": [
+    "SpeechGrammar": [
         "SpeechGrammar",
         "src",
         "weight"
     ],
-    "speechgrammarlist": [
+    "SpeechGrammarList": [
         "SpeechGrammarList",
         "addFromString",
         "addFromURI",
         "item",
         "length"
     ],
-    "speechrecognitionalternative": [
+    "SpeechRecognitionAlternative": [
         "confidence",
         "transcript"
     ],
-    "speechrecognitionerror": [
+    "SpeechRecognitionError": [
         "error",
         "message"
     ],
-    "speechrecognitionevent": [
+    "SpeechRecognitionEvent": [
         "emma",
         "interpretation",
         "resultIndex",
         "results"
     ],
-    "speechrecognition": [
+    "SpeechRecognition": [
         "SpeechRecognition",
         "abort",
         "continuous",
@@ -4668,25 +4634,25 @@
         "start",
         "stop"
     ],
-    "speechrecognitionresult": [
+    "SpeechRecognitionResult": [
         "isFinal",
         "length",
         "item"
     ],
-    "speechrecognitionresultlist": [
+    "SpeechRecognitionResultList": [
         "item",
         "length"
     ],
-    "speechsynthesiserrorevent": [
+    "SpeechSynthesisErrorEvent": [
         "error"
     ],
-    "speechsynthesisevent": [
+    "SpeechSynthesisEvent": [
         "charIndex",
         "elapsedTime",
         "name",
         "utterance"
     ],
-    "speechsynthesis": [
+    "SpeechSynthesis": [
         "cancel",
         "getVoices",
         "onvoiceschanged",
@@ -4697,7 +4663,7 @@
         "speak",
         "speaking"
     ],
-    "speechsynthesisutterance": [
+    "SpeechSynthesisUtterance": [
         "SpeechSynthesisUtterance",
         "lang",
         "onboundary",
@@ -4713,14 +4679,14 @@
         "voice",
         "volume"
     ],
-    "speechsynthesisvoice": [
+    "SpeechSynthesisVoice": [
         "default",
         "lang",
         "localService",
         "name",
         "voiceURI"
     ],
-    "staticrange": [
+    "StaticRange": [
         "StaticRange",
         "startContainer",
         "startOffset",
@@ -4729,15 +4695,15 @@
         "collapsed",
         "toRange"
     ],
-    "stereopannernode": [
+    "StereoPannerNode": [
         "StereoPannerNode",
         "pan"
     ],
-    "storageestimate": [
+    "StorageEstimate": [
         "quota",
         "usage"
     ],
-    "storageevent": [
+    "StorageEvent": [
         "StorageEvent",
         "initStorageEvent",
         "key",
@@ -4746,23 +4712,31 @@
         "storageArea",
         "url"
     ],
-    "storagemanager": [
+    "Storage": [
+        "clear",
+        "getItem",
+        "key",
+        "length",
+        "removeItem",
+        "setItem"
+    ],
+    "StorageManager": [
         "estimate",
         "persist",
         "persisted"
     ],
-    "storagequota": [
+    "StorageQuota": [
         "queryInfo",
         "requestPersistentQuota",
         "supportedTypes"
     ],
-    "stylepropertymap": [
+    "StylePropertyMap": [
         "append",
         "clear",
         "delete",
         "set"
     ],
-    "stylepropertymapreadonly": [
+    "StylePropertyMapReadOnly": [
         "@@iterator",
         "entries",
         "forEach",
@@ -4773,7 +4747,7 @@
         "size",
         "values"
     ],
-    "stylesheet": [
+    "StyleSheet": [
         "disabled",
         "href",
         "media",
@@ -4782,11 +4756,11 @@
         "title",
         "type"
     ],
-    "stylesheetlist": [
+    "StyleSheetList": [
         "item",
         "length"
     ],
-    "subtlecrypto": [
+    "SubtleCrypto": [
         "encrypt",
         "decrypt",
         "sign",
@@ -4800,7 +4774,7 @@
         "wrapKey",
         "unwrapKey"
     ],
-    "svgaelement": [
+    "SVGAElement": [
         "download",
         "hreflang",
         "ping",
@@ -4811,53 +4785,53 @@
         "text",
         "type"
     ],
-    "svgaltglyphdefelement": [],
-    "svgaltglyphelement": [
+    "SVGAltGlyphDefElement": [],
+    "SVGAltGlyphElement": [
         "glyphRef",
         "format"
     ],
-    "svgaltglyphitemelement": [],
-    "svgangle": [],
-    "svganimatecolorelement": [],
-    "svganimatedangle": [],
-    "svganimatedboolean": [],
-    "svganimatedenumeration": [],
-    "svganimatedinteger": [],
-    "svganimatedlength": [],
-    "svganimatedlengthlist": [],
-    "svganimatednumber": [],
-    "svganimatednumberlist": [],
-    "svganimatedpoints": [],
-    "svganimatedpreserveaspectratio": [],
-    "svganimatedrect": [],
-    "svganimatedstring": [
+    "SVGAltGlyphItemElement": [],
+    "SVGAngle": [],
+    "SVGAnimateColorElement": [],
+    "SVGAnimatedAngle": [],
+    "SVGAnimatedBoolean": [],
+    "SVGAnimatedEnumeration": [],
+    "SVGAnimatedInteger": [],
+    "SVGAnimatedLength": [],
+    "SVGAnimatedLengthList": [],
+    "SVGAnimatedNumber": [],
+    "SVGAnimatedNumberList": [],
+    "SVGAnimatedPoints": [],
+    "SVGAnimatedPreserveAspectRatio": [],
+    "SVGAnimatedRect": [],
+    "SVGAnimatedString": [
         "animVal",
         "baseVal"
     ],
-    "svganimatedtransformlist": [],
-    "svganimateelement": [],
-    "svganimatemotionelement": [],
-    "svganimatetransformelement": [],
-    "svganimationelement": [
+    "SVGAnimatedTransformList": [],
+    "SVGAnimateElement": [],
+    "SVGAnimateMotionElement": [],
+    "SVGAnimateTransformElement": [],
+    "SVGAnimationElement": [
         "onbegin",
         "onend",
         "onrepeat",
         "targetElement"
     ],
-    "svgcircleelement": [
+    "SVGCircleElement": [
         "cx",
         "cy",
         "r"
     ],
-    "svgclippathelement": [
+    "SVGClipPathElement": [
         "clipPathUnits"
     ],
-    "svgcolorprofileelement": [],
-    "svgcomponenttransferfunctionelement": [],
-    "svgcursorelement": [],
-    "svgdefselement": [],
-    "svgdescelement": [],
-    "svgelement": [
+    "SVGColorProfileElement": [],
+    "SVGComponentTransferFunctionElement": [],
+    "SVGCursorElement": [],
+    "SVGDefsElement": [],
+    "SVGDescElement": [],
+    "SVGElement": [
         "dataset",
         "offsetHeight",
         "offsetLeft",
@@ -4865,53 +4839,53 @@
         "offsetTop",
         "offsetWidth"
     ],
-    "svgellipseelement": [
+    "SVGEllipseElement": [
         "cx",
         "cy",
         "rx",
         "ry"
     ],
-    "svgexternalresourcesrequired": [],
-    "svgfeblendelement": [],
-    "svgfecolormatrixelement": [
+    "SVGExternalResourcesRequired": [],
+    "SVGFEBlendElement": [],
+    "SVGFEColorMatrixElement": [
         "in1",
         "type",
         "values"
     ],
-    "svgfecomponenttransferelement": [],
-    "svgfecompositeelement": [],
-    "svgfeconvolvematrixelement": [],
-    "svgfediffuselightingelement": [],
-    "svgfedisplacementmapelement": [],
-    "svgfedistantlightelement": [],
-    "svgfedropshadowelement": [],
-    "svgfefloodelement": [],
-    "svgfefuncaelement": [],
-    "svgfefuncbelement": [],
-    "svgfefuncgelement": [],
-    "svgfefuncrelement": [],
-    "svgfegaussianblurelement": [],
-    "svgfeimageelement": [],
-    "svgfemergeelement": [],
-    "svgfemergenodeelement": [],
-    "svgfemorphologyelement": [],
-    "svgfeoffsetelement": [],
-    "svgfepointlightelement": [],
-    "svgfespecularlightingelement": [],
-    "svgfespotlightelement": [],
-    "svgfetileelement": [],
-    "svgfeturbulenceelement": [],
-    "svgfilterelement": [],
-    "svgfilterprimitivestandardattributes": [],
-    "svgfontelement": [],
-    "svgfontfaceelement": [],
-    "svgfontfaceformatelement": [],
-    "svgfontfacenameelement": [],
-    "svgfontfacesrcelement": [],
-    "svgfontfaceurielement": [],
-    "svgforeignobjectelement": [],
-    "svggelement": [],
-    "svggeometryelement": [
+    "SVGFEComponentTransferElement": [],
+    "SVGFECompositeElement": [],
+    "SVGFEConvolveMatrixElement": [],
+    "SVGFEDiffuseLightingElement": [],
+    "SVGFEDisplacementMapElement": [],
+    "SVGFEDistantLightElement": [],
+    "SVGFEDropShadowElement": [],
+    "SVGFEFloodElement": [],
+    "SVGFEFuncAElement": [],
+    "SVGFEFuncBElement": [],
+    "SVGFEFuncGElement": [],
+    "SVGFEFuncRElement": [],
+    "SVGFEGaussianBlurElement": [],
+    "SVGFEImageElement": [],
+    "SVGFEMergeElement": [],
+    "SVGFEMergeNodeElement": [],
+    "SVGFEMorphologyElement": [],
+    "SVGFEOffsetElement": [],
+    "SVGFEPointLightElement": [],
+    "SVGFESpecularLightingElement": [],
+    "SVGFESpotLightElement": [],
+    "SVGFETileElement": [],
+    "SVGFETurbulenceElement": [],
+    "SVGFilterElement": [],
+    "SVGFilterPrimitiveStandardAttributes": [],
+    "SVGFontElement": [],
+    "SVGFontFaceElement": [],
+    "SVGFontFaceFormatElement": [],
+    "SVGFontFaceNameElement": [],
+    "SVGFontFaceSrcElement": [],
+    "SVGFontFaceUriElement": [],
+    "SVGForeignObjectElement": [],
+    "SVGGElement": [],
+    "SVGGeometryElement": [
         "supportOtherThanPath",
         "pathLength",
         "isPointInFill",
@@ -4919,17 +4893,17 @@
         "getTotalLength",
         "getPointAtLength"
     ],
-    "svgglyphelement": [],
-    "svgglyphrefelement": [],
-    "svggradientelement": [],
-    "svggraphicselement": [
+    "SVGGlyphElement": [],
+    "SVGGlyphRefElement": [],
+    "SVGGradientElement": [],
+    "SVGGraphicsElement": [
         "transform",
         "getBBox",
         "getCTM",
         "getScreenCTM"
     ],
-    "svghkernelement": [],
-    "svgimageelement": [
+    "SVGHKernElement": [],
+    "SVGImageElement": [
         "x",
         "y",
         "width",
@@ -4937,16 +4911,16 @@
         "preserveAspectRatio",
         "crossOrigin"
     ],
-    "svglength": [],
-    "svglengthlist": [],
-    "svglineargradientelement": [],
-    "svglineelement": [
+    "SVGLength": [],
+    "SVGLengthList": [],
+    "SVGLinearGradientElement": [],
+    "SVGLineElement": [
         "x1",
         "y1",
         "x2",
         "y2"
     ],
-    "svgmaskelement": [
+    "SVGMaskElement": [
         "maskUnits",
         "maskContentUnits",
         "height",
@@ -4954,14 +4928,14 @@
         "x",
         "y"
     ],
-    "svgmatrix": [],
-    "svgmeshelement": [],
-    "svgmetadataelement": [],
-    "svgmissingglyphelement": [],
-    "svgmpathelement": [],
-    "svgnumber": [],
-    "svgnumberlist": [],
-    "svgpathelement": [
+    "SVGMatrix": [],
+    "SVGMeshElement": [],
+    "SVGMetadataElement": [],
+    "SVGMissingGlyphElement": [],
+    "SVGMPathElement": [],
+    "SVGNumber": [],
+    "SVGNumberList": [],
+    "SVGPathElement": [
         "pathLength",
         "createSVGPathSegArcAbs",
         "createSVGPathSegArcRel",
@@ -4986,7 +4960,7 @@
         "getPointAtLength",
         "getPathSegAtLength"
     ],
-    "svgpatternelement": [
+    "SVGPatternElement": [
         "height",
         "patternContentUnits",
         "patternTransform",
@@ -4995,16 +4969,16 @@
         "x",
         "y"
     ],
-    "svgpoint": [
+    "SVGPoint": [
         "x",
         "y",
         "matrixTransform"
     ],
-    "svgpolygonelement": [],
-    "svgpolylineelement": [],
-    "svgpreserveaspectratio": [],
-    "svgradialgradientelement": [],
-    "svgrectelement": [
+    "SVGPolygonElement": [],
+    "SVGPolylineElement": [],
+    "SVGPreserveAspectRatio": [],
+    "SVGRadialGradientElement": [],
+    "SVGRectElement": [
         "height",
         "rx",
         "ry",
@@ -5012,23 +4986,23 @@
         "x",
         "y"
     ],
-    "svgrect": [
+    "SVGRect": [
         "height",
         "width",
         "x",
         "y"
     ],
-    "svgrenderingintent": [],
-    "svgscriptelement": [],
-    "svgsetelement": [],
-    "svgsolidcolorelement": [],
-    "svgstopelement": [],
-    "svgstringlist": [
+    "SVGRenderingIntent": [],
+    "SVGScriptElement": [],
+    "SVGSetElement": [],
+    "SVGSolidcolorElement": [],
+    "SVGStopElement": [],
+    "SVGStringList": [
         "length"
     ],
-    "svgstylable": [],
-    "svgstyleelement": [],
-    "svgsvgelement": [
+    "SVGStylable": [],
+    "SVGStyleElement": [],
+    "SVGSVGElement": [
         "animationsPaused",
         "checkEnclosure",
         "checkIntersection",
@@ -5068,13 +5042,13 @@
         "x",
         "y"
     ],
-    "svgswitchelement": [],
-    "svgsymbolelement": [],
-    "svgtests": [
+    "SVGSwitchElement": [],
+    "SVGSymbolElement": [],
+    "SVGTests": [
         "hasextension",
         "requiredFeatures"
     ],
-    "svgtextcontentelement": [
+    "SVGTextContentElement": [
         "lengthAdjust",
         "textLength",
         "getCharNumAtPosition",
@@ -5087,31 +5061,31 @@
         "getSubStringLength",
         "selectSubString"
     ],
-    "svgtextelement": [],
-    "svgtextpathelement": [
+    "SVGTextElement": [],
+    "SVGTextPathElement": [
         "method",
         "spacing",
         "startOffset"
     ],
-    "svgtextpositioningelement": [
+    "SVGTextPositioningElement": [
         "dx",
         "dy",
         "rotate",
         "x",
         "y"
     ],
-    "svgtitleelement": [],
-    "svgtransformable": [],
-    "svgtransform": [],
-    "svgtransformlist": [
+    "SVGTitleElement": [],
+    "SVGTransformable": [],
+    "SVGTransform": [],
+    "SVGTransformList": [
         "length"
     ],
-    "svgtrefelement": [],
-    "svgtspanelement": [],
-    "svgunittypes": [],
-    "svgunknownelement": [],
-    "svgurireference": [],
-    "svguseelement": [
+    "SVGTRefElement": [],
+    "SVGTSpanElement": [],
+    "SVGUnitTypes": [],
+    "SVGUnknownElement": [],
+    "SVGURIReference": [],
+    "SVGUseElement": [
         "animatedInstanceRoot",
         "height",
         "instanceRoot",
@@ -5119,28 +5093,28 @@
         "x",
         "y"
     ],
-    "svgviewelement": [
+    "SVGViewElement": [
         "viewtarget"
     ],
-    "svgvkernelement": [],
-    "svgzoomandpan": [],
-    "syncevent": [
+    "SVGVKernElement": [],
+    "SVGZoomAndPan": [],
+    "SyncEvent": [
         "SyncEvent",
         "tag",
         "lastChance"
     ],
-    "syncmanager": [
+    "SyncManager": [
         "worker_support",
         "register",
         "getTags"
     ],
-    "taskattributiontiming": [
+    "TaskAttributionTiming": [
         "containerId",
         "containerName",
         "containerSrc",
         "containerType"
     ],
-    "textdecoder": [
+    "TextDecoder": [
         "worker_support",
         "TextDecoder",
         "decode",
@@ -5148,17 +5122,25 @@
         "fatal",
         "ignoreBOM"
     ],
-    "textencoder": [
+    "TextEncoder": [
         "worker_support",
         "TextEncoder",
         "encoding",
         "encode"
     ],
-    "textmetrics": [
+    "Text": [
+        "Text",
+        "isElementContentWhitespace",
+        "wholeText",
+        "assignedSlot",
+        "replaceWholeText",
+        "splitText"
+    ],
+    "TextMetrics": [
         "width",
         "advanced_text_metrics"
     ],
-    "texttrack": [
+    "TextTrack": [
         "activeCues",
         "cues",
         "id",
@@ -5172,12 +5154,12 @@
         "removeCue",
         "sourceBuffer"
     ],
-    "timeranges": [
+    "TimeRanges": [
         "end",
         "length",
         "start"
     ],
-    "touchevent": [
+    "TouchEvent": [
         "TouchEvent",
         "altKey",
         "changedTouches",
@@ -5187,7 +5169,7 @@
         "targetTouches",
         "touches"
     ],
-    "touch": [
+    "Touch": [
         "Touch",
         "clientX",
         "clientY",
@@ -5202,12 +5184,12 @@
         "screenY",
         "target"
     ],
-    "touchlist": [
+    "TouchList": [
         "length",
         "identifiedTouch",
         "item"
     ],
-    "trackdefault": [
+    "TrackDefault": [
         "TrackDefault",
         "byteStreamTrackID",
         "kinds",
@@ -5215,13 +5197,13 @@
         "language",
         "type"
     ],
-    "trackdefaultlist": [
+    "TrackDefaultList": [
         "TrackDefaultList",
         "length",
         "TrackDefault"
     ],
-    "transferable": [],
-    "transitionevent": [
+    "Transferable": [],
+    "TransitionEvent": [
         "TransitionEvent",
         "animationName",
         "propertyName",
@@ -5229,7 +5211,7 @@
         "pseudoElement",
         "initTransitionEvent"
     ],
-    "treewalker": [
+    "TreeWalker": [
         "currentNode",
         "expandEntityReferences",
         "filter",
@@ -5243,7 +5225,7 @@
         "previousNode",
         "previousSibling"
     ],
-    "uievent": [
+    "UIEvent": [
         "UIEvent",
         "cancelBubble",
         "detail",
@@ -5257,7 +5239,25 @@
         "view",
         "which"
     ],
-    "urlsearchparams": [
+    "URL": [
+        "URL",
+        "createObjectURL",
+        "hash",
+        "host",
+        "hostname",
+        "href",
+        "origin",
+        "password",
+        "pathname",
+        "port",
+        "protocol",
+        "revokeObjectURL",
+        "search",
+        "searchParams",
+        "toJSON",
+        "username"
+    ],
+    "URLSearchParams": [
         "URLSearchParams",
         "append",
         "delete",
@@ -5271,7 +5271,7 @@
         "toString",
         "values"
     ],
-    "urlutilsreadonly": [
+    "URLUtilsReadOnly": [
         "hash",
         "host",
         "hostname",
@@ -5283,7 +5283,7 @@
         "search",
         "toString"
     ],
-    "usbalternateinterface": [
+    "USBAlternateInterface": [
         "USBAlternateInterface",
         "alternateSetting",
         "interfaceClass",
@@ -5292,16 +5292,16 @@
         "interfaceName",
         "endpoints"
     ],
-    "usbconfiguration": [
+    "USBConfiguration": [
         "USBConfiguration",
         "configurationValue",
         "configurationName",
         "interfaces"
     ],
-    "usbconnectionevent": [
+    "USBConnectionEvent": [
         "device"
     ],
-    "usbdevice": [
+    "USBDevice": [
         "usbVersionMajor",
         "usbVersionMinor",
         "usbVersionSubminor",
@@ -5334,76 +5334,76 @@
         "isochronousTransferOut",
         "reset"
     ],
-    "usbendpoint": [
+    "USBEndpoint": [
         "USBEndpoint",
         "endpointNumber",
         "direction",
         "type",
         "packetSize"
     ],
-    "usbinterface": [
+    "USBInterface": [
         "USBInterface",
         "interfaceNumber",
         "alternate",
         "alternates",
         "claimed"
     ],
-    "usbintransferresult": [
+    "USBInTransferResult": [
         "USBInTransferResult",
         "data",
         "status"
     ],
-    "usbisochronousintransferpacket": [
+    "USBIsochronousInTransferPacket": [
         "USBIsochronousInTransferPacket",
         "data",
         "status"
     ],
-    "usbisochronousintransferresult": [
+    "USBIsochronousInTransferResult": [
         "USBIsochronousInTransferResult",
         "data",
         "packets"
     ],
-    "usbisochronousouttransferpacket": [
+    "USBIsochronousOutTransferPacket": [
         "USBIsochronousOutTransferPacket",
         "bytesWritten",
         "status"
     ],
-    "usbisochronousouttransferresult": [
+    "USBIsochronousOutTransferResult": [
         "USBIsochronousOutTransferResult",
         "packets"
     ],
-    "usb": [
+    "USB": [
         "onconnect",
         "ondisconnect",
         "getDevices",
         "requestDevice"
     ],
-    "usbouttransferresult": [
+    "USBOutTransferResult": [
         "USBOutTransferResult",
         "bytesWritten",
         "status"
     ],
-    "usbpermissionresult": [
+    "USBPermissionResult": [
         "devices"
     ],
-    "userdatahandler": [
+    "UserDataHandler": [
         "handle"
     ],
-    "userproximityevent": [
+    "UserProximityEvent": [
         "near"
     ],
-    "validitystate": [
+    "ValidityState": [
         "badInput",
         "tooLong"
     ],
-    "videoplaybackquality": [
+    "VideoPlaybackQuality": [
         "creationTime",
         "droppedVideoFrames",
         "corruptedVideoFrames",
         "totalVideoFrames",
         "totalFrameDelay"
     ],
-    "videotrack": [
+    "VideoTrack": [
         "id",
         "kind",
         "label",
@@ -5411,7 +5411,7 @@
         "selected",
         "sourceBuffer"
     ],
-    "videotracklist": [
+    "VideoTrackList": [
         "getTrackById",
         "length",
         "onaddtrack",
@@ -5419,7 +5419,7 @@
         "onremovetrack",
         "selectedIndex"
     ],
-    "visualviewport": [
+    "VisualViewport": [
         "height",
         "offsetLeft",
         "offsetTop",
@@ -5430,19 +5430,19 @@
         "scale",
         "width"
     ],
-    "vrdisplaycapabilities": [
+    "VRDisplayCapabilities": [
         "canPresent",
         "hasExternalDisplay",
         "hasPosition",
         "hasOrientation",
         "maxLayers"
     ],
-    "vrdisplayevent": [
+    "VRDisplayEvent": [
         "VRDisplayEvent",
         "display",
         "reason"
     ],
-    "vrdisplay": [
+    "VRDisplay": [
         "cancelAnimationFrame",
         "capabilities",
         "depthFar",
@@ -5464,7 +5464,7 @@
         "stageParameters",
         "submitFrame"
     ],
-    "vreyeparameters": [
+    "VREyeParameters": [
         "fieldOfView",
         "maximumFieldOfView",
         "minimumFieldOfView",
@@ -5474,14 +5474,14 @@
         "renderRect",
         "renderWidth"
     ],
-    "vrfieldofview": [
+    "VRFieldOfView": [
         "VRFieldOfView",
         "downDegrees",
         "leftDegrees",
         "rightDegrees",
         "upDegrees"
     ],
-    "vrframedata": [
+    "VRFrameData": [
         "VRFrameData",
         "leftProjectionMatrix",
         "leftViewMatrix",
@@ -5490,12 +5490,12 @@
         "rightViewMatrix",
         "timestamp"
     ],
-    "vrlayerinit": [
+    "VRLayerInit": [
         "leftBounds",
         "rightBounds",
         "source"
     ],
-    "vrpose": [
+    "VRPose": [
         "angularAcceleration",
         "angularVelocity",
         "hasOrientation",
@@ -5506,12 +5506,12 @@
         "orientation",
         "timestamp"
     ],
-    "vrstageparameters": [
+    "VRStageParameters": [
         "sittingToStandingTransform",
         "sizeX",
         "sizeY"
     ],
-    "vttcue": [
+    "VTTCue": [
         "VTTCue",
         "align",
         "getCueAsHTML",
@@ -5525,16 +5525,16 @@
         "text",
         "vertical"
     ],
-    "waveshapernode": [
+    "WaveShaperNode": [
         "WaveShaperNode",
         "curve",
         "oversample"
     ],
-    "webauthentication": [
+    "WebAuthentication": [
         "getAssertion",
         "makeCredential"
     ],
-    "webgl2renderingcontext": [
+    "WebGL2RenderingContext": [
         "beginQuery",
         "beginTransformFeedback",
         "bindBufferBase",
@@ -5636,55 +5636,55 @@
         "vertexAttribIPointer",
         "waitSync"
     ],
-    "webglactiveinfo": [
+    "WebGLActiveInfo": [
         "worker_support",
         "name",
         "size",
         "type"
     ],
-    "webglbuffer": [
+    "WebGLBuffer": [
         "worker_support"
     ],
-    "webgl_color_buffer_float": [
+    "WEBGL_color_buffer_float": [
         "RGB32F_EXT"
     ],
-    "webgl_compressed_texture_astc": [
+    "WEBGL_compressed_texture_astc": [
         "getSupportedProfiles"
     ],
-    "webgl_compressed_texture_atc": [],
-    "webgl_compressed_texture_etc1": [],
-    "webgl_compressed_texture_etc": [],
-    "webgl_compressed_texture_pvrtc": [],
-    "webgl_compressed_texture_s3tc": [],
-    "webgl_compressed_texture_s3tc_srgb": [],
-    "webglcontextevent": [
+    "WEBGL_compressed_texture_atc": [],
+    "WEBGL_compressed_texture_etc1": [],
+    "WEBGL_compressed_texture_etc": [],
+    "WEBGL_compressed_texture_pvrtc": [],
+    "WEBGL_compressed_texture_s3tc": [],
+    "WEBGL_compressed_texture_s3tc_srgb": [],
+    "WebGLContextEvent": [
         "worker_support",
         "statusMessage"
     ],
-    "webgl_debug_renderer_info": [],
-    "webgl_debug_shaders": [
+    "WEBGL_debug_renderer_info": [],
+    "WEBGL_debug_shaders": [
         "getTranslatedShaderSource"
     ],
-    "webgl_depth_texture": [],
-    "webgl_draw_buffers": [
+    "WEBGL_depth_texture": [],
+    "WEBGL_draw_buffers": [
         "drawBuffersWEBGL"
     ],
-    "webglframebuffer": [
+    "WebGLFramebuffer": [
         "worker_support"
     ],
-    "webgl_lose_context": [
+    "WEBGL_lose_context": [
         "loseContext",
         "restoreContext"
     ],
-    "webglobject": [],
-    "webglprogram": [
+    "WebGLObject": [],
+    "WebGLProgram": [
         "worker_support"
     ],
-    "webglquery": [],
-    "webglrenderbuffer": [
+    "WebGLQuery": [],
+    "WebGLRenderbuffer": [
         "worker_support"
     ],
-    "webglrenderingcontext": [
+    "WebGLRenderingContext": [
         "worker_support",
         "activeTexture",
         "attachShader",
@@ -5827,27 +5827,27 @@
         "vertexAttribPointer",
         "viewport"
     ],
-    "webglsampler": [],
-    "webglshader": [
+    "WebGLSampler": [],
+    "WebGLShader": [
         "worker_support"
     ],
-    "webglshaderprecisionformat": [
+    "WebGLShaderPrecisionFormat": [
         "worker_support",
         "rangeMin",
         "rangeMax",
         "precision"
     ],
-    "webglsync": [],
-    "webgltexture": [
+    "WebGLSync": [],
+    "WebGLTexture": [
         "worker_support"
     ],
-    "webgltransformfeedback": [],
-    "webgluniformlocation": [
+    "WebGLTransformFeedback": [],
+    "WebGLUniformLocation": [
         "worker_support"
     ],
-    "webglvertexarrayobject": [],
-    "webglvertexarrayobjectoes": [],
-    "websocket": [
+    "WebGLVertexArrayObject": [],
+    "WebGLVertexArrayObjectOES": [],
+    "WebSocket": [
         "WebSocket",
         "binaryType",
         "bufferedAmount",
@@ -5862,7 +5862,7 @@
         "send",
         "url"
     ],
-    "wheelevent": [
+    "WheelEvent": [
         "pinch-to-zoom_support",
         "WheelEvent",
         "deltaMode",
@@ -5870,14 +5870,14 @@
         "deltaY",
         "deltaZ"
     ],
-    "windowclient": [
+    "WindowClient": [
         "focus",
         "navigate",
         "focused",
         "visibilityState",
         "ancestorOrigins"
     ],
-    "windoweventhandlers": [
+    "WindowEventHandlers": [
         "onafterprint",
         "onbeforeprint",
         "onbeforeunload",
@@ -5891,7 +5891,7 @@
         "onunhandledrejection",
         "onunload"
     ],
-    "window": [
+    "Window": [
         "alert",
         "blur",
         "confirm",
@@ -6011,7 +6011,7 @@
         "visualViewport",
         "window"
     ],
-    "windoworworkerglobalscope": [
+    "WindowOrWorkerGlobalScope": [
         "atob",
         "btoa",
         "caches",
@@ -6025,7 +6025,7 @@
         "setInterval",
         "setTimeout"
     ],
-    "workerglobalscope": [
+    "WorkerGlobalScope": [
         "location",
         "navigator",
         "onerror",
@@ -6040,27 +6040,27 @@
         "importScripts",
         "onclose"
     ],
-    "worker": [
+    "Worker": [
         "Worker",
         "onmessage",
         "onmessageerror",
         "postMessage",
         "terminate"
     ],
-    "workerlocation": [],
-    "workernavigator": [
+    "WorkerLocation": [],
+    "WorkerNavigator": [
         "connection",
         "permissions",
         "serviceWorker"
     ],
-    "worklet": [
+    "Worklet": [
         "addModule"
     ],
-    "writablestreamdefaultcontroller": [
+    "WritableStreamDefaultController": [
         "WritableStreamDefaultController",
         "error"
     ],
-    "writablestreamdefaultwriter": [
+    "WritableStreamDefaultWriter": [
         "WritableStreamDefaultWriter",
         "closed",
         "desiredSize",
@@ -6070,13 +6070,13 @@
         "releaseLock",
         "write"
     ],
-    "writablestream": [
+    "WritableStream": [
         "WritableStream",
         "abort",
         "getWriter",
         "locked"
     ],
-    "xdomainrequest": [
+    "XDomainRequest": [
         "abort",
         "onerror",
         "onload",
@@ -6087,10 +6087,10 @@
         "send",
         "timeout"
     ],
-    "xmldocument": [
+    "XMLDocument": [
         "load"
     ],
-    "xmlhttprequesteventtarget": [
+    "XMLHttpRequestEventTarget": [
         "onabort",
         "onerror",
         "onload",
@@ -6099,7 +6099,7 @@
         "onprogress",
         "ontimeout"
     ],
-    "xmlhttprequest": [
+    "XMLHttpRequest": [
         "onreadystatechange",
         "readyState",
         "response",
@@ -6121,20 +6121,20 @@
         "sendAsBinary",
         "setRequestHeader"
     ],
-    "xmlhttprequestupload": [],
-    "xmlserializer": [
+    "XMLHttpRequestUpload": [],
+    "XMLSerializer": [
         "serializeToStream"
     ],
-    "xpathexpression": [
+    "XPathExpression": [
         "evaluate"
     ],
-    "xpathresult": [
+    "XPathResult": [
         "invalidIteratorState",
         "iterateNext",
         "resultType",
         "snapshotItem"
     ],
-    "xsltprocessor": [
+    "XSLTProcessor": [
         "importStylesheet",
         "transformToFragment",
         "transformToDocument",

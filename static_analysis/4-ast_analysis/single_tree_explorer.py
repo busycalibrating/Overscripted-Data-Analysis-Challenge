@@ -109,13 +109,11 @@ class Element:
             for v in self._visitors:    # Run visitor instances here
                 result = v.visit(node, api_symbols)
                 if result:
-
                     if result not in extended_symbol_counter.keys():
                         extended_symbol_counter[result] = 1;
                     else:
                         extended_symbol_counter[result] += 1;
 
-                    print("\t-> Node counter: {}; width: {}".format(node_counter, width))
                     #MemberExpression
                     if 'MemberExpression' == node.type:
                         tmp = node.property.name
@@ -127,7 +125,7 @@ class Element:
                     symbol_counter[tmp] += 1 # increment counter
                     this_node = SymbolNode(depth, width, node.parent_depth, node.parent_width)
                     node_dict[tmp].append(this_node)
-                    break # TODO: Not sure why this is double counting
+                    break
 
 
             # If node is an instance of "esprima node", step through the node
@@ -137,21 +135,18 @@ class Element:
                 # Feed the nodes that will be labeled as children the current
                 #   depth and width
                 next_depth_num_nodes += self._step(node, queue, depth, width)
-                print("{} : {}".format(this_depth_num_nodes, next_depth_num_nodes))
 
                 #if (node.type == "MemberExpression"):
-                try:
-                    print("---> {} = {}".format(node.property.type, node.property.name))
-                except AttributeError as e:
-                    pass
+                #try:
+                #    print("---> {} = {}".format(node.property.type, node.property.name))
+                #except AttributeError as e:
+                #    pass
+                #try:
+                #    print("---> {} = {}".format(node.callee.type, node.property.name))
+                #except AttributeError as e:
+                #    pass
 
-                try:
-                    print("---> {} = {}".format(node.callee.type, node.property.name))
-                except AttributeError as e:
-                    pass
 
-
-            #TODO: Depth seemingly not working properly?
             # Once this tree depth has been walked, update with the existing
             #   "next" set and reset the next set to 0. Increment depth by 1,
             #   and keep a tally on how many nodes have been counted up until
@@ -161,8 +156,14 @@ class Element:
                 next_depth_num_nodes = 0                    # reset this list
                 this_depth_count = node_counter             #
                 depth += 1
-                print("\n-------------------- Depth: {};\t Current: {};\t Width: {}\n\n".format(
-                    depth, this_depth_count, this_depth_num_nodes))
+                #print("\n-------------------- Depth: {};\t Current: {};\t Width: {}\n\n".format(
+                #    depth, this_depth_count, this_depth_num_nodes))
+
+        print("\nDONE. Total stats:\n" + "-"*80)
+        print("Tree depth:\t{}\nTotal nodes:\t{}\n".format(
+                                            depth, node_counter) + "-"*80)
+
+
 
         return symbol_counter, extended_symbol_counter, node_dict
 
@@ -184,26 +185,17 @@ class MatchPropertyVisitor:
     ## Constructor
     def __init__(self, property_name, memb_expr_handler, call_expr_handler):
         self._property_name = property_name # userAgent, getContext, etc
-        self._memb_expr_handler = memb_expr_handler #TODO: delete
-        self._call_expr_handler = call_expr_handler #TODO: delete
+        self._memb_expr_handler = memb_expr_handler #TODO: deprecated
+        self._call_expr_handler = call_expr_handler #TODO: deprecated
 
     ##################################################
     def _recursive_check_objects(self, node, api_symbols):
-
         if node.object:
-            tmp = self._recurrance_visit(node.object, api_symbols)
-            print("\t\t\t\t\t\t\t{}".format(node.object.type))
-            print(tmp)
-            return tmp
-
-        else:
-            print("\t\t\t\t\t\t\tNO OBJECT FOUND!")
-
+            return self._recurrance_visit(node.object, api_symbols)
         return False
 
     ## Visit the nodes, check if matches, and execute handler if it does
     def _recurrance_visit(self, node, api_symbols):
-        #property_full_name = property_name # to deal with namespace stuff
 
         # No more objects to look through
         if 'Identifier' == node.type:
@@ -213,9 +205,8 @@ class MatchPropertyVisitor:
         # MemberExpression; maybe more objects
         elif 'MemberExpression' == node.type:
             if node.property.name in api_symbols:
-                self._memb_expr_handler(node)
+                #self._memb_expr_handler(node)
 
-                print("LALALALALALA")
                 return_val = node.property.name
                 tmp = self._recursive_check_objects(node, api_symbols)
 
@@ -227,7 +218,7 @@ class MatchPropertyVisitor:
         # CallExpression; maybe more objects
         elif 'CallExpression' == node.type:
             if node.callee.name in api_symbols:
-                self._call_expr_handler(node)
+                #self._call_expr_handler(node)
 
                 return_val = node.callee.name
                 tmp = self._recursive_check_objects(node.callee, api_symbols)
@@ -236,47 +227,49 @@ class MatchPropertyVisitor:
                     return_val = tmp + '.' + return_val
 
                 return return_val
-
         return False
     ##################################################
 
-    # Visit the nodes, check if matches, and execute handler if it does
+    def _filter_parent_API(self, arg):
+        if len(arg.split('.')[0]) == 1:
+            arg = arg.split('.')
+            arg.pop(0)
+            arg = '.'.join(arg)
+        return arg
+
+    # FIRST VISIT: visit node, check if matches, and check for objects
     def visit(self, node, api_symbols):
-        #property_full_name = property_name # to deal with namespace stuff
 
         #MemberExpression
         if 'MemberExpression' == node.type:
             if node.property.name == self._property_name:
-                self._memb_expr_handler(node)
+                #self._memb_expr_handler(node) #TODO: deprecated
 
                 return_val = node.property.name
                 tmp = self._recursive_check_objects(node, api_symbols)
 
                 if tmp:
                     return_val = tmp + '.' + return_val
-
-                print(">\t>\t>\t>\t>\t{}\t<\t<\t<\t<\t<\t".format(return_val))
+                    return_val = self._filter_parent_API(return_val)
 
                 return return_val
 
         # CallExpression
         if 'CallExpression' == node.type:
             if node.callee.name == self._property_name:
-                self._call_expr_handler(node)
+                #self._call_expr_handler(node) #TODO: deprecated
 
                 return_val = node.callee.name
                 tmp = self._recursive_check_objects(node.callee, api_symbols)
 
                 if tmp:
                     return_val = tmp + '.' + return_val
-
-                print(">\t>\t>\t>\t>\t{}\t<\t<\t<\t<\t<\t<".format(return_val))
+                    return_val = self._filter_parent_API(return_val)
 
                 return return_val
-
         return False
 
-# Probably can cut this...
+#TODO: deprecated
 def memb_expr_handler(n):
 
     def parent_type(node):
@@ -287,6 +280,7 @@ def memb_expr_handler(n):
     if hasattr(n, 'parent_depth'):
         print("p-depth: {}, p-width: {}".format(n.parent_depth, n.parent_width))
 
+#TODO: deprecated
 def call_expr_handler(n):
 
     def parent_type(node):
@@ -340,9 +334,6 @@ def uniquifyList(seq, idfun=None):
    result = []
    for item in seq:
        marker = idfun(item)
-       # in old Python versions:
-       # if seen.has_key(marker)
-       # but in new ones:
        if marker in seen: continue
        seen[marker] = 1
        result.append(item)
@@ -351,25 +342,33 @@ def uniquifyList(seq, idfun=None):
 
 ################################################################################
 def main():
-    print ("#" * 100)
 
-    # Get the AST using esprima
-    ast, api_list = importData()
+    # Try getting the AST using esprima, bail if non-JS syntax
+    try:
+        print("Trying to parse AST...")
+        ast, api_list = importData()
 
+    except esprima.error_handler.Error as e:
+        print("Failure: non-javascript syntax detected. Terminating...")
+        sys.exit()
+
+    print("Success. Walking through the AST...")
+
+    # Extract all symbols from the generated "Symbols of Interest" list,
+    #   and flatten all api symbols into a single list (for efficiency)
     api_symbols = [val for sublist in api_list.values() for val in sublist];
     api_symbols = uniquifyList(api_symbols)
 
     # Create an element using that AST
     el = Element(ast)
-
     for entry in api_symbols:
         visitor = MatchPropertyVisitor(entry, memb_expr_handler, call_expr_handler)
         el.accept(visitor)
 
-    # Flatten all api symbols into a single list
-
+    # Walk down the AST (breadth-first)
     symbol_counter, extended_symbol_counter, node_dict = el.walk(api_symbols)
 
+    # Dump outputs
     with open('output_data/symbol_counts.json', 'w') as out1:
         json.dump(symbol_counter, out1, indent = 4)
 
