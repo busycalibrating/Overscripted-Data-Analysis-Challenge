@@ -17,7 +17,8 @@ from os import path
 DATATOP = '/mnt/Data/UCOSP_DATA'
 
 # JS source file directory
-JS_SOURCE_FILES = path.join(DATATOP, 'larger_sample_js_source_files/')
+JS_SOURCE_FILES = path.join(DATATOP, 'js_source_files')
+#JS_SOURCE_FILES = path.join(DATATOP, 'larger_sample_js_source_files/')
 #JS_SOURCE_FILES = path.join(DATATOP, 'sample_js_source_files')
 
 # Directory for url:filename dictionary files (PARQUET!)
@@ -26,8 +27,8 @@ URL_FILENAME_DICT = path.join(DATATOP, 'resources/full_url_list_parsed/')
 # Output directory
 OUTPUT_DIR = path.join(DATATOP, 'resources/symbol_counts/')
 
-OUTPUT_FILE = 'not_sure_yet'
-OUTPUT_FAIL = 'fails.txt'
+OUTPUT_FILE = 'full_run_trial2'
+OUTPUT_FAIL = 'fails'
 
 # Symbol list
 SYM_LIST = 'master_sym_list.json'
@@ -364,10 +365,6 @@ def worker_process(input_file):
 
     #print("Success. Walking through the AST...")
 
-    # Extract all symbols from the generated "Symbols of Interest" list,
-    #   and flatten all api symbols into a single list (for efficiency)
-
-
     # Create an element using that AST
     el = Element(ast)
     for entry in api_symbols:
@@ -383,6 +380,9 @@ def worker_process(input_file):
 if __name__ == '__main__':
 
     print("Initialized to use {} workers.".format(WORKERS))
+
+    # Extract all symbols from the generated "Symbols of Interest" list,
+    #   and flatten all api symbols into a single list (for efficiency)
     with open(SYM_LIST, encoding='utf-8') as f:
         api_list = json.loads(f.read())
 
@@ -391,6 +391,7 @@ if __name__ == '__main__':
     api_symbols = uniquifyList(api_symbols)
     print("Success.")
 
+    # Get file list from data directory
     print("Looking in \'{}\' for all .txt files...".format(JS_SOURCE_FILES))
     file_list = glob.glob(JS_SOURCE_FILES + "/*")
     print("Success. Found {} files.".format(len(file_list)))
@@ -408,25 +409,26 @@ if __name__ == '__main__':
         else:
             fails_list.append(result[1])
 
+    # Setup thread pool
     pool = multiprocessing.Pool(WORKERS)
-
     for filename in file_list:
-        print(filename)
         re = pool.apply_async(worker_process, args=(filename,), callback=log_result)
 
     pool.close()
     pool.join()
 
+    # Done counting symbols
     print("All files done. Saving...")
     df = pd.DataFrame(symbol_counts)
 
-    with open(OUTPUT_DIR + OUTPUT_FILE + ".json", 'w') as f:
-        output = json.dumps(json.loads(df.to_json(orient='index')),indent=2)
-        f.write(output)
+    # Saving
+    #with open(OUTPUT_DIR + OUTPUT_FILE + ".json", 'w') as f:
+    #    output = json.dumps(json.loads(df.to_json(orient='index')),indent=2)
+    #    f.write(output)
 
     df.to_parquet(OUTPUT_DIR + OUTPUT_FILE + '.parquet.gzip', compression='gzip')
 
-    with open(OUTPUT_DIR + OUTPUT_FAIL, 'w') as f:
+    with open(OUTPUT_DIR + OUTPUT_FAIL + '.txt', 'w') as f:
         for item in fails_list:
             f.write("%s\n" % item)
 
