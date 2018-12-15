@@ -25,7 +25,7 @@ In `<spark_dir>/conf/spark-defaults.conf`, add the line `spark.driver.memory 15g
 
 ## 2) Running the scripts:
 
-Replace the appropriate directories in `generate_url_list_spark.py` for your system. You will need the [Full Mozilla Overscripted Dataset](https://github.com/mozilla/Overscripted-Data-Analysis-Challenge). 
+Replace the appropriate directories in `config.ini` for your system. You will need the [Full Mozilla Overscripted Dataset](https://github.com/mozilla/Overscripted-Data-Analysis-Challenge). 
 
 Ensuring spark is set up as in pt. 1, run:
 ```

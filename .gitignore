@@ -26,3 +26,6 @@ spark_warehouse/
 
 # .bak files
 *.bak
+
+# virtual environments
+venv/
