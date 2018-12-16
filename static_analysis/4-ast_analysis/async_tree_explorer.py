@@ -332,10 +332,10 @@ if __name__ == "__main__":
 
     # Extract all symbols from the generated "Symbols of Interest" list,
     #   and flatten all api symbols into a single list (for efficiency)
-    with open(SYM_LIST, encoding="utf-8") as f:
+    with open(sym_list, encoding="utf-8") as f:
         api_list = json.loads(f.read())
 
-    print("Looking in '{}' for the API list...".format(SYM_LIST))
+    print("Looking in '{}' for the API list...".format(sym_list))
     api_symbols = [val for sublist in api_list.values() for val in sublist]
     api_symbols = uniquifyList(api_symbols)
     print("Success.")

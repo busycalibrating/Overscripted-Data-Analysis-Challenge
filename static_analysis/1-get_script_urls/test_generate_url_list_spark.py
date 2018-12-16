@@ -2,15 +2,11 @@ import sys
 from slugify import slugify
 from pyspark.sql import SparkSession, functions, types
 
-
-################################################################################
 # Safety for spark stuff
 spark = SparkSession.builder.appName('URL extractor').getOrCreate()
 assert sys.version_info >= (3, 4) # make sure we have Python 3.4+
 assert spark.version >= '2.1' # make sure we have Spark 2.1+
 
-
-################################################################################
 # UDF to generate a text file from the script URL
 def shorten_name(url_name):
     # Strip out 'http', 'https', '/', and '.js'
@@ -34,8 +30,6 @@ def shorten_name(url_name):
     file_name = shortened_url + suffix
     return file_name
 
-
-################################################################################
 def main():
 
     # Specify test file, a csv of urls to parse
@@ -68,7 +62,5 @@ def main():
     # Save the data to parquet files
     data.toPandas().to_csv(OUTPUT_FILE)
 
-
-################################################################################
 if __name__ == '__main__':
     main();

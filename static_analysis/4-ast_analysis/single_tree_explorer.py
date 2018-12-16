@@ -245,36 +245,6 @@ class MatchPropertyVisitor:
                 return return_val
         return False
 
-'''
-# TODO: deprecated
-def memb_expr_handler(n):
-    def parent_type(node):
-        return getattr(getattr(node, "parent", None), "type", None)
-
-    print(
-        "- {}\t\tnode type:{} parent type:{}".format(
-            n.property.name, n.type, parent_type(n)
-        )
-    )
-
-    if hasattr(n, "parent_depth"):
-        print("p-depth: {}, p-width: {}".format(n.parent_depth, n.parent_width))
-
-
-# TODO: deprecated
-def call_expr_handler(n):
-    def parent_type(node):
-        return getattr(getattr(node, "parent", None), "type", None)
-
-    print(
-        "- {}\t\tnode type:{} parent type:{}".format(
-            n.callee.name, n.type, parent_type(n)
-        )
-    )
-
-    if hasattr(n, "parent_depth"):
-        print("p-depth: {}, p-width: {}".format(n.parent_depth, n.parent_width))
-'''
 
 # Extract JSON and JavaScript AST data from precompiled list
 def importData():
