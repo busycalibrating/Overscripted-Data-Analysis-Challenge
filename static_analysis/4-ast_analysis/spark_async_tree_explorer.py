@@ -6,21 +6,28 @@ import json
 import json2parquet as j2p
 import multiprocessing
 import pandas as pd
-#from queue import Queue as mpQueue
 import sys
-import time
 
 from os import path
 from tqdm import tqdm
+from pyspark.sql import SparkSession, Row
 
 ################################################################################
+# Safety for spark stuff
+spark = SparkSession.builder.appName('Tree Explorer').getOrCreate()
+assert sys.version_info >= (3, 4) # make sure we have Python 3.4+
+assert spark.version >= '2.1' # make sure we have Spark 2.1+
+
+
+###############################################
 # CONFIG PARAMETERS
 
 # Top directory for all data and resource files
 DATATOP = '/mnt/Data/UCOSP_DATA'
 
 # JS source file directory
-JS_SOURCE_FILES = path.join(DATATOP, 'js_source_files')
+JS_SOURCE_FILES = '/mnt/Data/UCOSP_DATA/larger_sample_js_source_files'
+#JS_SOURCE_FILES = path.join(DATATOP, 'js_source_files')
 #JS_SOURCE_FILES = path.join(DATATOP, 'larger_sample_js_source_files/')
 #JS_SOURCE_FILES = path.join(DATATOP, 'sample_js_source_files')
 
@@ -28,9 +35,10 @@ JS_SOURCE_FILES = path.join(DATATOP, 'js_source_files')
 URL_FILENAME_DICT = path.join(DATATOP, 'resources/full_url_list_parsed/')
 
 # Output directory
-OUTPUT_DIR = path.join(DATATOP, 'resources/symbol_counts/')
+#OUTPUT_DIR = path.join(DATATOP, 'resources/symbol_counts/')
+OUTPUT_DIR = path.join(DATATOP, 'resources/symbol_counts_v2/')
 
-OUTPUT_FILE = 'full_dataset'
+OUTPUT_FILE = 'full_run_trial2'
 OUTPUT_FAIL = 'fails'
 
 # Symbol list
@@ -38,9 +46,6 @@ SYM_LIST = 'master_sym_list.json'
 
 # Number of workers:
 WORKERS = multiprocessing.cpu_count()
-
-# Number of files per queue batch
-BATCH_SIZE = 1000
 
 ################################################################################
 class SymbolNode:
@@ -172,6 +177,7 @@ class Element:
 
                 # Feed the nodes that will be labeled as children the current
                 #   depth and width
+from tqdm import tqdm
                 next_depth_num_nodes += self._step(node, queue, depth, width)
 
                 #if (node.type == "MemberExpression"):
@@ -194,6 +200,14 @@ class Element:
                 next_depth_num_nodes = 0                    # reset this list
                 this_depth_count = node_counter             #
                 depth += 1
+                #print("\n-------------------- Depth: {};\t Current: {};\t Width: {}\n\n".format(
+                #    depth, this_depth_count, this_depth_num_nodes))
+
+        #print("\nDONE. Total stats:\n" + "-"*80)
+        #print("Tree depth:\t{}\nTotal nodes:\t{}\n".format(
+        #                                    depth, node_counter) + "-"*80)
+
+
 
         return symbol_counter, extended_symbol_counter, node_dict
 
@@ -390,73 +404,60 @@ if __name__ == '__main__':
 
     # Get file list from data directory
     print("Looking in \'{}\' for all .txt files...".format(JS_SOURCE_FILES))
-
     file_list = glob.glob(JS_SOURCE_FILES + "/*")
-    file_list_size = len(file_list)
-
-    print("Success. Found {} files.".format(file_list_size))
+    print("Success. Found {} files.".format(len(file_list)))
     print("Begin iterating over the files to get symbol info.")
     print("-" * 80)
 
-    pbar = tqdm(total=file_list_size)
+    # Storage arrays
+    symbol_counts = []
+    fails_list = []
 
-    # Storage queue
-    symbol_counts = multiprocessing.Queue()
+    pbar = tqdm(total=len(file_list))
 
-    # Fail list (don't need a queue here)
-    fails_list = multiprocessing.Queue()
-
-    # Callback (add to queue)
+    # Callback
     def log_result(result):
         pbar.update(1)
         if result[0]:
-            symbol_counts.put(result[1])
+            symbol_counts.append(result[1])
         else:
-            fails_list.put(result[1])
-
-    # Process queue thread
-    def test():
-        counter = 0
-        buffer_list = []
-
-        def dump_files(buffer_list):
-            from math import ceil
-            df = pd.DataFrame(buffer_list)
-            filename = OUTPUT_DIR + OUTPUT_FILE + "_" + str(ceil(counter/BATCH_SIZE)) + '.parquet'
-            df.to_parquet(filename)
-            return []
-
-        while counter + fails_list.qsize() < file_list_size:
-            try:
-                # Attempt to get data from the queue. Note that
-                # symbol_counts.get() will block this thread's execution
-                # until data is available
-                data = symbol_counts.get()
-            except queue.Empty:
-                pass
-            except multiprocessing.TimeoutError:
-                pass
-            else:
-                counter += 1;
-                buffer_list.append(data)
-
-                if counter % BATCH_SIZE == 0:
-                    buffer_list = dump_files(buffer_list)
-
-        buffer_list = dump_files(buffer_list)
-
+            fails_list.append(result[1])
 
     # Setup thread pool
     pool = multiprocessing.Pool(WORKERS)
-
-    # Queue thread
-    re = pool.apply_async(test, args=())
-
-    # Individual file threads
     for filename in file_list:
         re = pool.apply_async(worker_process, args=(filename,), callback=log_result)
+
+#for result in tqdm(pool.imap_unordered(init_worker, csvReader, chunksize=10)):
+#    csvWriter.writerow(result)
 
     pool.close()
     pool.join()
 
+    # Done counting symbols
+    print("All files done. Saving...")
+
+    #df = pd.DataFrame(symbol_counts)
+
+    # Saving
+    #with open(OUTPUT_DIR + OUTPUT_FILE + ".json", 'w') as f:
+    #    output = json.dumps(json.loads(df.to_json(orient='index')),indent=2)
+    #    f.write(output)
+
+#    df.to_parquet(OUTPUT_DIR + OUTPUT_FILE + '.parquet.gzip', compression='gzip')
+#
+#    with open(OUTPUT_DIR + OUTPUT_FAIL + '.txt', 'w') as f:
+#        for item in fails_list:
+#            f.write("%s\n" % item)
+
+
+    ##### Spark stuff
+
+    data = spark.createDataFrame(Row(**x) for x in symbol_counts).show(truncate=False)
+#    data = spark.createDataFrame(symbol_counts)
+
+    # Save the data to parquet files
+    data.write.parquet(OUTPUT_DIR)
+
     print("Success.\n\nDONE SCRIPT!")
+
